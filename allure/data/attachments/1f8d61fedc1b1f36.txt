@@ -1,0 +1,4 @@
+2026-06-27 20:20:45.595 [info] ▶ START: e2e/booking-lifecycle.e2e.spec.ts › E2E · Booking lifecycle @e2e @api › 5 · partial update (PATCH) & verify {"scope":"5 · partial update (PATCH) & verify","correlationId":"44eaf9ff","testName":"5 · partial update (PATCH) & verify"}
+2026-06-27 20:20:45.596 [info] → PATCH https://restful-booker.herokuapp.com/booking/152 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json","Cookie":"to*****************09"},"correlationId":"44eaf9ff","testName":"5 · partial update (PATCH) & verify"}
+2026-06-27 20:20:45.610 [info] ← 200 PATCH https://restful-booker.herokuapp.com/booking/152 (14ms) {"scope":"ApiClient","correlationId":"44eaf9ff","testName":"5 · partial update (PATCH) & verify"}
+2026-06-27 20:20:45.612 [info] ✔ PASS (18ms) [44eaf9ff]: 5 · partial update (PATCH) & verify {"scope":"5 · partial update (PATCH) & verify"}

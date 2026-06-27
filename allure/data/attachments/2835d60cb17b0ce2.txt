@@ -1,0 +1,3 @@
+2026-06-27 20:20:40.333 [info] Pool created → automation_user@localhost:5432/automation_db {"scope":"DbPool"}
+2026-06-27 20:20:40.425 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Indexes & functions @db › give_raise() on a non-existent employee returns null {"scope":"give_raise() on a non-existent employee returns null","correlationId":"f994652e","testName":"give_raise() on a non-existent employee returns null"}
+2026-06-27 20:20:40.448 [info] ✔ PASS (30ms) [f994652e]: give_raise() on a non-existent employee returns null {"scope":"give_raise() on a non-existent employee returns null"}

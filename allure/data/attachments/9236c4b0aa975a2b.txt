@@ -1,0 +1,4 @@
+2026-06-27 20:21:07.176 [info] ▶ START: api/sla-and-sorting.spec.ts › Server-side sorting @api › products sorted by price ascending {"scope":"products sorted by price ascending","correlationId":"15864c48","testName":"products sorted by price ascending"}
+2026-06-27 20:21:07.177 [info] → GET https://dummyjson.com/products?sortBy=price&order=asc&limit=10 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"15864c48","testName":"products sorted by price ascending"}
+2026-06-27 20:21:07.368 [info] ← 200 GET https://dummyjson.com/products?sortBy=price&order=asc&limit=10 (190ms) {"scope":"ApiClient","correlationId":"15864c48","testName":"products sorted by price ascending"}
+2026-06-27 20:21:07.371 [info] ✔ PASS (195ms) [15864c48]: products sorted by price ascending {"scope":"products sorted by price ascending"}

@@ -1,0 +1,4 @@
+2026-06-27 20:21:07.573 [info] ▶ START: performance/saucedemo/login.perf.spec.ts › SauceDemo · Login · Performance @perf › @smoke login screen loads within budget {"scope":"@smoke login screen loads within budget","correlationId":"8d2dd3c2","testName":"@smoke login screen loads within budget"}
+2026-06-27 20:21:08.224 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"8d2dd3c2","testName":"@smoke login screen loads within budget"}
+2026-06-27 20:21:09.131 [info] Perf "SauceDemo · Login": ttfb=138ms dcl=351ms load=408ms fcp=488ms lcp=528ms res=4 transfer=228KB {"scope":"Perf","correlationId":"8d2dd3c2","testName":"@smoke login screen loads within budget"}
+2026-06-27 20:21:09.324 [info] ✔ PASS (1.75s) [8d2dd3c2]: @smoke login screen loads within budget {"scope":"@smoke login screen loads within budget"}

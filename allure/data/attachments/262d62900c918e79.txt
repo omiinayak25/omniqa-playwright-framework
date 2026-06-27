@@ -1,0 +1,5 @@
+2026-06-27 20:20:45.149 [info] Pool created → automation_user@localhost:5432/automation_db {"scope":"DbPool"}
+2026-06-27 20:20:45.230 [info] ▶ START: e2e/api-to-db-sync.e2e.spec.ts › E2E · API → DB product sync @e2e › re-syncing the same product is idempotent (no duplicate row) {"scope":"re-syncing the same product is idempotent (no duplicate row)","correlationId":"8611fa7e","testName":"re-syncing the same product is idempotent (no duplicate row)"}
+2026-06-27 20:20:45.245 [info] → GET https://dummyjson.com/products/5 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"8611fa7e","testName":"re-syncing the same product is idempotent (no duplicate row)"}
+2026-06-27 20:20:45.776 [info] ← 200 GET https://dummyjson.com/products/5 (524ms) {"scope":"ApiClient","correlationId":"8611fa7e","testName":"re-syncing the same product is idempotent (no duplicate row)"}
+2026-06-27 20:20:45.792 [info] ✔ PASS (563ms) [8611fa7e]: re-syncing the same product is idempotent (no duplicate row) {"scope":"re-syncing the same product is idempotent (no duplicate row)"}

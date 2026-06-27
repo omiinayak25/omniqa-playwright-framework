@@ -1,0 +1,74 @@
+{
+  "metrics": {
+    "label": "OrangeHRM · Login",
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+    "timestamp": "2026-06-27T20:21:11.821Z",
+    "ttfbMs": 632,
+    "domContentLoadedMs": 2774,
+    "loadMs": 2774,
+    "domInteractiveMs": 2774,
+    "fcpMs": 3136,
+    "lcpMs": 3296,
+    "network": {
+      "dnsMs": 53,
+      "tcpMs": 290,
+      "tlsMs": 150,
+      "requestMs": 287,
+      "responseMs": 1
+    },
+    "resources": {
+      "count": 12,
+      "transferBytes": 4298852,
+      "byType": [
+        {
+          "type": "link",
+          "count": 4,
+          "transferBytes": 3640847
+        },
+        {
+          "type": "img",
+          "count": 2,
+          "transferBytes": 355452
+        },
+        {
+          "type": "css",
+          "count": 5,
+          "transferBytes": 200569
+        },
+        {
+          "type": "xmlhttprequest",
+          "count": 1,
+          "transferBytes": 101984
+        }
+      ],
+      "slowest": [
+        {
+          "url": "https://opensource-demo.orangehrmlive.com/web/dist/js/app.js?v=1763650546848",
+          "durationMs": 1947,
+          "transferBytes": 1514206
+        },
+        {
+          "url": "https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1763650546848",
+          "durationMs": 1673,
+          "transferBytes": 1710809
+        },
+        {
+          "url": "https://opensource-demo.orangehrmlive.com/web/dist/css/chunk-vendors.css?v=1763650546848",
+          "durationMs": 1253,
+          "transferBytes": 250269
+        },
+        {
+          "url": "https://opensource-demo.orangehrmlive.com/web/dist/css/app.css?v=1763650546848",
+          "durationMs": 981,
+          "transferBytes": 165563
+        },
+        {
+          "url": "https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages",
+          "durationMs": 272,
+          "transferBytes": 101984
+        }
+      ]
+    }
+  },
+  "violations": []
+}

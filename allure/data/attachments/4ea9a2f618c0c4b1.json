@@ -1,0 +1,64 @@
+{
+  "metrics": {
+    "label": "SauceDemo · Login",
+    "url": "https://www.saucedemo.com/",
+    "timestamp": "2026-06-27T20:21:09.131Z",
+    "ttfbMs": 138,
+    "domContentLoadedMs": 351,
+    "loadMs": 408,
+    "domInteractiveMs": 160,
+    "fcpMs": 488,
+    "lcpMs": 528,
+    "network": {
+      "dnsMs": 115,
+      "tcpMs": 20,
+      "tlsMs": 19,
+      "requestMs": 2,
+      "responseMs": 1
+    },
+    "resources": {
+      "count": 4,
+      "transferBytes": 233910,
+      "byType": [
+        {
+          "type": "script",
+          "count": 1,
+          "transferBytes": 221912
+        },
+        {
+          "type": "link",
+          "count": 2,
+          "transferBytes": 11998
+        },
+        {
+          "type": "fetch",
+          "count": 1,
+          "transferBytes": 0
+        }
+      ],
+      "slowest": [
+        {
+          "url": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN",
+          "durationMs": 477,
+          "transferBytes": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500",
+          "durationMs": 53,
+          "transferBytes": 794
+        },
+        {
+          "url": "https://www.saucedemo.com/static/js/main.bcf4bc5f.js",
+          "durationMs": 26,
+          "transferBytes": 221912
+        },
+        {
+          "url": "https://www.saucedemo.com/static/css/main.8a7d64a1.css",
+          "durationMs": 22,
+          "transferBytes": 11204
+        }
+      ]
+    }
+  },
+  "violations": []
+}

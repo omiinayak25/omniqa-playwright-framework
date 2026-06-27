@@ -1,0 +1,4 @@
+2026-06-27 20:21:07.796 [info] ▶ START: api/utils.spec.ts › Async utils @smoke › retryAsync eventually succeeds {"scope":"retryAsync eventually succeeds","correlationId":"fa83e721","testName":"retryAsync eventually succeeds"}
+2026-06-27 20:21:07.797 [warn] [retry] "flaky-op" attempt 1/5 failed: transient. Retrying in 1ms {"correlationId":"fa83e721","testName":"retryAsync eventually succeeds"}
+2026-06-27 20:21:07.801 [warn] [retry] "flaky-op" attempt 2/5 failed: transient. Retrying in 2ms {"correlationId":"fa83e721","testName":"retryAsync eventually succeeds"}
+2026-06-27 20:21:07.807 [info] ✔ PASS (12ms) [fa83e721]: retryAsync eventually succeeds {"scope":"retryAsync eventually succeeds"}

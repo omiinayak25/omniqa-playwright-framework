@@ -1,0 +1,4 @@
+2026-06-27 20:20:45.433 [info] ▶ START: e2e/booking-lifecycle.e2e.spec.ts › E2E · Booking lifecycle @e2e @api › 2 · create the booking {"scope":"2 · create the booking","correlationId":"36ca7bab","testName":"2 · create the booking"}
+2026-06-27 20:20:45.435 [info] → POST https://restful-booker.herokuapp.com/booking {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"36ca7bab","testName":"2 · create the booking"}
+2026-06-27 20:20:45.445 [info] ← 200 POST https://restful-booker.herokuapp.com/booking (9ms) {"scope":"ApiClient","correlationId":"36ca7bab","testName":"2 · create the booking"}
+2026-06-27 20:20:45.487 [info] ✔ PASS (54ms) [36ca7bab]: 2 · create the booking {"scope":"2 · create the booking"}
