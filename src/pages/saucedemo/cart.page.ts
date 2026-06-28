@@ -79,4 +79,27 @@ export class SauceCartPage extends BasePage {
   public async continueShopping(): Promise<void> {
     await this.click(this.continueShoppingButton, 'continue shopping');
   }
+
+  /**
+   * Purpose: Remove a single product from the cart by its display name.
+   * @param productName - Exact product name of the line item to remove.
+   * @returns Promise that resolves once that item's Remove button is clicked.
+   */
+  public async removeItem(productName: string): Promise<void> {
+    this.log.info(`Removing "${productName}" from cart`);
+    const item = this.cartItems.filter({ hasText: productName });
+    await item.getByRole('button', { name: 'Remove' }).click();
+  }
+
+  /**
+   * Purpose: Remove every product from the cart (used to empty it).
+   * @returns Promise that resolves once no line items remain.
+   */
+  public async removeAllItems(): Promise<void> {
+    const removeButtons = this.page.getByRole('button', { name: 'Remove' });
+    // Each click removes a line item, so re-count until the cart is empty.
+    for (let remaining = await removeButtons.count(); remaining > 0; remaining -= 1) {
+      await removeButtons.first().click();
+    }
+  }
 }
