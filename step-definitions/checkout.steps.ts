@@ -64,6 +64,10 @@ When('I cancel the checkout', async function (this: CustomWorld) {
   await new CheckoutInfoPage(this.page).cancel();
 });
 
+When('I cancel the order from the overview', async function (this: CustomWorld) {
+  await new CheckoutOverviewPage(this.page).cancel();
+});
+
 When('I go back to the products', async function (this: CustomWorld) {
   await new CheckoutCompletePage(this.page).backToProducts();
 });
@@ -92,6 +96,21 @@ Then('the order total should equal the subtotal plus tax', async function (this:
   ]);
   expect(total).toBeCloseTo(subtotal + tax, 2);
 });
+
+Then('the tax should be 8% of the subtotal', async function (this: CustomWorld) {
+  const overview = new CheckoutOverviewPage(this.page);
+  const subtotal = await overview.subtotal();
+  expect(await overview.tax()).toBeCloseTo(Number((subtotal * 0.08).toFixed(2)), 2);
+});
+
+Then(
+  'the overview should show payment and shipping information',
+  async function (this: CustomWorld) {
+    const overview = new CheckoutOverviewPage(this.page);
+    expect((await overview.paymentInformation()).length).toBeGreaterThan(0);
+    expect((await overview.shippingInformation()).length).toBeGreaterThan(0);
+  },
+);
 
 Then(
   'I should see the order confirmation {string}',

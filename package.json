@@ -58,6 +58,8 @@
     "//--- BDD (CUCUMBER) ---": "",
     "test:bdd": "cucumber-js",
     "test:bdd:smoke": "cucumber-js --tags @smoke",
+    "//--- CATALOG ---": "",
+    "catalog:gen": "node scripts/catalog/generate-catalog.cjs",
     "//--- REPORTING ---": "",
     "report:html": "playwright show-report reports/html-report",
     "report:allure": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report",

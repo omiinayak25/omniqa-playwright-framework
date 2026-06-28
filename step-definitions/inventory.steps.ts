@@ -23,6 +23,7 @@
 import { When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import { SauceInventoryPage, ProductSort } from '@pages/saucedemo/inventory.page';
+import { SauceProductDetailsPage } from '@pages/saucedemo/product-details.page';
 import type { CustomWorld } from '@bdd/world';
 
 // Business-readable sort labels → the Page Object's ProductSort enum.
@@ -38,6 +39,28 @@ When('I sort the products by {string}', async function (this: CustomWorld, label
   const option = SORT_OPTIONS[label];
   if (option === undefined) throw new Error(`Unknown sort option: "${label}"`);
   await new SauceInventoryPage(this.page).sortBy(option);
+});
+
+// ----------------------------------------------------- product detail (PDP)
+When('I open the product {string}', async function (this: CustomWorld, name: string) {
+  await new SauceInventoryPage(this.page).openProduct(name);
+});
+
+When('I add the displayed product to the cart', async function (this: CustomWorld) {
+  await new SauceProductDetailsPage(this.page).addToCart();
+});
+
+Then(
+  'I should see the product details for {string}',
+  async function (this: CustomWorld, name: string) {
+    const pdp = new SauceProductDetailsPage(this.page);
+    expect(await pdp.isLoaded()).toBe(true);
+    expect(await pdp.productName()).toBe(name);
+  },
+);
+
+Then('the cart badge should show {int}', async function (this: CustomWorld, count: number) {
+  expect(await new SauceProductDetailsPage(this.page).header.cartCount()).toBe(count);
 });
 
 // ---------------------------------------------------------------- assertions
@@ -81,19 +104,22 @@ Then('every product should display a non-empty description', async function (thi
   expect(descriptions.every((d) => d.trim().length > 0)).toBe(true);
 });
 
-Then('the products should be ordered by {string}', async function (this: CustomWorld, order: string) {
-  const inventory = new SauceInventoryPage(this.page);
+Then(
+  'the products should be ordered by {string}',
+  async function (this: CustomWorld, order: string) {
+    const inventory = new SauceInventoryPage(this.page);
 
-  if (order === 'name ascending' || order === 'name descending') {
-    const names = await inventory.productNames();
-    const expected = [...names].sort((a, b) => a.localeCompare(b));
-    if (order === 'name descending') expected.reverse();
-    expect(names).toEqual(expected);
-    return;
-  }
+    if (order === 'name ascending' || order === 'name descending') {
+      const names = await inventory.productNames();
+      const expected = [...names].sort((a, b) => a.localeCompare(b));
+      if (order === 'name descending') expected.reverse();
+      expect(names).toEqual(expected);
+      return;
+    }
 
-  const prices = await inventory.productPrices();
-  const expected = [...prices].sort((a, b) => a - b);
-  if (order === 'price descending') expected.reverse();
-  expect(prices).toEqual(expected);
-});
+    const prices = await inventory.productPrices();
+    const expected = [...prices].sort((a, b) => a - b);
+    if (order === 'price descending') expected.reverse();
+    expect(prices).toEqual(expected);
+  },
+);

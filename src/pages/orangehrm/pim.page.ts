@@ -52,7 +52,8 @@ export class OrangePimPage extends BasePage {
     super(page);
     this.table = new DataTableComponent(page);
     this.pagination = new PaginationComponent(page);
-    this.recordsFound = page.locator('.oxd-text--span', { hasText: 'Records Found' });
+    // OrangeHRM uses singular "Record Found" for exactly one match, plural otherwise.
+    this.recordsFound = page.locator('.oxd-text--span', { hasText: /Record(s)? Found/ });
     this.nameSearch = page.locator('input[placeholder="Type for hints..."]').first();
     this.searchButton = page.locator('button[type="submit"]');
   }

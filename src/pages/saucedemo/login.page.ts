@@ -43,6 +43,7 @@ export class SauceLoginPage extends BasePage {
   private readonly passwordInput: Locator;
   private readonly loginButton: Locator;
   private readonly errorBanner: Locator;
+  private readonly errorDismiss: Locator;
 
   constructor(page: Page) {
     super(page);
@@ -50,6 +51,7 @@ export class SauceLoginPage extends BasePage {
     this.passwordInput = page.locator('#password');
     this.loginButton = page.locator('#login-button');
     this.errorBanner = page.locator('[data-test="error"]');
+    this.errorDismiss = page.locator('[data-test="error"] ~ button.error-button, .error-button');
   }
 
   /**
@@ -87,5 +89,47 @@ export class SauceLoginPage extends BasePage {
    */
   public async isLoaded(): Promise<boolean> {
     return this.loginButton.isVisible();
+  }
+
+  /**
+   * Purpose: Sign in using ONLY the keyboard (Tab + Enter) — proves the form is
+   * operable without a pointer for accessibility coverage. Does NOT assert.
+   * @param credentials - Username/password pair to authenticate with.
+   * @returns Promise that resolves once Enter submits the form.
+   */
+  public async loginWithKeyboard(credentials: UserCredentials): Promise<void> {
+    this.log.info(`Keyboard login as "${credentials.username}"`);
+    await this.usernameInput.focus();
+    await this.page.keyboard.type(credentials.username);
+    await this.page.keyboard.press('Tab');
+    await this.page.keyboard.type(credentials.password);
+    await this.page.keyboard.press('Enter');
+  }
+
+  /**
+   * Purpose: Expose the password field's `type` attribute so tests can assert
+   * the value is masked (type="password"), never plain text.
+   * @returns Promise resolving to the input type (e.g. 'password').
+   */
+  public async passwordInputType(): Promise<string | null> {
+    return this.passwordInput.getAttribute('type');
+  }
+
+  /**
+   * Purpose: Report whether the error banner is currently visible.
+   * @returns Promise resolving to true when an error is shown.
+   */
+  public async isErrorVisible(): Promise<boolean> {
+    return this.errorBanner.isVisible();
+  }
+
+  /**
+   * Purpose: Dismiss the login error banner via its clear (x) button.
+   * @returns Promise that resolves once the dismiss control is clicked.
+   */
+  public async dismissError(): Promise<void> {
+    if (await this.errorDismiss.first().isVisible()) {
+      await this.click(this.errorDismiss.first(), 'error dismiss');
+    }
   }
 }

@@ -25,3 +25,4 @@
 export * from '@constants/timeouts.constants';
 export * from '@constants/http.constants';
 export * from '@constants/ui-routes.constants';
+export * from '@constants/products.constants';
