@@ -25,6 +25,7 @@ import { QueryRunner } from '@database/query-runner';
 import { DbAssertions } from '@database/db-assertions';
 import { isDatabaseReachable } from '@database/db-availability';
 import { EmployeeRepository } from '@repositories/employee.repository';
+import { EmployeeFactory } from '@factories/index';
 import type { CustomWorld } from '@bdd/world';
 
 const INSERT_SQL =
@@ -91,11 +92,13 @@ When('I insert an employee in a transaction that fails', async function (this: C
 });
 
 When('I insert two employees in a successful transaction', async function (this: CustomWorld) {
-  const emails = [uniqueEmail(), uniqueEmail()];
-  this.set('empEmails', emails);
+  // Data sourced from the Factory layer (composes EmployeeBuilder).
+  const employees = EmployeeFactory.many(2);
+  this.set('empEmails', employees.map((e) => e.email));
   await new QueryRunner().transaction(async (client) => {
-    await client.query(INSERT_SQL, ['Tx', 'One', emails[0], 1, 60_000]);
-    await client.query(INSERT_SQL, ['Tx', 'Two', emails[1], 1, 61_000]);
+    for (const e of employees) {
+      await client.query(INSERT_SQL, [e.firstName, e.lastName, e.email, e.departmentId, e.salary]);
+    }
   });
 });
 
