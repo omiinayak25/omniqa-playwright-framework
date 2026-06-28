@@ -24,6 +24,7 @@
  * --------------------------------------------------------
  */
 import { ApiClient } from '@api/clients/api-client';
+import { CorrelationIdMiddleware, TimingMiddleware } from '@middlewares/index';
 import { AuthAPI } from '@services/auth.api';
 import { BookingAPI } from '@services/booking.api';
 import { ProductAPI } from '@services/product.api';
@@ -40,8 +41,13 @@ import {
 } from '@schemas/index';
 import type { CustomWorld } from '@bdd/world';
 
+// Every BDD API client runs the cross-cutting middleware chain: a propagated
+// correlation-id header + an SLA timing warning.
 const client = (world: CustomWorld, baseUrl: string, headers: Record<string, string> = {}): ApiClient =>
-  new ApiClient(world.apiContext, baseUrl, headers);
+  new ApiClient(world.apiContext, baseUrl, headers, [
+    new CorrelationIdMiddleware(),
+    new TimingMiddleware(),
+  ]);
 
 export const bookingApi = (w: CustomWorld): BookingAPI =>
   new BookingAPI(client(w, config.api.restfulBooker.baseUrl));

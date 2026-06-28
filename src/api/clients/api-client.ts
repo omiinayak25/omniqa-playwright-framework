@@ -36,6 +36,7 @@ import { sleep } from '@utils/wait.util';
 import { maskSecret } from '@utils/crypto.util';
 import { HttpMethod, HEADERS, CONTENT_TYPES } from '@constants/http.constants';
 import type { ApiResponse, RequestOptions } from '@models/api.model';
+import { MiddlewarePipeline, type ApiMiddleware, type HttpRequestContext } from '@middlewares/index';
 
 /**
  * ApiClient
@@ -50,6 +51,7 @@ export class ApiClient {
   private readonly context: APIRequestContext;
   private readonly baseUrl: string;
   private readonly defaultHeaders: Readonly<Record<string, string>>;
+  private readonly pipeline: MiddlewarePipeline;
   private readonly log = scopedLogger('ApiClient');
 
   /**
@@ -60,15 +62,20 @@ export class ApiClient {
    *                so path concatenation stays predictable.
    * @param defaultHeaders Headers applied to every request (e.g. a static
    *                       `x-api-key`); per-request headers can override them.
+   * @param middlewares Optional cross-cutting middleware chain run around each
+   *                    dispatch attempt (correlation id, timing, capture). Empty
+   *                    by default — a no-op that preserves existing behaviour.
    */
   constructor(
     context: APIRequestContext,
     baseUrl: string,
     defaultHeaders: Record<string, string> = {},
+    middlewares: readonly ApiMiddleware[] = [],
   ) {
     this.context = context;
     this.baseUrl = baseUrl.replace(/\/$/, '');
     this.defaultHeaders = defaultHeaders;
+    this.pipeline = new MiddlewarePipeline(middlewares);
   }
 
   /**
@@ -257,9 +264,25 @@ export class ApiClient {
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
       const start = Date.now();
       try {
-        const response = await this.dispatch(method, url, headers, options?.data);
-        const responseTimeMs = Date.now() - start;
-        const status = response.status();
+        // Run the middleware chain around ONE dispatch attempt. With no
+        // middlewares the pipeline calls `core` directly (zero behaviour change).
+        const requestContext: HttpRequestContext = {
+          method,
+          url,
+          headers: { ...headers },
+          ...(options?.data !== undefined ? { data: options.data } : {}),
+        };
+        const exchange = await this.pipeline.execute(requestContext, async (req) => {
+          const raw = await this.dispatch(req.method as HttpMethod, req.url, req.headers, req.data);
+          return {
+            status: raw.status(),
+            ok: raw.ok(),
+            headers: raw.headers(),
+            responseTimeMs: Date.now() - start,
+            raw,
+          };
+        });
+        const status = exchange.status;
 
         // Retry transient server errors (idempotent at this layer).
         if (status >= 500 && attempt < maxAttempts) {
@@ -271,15 +294,15 @@ export class ApiClient {
           continue;
         }
 
-        const body = await this.parseBody<T>(response);
-        this.log.info(`← ${status} ${method} ${url} (${responseTimeMs}ms)`);
+        const body = await this.parseBody<T>(exchange.raw);
+        this.log.info(`← ${status} ${method} ${url} (${exchange.responseTimeMs}ms)`);
         return {
           status,
-          ok: response.ok(),
-          headers: response.headers(),
+          ok: exchange.ok,
+          headers: exchange.headers,
           body,
-          responseTimeMs,
-          raw: response,
+          responseTimeMs: exchange.responseTimeMs,
+          raw: exchange.raw,
         };
       } catch (error: unknown) {
         lastError = error;

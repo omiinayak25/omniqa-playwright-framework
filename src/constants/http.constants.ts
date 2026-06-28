@@ -58,6 +58,7 @@ export const HEADERS = {
   AUTHORIZATION: 'Authorization',
   COOKIE: 'Cookie',
   API_KEY: 'x-api-key',
+  CORRELATION_ID: 'x-correlation-id',
 } as const;
 
 /** Common MIME / Content-Type values for request and response bodies. */
