@@ -1,4 +1,0 @@
-2026-06-28 08:44:58.321 [info] ▶ START: api/posts.spec.ts › JSONPlaceholder · Post API @api › get a single post by id {"scope":"get a single post by id","correlationId":"b97c5906","testName":"get a single post by id"}
-2026-06-28 08:44:58.321 [info] → GET https://jsonplaceholder.typicode.com/posts/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"b97c5906","testName":"get a single post by id"}
-2026-06-28 08:44:58.351 [info] ← 200 GET https://jsonplaceholder.typicode.com/posts/1 (28ms) {"scope":"ApiClient","correlationId":"b97c5906","testName":"get a single post by id"}
-2026-06-28 08:44:58.354 [info] ✔ PASS (33ms) [b97c5906]: get a single post by id {"scope":"get a single post by id"}

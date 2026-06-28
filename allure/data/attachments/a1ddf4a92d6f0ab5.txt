@@ -1,3 +1,0 @@
-2026-06-28 08:45:11.783 [info] ▶ START: accessibility/saucedemo/login.a11y.spec.ts › SauceDemo · Login · Accessibility @a11y @accessibility @regression › the login button is reachable using only the Tab key {"scope":"the login button is reachable using only the Tab key","correlationId":"f3d2d685","testName":"the login button is reachable using only the Tab key"}
-2026-06-28 08:45:11.846 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"f3d2d685","testName":"the login button is reachable using only the Tab key"}
-2026-06-28 08:45:12.539 [info] ✔ PASS (756ms) [f3d2d685]: the login button is reachable using only the Tab key {"scope":"the login button is reachable using only the Tab key"}

@@ -1,0 +1,5 @@
+2026-06-28 08:54:51.682 [info] ▶ START: accessibility/saucedemo/login.a11y.spec.ts › SauceDemo · Login · Accessibility @a11y @accessibility @regression › no images are missing alternative text {"scope":"no images are missing alternative text","correlationId":"a7b837ed","testName":"no images are missing alternative text"}
+2026-06-28 08:54:51.758 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"a7b837ed","testName":"no images are missing alternative text"}
+2026-06-28 08:54:52.089 [info] Running axe scan: "SauceDemo · Login · alt-text" {"scope":"A11yScanner","correlationId":"a7b837ed","testName":"no images are missing alternative text"}
+2026-06-28 08:54:53.236 [info] axe scan "SauceDemo · Login · alt-text" — 0 violations (0 passes) {"scope":"A11yScanner","correlationId":"a7b837ed","testName":"no images are missing alternative text"}
+2026-06-28 08:54:53.713 [info] ✔ PASS (2.03s) [a7b837ed]: no images are missing alternative text {"scope":"no images are missing alternative text"}

@@ -1,3 +1,0 @@
-2026-06-28 08:44:57.731 [info] ▶ START: api/fixtures.spec.ts › Custom fixtures (DI) @smoke › log fixture is a usable scoped logger {"scope":"log fixture is a usable scoped logger","correlationId":"756a816f","testName":"log fixture is a usable scoped logger"}
-2026-06-28 08:44:57.733 [info] hello from the log fixture {"scope":"log fixture is a usable scoped logger","correlationId":"756a816f","testName":"log fixture is a usable scoped logger"}
-2026-06-28 08:44:57.735 [info] ✔ PASS (4ms) [756a816f]: log fixture is a usable scoped logger {"scope":"log fixture is a usable scoped logger"}

@@ -1,2 +1,0 @@
-2026-06-28 08:45:00.958 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › updateSalary persists the new value {"scope":"updateSalary persists the new value","correlationId":"ae23ddab","testName":"updateSalary persists the new value"}
-2026-06-28 08:45:00.987 [info] ✔ PASS (34ms) [ae23ddab]: updateSalary persists the new value {"scope":"updateSalary persists the new value"}

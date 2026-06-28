@@ -1,0 +1,5 @@
+2026-06-28 08:54:51.843 [info] ▶ START: accessibility/saucedemo/login.a11y.spec.ts › SauceDemo · Login · Accessibility @a11y @accessibility @regression › text meets the WCAG AA colour-contrast ratio {"scope":"text meets the WCAG AA colour-contrast ratio","correlationId":"5be05011","testName":"text meets the WCAG AA colour-contrast ratio"}
+2026-06-28 08:54:51.938 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"5be05011","testName":"text meets the WCAG AA colour-contrast ratio"}
+2026-06-28 08:54:52.180 [info] Running axe scan: "SauceDemo · Login · contrast" {"scope":"A11yScanner","correlationId":"5be05011","testName":"text meets the WCAG AA colour-contrast ratio"}
+2026-06-28 08:54:53.296 [info] axe scan "SauceDemo · Login · contrast" — 0 violations (1 passes) {"scope":"A11yScanner","correlationId":"5be05011","testName":"text meets the WCAG AA colour-contrast ratio"}
+2026-06-28 08:54:53.829 [info] ✔ PASS (1.99s) [5be05011]: text meets the WCAG AA colour-contrast ratio {"scope":"text meets the WCAG AA colour-contrast ratio"}

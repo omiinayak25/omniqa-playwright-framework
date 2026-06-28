@@ -1,4 +1,0 @@
-2026-06-28 08:44:57.049 [info] ▶ START: api/booking.spec.ts › Restful-Booker · Booking API @api › negative: get non-existent booking returns 404 {"scope":"negative: get non-existent booking returns 404","correlationId":"4ac990b1","testName":"negative: get non-existent booking returns 404"}
-2026-06-28 08:44:57.050 [info] → GET https://restful-booker.herokuapp.com/booking/99999999 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"4ac990b1","testName":"negative: get non-existent booking returns 404"}
-2026-06-28 08:44:57.101 [info] ← 404 GET https://restful-booker.herokuapp.com/booking/99999999 (49ms) {"scope":"ApiClient","correlationId":"4ac990b1","testName":"negative: get non-existent booking returns 404"}
-2026-06-28 08:44:57.104 [info] ✔ PASS (55ms) [4ac990b1]: negative: get non-existent booking returns 404 {"scope":"negative: get non-existent booking returns 404"}

@@ -1,2 +1,0 @@
-2026-06-28 08:45:19.937 [info] ▶ START: e2e/employee-lifecycle.e2e.spec.ts › E2E · Employee lifecycle @e2e @db › 4 · terminate (delete) & verify gone {"scope":"4 · terminate (delete) & verify gone","correlationId":"7dccf60f","testName":"4 · terminate (delete) & verify gone"}
-2026-06-28 08:45:19.948 [info] ✔ PASS (11ms) [7dccf60f]: 4 · terminate (delete) & verify gone {"scope":"4 · terminate (delete) & verify gone"}
