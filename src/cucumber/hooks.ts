@@ -44,11 +44,10 @@ import {
   setDefaultTimeout,
   type ITestCaseHookParameter,
 } from '@cucumber/cucumber';
-import { chromium, request, type Browser } from '@playwright/test';
-import { config } from '@config/config';
+import { request, type Browser } from '@playwright/test';
 import { SAUCE_AUTH_FILE } from '@constants/paths.constants';
 import { logger } from '@utils/logger';
-import { fileExists } from '@utils/file.util';
+import { BrowserHelper, StorageStateHelper } from '@helpers/index';
 import type { CustomWorld } from '@bdd/world';
 
 setDefaultTimeout(60_000);
@@ -57,7 +56,7 @@ let browser: Browser;
 
 BeforeAll(async function () {
   logger.info('[BDD] Launching browser');
-  browser = await chromium.launch({ headless: config.execution.headless });
+  browser = await BrowserHelper.launchChromium();
 });
 
 AfterAll(async function () {
@@ -70,9 +69,11 @@ Before(async function (this: CustomWorld, scenario: ITestCaseHookParameter) {
   // @auth scenarios start from the stored SauceDemo session (if available).
   // WHY reuse storageState: skip the UI login for @auth scenarios by starting
   // from a previously saved session, but only if that state file actually exists.
-  const useAuth = tags.includes('@auth') && fileExists(SAUCE_AUTH_FILE);
+  const useAuth = tags.includes('@auth');
 
-  this.context = await browser.newContext(useAuth ? { storageState: SAUCE_AUTH_FILE } : undefined);
+  this.context = await browser.newContext(
+    useAuth ? StorageStateHelper.contextOptionsFor(SAUCE_AUTH_FILE) : undefined,
+  );
   this.page = await this.context.newPage();
   this.apiContext = await request.newContext({ ignoreHTTPSErrors: true });
 });

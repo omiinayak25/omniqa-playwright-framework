@@ -34,6 +34,7 @@ import { config } from '@config/config';
 import { logger } from '@utils/logger';
 import { ensureDir } from '@utils/file.util';
 import { writeAllureMetadata } from '@utils/allure-meta';
+import { EnvironmentHelper } from '@helpers/index';
 
 const OUTPUT_DIRS = [
   'reports/allure-results',
@@ -56,6 +57,7 @@ async function globalSetup(playwrightConfig: FullConfig): Promise<void> {
   logger.info(`  Workers     : ${playwrightConfig.workers}`);
   logger.info(`  Projects    : ${playwrightConfig.projects.map((p) => p.name).join(', ')}`);
   logger.info(`  Log level   : ${config.execution.logLevel}`);
+  logger.info(`  Run context : ${EnvironmentHelper.describe()}`);
   logger.info('════════════════════════════════════════════════════════');
 }
 
