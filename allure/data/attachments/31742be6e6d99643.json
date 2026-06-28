@@ -1,0 +1,54 @@
+{
+  "metrics": {
+    "label": "SauceDemo · Login · timing",
+    "url": "https://www.saucedemo.com/",
+    "timestamp": "2026-06-28T05:48:12.568Z",
+    "ttfbMs": 117,
+    "domContentLoadedMs": 282,
+    "loadMs": 323,
+    "domInteractiveMs": 130,
+    "fcpMs": 304,
+    "lcpMs": 352,
+    "network": {
+      "dnsMs": 1,
+      "tcpMs": 6,
+      "tlsMs": 4,
+      "requestMs": 110,
+      "responseMs": 1
+    },
+    "resources": {
+      "count": 3,
+      "transferBytes": 233910,
+      "byType": [
+        {
+          "type": "script",
+          "count": 1,
+          "transferBytes": 221912
+        },
+        {
+          "type": "link",
+          "count": 2,
+          "transferBytes": 11998
+        }
+      ],
+      "slowest": [
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500",
+          "durationMs": 44,
+          "transferBytes": 794
+        },
+        {
+          "url": "https://www.saucedemo.com/static/js/main.bcf4bc5f.js",
+          "durationMs": 11,
+          "transferBytes": 221912
+        },
+        {
+          "url": "https://www.saucedemo.com/static/css/main.8a7d64a1.css",
+          "durationMs": 5,
+          "transferBytes": 11204
+        }
+      ]
+    }
+  },
+  "violations": []
+}

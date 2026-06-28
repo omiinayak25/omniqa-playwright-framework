@@ -1,0 +1,2 @@
+2026-06-28 05:48:23.741 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Indexes & functions @db › query on last_name uses idx_employees_last_name (EXPLAIN) {"scope":"query on last_name uses idx_employees_last_name (EXPLAIN)","correlationId":"594a0bd5","testName":"query on last_name uses idx_employees_last_name (EXPLAIN)"}
+2026-06-28 05:48:23.764 [info] ✔ PASS (23ms) [594a0bd5]: query on last_name uses idx_employees_last_name (EXPLAIN) {"scope":"query on last_name uses idx_employees_last_name (EXPLAIN)"}

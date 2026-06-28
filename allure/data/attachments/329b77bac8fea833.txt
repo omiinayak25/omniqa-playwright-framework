@@ -1,3 +1,0 @@
-2026-06-27 20:20:40.273 [info] Pool created → automation_user@localhost:5432/automation_db {"scope":"DbPool"}
-2026-06-27 20:20:40.369 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › @smoke seed data is present {"scope":"@smoke seed data is present","correlationId":"9d63138e","testName":"@smoke seed data is present"}
-2026-06-27 20:20:40.399 [info] ✔ PASS (31ms) [9d63138e]: @smoke seed data is present {"scope":"@smoke seed data is present"}

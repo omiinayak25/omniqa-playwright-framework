@@ -1,4 +1,0 @@
-2026-06-27 20:21:06.144 [info] ▶ START: api/negative-boundary.spec.ts › Negative · Petstore @api @negative › GET /pet/{nonexistent} → 404 {"scope":"GET /pet/{nonexistent} → 404","correlationId":"7409b157","testName":"GET /pet/{nonexistent} → 404"}
-2026-06-27 20:21:06.145 [info] → GET https://petstore.swagger.io/v2/pet/123456789012 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"7409b157","testName":"GET /pet/{nonexistent} → 404"}
-2026-06-27 20:21:06.434 [info] ← 404 GET https://petstore.swagger.io/v2/pet/123456789012 (288ms) {"scope":"ApiClient","correlationId":"7409b157","testName":"GET /pet/{nonexistent} → 404"}
-2026-06-27 20:21:06.435 [info] ✔ PASS (291ms) [7409b157]: GET /pet/{nonexistent} → 404 {"scope":"GET /pet/{nonexistent} → 404"}

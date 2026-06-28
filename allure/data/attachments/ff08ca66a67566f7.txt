@@ -1,0 +1,4 @@
+2026-06-28 05:47:49.764 [info] ▶ START: api/posts.spec.ts › JSONPlaceholder · Post API @api › lists users (10 seeded) {"scope":"lists users (10 seeded)","correlationId":"3297fe8f","testName":"lists users (10 seeded)"}
+2026-06-28 05:47:49.765 [info] → GET https://jsonplaceholder.typicode.com/users {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"3297fe8f","testName":"lists users (10 seeded)"}
+2026-06-28 05:47:49.777 [info] ← 200 GET https://jsonplaceholder.typicode.com/users (11ms) {"scope":"ApiClient","correlationId":"3297fe8f","testName":"lists users (10 seeded)"}
+2026-06-28 05:47:49.778 [info] ✔ PASS (14ms) [3297fe8f]: lists users (10 seeded) {"scope":"lists users (10 seeded)"}

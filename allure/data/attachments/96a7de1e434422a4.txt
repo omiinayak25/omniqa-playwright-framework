@@ -1,5 +1,0 @@
-2026-06-27 20:20:45.098 [info] Pool created → automation_user@localhost:5432/automation_db {"scope":"DbPool"}
-2026-06-27 20:20:45.201 [info] ▶ START: e2e/api-to-db-sync.e2e.spec.ts › E2E · API → DB product sync @e2e › reads product from API, syncs to DB, verifies consistency {"scope":"reads product from API, syncs to DB, verifies consistency","correlationId":"5ae5257b","testName":"reads product from API, syncs to DB, verifies consistency"}
-2026-06-27 20:20:45.223 [info] → GET https://dummyjson.com/products/5 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"5ae5257b","testName":"reads product from API, syncs to DB, verifies consistency"}
-2026-06-27 20:20:45.765 [info] ← 200 GET https://dummyjson.com/products/5 (540ms) {"scope":"ApiClient","correlationId":"5ae5257b","testName":"reads product from API, syncs to DB, verifies consistency"}
-2026-06-27 20:20:45.790 [info] ✔ PASS (590ms) [5ae5257b]: reads product from API, syncs to DB, verifies consistency {"scope":"reads product from API, syncs to DB, verifies consistency"}

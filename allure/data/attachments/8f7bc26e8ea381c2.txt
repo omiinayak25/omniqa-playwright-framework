@@ -1,4 +1,0 @@
-2026-06-27 20:20:53.189 [info] ▶ START: visual/orangehrm/login.visual.spec.ts › OrangeHRM · Login · Visual @visual @regression › the login card matches the baseline {"scope":"the login card matches the baseline","correlationId":"6c85ce0a","testName":"the login card matches the baseline"}
-2026-06-27 20:20:55.862 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"6c85ce0a","testName":"the login card matches the baseline"}
-2026-06-27 20:20:59.206 [info] Visual compare (element): orangehrm-login-brand {"scope":"Visual","correlationId":"6c85ce0a","testName":"the login card matches the baseline"}
-2026-06-27 20:20:59.632 [info] ✔ PASS (6.44s) [6c85ce0a]: the login card matches the baseline {"scope":"the login card matches the baseline"}
