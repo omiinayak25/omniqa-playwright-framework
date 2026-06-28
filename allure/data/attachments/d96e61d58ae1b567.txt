@@ -1,0 +1,2 @@
+2026-06-28 07:22:20.007 [info] ▶ START: api/utils.spec.ts › Random utils @smoke › email looks like an email; int respects bounds {"scope":"email looks like an email; int respects bounds","correlationId":"7eb481bf","testName":"email looks like an email; int respects bounds"}
+2026-06-28 07:22:20.012 [info] ✔ PASS (5ms) [7eb481bf]: email looks like an email; int respects bounds {"scope":"email looks like an email; int respects bounds"}

@@ -1,4 +1,0 @@
-2026-06-28 05:52:27.274 [info] ▶ START: ui/saucedemo/inventory.spec.ts › SauceDemo · Inventory (authenticated) @ui @smoke › cart reflects the added product {"scope":"cart reflects the added product","correlationId":"fe872617","testName":"cart reflects the added product"}
-2026-06-28 05:52:28.289 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"fe872617","testName":"cart reflects the added product"}
-2026-06-28 05:52:28.848 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"fe872617","testName":"cart reflects the added product"}
-2026-06-28 05:52:30.596 [info] ✔ PASS (3.32s) [fe872617]: cart reflects the added product {"scope":"cart reflects the added product"}

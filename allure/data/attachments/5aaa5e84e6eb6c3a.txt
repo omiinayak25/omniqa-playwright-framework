@@ -1,0 +1,4 @@
+2026-06-28 07:22:18.007 [info] ▶ START: api/negative-boundary.spec.ts › Negative · Restful-Booker @api @negative › GET /booking/negative → not found {"scope":"GET /booking/negative → not found","correlationId":"25f6eb34","testName":"GET /booking/negative → not found"}
+2026-06-28 07:22:18.008 [info] → GET https://restful-booker.herokuapp.com/booking/-1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"25f6eb34","testName":"GET /booking/negative → not found"}
+2026-06-28 07:22:18.082 [info] ← 404 GET https://restful-booker.herokuapp.com/booking/-1 (72ms) {"scope":"ApiClient","correlationId":"25f6eb34","testName":"GET /booking/negative → not found"}
+2026-06-28 07:22:18.084 [info] ✔ PASS (77ms) [25f6eb34]: GET /booking/negative → not found {"scope":"GET /booking/negative → not found"}

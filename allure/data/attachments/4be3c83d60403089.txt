@@ -1,4 +1,0 @@
-2026-06-28 05:51:58.406 [info] ▶ START: api/products.spec.ts › DummyJSON · Product API @api › adds a product (POST) {"scope":"adds a product (POST)","correlationId":"0be5f0a3","testName":"adds a product (POST)"}
-2026-06-28 05:51:58.407 [info] → POST https://dummyjson.com/products/add {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"0be5f0a3","testName":"adds a product (POST)"}
-2026-06-28 05:51:58.469 [info] ← 201 POST https://dummyjson.com/products/add (61ms) {"scope":"ApiClient","correlationId":"0be5f0a3","testName":"adds a product (POST)"}
-2026-06-28 05:51:58.471 [info] ✔ PASS (65ms) [0be5f0a3]: adds a product (POST) {"scope":"adds a product (POST)"}
