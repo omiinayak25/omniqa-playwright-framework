@@ -18,7 +18,7 @@
  * Cart step definitions. Sign-in and "I should see the product catalog" steps
  * are REUSED from authentication.steps.ts. `this` is the per-scenario World.
  */
-import { When, Then, DataTable } from '@cucumber/cucumber';
+import { When, Then, type DataTable } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import { SauceInventoryPage } from '@pages/saucedemo/inventory.page';
 import { SauceCartPage } from '@pages/saucedemo/cart.page';
