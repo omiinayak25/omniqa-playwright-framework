@@ -64,6 +64,10 @@ No circular dependencies were observed; `tsc --noEmit` validates all path-alias 
 - `src/fixtures` is the composition root; it depends on every feature module.
 - `src/config` is depended on by nearly everything and depends on nothing but `@models`.
 - `scripts/db` is shared by local provisioning, CI, and Docker.
+- `src/factories` → `src/builders` → `@models` (test-data generation, one direction).
+- `src/helpers` coordinate `@config`/`@utils`/`@playwright` (orchestration only, no new logic).
+- `src/middlewares` are an opt-in pipeline inside `ApiClient` (empty = no-op).
+- `src/types` (`@apptypes`) holds cross-cutting types + re-exports; depends only on `@config`.
 
 ## 5. Pattern Usage
 
@@ -76,7 +80,10 @@ No circular dependencies were observed; `tsc --noEmit` validates all path-alias 
 | Facade               | `src/config` (hides env parsing/validation)       |
 | Dependency Injection | `src/fixtures` (8-layer chain)                    |
 | Strategy             | `src/secrets` (`SecretProvider` implementations)  |
-| Factory/Builder      | `data` fixture + `src/utils/random.util`          |
+| Builder              | `src/builders` (fluent valid/invalid/boundary data) |
+| Factory              | `src/factories` (bulk/datasets, compose builders) |
+| Chain of Responsibility | `src/middlewares` (composable API pipeline)    |
+| Orchestration Helper | `src/helpers` (coordinate config/utils)           |
 | Custom Reporter      | `src/custom-reporters`                            |
 
 ## 6. Strengths

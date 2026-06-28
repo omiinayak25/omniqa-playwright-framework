@@ -113,16 +113,20 @@ and never change that line as the chain grows. See [docs/PROJECT_ANALYSIS.md](do
 omniqa-playwright-framework/
 ├── src/                         # Framework engine (no assertions)
 │   ├── accessibility/           # axe scanner, keyboard navigator, a11y assertions + reporter
-│   ├── api/                     # ApiClient, response & schema validators
+│   ├── api/                     # ApiClient (opt-in middleware pipeline), response & schema validators
+│   ├── builders/                # Fluent Builder pattern (booking/employee/checkout/product)
 │   ├── components/              # Reusable UI components (base + saucedemo/orangehrm)
 │   ├── config/                  # env accessor + validated Singleton config facade
 │   ├── constants/               # http, endpoints, routes, timeouts, paths
 │   ├── cucumber/                # Cucumber World + hooks
 │   ├── custom-reporters/        # summary-reporter + flaky-reporter
 │   ├── database/                # pool, query-runner, db-assertions, availability
+│   ├── factories/               # Factory pattern (bulk/positive/negative/edge datasets)
 │   ├── fixtures/                # DI chain: base→page→api→db→a11y→visual→perf→net
 │   ├── flows/                   # Business-flow layer (e.g. checkout)
+│   ├── helpers/                 # Orchestration (environment, browser launch, storage-state)
 │   ├── hooks/                   # global-setup / global-teardown
+│   ├── middlewares/             # Composable API pipeline (correlation-id, timing, capture)
 │   ├── models/                  # Typed domain + config models
 │   ├── network/                 # NetworkManager (route mock / intercept / HAR)
 │   ├── pages/                   # Page Object Model (base + saucedemo/orangehrm)
@@ -131,8 +135,8 @@ omniqa-playwright-framework/
 │   ├── schemas/                 # AJV JSON schemas (contract testing)
 │   ├── secrets/                 # SecretProvider (env + encrypted vault)
 │   ├── services/                # API service classes (auth/booking/pet/post/product/user)
-│   ├── utils/                   # logger, crypto, retry, wait, date, random, file, allure
-│   └── (builders, factories, helpers, middlewares, types)   # reserved scaffold (currently empty)
+│   ├── types/                   # Shared cross-cutting types (@apptypes): Maybe/Result/ExecutionContext
+│   └── utils/                   # logger, crypto, retry, wait, date, random, file, allure
 ├── tests/                       # Specs (assertions live here)
 │   ├── accessibility/ api/ db/ e2e/ network/ performance/ setup/ ui/ visual/
 ├── features/                    # Cucumber .feature files
@@ -146,8 +150,11 @@ omniqa-playwright-framework/
 └── playwright.config.ts, tsconfig.json, cucumber.js, package.json
 ```
 
-> **Note (honest):** `src/builders`, `src/factories`, `src/helpers`, `src/middlewares`, and `src/types`
-> currently contain only a `.gitkeep` — they are reserved extension points, not yet used.
+> **Recent additions:** the formerly-reserved folders are now implemented as production layers —
+> `builders/` (fluent test-data construction), `factories/` (bulk/positive/negative/edge datasets,
+> composing builders), `helpers/` (orchestration over config/utils), `middlewares/` (opt-in
+> composable `ApiClient` pipeline), and `types/` (shared cross-cutting types, aliased `@apptypes`).
+> Each has a README, is wired to real consumers, and is covered by `tsc`/ESLint/the BDD suite.
 
 ---
 
@@ -277,7 +284,7 @@ npm run docker:test      # build image + Postgres, run api+db projects
 
 ### BDD
 
-`features/*.feature` (6 scenarios) + `step-definitions/*.ts` (15 steps) + `src/cucumber` World/hooks. Reuses page objects & services; path aliases resolved at runtime via `ts-node` + `tsconfig-paths` (`cucumber.js`).
+`features/**/*.feature` (20 feature files across 11 modules — authentication, inventory, cart, checkout, api, database, e2e, accessibility, visual, performance) + `step-definitions/*.ts` (13 step files, incl. shared `support/api.support.ts`) + `src/cucumber` World/hooks. Reuses page objects, services, repositories, builders & factories; path aliases resolved at runtime via `ts-node` + `tsconfig-paths` (`cucumber.js`).
 
 ### Reporting
 
@@ -294,6 +301,22 @@ npm run docker:test      # build image + Postgres, run api+db projects
 ### Fixtures
 
 `src/fixtures` (8 layers) — the DI backbone. Public surface: `@fixtures/index` exports the fully-composed `test`/`expect`.
+
+### Test Data: Builders & Factories
+
+`src/builders` — fluent **Builder** pattern (`BookingBuilder`, `EmployeeBuilder`, `CheckoutBuilder`, `ProductBuilder`) producing valid/invalid/boundary objects with method chaining. `src/factories` — **Factory** pattern (bulk/positive/negative/edge datasets + `TestDataFactory` facade) that **compose** the builders. Builders are reserved for rich models; trivial ones are built directly in factories.
+
+### Helpers
+
+`src/helpers` — reusable **orchestration** that coordinates existing config/utils without duplicating them: `EnvironmentHelper` (env/CI/slow-mo + run snapshot), `BrowserHelper` (Chromium launch options), `StorageStateHelper` (auth-session reuse). Wired into the BDD hooks and global-setup.
+
+### Middlewares
+
+`src/middlewares` — composable **onion pipeline** for the API transport layer: `CorrelationIdMiddleware` (propagates `x-correlation-id`), `TimingMiddleware` (SLA warning), `NetworkCaptureMiddleware` (inspectable call records). `ApiClient` runs them around each dispatch attempt via an **opt-in** constructor arg (empty = no-op); retry/logging stay in `ApiClient` (no duplication).
+
+### Shared Types
+
+`src/types` (alias `@apptypes`) — cross-cutting TypeScript types: `Maybe<T>`, `DeepReadonly<T>`, `Result<T,E>` (discriminated union), `ExecutionContext`/`Environment`/`BrowserName`, plus re-exports of canonical types (`ApiResponse`, `PerformanceMetrics`, `AccessibilityResult`) for a single import surface.
 
 ---
 
