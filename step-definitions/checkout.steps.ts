@@ -25,15 +25,12 @@ import { SauceCartPage } from '@pages/saucedemo/cart.page';
 import { CheckoutInfoPage } from '@pages/saucedemo/checkout-info.page';
 import { CheckoutOverviewPage } from '@pages/saucedemo/checkout-overview.page';
 import { CheckoutCompletePage } from '@pages/saucedemo/checkout-complete.page';
-import type { CheckoutInfo } from '@models/user.model';
+import { CheckoutBuilder } from '@builders/index';
 import type { CustomWorld } from '@bdd/world';
 
-// Default valid customer used by the happy-path / totals scenarios.
-const VALID_CUSTOMER: CheckoutInfo = {
-  firstName: 'OmniQA',
-  lastName: 'Buyer',
-  postalCode: '560001',
-};
+// Default valid customer used by the happy-path / totals scenarios — generated
+// by the Builder layer instead of a hand-maintained literal.
+const VALID_CUSTOMER = CheckoutBuilder.valid().build();
 
 // ------------------------------------------------------------------- actions
 When('I proceed to checkout', async function (this: CustomWorld) {

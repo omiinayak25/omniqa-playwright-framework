@@ -39,6 +39,8 @@
 | ------------------- | ----- | -------------------------------------------------------------- |
 | `accessibility/`    | 6     | axe scanner, keyboard navigator, assertions, reporter, types   |
 | `api/`              | 3     | ApiClient, response-validator, schema-validator                |
+| `builders/`         | 6     | fluent Builder pattern: base + booking/employee/checkout/product + index |
+| `factories/`        | 7     | Factory pattern: bulk/positive/negative/edge datasets composing builders |
 | `components/`       | 4     | base + saucedemo/orangehrm UI components                       |
 | `config/`           | 2     | env accessor + validated config facade                         |
 | `constants/`        | 6     | http, endpoints, ui-routes, timeouts, paths, index             |
@@ -46,8 +48,10 @@
 | `custom-reporters/` | 2     | summary-reporter, flaky-reporter                               |
 | `database/`         | 4     | pool, query-runner, db-assertions, availability                |
 | `fixtures/`         | 8     | DI chain layers + types + index                                |
+| `helpers/`          | 4     | orchestration: environment, browser launch, storage-state reuse |
 | `flows/`            | 1     | checkout business flow                                         |
 | `hooks/`            | 2     | global-setup, global-teardown                                  |
+| `middlewares/`      | 5     | composable API pipeline: correlation-id, timing, network-capture + core |
 | `models/`           | 12    | domain + config models                                         |
 | `network/`          | 3     | NetworkManager, types, index                                   |
 | `pages/`            | 10    | base + saucedemo (6) + orangehrm (3)                           |
@@ -56,8 +60,8 @@
 | `schemas/`          | 2     | AJV booking schema + index                                     |
 | `secrets/`          | 2     | secret-provider, index                                         |
 | `services/`         | 6     | auth, booking, pet, post, product, user                        |
+| `types/`            | 3     | shared types: Maybe/DeepReadonly/Result, ExecutionContext + re-exports |
 | `utils/`            | 12    | logger, crypto, retry, wait, date, random, file, allure, log-* |
-| _reserved (empty)_  | —     | `builders`, `factories`, `helpers`, `middlewares`, `types`     |
 
 ---
 
@@ -65,7 +69,7 @@
 
 `@pages` · `@flows` · `@accessibility` · `@visual` · `@performance` · `@network` · `@secrets` · `@components` ·
 `@api` · `@services` · `@database` · `@repositories` · `@fixtures` · `@factories` · `@builders` · `@utils` ·
-`@helpers` · `@config` · `@constants` · `@models` · `@types` · `@schemas` · `@hooks` · `@bdd` · `@middlewares`
+`@helpers` · `@config` · `@constants` · `@models` · `@apptypes` · `@schemas` · `@hooks` · `@bdd` · `@middlewares`
 
 ---
 
