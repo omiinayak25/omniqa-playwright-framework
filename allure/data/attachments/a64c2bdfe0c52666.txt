@@ -1,2 +1,0 @@
-2026-06-28 05:48:23.663 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › stored function give_raise() returns increased salary {"scope":"stored function give_raise() returns increased salary","correlationId":"44437d65","testName":"stored function give_raise() returns increased salary"}
-2026-06-28 05:48:23.702 [info] ✔ PASS (39ms) [44437d65]: stored function give_raise() returns increased salary {"scope":"stored function give_raise() returns increased salary"}

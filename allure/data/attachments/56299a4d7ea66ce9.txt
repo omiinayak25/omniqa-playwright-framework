@@ -1,0 +1,4 @@
+2026-06-28 05:51:54.782 [info] ▶ START: visual/saucedemo/login.visual.spec.ts › SauceDemo · Login · Visual @visual @regression › the login form component matches the baseline {"scope":"the login form component matches the baseline","correlationId":"23be610c","testName":"the login form component matches the baseline"}
+2026-06-28 05:51:54.830 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"23be610c","testName":"the login form component matches the baseline"}
+2026-06-28 05:51:55.128 [info] Visual compare (element): saucedemo-login-form {"scope":"Visual","correlationId":"23be610c","testName":"the login form component matches the baseline"}
+2026-06-28 05:51:55.594 [info] ✔ PASS (812ms) [23be610c]: the login form component matches the baseline {"scope":"the login form component matches the baseline"}

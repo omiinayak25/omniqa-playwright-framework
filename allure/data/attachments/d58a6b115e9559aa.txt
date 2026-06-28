@@ -1,0 +1,5 @@
+2026-06-28 05:52:16.273 [info] ▶ START: ui/saucedemo/checkout.spec.ts › SauceDemo · Checkout flow @ui @e2e › overview totals: subtotal + tax = total (soft assertions) {"scope":"overview totals: subtotal + tax = total (soft assertions)","correlationId":"a0c4f182","testName":"overview totals: subtotal + tax = total (soft assertions)"}
+2026-06-28 05:52:17.313 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"a0c4f182","testName":"overview totals: subtotal + tax = total (soft assertions)"}
+2026-06-28 05:52:17.411 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"a0c4f182","testName":"overview totals: subtotal + tax = total (soft assertions)"}
+2026-06-28 05:52:18.292 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"a0c4f182","testName":"overview totals: subtotal + tax = total (soft assertions)"}
+2026-06-28 05:52:19.884 [info] ✔ PASS (3.61s) [a0c4f182]: overview totals: subtotal + tax = total (soft assertions) {"scope":"overview totals: subtotal + tax = total (soft assertions)"}

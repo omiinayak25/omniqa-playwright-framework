@@ -1,4 +1,0 @@
-2026-06-28 05:48:16.419 [info] PGlite pool created (embedded PostgreSQL — no server required) {"scope":"DbPool"}
-2026-06-28 05:48:23.473 [info] PGlite embedded database ready (schema + seed applied) {"scope":"DbPool"}
-2026-06-28 05:48:23.520 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Indexes & functions @db › give_raise() on a non-existent employee returns null {"scope":"give_raise() on a non-existent employee returns null","correlationId":"47ecbcad","testName":"give_raise() on a non-existent employee returns null"}
-2026-06-28 05:48:23.537 [info] ✔ PASS (18ms) [47ecbcad]: give_raise() on a non-existent employee returns null {"scope":"give_raise() on a non-existent employee returns null"}

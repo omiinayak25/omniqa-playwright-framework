@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"d0e0b90cb6382f2c56730ffc7c822b5a","name":"Ignored / skipped (gated)","statistic":{"failed":0,"broken":0,"skipped":6,"passed":0,"unknown":0,"total":6}}]}
+{"total":2,"items":[{"uid":"bdbf199525818fae7a8651db9eafe741","name":"Test defects","statistic":{"failed":0,"broken":2,"skipped":0,"passed":0,"unknown":0,"total":2}},{"uid":"d0e0b90cb6382f2c56730ffc7c822b5a","name":"Ignored / skipped (gated)","statistic":{"failed":0,"broken":0,"skipped":6,"passed":0,"unknown":0,"total":6}}]}

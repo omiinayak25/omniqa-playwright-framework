@@ -1,0 +1,4 @@
+2026-06-28 05:52:06.602 [info] PGlite pool created (embedded PostgreSQL — no server required) {"scope":"DbPool"}
+2026-06-28 05:52:12.857 [info] PGlite embedded database ready (schema + seed applied) {"scope":"DbPool"}
+2026-06-28 05:52:12.888 [info] ▶ START: e2e/employee-lifecycle.e2e.spec.ts › E2E · Employee lifecycle @e2e @db › 1 · hire (insert) the employee {"scope":"1 · hire (insert) the employee","correlationId":"97538688","testName":"1 · hire (insert) the employee"}
+2026-06-28 05:52:12.906 [info] ✔ PASS (18ms) [97538688]: 1 · hire (insert) the employee {"scope":"1 · hire (insert) the employee"}

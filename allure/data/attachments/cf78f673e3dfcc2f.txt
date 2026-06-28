@@ -1,3 +1,0 @@
-2026-06-28 05:48:00.172 [info] ▶ START: ui/orangehrm/pim.spec.ts › OrangeHRM · PIM employee grid @ui @regression › @smoke employee grid renders rows (Table component) {"scope":"@smoke employee grid renders rows (Table component)","correlationId":"9271ee5a","testName":"@smoke employee grid renders rows (Table component)"}
-2026-06-28 05:48:05.588 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"9271ee5a","testName":"@smoke employee grid renders rows (Table component)"}
-2026-06-28 05:48:10.882 [info] ✔ PASS (10.71s) [9271ee5a]: @smoke employee grid renders rows (Table component) {"scope":"@smoke employee grid renders rows (Table component)"}

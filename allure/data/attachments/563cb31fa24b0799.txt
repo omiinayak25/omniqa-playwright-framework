@@ -1,0 +1,2 @@
+2026-06-28 05:52:37.526 [info] (the login card matches the baseline) ▶ START: visual/orangehrm/login.visual.spec.ts › OrangeHRM · Login · Visual @visual @regression › the login card matches the baseline
+2026-06-28 05:52:37.706 [info] (OrangeLoginPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login

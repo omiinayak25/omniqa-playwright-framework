@@ -1,0 +1,15 @@
+{
+  "label": "SauceDemo · Inventory · alt-text",
+  "url": "https://www.saucedemo.com/inventory.html",
+  "timestamp": "2026-06-28T05:52:22.863Z",
+  "violations": [],
+  "passCount": 1,
+  "incompleteCount": 0,
+  "inapplicableCount": 5,
+  "counts": {
+    "minor": 0,
+    "moderate": 0,
+    "serious": 0,
+    "critical": 0
+  }
+}
