@@ -9,21 +9,11 @@ build/
 *.tsbuildinfo
 
 # ---- Environment & secrets ----
-# NOTE: `.env` is intentionally COMMITTED for this PUBLIC DEMO repository — it
-#       contains ONLY public demo credentials and placeholders (see SECURITY.md).
-#       Real deployments must override these via CI secrets and must NEVER commit
-#       real values. Personal overrides and any key/cert material stay ignored:
-.env.local
-.env.*.local
-*.pem
-*.key
-*.p12
-*.pfx
-*.jks
-*.keystore
-
-# ---- Auth storage state (contains live session) ----
-.auth/
+# This is a PUBLIC DEMO repository with NO real secrets. Everything — .env,
+# .env.local, any keys/certs, and the .auth/ session storage — is intentionally
+# COMMITTED so the project runs anywhere immediately after `git clone`.
+# WARNING: if you ever introduce REAL credentials, re-add ignore rules here
+# (e.g. .env.local, *.pem, *.key, .auth/) so they are NEVER pushed.
 
 # ---- Playwright artifacts ----
 test-results/

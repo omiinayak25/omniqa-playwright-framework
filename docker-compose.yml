@@ -19,6 +19,11 @@ services:
       POSTGRES_USER: automation_user
       POSTGRES_PASSWORD: automation_pass
       POSTGRES_DB: automation_db
+    ports:
+      # Publish to the HOST so tests run outside Docker (npm test) can connect.
+      # host:container — 5433 on the host avoids clashing with a local
+      # PostgreSQL already listening on 5432.
+      - '5433:5432'
     volumes:
       # Named volume persists data between runs (drop it with `down -v`).
       - pgdata:/var/lib/postgresql/data

@@ -64,6 +64,9 @@ export default defineConfig({
   // ---- Shared defaults for every project ----
   use: {
     headless: HEADLESS,
+    // Optional slow-motion (ms) between actions so a headed run is watchable.
+    // Defaults to 0 (no delay); set SLOWMO_MS to enable, e.g. SLOWMO_MS=800.
+    launchOptions: { slowMo: getEnvNumber('SLOWMO_MS', 0) },
     actionTimeout: 15_000,
     navigationTimeout: 30_000,
     trace: 'on-first-retry', // capture a trace only when a test is retried
