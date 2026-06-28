@@ -57,6 +57,8 @@ export class SauceInventoryPage extends BasePage {
   private readonly items: Locator;
   private readonly itemNames: Locator;
   private readonly itemPrices: Locator;
+  private readonly itemDescriptions: Locator;
+  private readonly itemImages: Locator;
   private readonly sortDropdown: Locator;
 
   constructor(page: Page) {
@@ -66,6 +68,8 @@ export class SauceInventoryPage extends BasePage {
     this.items = page.locator('.inventory_item');
     this.itemNames = page.locator('.inventory_item_name');
     this.itemPrices = page.locator('.inventory_item_price');
+    this.itemDescriptions = page.locator('.inventory_item_desc');
+    this.itemImages = page.locator('.inventory_item_img img');
     this.sortDropdown = page.locator('[data-test="product-sort-container"]');
   }
 
@@ -104,6 +108,28 @@ export class SauceInventoryPage extends BasePage {
   public async productPrices(): Promise<number[]> {
     const raw = await this.itemPrices.allInnerTexts();
     return raw.map((p) => Number.parseFloat(p.replace('$', '')));
+  }
+
+  /**
+   * Purpose: List each product's short description text.
+   * @returns Promise resolving to an array of description strings.
+   */
+  public async productDescriptions(): Promise<string[]> {
+    return this.itemDescriptions.allInnerTexts();
+  }
+
+  /**
+   * Purpose: List the image source (`src`) of every product card, so callers
+   * can verify each product actually displays an image.
+   * @returns Promise resolving to an array of image src strings ('' if absent).
+   */
+  public async productImageSources(): Promise<string[]> {
+    const count = await this.itemImages.count();
+    const sources: string[] = [];
+    for (let i = 0; i < count; i += 1) {
+      sources.push((await this.itemImages.nth(i).getAttribute('src')) ?? '');
+    }
+    return sources;
   }
 
   /**
