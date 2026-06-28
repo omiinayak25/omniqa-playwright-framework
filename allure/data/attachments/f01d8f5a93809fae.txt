@@ -1,2 +1,0 @@
-2026-06-28 16:08:36.179 [info] (checkout from the cart opens checkout step one) ▶ START: ui/saucedemo/cart.persistence.spec.ts › SauceDemo · Cart persistence & navigation @ui @regression @cart › checkout from the cart opens checkout step one
-2026-06-28 16:08:38.062 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html

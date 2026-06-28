@@ -1,4 +1,0 @@
-2026-06-28 16:09:44.271 [info] ▶ START: ui/saucedemo/login.negative.spec.ts › SauceDemo · Login negative & boundary inputs @ui @regression @negative › whitespace username (spaces only) is rejected {"scope":"whitespace username (spaces only) is rejected","correlationId":"089a0fe1","testName":"whitespace username (spaces only) is rejected"}
-2026-06-28 16:09:44.650 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"089a0fe1","testName":"whitespace username (spaces only) is rejected"}
-2026-06-28 16:09:45.097 [info] Logging in as "     " {"scope":"SauceLoginPage","correlationId":"089a0fe1","testName":"whitespace username (spaces only) is rejected"}
-2026-06-28 16:09:48.747 [info] ✔ PASS (4.48s) [089a0fe1]: whitespace username (spaces only) is rejected {"scope":"whitespace username (spaces only) is rejected"}

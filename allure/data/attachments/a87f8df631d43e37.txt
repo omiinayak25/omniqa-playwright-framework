@@ -1,2 +1,0 @@
-2026-06-28 16:10:25.027 [info] (PDP for "Test.allTheThings() T-Shirt (Red)" shows correct details) ▶ START: ui/saucedemo/product-details.data.spec.ts › SauceDemo · PDP per product @ui @regression @inventory › PDP for "Test.allTheThings() T-Shirt (Red)" shows correct details
-2026-06-28 16:10:28.953 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html

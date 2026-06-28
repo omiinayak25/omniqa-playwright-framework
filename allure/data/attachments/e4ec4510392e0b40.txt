@@ -1,3 +1,0 @@
-2026-06-28 16:06:31.651 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › saving an empty form flags both name fields as required {"scope":"saving an empty form flags both name fields as required","correlationId":"297bc432","testName":"saving an empty form flags both name fields as required"}
-2026-06-28 16:06:32.428 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"297bc432","testName":"saving an empty form flags both name fields as required"}
-2026-06-28 16:06:41.966 [info] ✔ PASS (10.31s) [297bc432]: saving an empty form flags both name fields as required {"scope":"saving an empty form flags both name fields as required"}

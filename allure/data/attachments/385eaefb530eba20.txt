@@ -1,4 +1,0 @@
-2026-06-28 16:09:25.851 [info] ▶ START: ui/saucedemo/inventory.cart.spec.ts › SauceDemo · Inventory cart interactions @ui @regression @inventory › add toggles the card button to "Remove" {"scope":"add toggles the card button to \"Remove\"","correlationId":"cf1aa8f2","testName":"add toggles the card button to \"Remove\""}
-2026-06-28 16:09:27.089 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"cf1aa8f2","testName":"add toggles the card button to \"Remove\""}
-2026-06-28 16:09:28.847 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"cf1aa8f2","testName":"add toggles the card button to \"Remove\""}
-2026-06-28 16:09:30.717 [info] ✔ PASS (4.87s) [cf1aa8f2]: add toggles the card button to "Remove" {"scope":"add toggles the card button to \"Remove\""}

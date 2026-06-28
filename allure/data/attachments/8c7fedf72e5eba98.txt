@@ -1,3 +1,0 @@
-2026-06-28 16:08:55.240 [info] ▶ START: ui/saucedemo/responsive.spec.ts › SauceDemo · Responsive inventory @ui @regression @responsive › inventory grid renders at tablet (768px) {"scope":"inventory grid renders at tablet (768px)","correlationId":"2a6a41ae","testName":"inventory grid renders at tablet (768px)"}
-2026-06-28 16:08:55.515 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"2a6a41ae","testName":"inventory grid renders at tablet (768px)"}
-2026-06-28 16:08:56.368 [info] ✔ PASS (1.13s) [2a6a41ae]: inventory grid renders at tablet (768px) {"scope":"inventory grid renders at tablet (768px)"}

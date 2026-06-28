@@ -1,3 +1,0 @@
-2026-06-28 16:06:10.925 [info] (Petstore pet conforms to schema) ▶ START: api/contract.spec.ts › Contract / schema validation @api @contract › Petstore pet conforms to schema
-2026-06-28 16:06:10.926 [info] (ApiClient) → GET https://petstore.swagger.io/v2/pet/findByStatus?status=available
-2026-06-28 16:06:11.108 [info] (ApiClient) ← 403 GET https://petstore.swagger.io/v2/pet/findByStatus?status=available (180ms)

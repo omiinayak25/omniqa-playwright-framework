@@ -1,2 +1,0 @@
-2026-06-28 16:06:43.581 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Employee repository @db › deleting a non-existent email affects zero rows {"scope":"deleting a non-existent email affects zero rows","correlationId":"0c540081","testName":"deleting a non-existent email affects zero rows"}
-2026-06-28 16:06:43.590 [info] ✔ PASS (9ms) [0c540081]: deleting a non-existent email affects zero rows {"scope":"deleting a non-existent email affects zero rows"}

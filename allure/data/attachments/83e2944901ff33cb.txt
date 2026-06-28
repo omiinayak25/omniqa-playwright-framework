@@ -1,2 +1,0 @@
-2026-06-28 16:10:08.928 [info] (PDP for "Sauce Labs Bolt T-Shirt" shows correct details) ▶ START: ui/saucedemo/product-details.data.spec.ts › SauceDemo · PDP per product @ui @regression @inventory › PDP for "Sauce Labs Bolt T-Shirt" shows correct details
-2026-06-28 16:10:13.157 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html

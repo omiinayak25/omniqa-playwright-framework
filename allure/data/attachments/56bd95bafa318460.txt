@@ -1,3 +1,0 @@
-2026-06-28 16:07:14.930 [info] ▶ START: ui/orangehrm/authorization.spec.ts › OrangeHRM · Authorization — Admin privileges @ui @regression @authorization › @smoke Admin sees the Admin and PIM modules {"scope":"@smoke Admin sees the Admin and PIM modules","correlationId":"491ccf4d","testName":"@smoke Admin sees the Admin and PIM modules"}
-2026-06-28 16:07:15.577 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"491ccf4d","testName":"@smoke Admin sees the Admin and PIM modules"}
-2026-06-28 16:07:18.673 [info] ✔ PASS (3.74s) [491ccf4d]: @smoke Admin sees the Admin and PIM modules {"scope":"@smoke Admin sees the Admin and PIM modules"}

@@ -1,4 +1,0 @@
-2026-06-28 16:08:49.301 [info] ▶ START: ui/saucedemo/product-details.data.spec.ts › SauceDemo · PDP per product @ui @regression @inventory › PDP for "Sauce Labs Bike Light" shows correct details {"scope":"PDP for \"Sauce Labs Bike Light\" shows correct details","correlationId":"ab2b0154","testName":"PDP for \"Sauce Labs Bike Light\" shows correct details"}
-2026-06-28 16:08:49.506 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"ab2b0154","testName":"PDP for \"Sauce Labs Bike Light\" shows correct details"}
-2026-06-28 16:08:50.056 [info] Opening PDP for "Sauce Labs Bike Light" {"scope":"SauceInventoryPage","correlationId":"ab2b0154","testName":"PDP for \"Sauce Labs Bike Light\" shows correct details"}
-2026-06-28 16:08:50.993 [info] ✔ PASS (1.69s) [ab2b0154]: PDP for "Sauce Labs Bike Light" shows correct details {"scope":"PDP for \"Sauce Labs Bike Light\" shows correct details"}

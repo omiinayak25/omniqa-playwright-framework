@@ -1,4 +1,0 @@
-2026-06-28 16:06:11.327 [info] ▶ START: api/dummyjson-extended.spec.ts › DummyJSON · Products extended @api @regression › @smoke default list returns a full page of 30 {"scope":"@smoke default list returns a full page of 30","correlationId":"c93ef4af","testName":"@smoke default list returns a full page of 30"}
-2026-06-28 16:06:11.328 [info] → GET https://dummyjson.com/products?limit=30&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"c93ef4af","testName":"@smoke default list returns a full page of 30"}
-2026-06-28 16:06:11.462 [info] ← 200 GET https://dummyjson.com/products?limit=30&skip=0 (133ms) {"scope":"ApiClient","correlationId":"c93ef4af","testName":"@smoke default list returns a full page of 30"}
-2026-06-28 16:06:11.465 [info] ✔ PASS (138ms) [c93ef4af]: @smoke default list returns a full page of 30 {"scope":"@smoke default list returns a full page of 30"}

@@ -1,0 +1,2 @@
+2026-06-28 16:19:21.833 [info] (checkout (step one) deep-link without a session is not served) ▶ START: ui/saucedemo/authorization.spec.ts › SauceDemo · Authorization — protected routes @ui @regression @authorization @negative › checkout (step one) deep-link without a session is not served
+2026-06-28 16:19:22.664 [info] (CheckoutInfoPage) Navigating to https://www.saucedemo.com/checkout-step-one.html

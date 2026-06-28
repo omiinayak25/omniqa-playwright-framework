@@ -1,2 +1,0 @@
-2026-06-28 16:06:10.905 [info] ▶ START: api/config.spec.ts › Configuration facade @smoke › constants are wired (enums + timeouts) {"scope":"constants are wired (enums + timeouts)","correlationId":"ac63557e","testName":"constants are wired (enums + timeouts)"}
-2026-06-28 16:06:10.907 [info] ✔ PASS (2ms) [ac63557e]: constants are wired (enums + timeouts) {"scope":"constants are wired (enums + timeouts)"}

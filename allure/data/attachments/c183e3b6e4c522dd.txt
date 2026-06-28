@@ -1,3 +1,0 @@
-2026-06-28 16:06:34.788 [info] (the cart page has no WCAG 2.1 A/AA violations) ▶ START: accessibility/saucedemo/cart.a11y.spec.ts › SauceDemo · Cart & Checkout · Accessibility @a11y @accessibility @regression › the cart page has no WCAG 2.1 A/AA violations
-2026-06-28 16:06:34.899 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html
-2026-06-28 16:06:35.120 [info] (SauceInventoryPage) Adding "Sauce Labs Backpack" to cart

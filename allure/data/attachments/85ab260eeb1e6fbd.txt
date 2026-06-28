@@ -1,0 +1,5 @@
+2026-06-28 16:18:06.807 [info] ▶ START: ui/saucedemo/inventory.cart.spec.ts › SauceDemo · Inventory cart interactions @ui @regression @inventory › remove on the inventory decrements the badge {"scope":"remove on the inventory decrements the badge","correlationId":"b02f21cf","testName":"remove on the inventory decrements the badge"}
+2026-06-28 16:18:06.981 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"b02f21cf","testName":"remove on the inventory decrements the badge"}
+2026-06-28 16:18:08.670 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"b02f21cf","testName":"remove on the inventory decrements the badge"}
+2026-06-28 16:18:08.835 [info] Removing "Sauce Labs Backpack" from cart {"scope":"SauceInventoryPage","correlationId":"b02f21cf","testName":"remove on the inventory decrements the badge"}
+2026-06-28 16:18:09.382 [info] ✔ PASS (2.58s) [b02f21cf]: remove on the inventory decrements the badge {"scope":"remove on the inventory decrements the badge"}

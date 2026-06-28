@@ -1,0 +1,10 @@
+2026-06-28 16:18:00.494 [info] ▶ START: ui/saucedemo/checkout.totals.spec.ts › SauceDemo · Checkout totals @ui @regression @checkout › totals reconcile for the full six-item cart {"scope":"totals reconcile for the full six-item cart","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:00.747 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:01.431 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:02.887 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:03.051 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:03.172 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:03.283 [info] Adding "Sauce Labs Fleece Jacket" to cart {"scope":"SauceInventoryPage","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:03.375 [info] Adding "Sauce Labs Onesie" to cart {"scope":"SauceInventoryPage","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:03.448 [info] Adding "Test.allTheThings() T-Shirt (Red)" to cart {"scope":"SauceInventoryPage","correlationId":"ac233909","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:18:04.345 [info] ✔ PASS (3.85s) [ac233909]: totals reconcile for the full six-item cart {"scope":"totals reconcile for the full six-item cart"}

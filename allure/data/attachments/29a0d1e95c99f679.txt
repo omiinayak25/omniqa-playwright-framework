@@ -1,4 +1,0 @@
-2026-06-28 16:06:55.578 [info] ▶ START: accessibility/saucedemo/cart.a11y.spec.ts › SauceDemo · Cart & Checkout · Accessibility @a11y @accessibility @regression › checkout form controls are programmatically labelled {"scope":"checkout form controls are programmatically labelled","correlationId":"f448e28b","testName":"checkout form controls are programmatically labelled"}
-2026-06-28 16:06:55.760 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"f448e28b","testName":"checkout form controls are programmatically labelled"}
-2026-06-28 16:06:55.966 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"f448e28b","testName":"checkout form controls are programmatically labelled"}
-2026-06-28 16:07:12.312 [error] ✘ FAILED (16.73s) [f448e28b]: checkout form controls are programmatically labelled {"scope":"checkout form controls are programmatically labelled"}

@@ -1,0 +1,4 @@
+2026-06-28 16:17:01.526 [info] (the order confirmation page matches the baseline) ▶ START: visual/saucedemo/journey.visual.spec.ts › SauceDemo · Journey screens · Visual (authenticated) @visual @regression › the order confirmation page matches the baseline
+2026-06-28 16:17:01.775 [info] (CheckoutFlow) Purchasing 1 product(s)
+2026-06-28 16:17:01.775 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html
+2026-06-28 16:17:02.121 [info] (SauceInventoryPage) Adding "Sauce Labs Backpack" to cart

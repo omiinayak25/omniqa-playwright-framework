@@ -1,3 +1,0 @@
-2026-06-28 16:06:47.262 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › @smoke creates an employee with first and last name {"scope":"@smoke creates an employee with first and last name","correlationId":"1e658a05","testName":"@smoke creates an employee with first and last name"}
-2026-06-28 16:06:49.336 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"1e658a05","testName":"@smoke creates an employee with first and last name"}
-2026-06-28 16:07:06.322 [error] ✘ FAILED (19.06s) [1e658a05]: @smoke creates an employee with first and last name {"scope":"@smoke creates an employee with first and last name"}

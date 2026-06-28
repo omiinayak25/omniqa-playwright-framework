@@ -1,0 +1,4 @@
+2026-06-28 16:16:38.250 [info] PGlite pool created (embedded PostgreSQL — no server required) {"scope":"DbPool"}
+2026-06-28 16:16:46.023 [info] PGlite embedded database ready (schema + seed applied) {"scope":"DbPool"}
+2026-06-28 16:16:46.073 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Transactions @db › COMMIT persists multiple inserts atomically {"scope":"COMMIT persists multiple inserts atomically","correlationId":"2b4ade53","testName":"COMMIT persists multiple inserts atomically"}
+2026-06-28 16:16:46.096 [info] ✔ PASS (23ms) [2b4ade53]: COMMIT persists multiple inserts atomically {"scope":"COMMIT persists multiple inserts atomically"}

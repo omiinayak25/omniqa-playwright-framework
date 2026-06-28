@@ -1,0 +1,3 @@
+2026-06-28 16:19:07.366 [info] ▶ START: ui/orangehrm/pim-table.spec.ts › OrangeHRM · PIM data grid @ui @regression @tables › select-all checks every row on the page {"scope":"select-all checks every row on the page","correlationId":"f843e5fe","testName":"select-all checks every row on the page"}
+2026-06-28 16:19:07.880 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"f843e5fe","testName":"select-all checks every row on the page"}
+2026-06-28 16:19:15.388 [info] ✔ PASS (8.02s) [f843e5fe]: select-all checks every row on the page {"scope":"select-all checks every row on the page"}

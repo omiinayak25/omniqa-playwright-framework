@@ -1,0 +1,54 @@
+{
+  "metrics": {
+    "label": "SauceDemo · Cart · timing",
+    "url": "https://www.saucedemo.com/",
+    "timestamp": "2026-06-28T16:16:48.044Z",
+    "ttfbMs": 7,
+    "domContentLoadedMs": 239,
+    "loadMs": 333,
+    "domInteractiveMs": 20,
+    "fcpMs": 340,
+    "lcpMs": 396,
+    "network": {
+      "dnsMs": 0,
+      "tcpMs": 0,
+      "tlsMs": 0,
+      "requestMs": 5,
+      "responseMs": 1
+    },
+    "resources": {
+      "count": 3,
+      "transferBytes": 233910,
+      "byType": [
+        {
+          "type": "script",
+          "count": 1,
+          "transferBytes": 221912
+        },
+        {
+          "type": "link",
+          "count": 2,
+          "transferBytes": 11998
+        }
+      ],
+      "slowest": [
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500",
+          "durationMs": 65,
+          "transferBytes": 794
+        },
+        {
+          "url": "https://www.saucedemo.com/static/js/main.bcf4bc5f.js",
+          "durationMs": 30,
+          "transferBytes": 221912
+        },
+        {
+          "url": "https://www.saucedemo.com/static/css/main.8a7d64a1.css",
+          "durationMs": 25,
+          "transferBytes": 11204
+        }
+      ]
+    }
+  },
+  "violations": []
+}

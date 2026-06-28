@@ -1,2 +1,0 @@
-2026-06-28 16:06:12.486 [info] ▶ START: api/logging.spec.ts › Logging · correlation & capture @smoke › correlation id is present and stable across awaits {"scope":"correlation id is present and stable across awaits","correlationId":"11362c07","testName":"correlation id is present and stable across awaits"}
-2026-06-28 16:06:12.495 [info] ✔ PASS (9ms) [11362c07]: correlation id is present and stable across awaits {"scope":"correlation id is present and stable across awaits"}

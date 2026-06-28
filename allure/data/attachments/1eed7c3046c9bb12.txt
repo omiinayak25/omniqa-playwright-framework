@@ -1,2 +1,0 @@
-2026-06-28 16:06:43.053 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Constraints @db › FK RESTRICT: cannot delete a department that has employees {"scope":"FK RESTRICT: cannot delete a department that has employees","correlationId":"c19282dd","testName":"FK RESTRICT: cannot delete a department that has employees"}
-2026-06-28 16:06:43.080 [info] ✔ PASS (27ms) [c19282dd]: FK RESTRICT: cannot delete a department that has employees {"scope":"FK RESTRICT: cannot delete a department that has employees"}

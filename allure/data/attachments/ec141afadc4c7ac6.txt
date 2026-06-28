@@ -1,4 +1,0 @@
-2026-06-28 16:06:12.433 [info] [orange-auth.setup] Authenticating OrangeHRM admin
-2026-06-28 16:06:12.437 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage"}
-2026-06-28 16:06:14.696 [info] Logging in as "Admin" {"scope":"OrangeLoginPage"}
-2026-06-28 16:06:16.517 [info] [orange-auth.setup] Saved storage state -> /home/runner/work/omniqa-playwright-framework/omniqa-playwright-framework/.auth/orangehrm.json

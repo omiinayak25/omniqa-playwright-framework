@@ -1,3 +1,0 @@
-2026-06-28 16:07:30.792 [info] ▶ START: ui/orangehrm/dashboard.spec.ts › OrangeHRM · Dashboard @ui @regression @dashboard › the logged-in user is shown in the top bar {"scope":"the logged-in user is shown in the top bar","correlationId":"338f3e82","testName":"the logged-in user is shown in the top bar"}
-2026-06-28 16:07:31.588 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"338f3e82","testName":"the logged-in user is shown in the top bar"}
-2026-06-28 16:07:38.023 [info] ✔ PASS (7.23s) [338f3e82]: the logged-in user is shown in the top bar {"scope":"the logged-in user is shown in the top bar"}

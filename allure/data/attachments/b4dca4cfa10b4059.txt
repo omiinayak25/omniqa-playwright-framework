@@ -1,4 +1,0 @@
-2026-06-28 16:06:16.155 [info] ▶ START: api/products.spec.ts › DummyJSON · Product API @api › @smoke paginates with limit & skip {"scope":"@smoke paginates with limit & skip","correlationId":"42d6f5aa","testName":"@smoke paginates with limit & skip"}
-2026-06-28 16:06:16.155 [info] → GET https://dummyjson.com/products?limit=5&skip=10 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"42d6f5aa","testName":"@smoke paginates with limit & skip"}
-2026-06-28 16:06:16.290 [info] ← 200 GET https://dummyjson.com/products?limit=5&skip=10 (135ms) {"scope":"ApiClient","correlationId":"42d6f5aa","testName":"@smoke paginates with limit & skip"}
-2026-06-28 16:06:16.292 [info] ✔ PASS (138ms) [42d6f5aa]: @smoke paginates with limit & skip {"scope":"@smoke paginates with limit & skip"}

@@ -1,0 +1,4 @@
+2026-06-28 16:18:01.680 [info] ▶ START: ui/saucedemo/checkout.validation.spec.ts › SauceDemo · Checkout validation @ui @regression @negative @checkout › missing first name → "First Name is required" {"scope":"missing first name → \"First Name is required\"","correlationId":"9cc1897f","testName":"missing first name → \"First Name is required\""}
+2026-06-28 16:18:01.935 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"9cc1897f","testName":"missing first name → \"First Name is required\""}
+2026-06-28 16:18:03.801 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"9cc1897f","testName":"missing first name → \"First Name is required\""}
+2026-06-28 16:18:04.664 [info] ✔ PASS (2.98s) [9cc1897f]: missing first name → "First Name is required" {"scope":"missing first name → \"First Name is required\""}

@@ -1,4 +1,0 @@
-2026-06-28 16:06:12.422 [info] ▶ START: api/jsonplaceholder-posts.spec.ts › JSONPlaceholder · Posts extended @api @regression › updating a post returns 200 with the new values {"scope":"updating a post returns 200 with the new values","correlationId":"dc44ade6","testName":"updating a post returns 200 with the new values"}
-2026-06-28 16:06:12.423 [info] → PUT https://jsonplaceholder.typicode.com/posts/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"dc44ade6","testName":"updating a post returns 200 with the new values"}
-2026-06-28 16:06:12.450 [info] ← 200 PUT https://jsonplaceholder.typicode.com/posts/1 (26ms) {"scope":"ApiClient","correlationId":"dc44ade6","testName":"updating a post returns 200 with the new values"}
-2026-06-28 16:06:12.454 [info] ✔ PASS (32ms) [dc44ade6]: updating a post returns 200 with the new values {"scope":"updating a post returns 200 with the new values"}

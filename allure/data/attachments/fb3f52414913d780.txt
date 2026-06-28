@@ -1,0 +1,4 @@
+2026-06-28 16:16:39.947 [info] [auth.setup] Authenticating SauceDemo standard_user
+2026-06-28 16:16:39.956 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage"}
+2026-06-28 16:16:40.276 [info] Logging in as "standard_user" {"scope":"SauceLoginPage"}
+2026-06-28 16:16:40.487 [info] [auth.setup] Saved storage state -> /home/runner/work/omniqa-playwright-framework/omniqa-playwright-framework/.auth/saucedemo.json

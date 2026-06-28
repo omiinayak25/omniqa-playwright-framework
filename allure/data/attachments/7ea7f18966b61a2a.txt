@@ -1,3 +1,0 @@
-2026-06-28 16:06:14.049 [info] (GET /pet/{nonexistent} → 404) ▶ START: api/negative-boundary.spec.ts › Negative · Petstore @api @negative › GET /pet/{nonexistent} → 404
-2026-06-28 16:06:14.074 [info] (ApiClient) → GET https://petstore.swagger.io/v2/pet/123456789012
-2026-06-28 16:06:14.997 [info] (ApiClient) ← 403 GET https://petstore.swagger.io/v2/pet/123456789012 (919ms)

@@ -1,9 +1,0 @@
-Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
-
-Expected pattern: [32m/viewPersonalDetails/[39m
-Received string:  [31m"https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee"[39m
-Timeout: 10000ms
-
-Call log:
-[2m  - Expect "toHaveURL" with timeout 10000ms[22m
-[2m    21 × unexpected value "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee"[22m

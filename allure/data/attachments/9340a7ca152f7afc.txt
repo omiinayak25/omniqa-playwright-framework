@@ -1,3 +1,0 @@
-2026-06-28 16:08:32.647 [info] ▶ START: ui/saucedemo/inventory.sorting.spec.ts › SauceDemo · Inventory sorting @ui @regression @inventory › sort name A→Z orders names ascending {"scope":"sort name A→Z orders names ascending","correlationId":"53852da4","testName":"sort name A→Z orders names ascending"}
-2026-06-28 16:08:32.892 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"53852da4","testName":"sort name A→Z orders names ascending"}
-2026-06-28 16:08:34.221 [info] ✔ PASS (1.57s) [53852da4]: sort name A→Z orders names ascending {"scope":"sort name A→Z orders names ascending"}

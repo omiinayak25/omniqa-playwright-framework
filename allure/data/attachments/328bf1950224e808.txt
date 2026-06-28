@@ -1,0 +1,5 @@
+2026-06-28 16:21:08.304 [info] ▶ START: ui/saucedemo/login.negative.spec.ts › SauceDemo · Login negative & boundary inputs @ui @regression @negative › valid login succeeds after a failed attempt {"scope":"valid login succeeds after a failed attempt","correlationId":"39a3c143","testName":"valid login succeeds after a failed attempt"}
+2026-06-28 16:21:08.871 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"39a3c143","testName":"valid login succeeds after a failed attempt"}
+2026-06-28 16:21:09.519 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"39a3c143","testName":"valid login succeeds after a failed attempt"}
+2026-06-28 16:21:09.903 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"39a3c143","testName":"valid login succeeds after a failed attempt"}
+2026-06-28 16:21:11.277 [info] ✔ PASS (2.97s) [39a3c143]: valid login succeeds after a failed attempt {"scope":"valid login succeeds after a failed attempt"}
