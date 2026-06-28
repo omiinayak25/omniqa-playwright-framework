@@ -23,7 +23,7 @@
  * --------------------------------------------------------
  */
 import type { ApiClient } from '@api/clients/api-client';
-import { JSONPLACEHOLDER_ENDPOINTS } from '@constants/api-endpoints.constants';
+import { JSONPLACEHOLDER_ENDPOINTS } from '@api/endpoints';
 import type { ApiResponse } from '@models/api.model';
 import type { JsonUser, NewPost, Post } from '@models/jsonplaceholder.model';
 

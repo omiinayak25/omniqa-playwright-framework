@@ -24,7 +24,7 @@
  * --------------------------------------------------------
  */
 import type { ApiClient } from '@api/clients/api-client';
-import { PETSTORE_ENDPOINTS } from '@constants/api-endpoints.constants';
+import { PETSTORE_ENDPOINTS } from '@api/endpoints';
 import type { ApiResponse } from '@models/api.model';
 import type { NewPet, Pet, PetStatus } from '@models/petstore.model';
 

@@ -29,7 +29,7 @@
  * --------------------------------------------------------
  */
 import type { ApiClient } from '@api/clients/api-client';
-import { RESTFUL_BOOKER_ENDPOINTS } from '@constants/api-endpoints.constants';
+import { RESTFUL_BOOKER_ENDPOINTS } from '@api/endpoints';
 import { HEADERS } from '@constants/http.constants';
 import type { ApiResponse } from '@models/api.model';
 import type { Booking, BookingId, CreatedBooking } from '@models/booking.model';

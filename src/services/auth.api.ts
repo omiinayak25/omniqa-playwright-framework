@@ -26,7 +26,7 @@
  */
 import type { ApiClient } from '@api/clients/api-client';
 import { config } from '@config/config';
-import { RESTFUL_BOOKER_ENDPOINTS, DUMMYJSON_ENDPOINTS } from '@constants/api-endpoints.constants';
+import { RESTFUL_BOOKER_ENDPOINTS, DUMMYJSON_ENDPOINTS } from '@api/endpoints';
 import type { ApiResponse } from '@models/api.model';
 import type { AuthToken } from '@models/booking.model';
 import type { DummyAuthResponse } from '@models/dummyjson.model';

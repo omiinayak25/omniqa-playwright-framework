@@ -24,5 +24,4 @@
  */
 export * from '@constants/timeouts.constants';
 export * from '@constants/http.constants';
-export * from '@constants/api-endpoints.constants';
 export * from '@constants/ui-routes.constants';

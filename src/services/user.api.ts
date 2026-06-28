@@ -26,7 +26,7 @@
  * --------------------------------------------------------
  */
 import type { ApiClient } from '@api/clients/api-client';
-import { REQRES_ENDPOINTS } from '@constants/api-endpoints.constants';
+import { REQRES_ENDPOINTS } from '@api/endpoints';
 import type { ApiResponse } from '@models/api.model';
 import type {
   CreateUserRequest,

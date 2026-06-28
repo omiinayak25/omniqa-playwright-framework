@@ -22,7 +22,7 @@
 ## Dependencies
 
 - `@api/clients/api-client` (`ApiClient`)
-- `@constants/api-endpoints.constants`, `@constants/http.constants`
+- `@api/endpoints` (domain endpoint modules), `@constants/http.constants`
 - `@config/config`, `@models/*` (resource models)
 
 ## Interacts With

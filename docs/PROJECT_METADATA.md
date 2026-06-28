@@ -39,11 +39,12 @@
 | ------------------- | ----- | -------------------------------------------------------------- |
 | `accessibility/`    | 6     | axe scanner, keyboard navigator, assertions, reporter, types   |
 | `api/`              | 3     | ApiClient, response-validator, schema-validator                |
+| `api/endpoints/`    | 6     | domain endpoint modules (booking/user/product/post/pet) + barrel |
 | `builders/`         | 6     | fluent Builder pattern: base + booking/employee/checkout/product + index |
 | `factories/`        | 7     | Factory pattern: bulk/positive/negative/edge datasets composing builders |
 | `components/`       | 4     | base + saucedemo/orangehrm UI components                       |
 | `config/`           | 2     | env accessor + validated config facade                         |
-| `constants/`        | 6     | http, endpoints, ui-routes, timeouts, paths, index             |
+| `constants/`        | 5     | http, ui-routes, timeouts, paths, index (endpoints → api/endpoints) |
 | `cucumber/`         | 2     | World + hooks                                                  |
 | `custom-reporters/` | 2     | summary-reporter, flaky-reporter                               |
 | `database/`         | 4     | pool, query-runner, db-assertions, availability                |

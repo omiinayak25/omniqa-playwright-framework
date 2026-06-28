@@ -114,10 +114,11 @@ omniqa-playwright-framework/
 ├── src/                         # Framework engine (no assertions)
 │   ├── accessibility/           # axe scanner, keyboard navigator, a11y assertions + reporter
 │   ├── api/                     # ApiClient (opt-in middleware pipeline), response & schema validators
+│   │   └── endpoints/           # Domain endpoint modules (booking/user/product/post/pet) + barrel
 │   ├── builders/                # Fluent Builder pattern (booking/employee/checkout/product)
 │   ├── components/              # Reusable UI components (base + saucedemo/orangehrm)
 │   ├── config/                  # env accessor + validated Singleton config facade
-│   ├── constants/               # http, endpoints, routes, timeouts, paths
+│   ├── constants/               # http, ui-routes, timeouts, paths
 │   ├── cucumber/                # Cucumber World + hooks
 │   ├── custom-reporters/        # summary-reporter + flaky-reporter
 │   ├── database/                # pool, query-runner, db-assertions, availability
@@ -276,7 +277,7 @@ npm run docker:test      # build image + Postgres, run api+db projects
 
 ### API Layer
 
-`src/api/clients/api-client.ts` (typed `APIRequestContext` wrapper with logging + retry) + 6 service classes (`src/services/*.api.ts`). Response/contract validation via `src/api/response-validator.ts`, `schema-validator.ts`, and AJV schemas in `src/schemas`.
+`src/api/clients/api-client.ts` (typed `APIRequestContext` wrapper with logging + retry + opt-in middleware pipeline) + 6 service classes (`src/services/*.api.ts`). Routes live in domain modules under `src/api/endpoints` (`@api/endpoints`). Response/contract validation via `src/api/response-validator.ts`, `schema-validator.ts`, and AJV schemas in `src/schemas`.
 
 ### Database Layer
 
