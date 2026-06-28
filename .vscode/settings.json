@@ -1,0 +1,6 @@
+{
+  "//": "Use the workspace TypeScript (node_modules) so the editor matches the project's tsc (5.7.x). This avoids deprecation errors raised only by VS Code's newer bundled TypeScript (e.g. moduleResolution=node10, baseUrl), which the project still relies on for tsconfig-paths runtime resolution.",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.validate": ["typescript"]
+}

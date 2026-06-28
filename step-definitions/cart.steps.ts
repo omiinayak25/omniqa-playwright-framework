@@ -34,7 +34,9 @@ When(
   'I add the following products to the cart:',
   async function (this: CustomWorld, table: DataTable) {
     const inventory = new SauceInventoryPage(this.page);
-    for (const [product] of table.raw()) await inventory.addToCart(product);
+    for (const [product] of table.raw()) {
+      if (product !== undefined) await inventory.addToCart(product);
+    }
   },
 );
 

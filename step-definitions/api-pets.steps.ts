@@ -16,10 +16,25 @@
 import { When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import { petApi } from './support/api.support';
+import { PetStatus } from '@models/petstore.model';
 import type { CustomWorld } from '@bdd/world';
 
-const body = (world: CustomWorld): Record<string, unknown> =>
-  (world.get('response') as { body: Record<string, unknown> }).body;
+/** Minimal shape the pet steps read from a single-pet response body. */
+interface PetBody {
+  readonly id: number;
+  readonly name: string;
+  readonly status: string;
+}
+
+const petBody = (world: CustomWorld): PetBody =>
+  (world.get('response') as { body: PetBody }).body;
+
+/** Map a Gherkin status string onto the PetStatus enum (fail-fast if unknown). */
+function toPetStatus(value: string): PetStatus {
+  const match = Object.values(PetStatus).find((status) => status === value);
+  if (match === undefined) throw new Error(`Unknown pet status: "${value}"`);
+  return match;
+}
 
 // ------------------------------------------------------------------- actions
 When('I create a pet named {string}', async function (this: CustomWorld, name: string) {
@@ -27,7 +42,10 @@ When('I create a pet named {string}', async function (this: CustomWorld, name: s
   const id = Number(`${Date.now()}`.slice(-9));
   this.set('petId', id);
   this.set('petName', name);
-  this.set('response', await petApi(this).create({ id, name, status: 'available', photoUrls: [] }));
+  this.set(
+    'response',
+    await petApi(this).create({ id, name, status: PetStatus.AVAILABLE, photoUrls: [] }),
+  );
 });
 
 When('I request that pet', async function (this: CustomWorld) {
@@ -40,7 +58,7 @@ When("I update that pet's status to {string}", async function (this: CustomWorld
     await petApi(this).update({
       id: this.get<number>('petId'),
       name: this.get<string>('petName'),
-      status: status as never,
+      status: toPetStatus(status),
       photoUrls: [],
     }),
   );
@@ -51,20 +69,20 @@ When('I delete that pet', async function (this: CustomWorld) {
 });
 
 When('I find pets with status {string}', async function (this: CustomWorld, status: string) {
-  this.set('response', await petApi(this).findByStatus(status as never));
+  this.set('response', await petApi(this).findByStatus(toPetStatus(status)));
 });
 
 // ---------------------------------------------------------------- assertions
 Then('the pet should be named {string}', function (this: CustomWorld, name: string) {
-  expect(body(this).name).toBe(name);
+  expect(petBody(this).name).toBe(name);
 });
 
 Then('the pet status should be {string}', function (this: CustomWorld, status: string) {
-  expect(body(this).status).toBe(status);
+  expect(petBody(this).status).toBe(status);
 });
 
 Then('every returned pet should have status {string}', function (this: CustomWorld, status: string) {
-  const pets = (this.get('response') as { body: Array<{ status: string }> }).body;
+  const pets = (this.get('response') as { body: ReadonlyArray<{ status: string }> }).body;
   expect(Array.isArray(pets)).toBe(true);
   expect(pets.every((p) => p.status === status)).toBe(true);
 });

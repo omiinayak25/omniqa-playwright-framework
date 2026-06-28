@@ -17,8 +17,17 @@ import { expect } from '@playwright/test';
 import { postApi } from './support/api.support';
 import type { CustomWorld } from '@bdd/world';
 
-const body = (world: CustomWorld): Record<string, unknown> & unknown[] =>
-  (world.get('response') as { body: Record<string, unknown> & unknown[] }).body;
+/** Minimal shape the post steps read from a single-post response body. */
+interface PostBody {
+  readonly id: number;
+  readonly title: string;
+}
+
+const postBody = (world: CustomWorld): PostBody =>
+  (world.get('response') as { body: PostBody }).body;
+
+const listBody = (world: CustomWorld): readonly unknown[] =>
+  (world.get('response') as { body: readonly unknown[] }).body;
 
 // ------------------------------------------------------------------- actions
 When('I request all posts', async function (this: CustomWorld) {
@@ -52,15 +61,15 @@ When('I delete post {int}', async function (this: CustomWorld, id: number) {
 
 // ---------------------------------------------------------------- assertions
 Then('the response should contain a non-empty list of posts', function (this: CustomWorld) {
-  const list = body(this);
+  const list = listBody(this);
   expect(Array.isArray(list)).toBe(true);
   expect(list.length).toBeGreaterThan(0);
 });
 
 Then('the created post should have an id', function (this: CustomWorld) {
-  expect(body(this).id).toBeTruthy();
+  expect(postBody(this).id).toBeTruthy();
 });
 
 Then('the post title should be {string}', function (this: CustomWorld, title: string) {
-  expect(body(this).title).toBe(title);
+  expect(postBody(this).title).toBe(title);
 });

@@ -44,11 +44,11 @@ When(
   async function (this: CustomWorld, table: DataTable) {
     const d = table.rowsHash();
     const booking: Booking = {
-      firstname: d.firstname ?? '',
-      lastname: d.lastname ?? '',
-      totalprice: Number(d.totalprice ?? 0),
-      depositpaid: d.depositpaid === 'true',
-      bookingdates: { checkin: d.checkin ?? '', checkout: d.checkout ?? '' },
+      firstname: d['firstname'] ?? '',
+      lastname: d['lastname'] ?? '',
+      totalprice: Number(d['totalprice'] ?? 0),
+      depositpaid: d['depositpaid'] === 'true',
+      bookingdates: { checkin: d['checkin'] ?? '', checkout: d['checkout'] ?? '' },
     };
     const res = await bookingApiFor(this).create(booking);
     this.set('createResponse', res);

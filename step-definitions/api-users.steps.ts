@@ -17,8 +17,23 @@ import { expect } from '@playwright/test';
 import { userApi } from './support/api.support';
 import type { CustomWorld } from '@bdd/world';
 
-const body = (world: CustomWorld): Record<string, unknown> =>
-  (world.get('response') as { body: Record<string, unknown> }).body;
+/** Pagination metadata the user-list step asserts on. */
+interface PaginatedBody {
+  readonly page: number;
+  readonly per_page: number;
+  readonly total: number;
+}
+
+/** Created-user body (ReqRes returns a server-assigned id). */
+interface CreatedUserBody {
+  readonly id: string;
+}
+
+const paginatedBody = (world: CustomWorld): PaginatedBody =>
+  (world.get('response') as { body: PaginatedBody }).body;
+
+const createdUserBody = (world: CustomWorld): CreatedUserBody =>
+  (world.get('response') as { body: CreatedUserBody }).body;
 
 // ------------------------------------------------------------------- actions
 When('I request the user list for page {int}', async function (this: CustomWorld, page: number) {
@@ -46,12 +61,12 @@ When('I delete user {int}', async function (this: CustomWorld, id: number) {
 
 // ---------------------------------------------------------------- assertions
 Then('the user list should include pagination metadata', function (this: CustomWorld) {
-  const b = body(this);
+  const b = paginatedBody(this);
   expect(b.page).toBeDefined();
   expect(b.per_page).toBeDefined();
   expect(b.total).toBeDefined();
 });
 
 Then('the created user should have an id', function (this: CustomWorld) {
-  expect(body(this).id).toBeTruthy();
+  expect(createdUserBody(this).id).toBeTruthy();
 });

@@ -73,6 +73,6 @@
     "require": ["tsconfig-paths/register"],
     "transpileOnly": true
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts", "*.ts", "*.config.ts"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", "step-definitions/**/*.ts", "*.ts", "*.config.ts"],
   "exclude": ["node_modules", "dist", "reports", "test-results"]
 }
