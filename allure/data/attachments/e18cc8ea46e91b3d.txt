@@ -1,4 +1,0 @@
-2026-06-28 09:10:50.344 [info] ▶ START: api/contract.spec.ts › Contract / schema validation @api @contract › JSONPlaceholder post conforms to schema {"scope":"JSONPlaceholder post conforms to schema","correlationId":"3ee9b816","testName":"JSONPlaceholder post conforms to schema"}
-2026-06-28 09:10:50.345 [info] → GET https://jsonplaceholder.typicode.com/posts/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"3ee9b816","testName":"JSONPlaceholder post conforms to schema"}
-2026-06-28 09:10:50.687 [info] ← 200 GET https://jsonplaceholder.typicode.com/posts/1 (341ms) {"scope":"ApiClient","correlationId":"3ee9b816","testName":"JSONPlaceholder post conforms to schema"}
-2026-06-28 09:10:50.723 [info] ✔ PASS (379ms) [3ee9b816]: JSONPlaceholder post conforms to schema {"scope":"JSONPlaceholder post conforms to schema"}

@@ -1,0 +1,4 @@
+2026-06-28 16:06:14.211 [info] ▶ START: api/products.extended.spec.ts › DummyJSON · Product catalog integrity @api @regression @inventory › @smoke a product has a valid schema and types {"scope":"@smoke a product has a valid schema and types","correlationId":"473d72dc","testName":"@smoke a product has a valid schema and types"}
+2026-06-28 16:06:14.212 [info] → GET https://dummyjson.com/products/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"473d72dc","testName":"@smoke a product has a valid schema and types"}
+2026-06-28 16:06:14.238 [info] ← 200 GET https://dummyjson.com/products/1 (25ms) {"scope":"ApiClient","correlationId":"473d72dc","testName":"@smoke a product has a valid schema and types"}
+2026-06-28 16:06:14.242 [info] ✔ PASS (31ms) [473d72dc]: @smoke a product has a valid schema and types {"scope":"@smoke a product has a valid schema and types"}

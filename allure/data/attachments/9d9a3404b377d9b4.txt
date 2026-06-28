@@ -1,0 +1,3 @@
+TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('.inventory_item_name').filter({ hasText: 'Sauce Labs Backpack' }).first()[22m

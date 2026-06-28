@@ -1,0 +1,2 @@
+2026-06-28 16:06:10.893 [info] ▶ START: api/config.spec.ts › Configuration facade @smoke › exposes valid UI + API base URLs {"scope":"exposes valid UI + API base URLs","correlationId":"96a0b3c9","testName":"exposes valid UI + API base URLs"}
+2026-06-28 16:06:10.895 [info] ✔ PASS (2ms) [96a0b3c9]: exposes valid UI + API base URLs {"scope":"exposes valid UI + API base URLs"}

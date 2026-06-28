@@ -1,0 +1,4 @@
+2026-06-28 16:06:52.448 [info] ▶ START: accessibility/saucedemo/cart.a11y.spec.ts › SauceDemo · Cart & Checkout · Accessibility @a11y @accessibility @regression › the cart page has no WCAG 2.1 A/AA violations {"scope":"the cart page has no WCAG 2.1 A/AA violations","correlationId":"eedd74cd","testName":"the cart page has no WCAG 2.1 A/AA violations"}
+2026-06-28 16:06:52.679 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"eedd74cd","testName":"the cart page has no WCAG 2.1 A/AA violations"}
+2026-06-28 16:06:52.987 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"eedd74cd","testName":"the cart page has no WCAG 2.1 A/AA violations"}
+2026-06-28 16:07:09.410 [error] ✘ FAILED (16.96s) [eedd74cd]: the cart page has no WCAG 2.1 A/AA violations {"scope":"the cart page has no WCAG 2.1 A/AA violations"}

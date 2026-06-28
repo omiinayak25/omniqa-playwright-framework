@@ -1,0 +1,15 @@
+{
+  "label": "OrangeHRM · Login · aria",
+  "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "timestamp": "2026-06-28T16:06:39.133Z",
+  "violations": [],
+  "passCount": 4,
+  "incompleteCount": 0,
+  "inapplicableCount": 12,
+  "counts": {
+    "minor": 0,
+    "moderate": 0,
+    "serious": 0,
+    "critical": 0
+  }
+}

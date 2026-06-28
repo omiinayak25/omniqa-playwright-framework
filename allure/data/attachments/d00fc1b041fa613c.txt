@@ -1,0 +1,3 @@
+2026-06-28 16:06:55.178 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › creates an employee with a middle name {"scope":"creates an employee with a middle name","correlationId":"3d842f62","testName":"creates an employee with a middle name"}
+2026-06-28 16:06:57.133 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"3d842f62","testName":"creates an employee with a middle name"}
+2026-06-28 16:07:12.970 [error] ✘ FAILED (17.79s) [3d842f62]: creates an employee with a middle name {"scope":"creates an employee with a middle name"}

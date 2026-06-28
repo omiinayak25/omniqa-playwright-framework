@@ -1,4 +1,0 @@
-2026-06-28 09:11:45.627 [info] ▶ START: ui/saucedemo/login.spec.ts › SauceDemo · Login @ui @regression › invalid password is rejected {"scope":"invalid password is rejected","correlationId":"c03eeb77","testName":"invalid password is rejected"}
-2026-06-28 09:11:46.095 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"c03eeb77","testName":"invalid password is rejected"}
-2026-06-28 09:11:46.377 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"c03eeb77","testName":"invalid password is rejected"}
-2026-06-28 09:11:46.788 [info] ✔ PASS (1.16s) [c03eeb77]: invalid password is rejected {"scope":"invalid password is rejected"}

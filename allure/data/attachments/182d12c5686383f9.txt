@@ -1,0 +1,4 @@
+2026-06-28 16:06:18.663 [info] ▶ START: performance/saucedemo/checkout.perf.spec.ts › SauceDemo · Checkout · Performance @perf › checkout navigation timing is captured {"scope":"checkout navigation timing is captured","correlationId":"d5345b83","testName":"checkout navigation timing is captured"}
+2026-06-28 16:06:18.791 [info] Navigating to https://www.saucedemo.com/checkout-step-one.html {"scope":"CheckoutInfoPage","correlationId":"d5345b83","testName":"checkout navigation timing is captured"}
+2026-06-28 16:06:19.605 [info] Perf "SauceDemo · Checkout info · timing": ttfb=4ms dcl=255ms load=330ms fcp=308ms lcp=384ms res=3 transfer=228KB {"scope":"Perf","correlationId":"d5345b83","testName":"checkout navigation timing is captured"}
+2026-06-28 16:06:19.935 [info] ✔ PASS (1.27s) [d5345b83]: checkout navigation timing is captured {"scope":"checkout navigation timing is captured"}

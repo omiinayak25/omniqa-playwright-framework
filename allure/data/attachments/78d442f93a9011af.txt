@@ -1,0 +1,4 @@
+2026-06-28 16:07:39.271 [info] ▶ START: ui/orangehrm/login.negative.spec.ts › OrangeHRM · Login negative @ui @regression @negative › SQLi payload does not bypass authentication {"scope":"SQLi payload does not bypass authentication","correlationId":"e7bf57a4","testName":"SQLi payload does not bypass authentication"}
+2026-06-28 16:07:39.327 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"e7bf57a4","testName":"SQLi payload does not bypass authentication"}
+2026-06-28 16:07:41.655 [info] Logging in as "' OR '1'='1' --" {"scope":"OrangeLoginPage","correlationId":"e7bf57a4","testName":"SQLi payload does not bypass authentication"}
+2026-06-28 16:07:42.750 [info] ✔ PASS (3.48s) [e7bf57a4]: SQLi payload does not bypass authentication {"scope":"SQLi payload does not bypass authentication"}

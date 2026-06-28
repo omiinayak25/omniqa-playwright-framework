@@ -1,0 +1,4 @@
+2026-06-28 16:10:31.596 [info] ▶ START: ui/saucedemo/responsive.spec.ts › SauceDemo · Responsive login @ui @regression @responsive › login renders and works at mobile portrait (375px) {"scope":"login renders and works at mobile portrait (375px)","correlationId":"18383b11","testName":"login renders and works at mobile portrait (375px)"}
+2026-06-28 16:10:32.476 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"18383b11","testName":"login renders and works at mobile portrait (375px)"}
+2026-06-28 16:10:33.130 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"18383b11","testName":"login renders and works at mobile portrait (375px)"}
+2026-06-28 16:10:34.145 [info] ✔ PASS (2.55s) [18383b11]: login renders and works at mobile portrait (375px) {"scope":"login renders and works at mobile portrait (375px)"}

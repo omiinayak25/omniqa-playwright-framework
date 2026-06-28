@@ -1,0 +1,2 @@
+2026-06-28 16:10:09.448 [info] (PDP for "Sauce Labs Fleece Jacket" shows correct details) ▶ START: ui/saucedemo/product-details.data.spec.ts › SauceDemo · PDP per product @ui @regression @inventory › PDP for "Sauce Labs Fleece Jacket" shows correct details
+2026-06-28 16:10:14.340 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html

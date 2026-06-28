@@ -1,0 +1,3 @@
+2026-06-28 16:09:10.299 [info] ▶ START: ui/saucedemo/checkout.totals.spec.ts › SauceDemo · Checkout totals @ui @regression @checkout › totals reconcile for the full six-item cart {"scope":"totals reconcile for the full six-item cart","correlationId":"cb88d940","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:09:10.923 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"cb88d940","testName":"totals reconcile for the full six-item cart"}
+2026-06-28 16:09:11.843 [error] ✘ FAILED (1.54s) [cb88d940]: totals reconcile for the full six-item cart {"scope":"totals reconcile for the full six-item cart"}

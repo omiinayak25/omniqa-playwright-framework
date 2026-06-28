@@ -1,0 +1,4 @@
+2026-06-28 16:06:12.879 [info] ▶ START: api/pet.spec.ts › Swagger Petstore · Pet API @api › create → get → update status → delete (full CRUD) {"scope":"create → get → update status → delete (full CRUD)","correlationId":"9cfd84d8","testName":"create → get → update status → delete (full CRUD)"}
+2026-06-28 16:06:12.880 [info] → POST https://petstore.swagger.io/v2/pet {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"9cfd84d8","testName":"create → get → update status → delete (full CRUD)"}
+2026-06-28 16:06:12.953 [info] ← 403 POST https://petstore.swagger.io/v2/pet (72ms) {"scope":"ApiClient","correlationId":"9cfd84d8","testName":"create → get → update status → delete (full CRUD)"}
+2026-06-28 16:06:12.958 [error] ✘ FAILED (79ms) [9cfd84d8]: create → get → update status → delete (full CRUD) {"scope":"create → get → update status → delete (full CRUD)"}

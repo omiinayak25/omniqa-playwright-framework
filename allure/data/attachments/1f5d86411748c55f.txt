@@ -1,0 +1,4 @@
+2026-06-28 16:06:10.771 [info] ▶ START: api/booking.spec.ts › Restful-Booker · Booking API @api › @smoke health check responds {"scope":"@smoke health check responds","correlationId":"4a0ece85","testName":"@smoke health check responds"}
+2026-06-28 16:06:10.773 [info] → GET https://restful-booker.herokuapp.com/ping {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"4a0ece85","testName":"@smoke health check responds"}
+2026-06-28 16:06:10.784 [info] ← 201 GET https://restful-booker.herokuapp.com/ping (10ms) {"scope":"ApiClient","correlationId":"4a0ece85","testName":"@smoke health check responds"}
+2026-06-28 16:06:10.786 [info] ✔ PASS (15ms) [4a0ece85]: @smoke health check responds {"scope":"@smoke health check responds"}

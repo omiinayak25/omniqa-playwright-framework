@@ -1,0 +1,3 @@
+2026-06-28 16:06:38.444 [info] (checkout form controls are programmatically labelled) ▶ START: accessibility/saucedemo/cart.a11y.spec.ts › SauceDemo · Cart & Checkout · Accessibility @a11y @accessibility @regression › checkout form controls are programmatically labelled
+2026-06-28 16:06:38.524 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html
+2026-06-28 16:06:38.727 [info] (SauceInventoryPage) Adding "Sauce Labs Backpack" to cart

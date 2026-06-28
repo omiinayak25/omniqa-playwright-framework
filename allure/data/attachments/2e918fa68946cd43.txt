@@ -1,0 +1,2 @@
+2026-06-28 16:06:42.715 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Indexes & functions @db › view active_employees joins department names {"scope":"view active_employees joins department names","correlationId":"a7f31771","testName":"view active_employees joins department names"}
+2026-06-28 16:06:42.736 [info] ✔ PASS (21ms) [a7f31771]: view active_employees joins department names {"scope":"view active_employees joins department names"}

@@ -1,2 +1,0 @@
-2026-06-28 09:10:51.889 [info] ▶ START: api/utils.spec.ts › Crypto utils @smoke › sha256 is deterministic; maskSecret hides middle {"scope":"sha256 is deterministic; maskSecret hides middle","correlationId":"62e8be18","testName":"sha256 is deterministic; maskSecret hides middle"}
-2026-06-28 09:10:51.894 [info] ✔ PASS (6ms) [62e8be18]: sha256 is deterministic; maskSecret hides middle {"scope":"sha256 is deterministic; maskSecret hides middle"}

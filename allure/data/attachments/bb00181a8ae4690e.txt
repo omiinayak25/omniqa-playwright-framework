@@ -1,0 +1,3 @@
+2026-06-28 16:08:36.179 [info] ▶ START: ui/saucedemo/cart.persistence.spec.ts › SauceDemo · Cart persistence & navigation @ui @regression @cart › checkout from the cart opens checkout step one {"scope":"checkout from the cart opens checkout step one","correlationId":"b1ec0de7","testName":"checkout from the cart opens checkout step one"}
+2026-06-28 16:08:38.062 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"b1ec0de7","testName":"checkout from the cart opens checkout step one"}
+2026-06-28 16:08:57.187 [error] ✘ FAILED (21.01s) [b1ec0de7]: checkout from the cart opens checkout step one {"scope":"checkout from the cart opens checkout step one"}

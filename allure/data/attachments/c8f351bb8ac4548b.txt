@@ -1,0 +1,2 @@
+2026-06-28 16:08:59.610 [info] (very long names are accepted without breaking the form) ▶ START: ui/saucedemo/checkout.security.spec.ts › SauceDemo · Checkout input security @ui @regression @security @checkout › very long names are accepted without breaking the form
+2026-06-28 16:09:00.492 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html

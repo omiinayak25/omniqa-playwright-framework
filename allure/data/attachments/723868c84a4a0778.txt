@@ -1,0 +1,2 @@
+Error: Schema validation failed:
+  - (root) must be object

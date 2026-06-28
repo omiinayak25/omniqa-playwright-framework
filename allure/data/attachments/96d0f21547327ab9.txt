@@ -1,0 +1,2 @@
+2026-06-28 16:09:07.514 [info] (total equals subtotal plus tax for a single item) ▶ START: ui/saucedemo/checkout.totals.spec.ts › SauceDemo · Checkout totals @ui @regression @checkout › total equals subtotal plus tax for a single item
+2026-06-28 16:09:08.287 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html

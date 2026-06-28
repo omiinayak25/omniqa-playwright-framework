@@ -1,0 +1,4 @@
+2026-06-28 16:06:14.701 [info] ▶ START: api/products.extended.spec.ts › DummyJSON · Product catalog integrity @api @regression @inventory › product ratings fall within the 0–5 range {"scope":"product ratings fall within the 0–5 range","correlationId":"73b43905","testName":"product ratings fall within the 0–5 range"}
+2026-06-28 16:06:14.702 [info] → GET https://dummyjson.com/products?limit=30&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"73b43905","testName":"product ratings fall within the 0–5 range"}
+2026-06-28 16:06:14.836 [info] ← 200 GET https://dummyjson.com/products?limit=30&skip=0 (133ms) {"scope":"ApiClient","correlationId":"73b43905","testName":"product ratings fall within the 0–5 range"}
+2026-06-28 16:06:14.837 [info] ✔ PASS (136ms) [73b43905]: product ratings fall within the 0–5 range {"scope":"product ratings fall within the 0–5 range"}

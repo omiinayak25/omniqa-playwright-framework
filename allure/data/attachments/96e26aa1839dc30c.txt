@@ -1,3 +1,0 @@
-2026-06-28 09:11:26.321 [info] ▶ START: ui/saucedemo/inventory.spec.ts › SauceDemo · Inventory (authenticated) @ui @smoke › sorts products by price low → high {"scope":"sorts products by price low → high","correlationId":"6c4d6bf5","testName":"sorts products by price low → high"}
-2026-06-28 09:11:26.482 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"6c4d6bf5","testName":"sorts products by price low → high"}
-2026-06-28 09:11:27.916 [info] ✔ PASS (1.59s) [6c4d6bf5]: sorts products by price low → high {"scope":"sorts products by price low → high"}

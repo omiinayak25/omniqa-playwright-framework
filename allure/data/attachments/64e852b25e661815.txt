@@ -1,0 +1,4 @@
+2026-06-28 16:07:14.603 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › a saved employee is searchable in the PIM list {"scope":"a saved employee is searchable in the PIM list","correlationId":"d7e9c813","testName":"a saved employee is searchable in the PIM list"}
+2026-06-28 16:07:14.900 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"d7e9c813","testName":"a saved employee is searchable in the PIM list"}
+2026-06-28 16:07:25.307 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"d7e9c813","testName":"a saved employee is searchable in the PIM list"}
+2026-06-28 16:07:29.770 [info] ✔ PASS (15.17s) [d7e9c813]: a saved employee is searchable in the PIM list {"scope":"a saved employee is searchable in the PIM list"}

@@ -1,5 +1,0 @@
-2026-06-28 09:11:01.466 [info] ▶ START: accessibility/saucedemo/login.a11y.spec.ts › SauceDemo · Login · Accessibility @a11y @accessibility @regression › every form control is programmatically labeled {"scope":"every form control is programmatically labeled","correlationId":"a7b1554e","testName":"every form control is programmatically labeled"}
-2026-06-28 09:11:01.575 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"a7b1554e","testName":"every form control is programmatically labeled"}
-2026-06-28 09:11:01.887 [info] Running axe scan: "SauceDemo · Login · labels" {"scope":"A11yScanner","correlationId":"a7b1554e","testName":"every form control is programmatically labeled"}
-2026-06-28 09:11:02.919 [info] axe scan "SauceDemo · Login · labels" — 0 violations (3 passes) {"scope":"A11yScanner","correlationId":"a7b1554e","testName":"every form control is programmatically labeled"}
-2026-06-28 09:11:03.212 [info] ✔ PASS (1.75s) [a7b1554e]: every form control is programmatically labeled {"scope":"every form control is programmatically labeled"}

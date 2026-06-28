@@ -1,0 +1,3 @@
+2026-06-28 16:06:19.788 [info] (the product detail page matches the baseline) ▶ START: visual/saucedemo/journey.visual.spec.ts › SauceDemo · Journey screens · Visual (authenticated) @visual @regression › the product detail page matches the baseline
+2026-06-28 16:06:19.891 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html
+2026-06-28 16:06:20.118 [info] (SauceInventoryPage) Opening PDP for "Sauce Labs Backpack"

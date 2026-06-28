@@ -1,0 +1,4 @@
+2026-06-28 16:08:24.414 [info] ▶ START: ui/saucedemo/checkout.validation.spec.ts › SauceDemo · Checkout validation @ui @regression @negative @checkout › missing postal code → "Postal Code is required" {"scope":"missing postal code → \"Postal Code is required\"","correlationId":"a3160170","testName":"missing postal code → \"Postal Code is required\""}
+2026-06-28 16:08:24.534 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"a3160170","testName":"missing postal code → \"Postal Code is required\""}
+2026-06-28 16:08:25.675 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"a3160170","testName":"missing postal code → \"Postal Code is required\""}
+2026-06-28 16:08:26.539 [info] ✔ PASS (2.13s) [a3160170]: missing postal code → "Postal Code is required" {"scope":"missing postal code → \"Postal Code is required\""}

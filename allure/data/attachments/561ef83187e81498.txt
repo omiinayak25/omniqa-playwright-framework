@@ -1,0 +1,3 @@
+2026-06-28 16:07:27.288 [info] ▶ START: ui/orangehrm/authorization.spec.ts › OrangeHRM · Authorization — route protection @ui @regression @authorization @negative › PIM deep-link without a session redirects to login {"scope":"PIM deep-link without a session redirects to login","correlationId":"f6ff6c36","testName":"PIM deep-link without a session redirects to login"}
+2026-06-28 16:07:27.617 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"f6ff6c36","testName":"PIM deep-link without a session redirects to login"}
+2026-06-28 16:07:31.218 [info] ✔ PASS (3.93s) [f6ff6c36]: PIM deep-link without a session redirects to login {"scope":"PIM deep-link without a session redirects to login"}

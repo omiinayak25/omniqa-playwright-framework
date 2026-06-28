@@ -1,0 +1,74 @@
+{
+  "metrics": {
+    "label": "SauceDemo · Inventory",
+    "url": "https://www.saucedemo.com/inventory.html",
+    "timestamp": "2026-06-28T16:06:20.009Z",
+    "ttfbMs": 13,
+    "domContentLoadedMs": 302,
+    "loadMs": 352,
+    "domInteractiveMs": 36,
+    "fcpMs": 356,
+    "lcpMs": 388,
+    "network": {
+      "dnsMs": 2,
+      "tcpMs": 8,
+      "tlsMs": 6,
+      "requestMs": 3,
+      "responseMs": 4
+    },
+    "resources": {
+      "count": 14,
+      "transferBytes": 384654,
+      "byType": [
+        {
+          "type": "script",
+          "count": 1,
+          "transferBytes": 221912
+        },
+        {
+          "type": "img",
+          "count": 8,
+          "transferBytes": 148804
+        },
+        {
+          "type": "link",
+          "count": 2,
+          "transferBytes": 11998
+        },
+        {
+          "type": "css",
+          "count": 3,
+          "transferBytes": 1940
+        }
+      ],
+      "slowest": [
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500",
+          "durationMs": 47,
+          "transferBytes": 794
+        },
+        {
+          "url": "https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg",
+          "durationMs": 25,
+          "transferBytes": 579
+        },
+        {
+          "url": "https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg",
+          "durationMs": 22,
+          "transferBytes": 534
+        },
+        {
+          "url": "https://www.saucedemo.com/static/js/main.bcf4bc5f.js",
+          "durationMs": 20,
+          "transferBytes": 221912
+        },
+        {
+          "url": "https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg",
+          "durationMs": 20,
+          "transferBytes": 12275
+        }
+      ]
+    }
+  },
+  "violations": []
+}

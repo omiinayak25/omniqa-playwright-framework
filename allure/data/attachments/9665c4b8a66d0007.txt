@@ -1,0 +1,3 @@
+2026-06-28 16:07:02.036 [info] (the product detail page has no violations) ▶ START: accessibility/saucedemo/journey.a11y.spec.ts › SauceDemo · Journey · Accessibility @a11y @accessibility @regression › the product detail page has no violations
+2026-06-28 16:07:02.219 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html
+2026-06-28 16:07:02.429 [info] (SauceInventoryPage) Opening PDP for "Sauce Labs Backpack"

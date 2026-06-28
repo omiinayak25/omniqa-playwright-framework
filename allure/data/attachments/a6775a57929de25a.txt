@@ -1,0 +1,5 @@
+2026-06-28 16:06:18.502 [info] ▶ START: visual/saucedemo/inventory.visual.spec.ts › SauceDemo · Inventory · Visual @visual @regression › full inventory page matches the baseline {"scope":"full inventory page matches the baseline","correlationId":"331d6579","testName":"full inventory page matches the baseline"}
+2026-06-28 16:06:18.593 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"331d6579","testName":"full inventory page matches the baseline"}
+2026-06-28 16:06:18.799 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"331d6579","testName":"full inventory page matches the baseline"}
+2026-06-28 16:06:19.284 [info] Visual compare (page, fullPage=true): saucedemo-inventory-full {"scope":"Visual","correlationId":"331d6579","testName":"full inventory page matches the baseline"}
+2026-06-28 16:06:19.879 [info] ✔ PASS (1.38s) [331d6579]: full inventory page matches the baseline {"scope":"full inventory page matches the baseline"}

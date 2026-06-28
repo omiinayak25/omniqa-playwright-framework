@@ -1,0 +1,6 @@
+2026-06-28 16:06:16.129 [info] ▶ START: api/products.search.spec.ts › DummyJSON · Product search @api @regression @search › search is case-insensitive {"scope":"search is case-insensitive","correlationId":"76e8f922","testName":"search is case-insensitive"}
+2026-06-28 16:06:16.143 [info] → GET https://dummyjson.com/products/search?q=watch {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"76e8f922","testName":"search is case-insensitive"}
+2026-06-28 16:06:16.647 [info] ← 200 GET https://dummyjson.com/products/search?q=watch (502ms) {"scope":"ApiClient","correlationId":"76e8f922","testName":"search is case-insensitive"}
+2026-06-28 16:06:16.647 [info] → GET https://dummyjson.com/products/search?q=WATCH {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"76e8f922","testName":"search is case-insensitive"}
+2026-06-28 16:06:16.780 [info] ← 200 GET https://dummyjson.com/products/search?q=WATCH (131ms) {"scope":"ApiClient","correlationId":"76e8f922","testName":"search is case-insensitive"}
+2026-06-28 16:06:16.784 [info] ✔ PASS (656ms) [76e8f922]: search is case-insensitive {"scope":"search is case-insensitive"}

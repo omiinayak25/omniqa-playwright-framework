@@ -1,2 +1,0 @@
-2026-06-28 09:10:51.984 [info] ▶ START: api/utils.spec.ts › Async utils @smoke › formatDuration & fileTimestamp produce sane strings {"scope":"formatDuration & fileTimestamp produce sane strings","correlationId":"e406e8c4","testName":"formatDuration & fileTimestamp produce sane strings"}
-2026-06-28 09:10:51.987 [info] ✔ PASS (4ms) [e406e8c4]: formatDuration & fileTimestamp produce sane strings {"scope":"formatDuration & fileTimestamp produce sane strings"}

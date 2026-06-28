@@ -1,0 +1,3 @@
+2026-06-28 16:06:13.991 [info] (@smoke findByStatus(available) filters correctly + schema) ▶ START: api/pet.spec.ts › Swagger Petstore · Pet API @api › @smoke findByStatus(available) filters correctly + schema
+2026-06-28 16:06:14.014 [info] (ApiClient) → GET https://petstore.swagger.io/v2/pet/findByStatus?status=available
+2026-06-28 16:06:14.997 [info] (ApiClient) ← 403 GET https://petstore.swagger.io/v2/pet/findByStatus?status=available (981ms)
