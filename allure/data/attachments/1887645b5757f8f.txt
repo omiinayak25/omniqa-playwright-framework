@@ -1,0 +1,2 @@
+2026-06-28 09:11:21.231 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › view active_employees excludes inactive rows {"scope":"view active_employees excludes inactive rows","correlationId":"90370200","testName":"view active_employees excludes inactive rows"}
+2026-06-28 09:11:21.254 [info] ✔ PASS (23ms) [90370200]: view active_employees excludes inactive rows {"scope":"view active_employees excludes inactive rows"}

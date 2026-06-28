@@ -1,2 +1,0 @@
-2026-06-28 08:54:15.934 [info] ▶ START: api/sanity.spec.ts › Framework sanity @smoke › environment selector resolves to a known environment {"scope":"environment selector resolves to a known environment","correlationId":"f203a66b","testName":"environment selector resolves to a known environment"}
-2026-06-28 08:54:15.937 [info] ✔ PASS (3ms) [f203a66b]: environment selector resolves to a known environment {"scope":"environment selector resolves to a known environment"}

@@ -1,0 +1,79 @@
+{
+  "metrics": {
+    "label": "SauceDemo · Inventory",
+    "url": "https://www.saucedemo.com/inventory.html",
+    "timestamp": "2026-06-28T09:10:51.718Z",
+    "ttfbMs": 29,
+    "domContentLoadedMs": 277,
+    "loadMs": 345,
+    "domInteractiveMs": 65,
+    "fcpMs": 376,
+    "lcpMs": 444,
+    "network": {
+      "dnsMs": 1,
+      "tcpMs": 20,
+      "tlsMs": 18,
+      "requestMs": 6,
+      "responseMs": 1
+    },
+    "resources": {
+      "count": 16,
+      "transferBytes": 384654,
+      "byType": [
+        {
+          "type": "script",
+          "count": 1,
+          "transferBytes": 221912
+        },
+        {
+          "type": "img",
+          "count": 8,
+          "transferBytes": 148804
+        },
+        {
+          "type": "link",
+          "count": 2,
+          "transferBytes": 11998
+        },
+        {
+          "type": "css",
+          "count": 3,
+          "transferBytes": 1940
+        },
+        {
+          "type": "fetch",
+          "count": 2,
+          "transferBytes": 0
+        }
+      ],
+      "slowest": [
+        {
+          "url": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN",
+          "durationMs": 162,
+          "transferBytes": 0
+        },
+        {
+          "url": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN",
+          "durationMs": 160,
+          "transferBytes": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500",
+          "durationMs": 45,
+          "transferBytes": 794
+        },
+        {
+          "url": "https://www.saucedemo.com/static/js/main.bcf4bc5f.js",
+          "durationMs": 34,
+          "transferBytes": 221912
+        },
+        {
+          "url": "https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg",
+          "durationMs": 31,
+          "transferBytes": 18874
+        }
+      ]
+    }
+  },
+  "violations": []
+}

@@ -1,4 +1,0 @@
-2026-06-28 08:54:15.762 [info] ▶ START: api/products.spec.ts › DummyJSON · Product API @api › search filters by term {"scope":"search filters by term","correlationId":"ba9eaa62","testName":"search filters by term"}
-2026-06-28 08:54:15.763 [info] → GET https://dummyjson.com/products/search?q=phone {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"ba9eaa62","testName":"search filters by term"}
-2026-06-28 08:54:15.898 [info] ← 200 GET https://dummyjson.com/products/search?q=phone (134ms) {"scope":"ApiClient","correlationId":"ba9eaa62","testName":"search filters by term"}
-2026-06-28 08:54:15.899 [info] ✔ PASS (137ms) [ba9eaa62]: search filters by term {"scope":"search filters by term"}

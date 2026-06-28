@@ -1,0 +1,15 @@
+{
+  "label": "OrangeHRM · Login · baseline",
+  "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "timestamp": "2026-06-28T09:10:55.652Z",
+  "violations": [],
+  "passCount": 19,
+  "incompleteCount": 0,
+  "inapplicableCount": 40,
+  "counts": {
+    "minor": 0,
+    "moderate": 0,
+    "serious": 0,
+    "critical": 0
+  }
+}

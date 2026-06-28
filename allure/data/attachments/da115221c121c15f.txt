@@ -1,0 +1,5 @@
+2026-06-28 09:11:03.253 [info] ▶ START: accessibility/saucedemo/login.a11y.spec.ts › SauceDemo · Login · Accessibility @a11y @accessibility @regression › ARIA roles, states and properties are valid {"scope":"ARIA roles, states and properties are valid","correlationId":"e851621c","testName":"ARIA roles, states and properties are valid"}
+2026-06-28 09:11:03.323 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"e851621c","testName":"ARIA roles, states and properties are valid"}
+2026-06-28 09:11:03.660 [info] Running axe scan: "SauceDemo · Login · aria" {"scope":"A11yScanner","correlationId":"e851621c","testName":"ARIA roles, states and properties are valid"}
+2026-06-28 09:11:05.093 [info] axe scan "SauceDemo · Login · aria" — 0 violations (1 passes) {"scope":"A11yScanner","correlationId":"e851621c","testName":"ARIA roles, states and properties are valid"}
+2026-06-28 09:11:05.256 [info] ✔ PASS (2.00s) [e851621c]: ARIA roles, states and properties are valid {"scope":"ARIA roles, states and properties are valid"}

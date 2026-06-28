@@ -1,0 +1,3 @@
+2026-06-28 09:10:56.814 [info] ▶ START: accessibility/orangehrm/login.a11y.spec.ts › OrangeHRM · Login · Accessibility @a11y @accessibility @regression › the submit button is reachable using only the Tab key {"scope":"the submit button is reachable using only the Tab key","correlationId":"02a432bb","testName":"the submit button is reachable using only the Tab key"}
+2026-06-28 09:10:56.886 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"02a432bb","testName":"the submit button is reachable using only the Tab key"}
+2026-06-28 09:10:59.817 [info] ✔ PASS (3.00s) [02a432bb]: the submit button is reachable using only the Tab key {"scope":"the submit button is reachable using only the Tab key"}

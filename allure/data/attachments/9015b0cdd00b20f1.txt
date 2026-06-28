@@ -1,4 +1,0 @@
-2026-06-28 08:54:14.744 [info] PGlite pool created (embedded PostgreSQL — no server required) {"scope":"DbPool"}
-2026-06-28 08:54:22.508 [info] PGlite embedded database ready (schema + seed applied) {"scope":"DbPool"}
-2026-06-28 08:54:22.563 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › @smoke seed data is present {"scope":"@smoke seed data is present","correlationId":"1a6f4351","testName":"@smoke seed data is present"}
-2026-06-28 08:54:22.594 [info] ✔ PASS (33ms) [1a6f4351]: @smoke seed data is present {"scope":"@smoke seed data is present"}

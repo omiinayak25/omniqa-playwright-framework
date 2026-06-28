@@ -1,3 +1,0 @@
-2026-06-28 08:54:41.659 [info] (full login page matches the baseline (dynamic footer masked)) ▶ START: visual/orangehrm/login.visual.spec.ts › OrangeHRM · Login · Visual @visual @regression › full login page matches the baseline (dynamic footer masked)
-2026-06-28 08:54:41.791 [info] (OrangeLoginPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
-2026-06-28 08:54:45.235 [info] (Visual) Visual compare (page, fullPage=true): orangehrm-login-full

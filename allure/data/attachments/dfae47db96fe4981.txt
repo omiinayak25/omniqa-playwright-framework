@@ -1,4 +1,0 @@
-2026-06-28 08:54:14.545 [info] ▶ START: ui/orangehrm/login.spec.ts › OrangeHRM · Login @ui @regression › @smoke Admin logs in and reaches the dashboard {"scope":"@smoke Admin logs in and reaches the dashboard","correlationId":"025d4d45","testName":"@smoke Admin logs in and reaches the dashboard"}
-2026-06-28 08:54:14.722 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"025d4d45","testName":"@smoke Admin logs in and reaches the dashboard"}
-2026-06-28 08:54:17.086 [info] Logging in as "Admin" {"scope":"OrangeLoginPage","correlationId":"025d4d45","testName":"@smoke Admin logs in and reaches the dashboard"}
-2026-06-28 08:54:19.340 [info] ✔ PASS (4.80s) [025d4d45]: @smoke Admin logs in and reaches the dashboard {"scope":"@smoke Admin logs in and reaches the dashboard"}
