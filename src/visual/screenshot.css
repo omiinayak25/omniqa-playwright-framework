@@ -1,0 +1,26 @@
+/*
+ * screenshot.css — injected by VisualComparator during every snapshot.
+ * Freezes the UI so captures are deterministic across runs/machines:
+ *  - kills animations/transitions (movement → false diffs)
+ *  - hides the text caret (blinking pixel → false diffs)
+ *  - hides scrollbars (platform-specific rendering → false diffs)
+ */
+*,
+*::before,
+*::after {
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+  caret-color: transparent !important;
+  scroll-behavior: auto !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+html {
+  scrollbar-width: none !important;
+}

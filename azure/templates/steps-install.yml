@@ -1,0 +1,38 @@
+# =====================================================================
+#  Reusable STEPS template — install Node, restore caches, install deps
+#  (and optionally the Playwright browsers). Included by every job so the
+#  setup logic lives in ONE place (DRY).
+# =====================================================================
+parameters:
+  - name: installBrowsers # browsers are only needed by test jobs
+    type: boolean
+    default: true
+
+steps:
+  # Pin the Node.js version (matches package.json engines >=20).
+  - task: NodeTool@0
+    displayName: 'Use Node.js 20'
+    inputs:
+      versionSpec: '20.x'
+
+  # Restore the npm cache keyed by the lockfile → fast, reproducible installs.
+  - task: Cache@2
+    displayName: 'Cache npm packages'
+    inputs:
+      key: 'npm | "$(Agent.OS)" | package-lock.json'
+      restoreKeys: 'npm | "$(Agent.OS)"'
+      path: '$(npm_config_cache)' # npm reads this env var as its cache dir
+
+  # Deterministic install from the lockfile.
+  - script: npm ci
+    displayName: 'Install dependencies (npm ci)'
+
+  # Cache + install the browser binaries (skipped for non-test jobs).
+  - ${{ if eq(parameters.installBrowsers, true) }}:
+      - task: Cache@2
+        displayName: 'Cache Playwright browsers'
+        inputs:
+          key: 'pw | "$(Agent.OS)" | package-lock.json'
+          path: '$(PLAYWRIGHT_BROWSERS_PATH)'
+      - script: npx playwright install --with-deps
+        displayName: 'Install Playwright browsers'

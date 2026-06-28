@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    /* ---- Language & Module ---- */
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+
+    /* ---- Strictness (NON-NEGOTIABLE for enterprise) ---- */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true,
+    "alwaysStrict": true,
+
+    /* ---- Extra safety nets ---- */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "exactOptionalPropertyTypes": false,
+    "forceConsistentCasingInFileNames": true,
+
+    /* ---- Interop & Emit ---- */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+
+    /* ---- Path Aliases (clean imports, zero ../../../) ---- */
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["src/pages/*"],
+      "@flows/*": ["src/flows/*"],
+      "@accessibility/*": ["src/accessibility/*"],
+      "@visual/*": ["src/visual/*"],
+      "@performance/*": ["src/performance/*"],
+      "@network/*": ["src/network/*"],
+      "@secrets/*": ["src/secrets/*"],
+      "@components/*": ["src/components/*"],
+      "@api/*": ["src/api/*"],
+      "@services/*": ["src/services/*"],
+      "@database/*": ["src/database/*"],
+      "@repositories/*": ["src/repositories/*"],
+      "@fixtures/*": ["src/fixtures/*"],
+      "@factories/*": ["src/factories/*"],
+      "@builders/*": ["src/builders/*"],
+      "@utils/*": ["src/utils/*"],
+      "@helpers/*": ["src/helpers/*"],
+      "@config/*": ["src/config/*"],
+      "@constants/*": ["src/constants/*"],
+      "@models/*": ["src/models/*"],
+      "@types/*": ["src/types/*"],
+      "@schemas/*": ["src/schemas/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@bdd/*": ["src/cucumber/*"],
+      "@middlewares/*": ["src/middlewares/*"]
+    },
+
+    "types": ["node"]
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "transpileOnly": true
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts", "*.ts", "*.config.ts"],
+  "exclude": ["node_modules", "dist", "reports", "test-results"]
+}

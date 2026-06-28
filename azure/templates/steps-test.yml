@@ -1,0 +1,55 @@
+# =====================================================================
+#  Reusable STEPS template — seed the DB (optional), run one Playwright
+#  project, then publish that project's test results + artifacts.
+#  Parameterised so the root pipeline can fan it out per project.
+# =====================================================================
+parameters:
+  - name: project # Playwright project name (e.g. ui-chromium)
+    type: string
+  - name: seedDb # apply schema.sql to the Postgres service first
+    type: boolean
+    default: true
+
+steps:
+  # Wait for the Postgres service container, then load schema + seed.
+  - ${{ if eq(parameters.seedDb, true) }}:
+      - script: |
+          for i in $(seq 1 15); do
+            if npm run db:schema; then exit 0; fi
+            echo "Postgres not ready (attempt $i) — retrying in 3s..."
+            sleep 3
+          done
+          echo "Database never became ready"; exit 1
+        displayName: 'Seed database (${{ parameters.project }})'
+
+  # Run the selected project. CI=true (set in root vars) makes Playwright
+  # use retries/workers/forbidOnly; browsers run headless.
+  - script: npx playwright test --project=${{ parameters.project }}
+    displayName: 'Run Playwright · ${{ parameters.project }}'
+
+  # ---- Test Publishing: surface JUnit results in the Tests tab ----
+  - task: PublishTestResults@2
+    displayName: 'Publish test results · ${{ parameters.project }}'
+    condition: succeededOrFailed() # publish even when tests failed
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: 'reports/junit/*.xml'
+      testRunTitle: '${{ parameters.project }}'
+      mergeTestResults: true
+      failTaskOnFailedTests: false # the test step already reflects pass/fail
+
+  # ---- Artifacts: raw Allure results for the Report stage to merge ----
+  - task: PublishPipelineArtifact@1
+    displayName: 'Publish Allure results · ${{ parameters.project }}'
+    condition: succeededOrFailed()
+    inputs:
+      targetPath: 'reports/allure-results'
+      artifact: 'allure-${{ parameters.project }}'
+
+  # ---- Artifacts: HTML report + traces/screenshots/videos for debugging ----
+  - task: PublishPipelineArtifact@1
+    displayName: 'Publish debug artifacts · ${{ parameters.project }}'
+    condition: succeededOrFailed()
+    inputs:
+      targetPath: 'reports/html-report'
+      artifact: 'report-${{ parameters.project }}'

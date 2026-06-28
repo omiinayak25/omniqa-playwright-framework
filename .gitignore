@@ -1,0 +1,62 @@
+# ---- Dependencies ----
+node_modules/
+.pnp/
+.pnp.js
+
+# ---- Build output ----
+dist/
+build/
+*.tsbuildinfo
+
+# ---- Environment & secrets ----
+# NOTE: `.env` is intentionally COMMITTED for this PUBLIC DEMO repository — it
+#       contains ONLY public demo credentials and placeholders (see SECURITY.md).
+#       Real deployments must override these via CI secrets and must NEVER commit
+#       real values. Personal overrides and any key/cert material stay ignored:
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# ---- Auth storage state (contains live session) ----
+.auth/
+
+# ---- Playwright artifacts ----
+test-results/
+playwright-report/
+playwright/.cache/
+.last-run.json
+
+# ---- Custom report/output dirs ----
+reports/
+screenshots/
+videos/
+traces/
+downloads/
+logs/
+
+# ---- Allure ----
+allure-results/
+allure-report/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+
+# ---- Logs ----
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Code coverage
+coverage/

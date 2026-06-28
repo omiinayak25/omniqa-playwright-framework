@@ -1,0 +1,17 @@
+{
+  "ignores": [
+    "@commitlint/cli",
+    "@commitlint/config-conventional",
+    "allure-playwright",
+    "allure-commandline",
+    "chrome-launcher",
+    "lighthouse",
+    "rimraf",
+    "cross-env",
+    "ts-node",
+    "tsconfig-paths",
+    "@types/*"
+  ],
+  "ignorePatterns": ["dist", "reports", "coverage", "test-results", "playwright-report"],
+  "_comment": "Run with --skip-missing: depcheck cannot resolve tsconfig path aliases (@utils/... etc.), and genuinely-missing imports are already caught by `tsc --noEmit`. This check therefore focuses on UNUSED dependency hygiene."
+}

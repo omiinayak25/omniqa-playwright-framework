@@ -1,0 +1,17 @@
+# Generated / vendored — never format these.
+node_modules/
+dist/
+coverage/
+reports/
+test-results/
+playwright-report/
+logs/
+.auth/
+downloads/
+videos/
+traces/
+screenshots/
+
+# Binary baselines + lockfiles.
+**/*-snapshots/
+package-lock.json

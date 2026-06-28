@@ -1,0 +1,217 @@
+# =====================================================================
+#  OMNIQA Playwright Framework — Azure DevOps Pipeline (Phase 22)
+#  Stages: Quality → Test (templated, per-project, Postgres service) →
+#          Report (Allure) → DockerBuild. Every task is commented.
+# =====================================================================
+
+# ---- Triggers --------------------------------------------------------
+trigger:
+  branches:
+    include: [main] # CI on trunk pushes
+pr:
+  branches:
+    include: ['*'] # validate every PR
+schedules:
+  - cron: '0 2 * * *' # nightly full run
+    displayName: Nightly
+    branches:
+      include: [main]
+    always: true
+
+# ---- Pipeline-level PARAMETERS (compile-time fan-out list) -----------
+parameters:
+  - name: projects
+    type: object
+    default:
+      - api
+      - db
+      - e2e
+      - ui-chromium
+      - ui-firefox
+      - ui-webkit
+      - accessibility
+      - visual
+      - performance
+
+# ---- VARIABLES shared by all stages/jobs ----------------------------
+# Public demo targets are plain vars; secrets should come from a linked
+# variable group (see the commented `group` line).
+variables:
+  # - group: omniqa-secrets        # provides a secret ENCRYPTION_SECRET
+  - name: npm_config_cache
+    value: $(Pipeline.Workspace)/.npm
+  - name: PLAYWRIGHT_BROWSERS_PATH
+    value: $(Pipeline.Workspace)/ms-playwright
+  - name: CI
+    value: 'true'
+  - name: HEADLESS
+    value: 'true'
+  - name: TEST_ENV
+    value: 'qa'
+  - name: SAUCEDEMO_URL
+    value: 'https://www.saucedemo.com'
+  - name: SAUCEDEMO_USERNAME
+    value: 'standard_user'
+  - name: SAUCEDEMO_PASSWORD
+    value: 'secret_sauce'
+  - name: ORANGEHRM_URL
+    value: 'https://opensource-demo.orangehrmlive.com'
+  - name: ORANGEHRM_USERNAME
+    value: 'Admin'
+  - name: ORANGEHRM_PASSWORD
+    value: 'admin123'
+  - name: RESTFUL_BOOKER_URL
+    value: 'https://restful-booker.herokuapp.com'
+  - name: BOOKER_USERNAME
+    value: 'admin'
+  - name: BOOKER_PASSWORD
+    value: 'password123'
+  - name: REQRES_URL
+    value: 'https://reqres.in/api'
+  - name: REQRES_API_KEY
+    value: 'reqres-free-v1'
+  - name: DUMMYJSON_URL
+    value: 'https://dummyjson.com'
+  - name: JSONPLACEHOLDER_URL
+    value: 'https://jsonplaceholder.typicode.com'
+  - name: PETSTORE_URL
+    value: 'https://petstore.swagger.io/v2'
+  - name: ENCRYPTION_SECRET # demo default; prefer the variable group above
+    value: 'ci-test-secret'
+
+# ---- Service container: a disposable Postgres for db/e2e tests -------
+# `ports` publishes 5432 to localhost on the host agent (so DB_HOST=localhost).
+resources:
+  containers:
+    - container: postgres
+      image: postgres:16-alpine
+      ports:
+        - 5432:5432
+      env:
+        POSTGRES_USER: automation_user
+        POSTGRES_PASSWORD: automation_pass
+        POSTGRES_DB: automation_db
+
+stages:
+  # ===================================================================
+  #  Stage 1 — Quality: cheap static gate before the test fan-out.
+  # ===================================================================
+  - stage: Quality
+    displayName: 'Quality gate'
+    jobs:
+      - job: lint_typecheck
+        displayName: 'Lint & Type-check'
+        pool:
+          vmImage: ubuntu-latest
+        steps:
+          - template: azure/templates/steps-install.yml
+            parameters:
+              installBrowsers: false # no browsers needed for static checks
+          - script: npm run typecheck
+            displayName: 'Type-check (hard gate)'
+          - script: npm run lint
+            displayName: 'Lint'
+            continueOnError: true # ESLint config finalised in Phase 23
+
+  # ===================================================================
+  #  Stage 2 — Test: one JOB per project (compile-time `each` fan-out),
+  #  each with its own Postgres service container.
+  # ===================================================================
+  - stage: Test
+    displayName: 'Test suite'
+    dependsOn: Quality
+    jobs:
+      - ${{ each project in parameters.projects }}:
+          - job: test_${{ replace(project, '-', '_') }}
+            displayName: 'Test · ${{ project }}'
+            pool:
+              vmImage: ubuntu-latest
+            # Attach the Postgres service container to this job (alias `postgres`).
+            services:
+              postgres: postgres
+            variables:
+              # Service container ports are published to localhost on the agent.
+              DB_HOST: localhost
+              DB_PORT: '5432'
+              DB_NAME: automation_db
+              DB_USER: automation_user
+              DB_PASSWORD: automation_pass
+              DB_SSL: 'false'
+            steps:
+              - template: azure/templates/steps-install.yml
+                parameters:
+                  installBrowsers: true
+              - template: azure/templates/steps-test.yml
+                parameters:
+                  project: ${{ project }}
+                  seedDb: true
+
+  # ===================================================================
+  #  Stage 3 — Report: merge every project's Allure results → one report.
+  # ===================================================================
+  - stage: Report
+    displayName: 'Allure report'
+    dependsOn: Test
+    condition: always() # build a report even if some test jobs failed
+    jobs:
+      - job: allure
+        displayName: 'Generate & publish Allure'
+        pool:
+          vmImage: ubuntu-latest # hosted image already has a JRE for Allure
+        steps:
+          - template: azure/templates/steps-install.yml
+            parameters:
+              installBrowsers: false
+          # Pull every `allure-*` artifact published by the Test stage.
+          - download: current
+            displayName: 'Download Allure results'
+            patterns: 'allure-*/**'
+          # Flatten them into the dir the npm script expects.
+          - script: |
+              mkdir -p reports/allure-results
+              cp -r $(Pipeline.Workspace)/allure-*/* reports/allure-results/ 2>/dev/null || true
+              echo "Merged $(ls reports/allure-results | wc -l) result files"
+            displayName: 'Merge Allure results'
+          - script: npm run report:allure:generate
+            displayName: 'Generate Allure HTML report'
+          - task: PublishPipelineArtifact@1
+            displayName: 'Publish Allure report'
+            inputs:
+              targetPath: 'reports/allure-report'
+              artifact: 'allure-report'
+          # Optional: the Allure DevOps extension renders the report in a tab.
+          # - task: PublishAllureReport@1
+          #   inputs:
+          #     resultsDir: 'reports/allure-results'
+
+  # ===================================================================
+  #  Stage 4 — DockerBuild: build the Phase 19 test-runner image.
+  # ===================================================================
+  - stage: DockerBuild
+    displayName: 'Docker build'
+    dependsOn: Quality
+    condition: succeeded()
+    jobs:
+      - job: build_image
+        displayName: 'Build runner image'
+        pool:
+          vmImage: ubuntu-latest # hosted image includes Docker
+        steps:
+          - task: Docker@2
+            displayName: 'Build test-runner image'
+            inputs:
+              command: build
+              Dockerfile: '**/Dockerfile'
+              repository: 'omniqa-playwright'
+              tags: |
+                $(Build.BuildId)
+                latest
+          # Optional push to a registry (needs a Docker registry service connection):
+          # - task: Docker@2
+          #   inputs:
+          #     command: push
+          #     containerRegistry: 'my-registry-connection'
+          #     repository: 'omniqa-playwright'
+          #     tags: |
+          #       $(Build.BuildId)
+          #       latest

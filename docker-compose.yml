@@ -1,0 +1,92 @@
+# =====================================================================
+#  OMNIQA Playwright Framework — Docker Compose (Phase 19)
+#  Brings up an isolated PostgreSQL database + the Playwright test runner,
+#  on a private network, with results written back to the host.
+#  Explained line-by-line. (No top-level `version:` key — obsolete in the
+#  Compose Specification / Compose v2.)
+# =====================================================================
+
+services:
+  # -------------------------------------------------------------------
+  #  Database container — disposable, schema auto-loaded on first boot.
+  # -------------------------------------------------------------------
+  postgres:
+    image: postgres:16-alpine # small, official Postgres 16 image
+    container_name: omniqa-postgres
+    environment:
+      # The official image creates this superuser + database on first init.
+      # POSTGRES_USER == DB_USER so schema.sql's `SET ROLE automation_user` works.
+      POSTGRES_USER: automation_user
+      POSTGRES_PASSWORD: automation_pass
+      POSTGRES_DB: automation_db
+    volumes:
+      # Named volume persists data between runs (drop it with `down -v`).
+      - pgdata:/var/lib/postgresql/data
+      # Any *.sql in this dir runs ONCE, on an empty data dir, at init —
+      # this seeds our tables/view/function/data. `:ro` = read-only mount.
+      - ./scripts/db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    networks:
+      - omniqa-net # join the private bridge network (see bottom)
+    healthcheck:
+      # Tests must wait until Postgres actually accepts connections, not just
+      # until the container starts. `pg_isready` returns 0 when ready.
+      test: ['CMD-SHELL', 'pg_isready -U automation_user -d automation_db']
+      interval: 5s # check every 5s
+      timeout: 5s # fail a check after 5s
+      retries: 10 # ~50s grace before marked unhealthy
+      start_period: 10s # don't count failures during initial boot
+
+  # -------------------------------------------------------------------
+  #  Test-runner container — builds from the Dockerfile, runs Playwright.
+  # -------------------------------------------------------------------
+  tests:
+    build:
+      context: . # build using this directory as context
+      dockerfile: Dockerfile # the image defined above
+    image: omniqa-playwright:latest
+    container_name: omniqa-tests
+    depends_on:
+      postgres:
+        condition: service_healthy # start ONLY after the DB healthcheck passes
+    # Chromium uses a lot of shared memory; without host IPC it can crash on
+    # large pages. `ipc: host` is the Playwright-recommended fix in containers.
+    ipc: host
+    env_file:
+      - .env # app URLs, UI creds, visual/perf budgets (host file, runtime-only)
+    environment:
+      # These OVERRIDE anything in .env so the app points at the DB *container*
+      # (service name `postgres` resolves via Compose's internal DNS).
+      CI: 'true'
+      HEADLESS: 'true'
+      TEST_ENV: qa
+      DB_HOST: postgres # container networking: service name, not localhost
+      DB_PORT: '5432'
+      DB_NAME: automation_db
+      DB_USER: automation_user
+      DB_PASSWORD: automation_pass
+      DB_SSL: 'false'
+    volumes:
+      # Map generated artifacts back to the host so reports survive the run.
+      - ./reports:/app/reports
+      - ./test-results:/app/test-results
+      - ./logs:/app/logs
+    networks:
+      - omniqa-net
+    # Default run = the DB-dependent projects (proves the DB container + wiring).
+    # Override on the CLI for other suites, e.g.:
+    #   docker compose run --rm tests npx playwright test --project=ui-chromium
+    command: ['npx', 'playwright', 'test', '--project=api', '--project=db']
+
+# ---------------------------------------------------------------------
+#  Named volumes — managed by Docker, survive `up`/`down` (not `down -v`).
+# ---------------------------------------------------------------------
+volumes:
+  pgdata:
+
+# ---------------------------------------------------------------------
+#  Private bridge network so containers reach each other by service name
+#  and stay isolated from other Compose projects on the host.
+# ---------------------------------------------------------------------
+networks:
+  omniqa-net:
+    driver: bridge

@@ -1,0 +1,91 @@
+# =====================================================================
+#  Security & quality scanning — OWASP Dependency-Check + npm audit +
+#  SonarCloud. Runs on PRs, trunk pushes, and a nightly schedule.
+# =====================================================================
+name: Security
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '0 4 * * *' # nightly
+
+jobs:
+  # -------------------------------------------------------------------
+  #  Dependency vulnerability scanning (OWASP Dependency-Check + npm audit).
+  # -------------------------------------------------------------------
+  dependencies:
+    name: OWASP Dependency-Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # npm's own advisory database — fast first line of defence.
+      - name: npm audit (high+)
+        run: npm run audit:security
+        continue-on-error: true # report, don't block (tune per policy)
+
+      # OWASP Dependency-Check — CVE scan against the NVD database.
+      - name: OWASP Dependency-Check
+        uses: dependency-check/Dependency-Check_Action@main
+        with:
+          project: omniqa-playwright-framework
+          path: '.'
+          format: 'HTML'
+          # Fail the job on CVSS >= 8 (high/critical). Tune to your risk policy.
+          args: >-
+            --failOnCVSS 8
+            --enableRetired
+
+      - name: Upload Dependency-Check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dependency-check-report
+          path: reports
+          if-no-files-found: ignore
+
+  # -------------------------------------------------------------------
+  #  SonarCloud — code quality + coverage ingestion (lcov from c8).
+  # -------------------------------------------------------------------
+  sonarcloud:
+    name: SonarCloud
+    runs-on: ubuntu-latest
+    # Skip cleanly on forks / when the token is not configured.
+    if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # SonarCloud needs full history for blame/new-code
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Generate lcov coverage for Sonar to ingest (best-effort, fast subset).
+      - name: Coverage
+        run: npm run coverage -- --project=api tests/api/utils.spec.ts
+        continue-on-error: true
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

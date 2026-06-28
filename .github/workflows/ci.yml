@@ -1,0 +1,265 @@
+# =====================================================================
+#  OMNIQA Playwright Framework — Continuous Integration (Phase 20)
+#  Lint + type-check → cross-project Playwright matrix (with a Postgres
+#  service) → aggregated Allure report → failure notification.
+#  Every step is commented.
+# =====================================================================
+name: CI
+
+# ---- When does this run? -------------------------------------------
+on:
+  push:
+    branches: [main] # gate the trunk
+  pull_request: # gate every PR
+  workflow_dispatch: # allow manual runs from the Actions tab
+  schedule:
+    - cron: '0 2 * * *' # nightly full run at 02:00 UTC
+
+# ---- Cancel superseded runs of the same ref (save CI minutes) -------
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+# ---- Config shared by every job ------------------------------------
+# GitHub auto-sets CI=true (→ playwright.config enables retries/workers/
+# forbidOnly). The demo targets below are PUBLIC, not secrets; only the
+# encryption secret is pulled from repo secrets (with a CI fallback).
+env:
+  TEST_ENV: qa
+  HEADLESS: 'true'
+  SAUCEDEMO_URL: https://www.saucedemo.com
+  SAUCEDEMO_USERNAME: standard_user
+  SAUCEDEMO_PASSWORD: secret_sauce
+  ORANGEHRM_URL: https://opensource-demo.orangehrmlive.com
+  ORANGEHRM_USERNAME: Admin
+  ORANGEHRM_PASSWORD: admin123
+  RESTFUL_BOOKER_URL: https://restful-booker.herokuapp.com
+  BOOKER_USERNAME: admin
+  BOOKER_PASSWORD: password123
+  REQRES_URL: https://reqres.in/api
+  REQRES_API_KEY: reqres-free-v1
+  DUMMYJSON_URL: https://dummyjson.com
+  JSONPLACEHOLDER_URL: https://jsonplaceholder.typicode.com
+  PETSTORE_URL: https://petstore.swagger.io/v2
+  ENCRYPTION_SECRET: ${{ secrets.ENCRYPTION_SECRET || 'ci-test-secret' }}
+
+jobs:
+  # ===================================================================
+  #  1) Static quality gate — fast, runs before the expensive matrix.
+  # ===================================================================
+  quality:
+    name: Lint & Type-check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js (with npm cache)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # matches package.json engines (>=20)
+          cache: npm # caches ~/.npm keyed by package-lock.json
+
+      - name: Install dependencies (reproducible)
+        run: npm ci
+
+      - name: Type-check (hard gate)
+        run: npm run typecheck # strict tsc --noEmit; MUST pass
+
+      - name: Lint
+        run: npm run lint
+        # ESLint config is finalised in Phase 23; keep the step visible but
+        # non-blocking until then so the pipeline reflects reality.
+        continue-on-error: true
+
+      - name: Prettier format check
+        run: npm run format:check
+        continue-on-error: true # also hardened in Phase 23
+
+  # ===================================================================
+  #  2) Test matrix — one parallel job per Playwright project.
+  #     A Postgres service backs the db/e2e projects.
+  # ===================================================================
+  test:
+    name: Test (${{ matrix.project }})
+    needs: quality # only spend matrix minutes once quality is green-ish
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false # one project failing must not cancel the others
+      matrix:
+        # Cross-browser UI + API + DB + E2E + the new a11y/visual/perf suites.
+        project:
+          - api
+          - db
+          - e2e
+          - ui-chromium
+          - ui-firefox
+          - ui-webkit
+          - accessibility
+          - visual
+          - performance
+
+    # ---- Disposable database for this job (db/e2e use it) ----
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: automation_user
+          POSTGRES_PASSWORD: automation_pass
+          POSTGRES_DB: automation_db
+        ports:
+          - 5432:5432 # map to localhost (job runs on the runner, not in a container)
+        # Wait until Postgres is actually ready before steps run.
+        options: >-
+          --health-cmd "pg_isready -U automation_user -d automation_db"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+
+    # ---- DB connection for the app (service is on localhost here) ----
+    env:
+      DB_HOST: localhost
+      DB_PORT: '5432'
+      DB_NAME: automation_db
+      DB_USER: automation_user
+      DB_PASSWORD: automation_pass
+      DB_SSL: 'false'
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js (with npm cache)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # ---- Cache the Playwright browser binaries between runs ----
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        id: pw-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Playwright browsers (+ OS deps)
+        # If the cache hit, browsers exist; this still installs OS deps fast.
+        run: npx playwright install --with-deps
+
+      - name: Load database schema + seed
+        run: npm run db:schema # node-pg applies scripts/db/schema.sql to the service
+
+      - name: Run Playwright project
+        run: npx playwright test --project=${{ matrix.project }}
+
+      # ---- Always publish artifacts (pass OR fail) for debugging ----
+      - name: Upload test report artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: report-${{ matrix.project }}
+          path: |
+            reports/html-report
+            reports/junit
+            test-results
+          retention-days: 7
+          if-no-files-found: ignore
+
+      # ---- Upload raw Allure results so the report job can merge them ----
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-${{ matrix.project }}
+          path: reports/allure-results
+          retention-days: 7
+          if-no-files-found: ignore
+
+  # ===================================================================
+  #  3) Aggregate Allure — merge every project's results into one report.
+  # ===================================================================
+  allure-report:
+    name: Allure Report
+    needs: test
+    if: always() # build a report even when some matrix jobs failed
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # required to push to the gh-pages branch
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Set up Java (Allure CLI needs a JRE)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # ---- Pull every matrix job's allure-results into one folder ----
+      - name: Download all Allure results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: allure-results-* # all per-project uploads
+          path: reports/allure-results
+          merge-multiple: true # flatten into one directory
+
+      - name: Generate Allure HTML report
+        run: npm run report:allure:generate # → reports/allure-report
+
+      - name: Upload Allure report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: reports/allure-report
+          retention-days: 14
+          if-no-files-found: ignore
+
+      # ---- Publish to GitHub Pages on trunk pushes only ----
+      - name: Publish report to GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: reports/allure-report
+          destination_dir: allure
+
+  # ===================================================================
+  #  4) Failure notification — runs only when something failed.
+  # ===================================================================
+  notify:
+    name: Notify on failure
+    needs: [quality, test, allure-report]
+    if: failure() # fires if ANY needed job failed
+    runs-on: ubuntu-latest
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    steps:
+      - name: Write failure summary
+        # Always-available channel: a rich summary on the run page.
+        run: |
+          echo "### ❌ CI failed" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Repo:** ${{ github.repository }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Branch/Ref:** ${{ github.ref_name }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Commit:** ${{ github.sha }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Slack notification (optional)
+        # Only if a SLACK_WEBHOOK_URL secret is configured.
+        if: ${{ env.SLACK_WEBHOOK_URL != '' }}
+        run: |
+          curl -sf -X POST -H 'Content-type: application/json' \
+            --data "{\"text\":\"❌ OMNIQA CI failed on ${{ github.ref_name }} — ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            "$SLACK_WEBHOOK_URL"

@@ -1,0 +1,36 @@
+# =====================================================================
+#  Files NEVER copied into the Docker build context / image.
+#  Keeps the image small, the build fast, and secrets OUT of the image.
+# =====================================================================
+
+# Installed in-image via `npm ci` — never copy the host's (wrong-arch) copy.
+node_modules/
+
+# Secrets: .env is injected at RUNTIME via compose `env_file`, never baked in.
+.env
+.env.local
+.env.*.local
+
+# Generated test output (would bloat the image; produced fresh per run).
+reports/
+test-results/
+playwright-report/
+logs/
+videos/
+traces/
+screenshots/
+downloads/
+.auth/
+
+# Build artifacts & VCS / tooling noise.
+dist/
+.git/
+.gitignore
+.husky/
+*.log
+npm-debug.log*
+
+# Editor / OS cruft.
+.vscode/
+.idea/
+.DS_Store
