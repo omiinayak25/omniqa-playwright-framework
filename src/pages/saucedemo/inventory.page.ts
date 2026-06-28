@@ -155,4 +155,66 @@ export class SauceInventoryPage extends BasePage {
   public async sortBy(option: ProductSort): Promise<void> {
     await this.selectByValue(this.sortDropdown, option, 'sort dropdown');
   }
+
+  /**
+   * Purpose: Read the currently selected sort option value.
+   * @returns Promise resolving to the selected ProductSort value (e.g. 'az').
+   */
+  public async selectedSort(): Promise<string> {
+    return this.sortDropdown.inputValue();
+  }
+
+  /**
+   * Purpose: Remove a product from the cart directly on the inventory card.
+   * @param productName - Exact product name to locate the matching card.
+   * @returns Promise that resolves once the card's "Remove" button is clicked.
+   */
+  public async removeFromCart(productName: string): Promise<void> {
+    this.log.info(`Removing "${productName}" from cart`);
+    const card = this.items.filter({ hasText: productName });
+    await card.getByRole('button', { name: 'Remove' }).click();
+  }
+
+  /**
+   * Purpose: Read a product card's action-button label, so tests can assert the
+   * Add-to-cart ↔ Remove toggle.
+   * @param productName - Exact product name to locate the matching card.
+   * @returns Promise resolving to the button label ('Add to cart' or 'Remove').
+   */
+  public async cartButtonLabel(productName: string): Promise<string> {
+    const card = this.items.filter({ hasText: productName });
+    return (await card.locator('button').innerText()).trim();
+  }
+
+  /**
+   * Purpose: Open a product's detail page (PDP) by clicking its name. Does NOT assert.
+   * @param productName - Exact product name link to click.
+   * @returns Promise that resolves once the product name link is clicked.
+   */
+  public async openProduct(productName: string): Promise<void> {
+    this.log.info(`Opening PDP for "${productName}"`);
+    await this.itemNames.filter({ hasText: productName }).first().click();
+  }
+
+  /**
+   * Purpose: List the `alt` text of each product image, for accessibility checks.
+   * @returns Promise resolving to an array of alt strings ('' when absent).
+   */
+  public async productImageAltTexts(): Promise<string[]> {
+    const count = await this.itemImages.count();
+    const alts: string[] = [];
+    for (let i = 0; i < count; i += 1) {
+      alts.push((await this.itemImages.nth(i).getAttribute('alt')) ?? '');
+    }
+    return alts;
+  }
+
+  /**
+   * Purpose: Read the raw price strings exactly as displayed (e.g. "$29.99"),
+   * so tests can assert currency formatting, not just parsed numbers.
+   * @returns Promise resolving to the displayed price strings.
+   */
+  public async productPriceLabels(): Promise<string[]> {
+    return this.itemPrices.allInnerTexts();
+  }
 }

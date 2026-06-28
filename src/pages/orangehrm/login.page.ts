@@ -46,6 +46,7 @@ export class OrangeLoginPage extends BasePage {
   private readonly passwordInput: Locator;
   private readonly submitButton: Locator;
   private readonly errorAlert: Locator;
+  private readonly requiredFieldErrors: Locator;
 
   constructor(page: Page) {
     super(page);
@@ -53,6 +54,7 @@ export class OrangeLoginPage extends BasePage {
     this.passwordInput = page.locator('input[name="password"]');
     this.submitButton = page.locator('button[type="submit"]');
     this.errorAlert = page.locator('.oxd-alert-content-text');
+    this.requiredFieldErrors = page.locator('.oxd-input-field-error-message');
   }
 
   /**
@@ -94,5 +96,27 @@ export class OrangeLoginPage extends BasePage {
     // Angular renders the form after DOMContentLoaded — wait for the control.
     await this.submitButton.waitFor({ state: 'visible', timeout: 15_000 }).catch(() => undefined);
     return this.submitButton.isVisible();
+  }
+
+  /**
+   * Purpose: Submit the form without filling it, to trigger required-field
+   * validation. Does NOT assert.
+   * @returns Promise that resolves once the submit button is clicked.
+   */
+  public async submitEmpty(): Promise<void> {
+    await this.click(this.submitButton, 'submit (empty)');
+  }
+
+  /**
+   * Purpose: Count the inline "Required" field-validation messages, so tests can
+   * assert both username and password flag as required.
+   * @returns Promise resolving to the number of visible required-field errors.
+   */
+  public async requiredFieldErrorCount(): Promise<number> {
+    await this.requiredFieldErrors
+      .first()
+      .waitFor({ state: 'visible', timeout: 5_000 })
+      .catch(() => undefined);
+    return this.requiredFieldErrors.count();
   }
 }

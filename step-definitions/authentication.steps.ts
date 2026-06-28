@@ -104,6 +104,10 @@ Then('I should remain on the SauceDemo login page', async function (this: Custom
   expect(await this.get<SauceLoginPage>('loginPage').isLoaded()).toBe(true);
 });
 
+Then('the password field should mask the entered value', async function (this: CustomWorld) {
+  expect(await this.get<SauceLoginPage>('loginPage').passwordInputType()).toBe('password');
+});
+
 Then('I should be returned to the SauceDemo login page', async function (this: CustomWorld) {
   expect(await new SauceLoginPage(this.page).isLoaded()).toBe(true);
 });

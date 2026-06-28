@@ -16,3 +16,4 @@ export { EmployeeFactory, type InvalidEmployee } from '@factories/employee.facto
 export { ProductFactory } from '@factories/product.factory';
 export { UserFactory } from '@factories/user.factory';
 export { TestDataFactory } from '@factories/test-data.factory';
+export { EdgeInputFactory, type EdgeInput } from '@factories/edge-input.factory';

@@ -35,14 +35,18 @@ export class SauceHeaderComponent extends BaseComponent {
   private readonly cartLink: Locator;
   private readonly cartBadge: Locator;
   private readonly burgerButton: Locator;
+  private readonly closeButton: Locator;
   private readonly logoutLink: Locator;
+  private readonly resetLink: Locator;
 
   constructor(page: Page) {
     super(page, page.locator('.header_container'));
     this.cartLink = page.locator('.shopping_cart_link');
     this.cartBadge = page.locator('.shopping_cart_badge');
     this.burgerButton = page.getByRole('button', { name: 'Open Menu' });
+    this.closeButton = page.locator('#react-burger-cross-btn');
     this.logoutLink = page.locator('#logout_sidebar_link');
+    this.resetLink = page.locator('#reset_sidebar_link');
   }
 
   /**
@@ -73,5 +77,19 @@ export class SauceHeaderComponent extends BaseComponent {
     this.log.debug('Logging out via burger menu');
     await this.burgerButton.click();
     await this.logoutLink.click();
+  }
+
+  /**
+   * Purpose: Reset the application state (clears the cart and resets product
+   * buttons) via the burger menu. Does NOT assert.
+   * @returns Promise that resolves once the reset link is clicked.
+   */
+  public async resetAppState(): Promise<void> {
+    this.log.debug('Resetting app state via burger menu');
+    await this.burgerButton.click();
+    await this.resetLink.click();
+    // SauceDemo leaves the side menu open after a reset; close it so the page
+    // is interactive again for any subsequent action.
+    await this.closeButton.click();
   }
 }

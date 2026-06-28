@@ -83,6 +83,37 @@ export class CheckoutFlow {
   }
 
   /**
+   * Purpose: Navigate to checkout step one (customer information) with the given
+   * products in the cart, starting from a reset state. Stops BEFORE filling the
+   * form so tests can drive validation. Assumes an authenticated session.
+   * @param products - Display names of the products to add.
+   * @returns Promise that resolves once the information page is reached.
+   */
+  public async goToInformation(products: readonly string[]): Promise<void> {
+    await this.inventory.open();
+    await this.inventory.header.resetAppState();
+    for (const product of products) {
+      await this.inventory.addToCart(product);
+    }
+    await this.inventory.header.openCart();
+    await this.cart.proceedToCheckout();
+  }
+
+  /**
+   * Purpose: Navigate all the way to the order overview (step two) with the given
+   * products and customer info, WITHOUT finishing the order. Lets tests assert on
+   * totals, item lines, and payment/shipping info.
+   * @param products - Display names of the products to add.
+   * @param info - Customer information for step one.
+   * @returns Promise that resolves once the overview is displayed.
+   */
+  public async goToOverview(products: readonly string[], info: CheckoutInfo): Promise<void> {
+    await this.goToInformation(products);
+    await this.info.fillInformation(info);
+    await this.info.continue();
+  }
+
+  /**
    * Purpose: Expose the order overview totals so tests can assert tax/total
    * arithmetic (assumes the overview page is currently displayed).
    * @returns Promise resolving to an object with subtotal, tax, and total amounts.

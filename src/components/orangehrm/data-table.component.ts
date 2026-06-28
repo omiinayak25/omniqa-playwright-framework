@@ -34,10 +34,15 @@ import { BaseComponent } from '@components/base.component';
  */
 export class DataTableComponent extends BaseComponent {
   private readonly rows: Locator;
+  private readonly headerCells: Locator;
+  private readonly headerCheckbox: Locator;
 
   constructor(page: Page) {
     super(page, page.locator('.oxd-table'));
     this.rows = this.root.locator('.oxd-table-card');
+    this.headerCells = this.root.locator('.oxd-table-header-cell');
+    // Click the wrapper label (not the raw input) so OrangeHRM's React onChange fires.
+    this.headerCheckbox = this.root.locator('.oxd-table-header .oxd-checkbox-wrapper');
   }
 
   /**
@@ -88,5 +93,41 @@ export class DataTableComponent extends BaseComponent {
       values.push(await this.cellText(i, column));
     }
     return values;
+  }
+
+  /**
+   * Purpose: List the visible column header labels (blank cells dropped — e.g.
+   * the leading checkbox column).
+   * @returns Promise resolving to the non-empty header texts, left to right.
+   */
+  public async columnHeaders(): Promise<string[]> {
+    return (await this.headerCells.allInnerTexts()).map((t) => t.trim()).filter(Boolean);
+  }
+
+  /**
+   * Purpose: Toggle the selection checkbox of a single data row.
+   * @param row - Zero-based row index to select.
+   * @returns Promise that resolves once the row checkbox is clicked.
+   */
+  public async selectRow(row: number): Promise<void> {
+    await this.rows.nth(row).locator('.oxd-checkbox-wrapper').click();
+  }
+
+  /**
+   * Purpose: Toggle the header "select all" checkbox.
+   * @returns Promise that resolves once the header checkbox is clicked.
+   */
+  public async selectAll(): Promise<void> {
+    await this.headerCheckbox.click();
+  }
+
+  /**
+   * Purpose: Count the currently selected (checked) row checkboxes.
+   * @returns Promise resolving to the number of checked row checkboxes.
+   */
+  public async selectedRowCount(): Promise<number> {
+    // The row <input type="checkbox"> carries no class (the styling sits on a
+    // sibling <span>), so match by element + native checked state.
+    return this.root.locator('.oxd-table-card input[type="checkbox"]:checked').count();
   }
 }

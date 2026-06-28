@@ -32,6 +32,7 @@
 import { test as base } from '@fixtures/base.fixtures';
 import { SauceLoginPage } from '@pages/saucedemo/login.page';
 import { SauceInventoryPage } from '@pages/saucedemo/inventory.page';
+import { SauceProductDetailsPage } from '@pages/saucedemo/product-details.page';
 import { SauceCartPage } from '@pages/saucedemo/cart.page';
 import { CheckoutInfoPage } from '@pages/saucedemo/checkout-info.page';
 import { CheckoutOverviewPage } from '@pages/saucedemo/checkout-overview.page';
@@ -40,10 +41,12 @@ import { CheckoutFlow } from '@flows/saucedemo/checkout.flow';
 import { OrangeLoginPage } from '@pages/orangehrm/login.page';
 import { OrangeDashboardPage } from '@pages/orangehrm/dashboard.page';
 import { OrangePimPage } from '@pages/orangehrm/pim.page';
+import { OrangeAddEmployeePage } from '@pages/orangehrm/add-employee.page';
 
 export interface PageFixtures {
   readonly sauceLoginPage: SauceLoginPage;
   readonly sauceInventoryPage: SauceInventoryPage;
+  readonly sauceProductDetailsPage: SauceProductDetailsPage;
   readonly sauceCartPage: SauceCartPage;
   readonly sauceCheckoutInfoPage: CheckoutInfoPage;
   readonly sauceCheckoutOverviewPage: CheckoutOverviewPage;
@@ -52,6 +55,7 @@ export interface PageFixtures {
   readonly orangeLoginPage: OrangeLoginPage;
   readonly orangeDashboardPage: OrangeDashboardPage;
   readonly orangePimPage: OrangePimPage;
+  readonly orangeAddEmployeePage: OrangeAddEmployeePage;
 }
 
 export const test = base.extend<PageFixtures>({
@@ -60,6 +64,9 @@ export const test = base.extend<PageFixtures>({
   },
   sauceInventoryPage: async ({ page }, use) => {
     await use(new SauceInventoryPage(page));
+  },
+  sauceProductDetailsPage: async ({ page }, use) => {
+    await use(new SauceProductDetailsPage(page));
   },
   sauceCartPage: async ({ page }, use) => {
     await use(new SauceCartPage(page));
@@ -84,6 +91,9 @@ export const test = base.extend<PageFixtures>({
   },
   orangePimPage: async ({ page }, use) => {
     await use(new OrangePimPage(page));
+  },
+  orangeAddEmployeePage: async ({ page }, use) => {
+    await use(new OrangeAddEmployeePage(page));
   },
 });
 
