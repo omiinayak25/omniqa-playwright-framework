@@ -89,7 +89,13 @@ const summary = {
 };
 
 // ---- Markdown helpers ----
-const esc = (s) => String(s == null ? '' : s).replace(/\|/g, '\\|').replace(/\n/g, ' ');
+// Escape backslashes FIRST so the escape characters we add below aren't
+// re-escaped, then escape table-breaking pipes and collapse newlines.
+const esc = (s) =>
+  String(s == null ? '' : s)
+    .replace(/\\/g, '\\\\')
+    .replace(/\|/g, '\\|')
+    .replace(/\n/g, ' ');
 const yn = (b) => (b ? 'Y' : '—');
 
 function moduleTable(mod) {
