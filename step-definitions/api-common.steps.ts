@@ -23,7 +23,7 @@ import { Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import { validateSchema } from '@api/schema-validator';
 import { SCHEMAS } from './support/api.support';
-import type { ApiResponse } from '@models/api.model';
+import type { ApiResponse } from '@apptypes/index';
 import type { CustomWorld } from '@bdd/world';
 
 function lastResponse(world: CustomWorld): ApiResponse<unknown> {

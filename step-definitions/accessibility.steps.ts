@@ -23,7 +23,7 @@ import { When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import { AccessibilityScanner } from '@accessibility/accessibility-scanner';
 import { KeyboardNavigator } from '@accessibility/keyboard-navigator';
-import type { A11yScanResult } from '@accessibility/accessibility.types';
+import type { AccessibilityResult } from '@apptypes/index';
 import type { CustomWorld } from '@bdd/world';
 
 const scanner = (world: CustomWorld): AccessibilityScanner => new AccessibilityScanner(world.page);
@@ -87,5 +87,5 @@ When('I run an accessibility scan', async function (this: CustomWorld) {
 });
 
 Then('the scan report should list zero violations', function (this: CustomWorld) {
-  expect(this.get<A11yScanResult>('a11yResult').violations).toHaveLength(0);
+  expect(this.get<AccessibilityResult>('a11yResult').violations).toHaveLength(0);
 });

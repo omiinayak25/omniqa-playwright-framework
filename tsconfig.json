@@ -60,7 +60,7 @@
       "@config/*": ["src/config/*"],
       "@constants/*": ["src/constants/*"],
       "@models/*": ["src/models/*"],
-      "@types/*": ["src/types/*"],
+      "@apptypes/*": ["src/types/*"],
       "@schemas/*": ["src/schemas/*"],
       "@hooks/*": ["src/hooks/*"],
       "@bdd/*": ["src/cucumber/*"],

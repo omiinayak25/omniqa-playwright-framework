@@ -28,6 +28,7 @@
 import { BaseRepository } from '@repositories/base.repository';
 import { QueryRunner } from '@database/query-runner';
 import type { Employee, NewEmployee } from '@models/employee.model';
+import type { Maybe } from '@apptypes/index';
 
 /**
  * Repository for the `employees` table.
@@ -48,7 +49,7 @@ export class EmployeeRepository extends BaseRepository {
    * @param id Employee id.
    * @returns The matching {@link Employee}, or `null` if none exists.
    */
-  public async findById(id: number): Promise<Employee | null> {
+  public async findById(id: number): Promise<Maybe<Employee>> {
     return this.runner.maybeOne<Employee>('SELECT * FROM employees WHERE id = $1', [id]);
   }
 
@@ -58,7 +59,7 @@ export class EmployeeRepository extends BaseRepository {
    * @param email Email to match exactly.
    * @returns The matching {@link Employee}, or `null` if none exists.
    */
-  public async findByEmail(email: string): Promise<Employee | null> {
+  public async findByEmail(email: string): Promise<Maybe<Employee>> {
     return this.runner.maybeOne<Employee>('SELECT * FROM employees WHERE email = $1', [email]);
   }
 

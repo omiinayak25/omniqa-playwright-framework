@@ -21,7 +21,7 @@
 import { When, Then } from '@cucumber/cucumber';
 import { expect } from '@playwright/test';
 import { PerformanceCollector } from '@performance/performance-collector';
-import type { PerformanceMetrics } from '@performance/performance.types';
+import type { PerformanceMetrics } from '@apptypes/index';
 import { config } from '@config/config';
 import type { CustomWorld } from '@bdd/world';
 
