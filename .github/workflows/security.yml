@@ -62,8 +62,12 @@ jobs:
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
-    # Skip cleanly on forks / when the token is not configured.
+    # Skip cleanly on forks.
     if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository }}
+    # Expose the token at job level so the scan step can skip when it's absent
+    # (this demo repo has no SonarCloud project configured, so it stays unset).
+    env:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -84,8 +88,11 @@ jobs:
         run: npm run coverage -- --project=api tests/api/utils.spec.ts
         continue-on-error: true
 
+      # Runs ONLY when a SONAR_TOKEN secret exists; otherwise it's skipped so
+      # the workflow passes without a configured SonarCloud project.
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        if: ${{ env.SONAR_TOKEN != '' }}
+        uses: SonarSource/sonarqube-scan-action@v5.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
