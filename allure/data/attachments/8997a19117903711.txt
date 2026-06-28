@@ -1,5 +1,0 @@
-2026-06-28 07:22:46.950 [info] ▶ START: ui/saucedemo/checkout.spec.ts › SauceDemo · Checkout flow @ui @e2e › @smoke completes a single-item purchase end-to-end {"scope":"@smoke completes a single-item purchase end-to-end","correlationId":"1103eb8f","testName":"@smoke completes a single-item purchase end-to-end"}
-2026-06-28 07:22:47.842 [info] Purchasing 1 product(s) {"scope":"CheckoutFlow","correlationId":"1103eb8f","testName":"@smoke completes a single-item purchase end-to-end"}
-2026-06-28 07:22:47.855 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"1103eb8f","testName":"@smoke completes a single-item purchase end-to-end"}
-2026-06-28 07:22:48.063 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"1103eb8f","testName":"@smoke completes a single-item purchase end-to-end"}
-2026-06-28 07:22:50.248 [info] ✔ PASS (3.30s) [1103eb8f]: @smoke completes a single-item purchase end-to-end {"scope":"@smoke completes a single-item purchase end-to-end"}

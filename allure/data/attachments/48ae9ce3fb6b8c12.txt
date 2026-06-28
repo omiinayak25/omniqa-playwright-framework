@@ -1,4 +1,0 @@
-2026-06-28 07:22:19.054 [info] ▶ START: api/posts.spec.ts › JSONPlaceholder · Post API @api › update a post (PUT 200) {"scope":"update a post (PUT 200)","correlationId":"68443108","testName":"update a post (PUT 200)"}
-2026-06-28 07:22:19.056 [info] → PUT https://jsonplaceholder.typicode.com/posts/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"68443108","testName":"update a post (PUT 200)"}
-2026-06-28 07:22:19.581 [info] ← 200 PUT https://jsonplaceholder.typicode.com/posts/1 (525ms) {"scope":"ApiClient","correlationId":"68443108","testName":"update a post (PUT 200)"}
-2026-06-28 07:22:19.583 [info] ✔ PASS (529ms) [68443108]: update a post (PUT 200) {"scope":"update a post (PUT 200)"}

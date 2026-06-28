@@ -1,0 +1,2 @@
+2026-06-28 08:45:00.829 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › insert → findByEmail → delete (CRUD, parameterized) {"scope":"insert → findByEmail → delete (CRUD, parameterized)","correlationId":"8776e0aa","testName":"insert → findByEmail → delete (CRUD, parameterized)"}
+2026-06-28 08:45:00.869 [info] ✔ PASS (40ms) [8776e0aa]: insert → findByEmail → delete (CRUD, parameterized) {"scope":"insert → findByEmail → delete (CRUD, parameterized)"}
