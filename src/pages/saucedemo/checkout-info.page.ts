@@ -44,6 +44,7 @@ export class CheckoutInfoPage extends BasePage {
   private readonly lastName: Locator;
   private readonly postalCode: Locator;
   private readonly continueButton: Locator;
+  private readonly cancelButton: Locator;
   private readonly errorBanner: Locator;
 
   constructor(page: Page) {
@@ -52,6 +53,7 @@ export class CheckoutInfoPage extends BasePage {
     this.lastName = page.locator('#last-name');
     this.postalCode = page.locator('#postal-code');
     this.continueButton = page.locator('#continue');
+    this.cancelButton = page.locator('[data-test="cancel"]');
     this.errorBanner = page.locator('[data-test="error"]');
   }
 
@@ -73,6 +75,14 @@ export class CheckoutInfoPage extends BasePage {
    */
   public async continue(): Promise<void> {
     await this.click(this.continueButton, 'continue');
+  }
+
+  /**
+   * Purpose: Cancel checkout step one and return to the shopping cart.
+   * @returns Promise that resolves once the cancel button is clicked.
+   */
+  public async cancel(): Promise<void> {
+    await this.click(this.cancelButton, 'cancel');
   }
 
   /**
