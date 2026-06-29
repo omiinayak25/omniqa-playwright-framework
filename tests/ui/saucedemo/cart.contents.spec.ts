@@ -28,7 +28,6 @@ test.describe('SauceDemo · Cart contents integrity @ui @regression @cart', () =
   test.beforeEach(async ({ sauceInventoryPage }) => {
     await sauceInventoryPage.open();
     expect(await sauceInventoryPage.isLoaded()).toBe(true);
-    await sauceInventoryPage.header.resetAppState();
   });
 
   test('cart prices match the inventory listing', async ({ sauceInventoryPage, sauceCartPage }) => {

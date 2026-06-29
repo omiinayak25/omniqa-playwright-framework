@@ -77,37 +77,51 @@ export default defineConfig({
 
   // ---- Projects: each maps a test type to a runtime ----
   projects: [
-    // ----- Auth setup: logs in once, saves storage state for reuse -----
+    // ----- Auth setup (split so the flaky OrangeHRM demo never blocks the -----
+    // SauceDemo cross-browser jobs): SauceDemo auth is needed everywhere;
+    // OrangeHRM auth is only needed by the chromium UI job.
     {
-      name: 'setup',
+      name: 'setup-sauce',
       testDir: './tests/setup',
-      testMatch: /.*\.setup\.ts/,
+      testMatch: /[\\/]auth\.setup\.ts$/,
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'setup-orange',
+      testDir: './tests/setup',
+      testMatch: /orange-auth\.setup\.ts$/,
       use: { ...devices['Desktop Chrome'] },
     },
     // ----- UI: cross-browser -----
     {
       name: 'ui-chromium',
       testDir: './tests/ui',
-      dependencies: ['setup'], // run auth setup before chromium UI tests
+      dependencies: ['setup-sauce', 'setup-orange'], // chromium runs both suites
       use: { ...devices['Desktop Chrome'] },
     },
+    // SauceDemo runs on every browser (the meaningful cross-browser e-commerce
+    // target); the OrangeHRM admin SPA runs on chromium only — cross-browser
+    // value there is low and the public demo can't sustain a 4× CI load.
     {
       name: 'ui-firefox',
       testDir: './tests/ui',
-      dependencies: ['setup'],
+      testIgnore: '**/orangehrm/**',
+      dependencies: ['setup-sauce'],
       use: { ...devices['Desktop Firefox'] },
     },
     {
       name: 'ui-webkit',
       testDir: './tests/ui',
-      dependencies: ['setup'],
+      testIgnore: '**/orangehrm/**',
+      dependencies: ['setup-sauce'],
       use: { ...devices['Desktop Safari'] },
     },
     // ----- Mobile responsive -----
     {
       name: 'ui-mobile',
       testDir: './tests/ui',
-      dependencies: ['setup'],
+      testIgnore: '**/orangehrm/**',
+      dependencies: ['setup-sauce'],
       use: { ...devices['Pixel 7'] },
     },
     // ----- API: no browser needed -----
@@ -124,7 +138,7 @@ export default defineConfig({
     {
       name: 'e2e',
       testDir: './tests/e2e',
-      dependencies: ['setup'], // SauceDemo auth reuse for UI journeys
+      dependencies: ['setup-sauce'], // SauceDemo auth reuse for UI journeys
       use: { ...devices['Desktop Chrome'] },
     },
     // ----- Accessibility -----

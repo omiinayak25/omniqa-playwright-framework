@@ -16,15 +16,20 @@
  * Last Updated: 2026-06-28
  * --------------------------------------------------------
  */
-import { test } from '@fixtures/index';
-import { SAUCE_AUTH_FILE } from '@constants/paths.constants';
+import { test, expect } from '@fixtures/index';
 
-test.use({ storageState: SAUCE_AUTH_FILE });
+// The visual project does not run the auth `setup`, so authenticate inline.
+test.use({ storageState: { cookies: [], origins: [] } });
 
 test.describe('SauceDemo · Cart & Checkout · Visual @visual @regression', () => {
+  test.beforeEach(async ({ sauceLoginPage }) => {
+    await sauceLoginPage.open();
+    await sauceLoginPage.loginAsStandardUser();
+  });
+
   test('the cart page matches the baseline', async ({ sauceInventoryPage, visual }) => {
     await sauceInventoryPage.open();
-    await sauceInventoryPage.header.resetAppState();
+    expect(await sauceInventoryPage.isLoaded()).toBe(true);
     await sauceInventoryPage.addToCart('Sauce Labs Backpack');
     await sauceInventoryPage.header.openCart();
     await visual.expectPage('saucedemo-cart');
@@ -36,7 +41,7 @@ test.describe('SauceDemo · Cart & Checkout · Visual @visual @regression', () =
     visual,
   }) => {
     await sauceInventoryPage.open();
-    await sauceInventoryPage.header.resetAppState();
+    expect(await sauceInventoryPage.isLoaded()).toBe(true);
     await sauceInventoryPage.addToCart('Sauce Labs Backpack');
     await sauceInventoryPage.header.openCart();
     await sauceCartPage.proceedToCheckout();

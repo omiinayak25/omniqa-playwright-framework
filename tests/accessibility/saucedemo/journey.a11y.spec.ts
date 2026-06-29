@@ -16,12 +16,17 @@
  * --------------------------------------------------------
  */
 import { test } from '@fixtures/index';
-import { SAUCE_AUTH_FILE } from '@constants/paths.constants';
 import { CheckoutBuilder } from '@builders/index';
 
-test.use({ storageState: SAUCE_AUTH_FILE });
+// The a11y project does not run the auth `setup`, so authenticate inline.
+test.use({ storageState: { cookies: [], origins: [] } });
 
 test.describe('SauceDemo · Journey · Accessibility @a11y @accessibility @regression', () => {
+  test.beforeEach(async ({ sauceLoginPage }) => {
+    await sauceLoginPage.open();
+    await sauceLoginPage.loginAsStandardUser();
+  });
+
   test('the product detail page has no violations', async ({
     sauceInventoryPage,
     sauceProductDetailsPage,

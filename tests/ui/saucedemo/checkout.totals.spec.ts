@@ -63,6 +63,9 @@ test.describe('SauceDemo · Checkout totals @ui @regression @checkout', () => {
     sauceCheckoutOverviewPage,
   }) => {
     await sauceInventoryPage.open();
+    // Wait for the catalog to render before reading (WebKit settles the
+    // client-side navigation later, destroying a too-early read).
+    expect(await sauceInventoryPage.isLoaded()).toBe(true);
     const allProducts = await sauceInventoryPage.productNames();
     await checkoutFlow.goToOverview(allProducts, CUSTOMER);
 

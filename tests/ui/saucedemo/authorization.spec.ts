@@ -16,33 +16,36 @@
  * Last Updated: 2026-06-28
  * --------------------------------------------------------
  */
+import type { Page } from '@playwright/test';
 import { test, expect } from '@fixtures/index';
 
 test.use({ storageState: { cookies: [], origins: [] } });
 
 test.describe('SauceDemo · Authorization — protected routes @ui @regression @authorization @negative', () => {
-  test('cart deep-link without a session is not served', async ({
-    sauceCartPage,
-    sauceLoginPage,
-  }) => {
+  // SauceDemo bounces a protected deep-link to login and shows this access error.
+  // A web-first assertion auto-waits for the redirect (WebKit redirects slower
+  // than Chromium, so a one-shot isLoaded() check is flaky).
+  const accessError = (page: Page) =>
+    expect(page.locator('[data-test="error"]')).toContainText('you are logged in');
+
+  test('cart deep-link without a session is not served', async ({ sauceCartPage, page }) => {
     await sauceCartPage.open();
-    // SauceDemo bounces protected pages back to the login screen.
-    expect(await sauceLoginPage.isLoaded()).toBe(true);
+    await accessError(page);
   });
 
   test('checkout (step one) deep-link without a session is not served', async ({
     sauceCheckoutInfoPage,
-    sauceLoginPage,
+    page,
   }) => {
     await sauceCheckoutInfoPage.open();
-    expect(await sauceLoginPage.isLoaded()).toBe(true);
+    await accessError(page);
   });
 
   test('checkout (overview) deep-link without a session is not served', async ({
     sauceCheckoutOverviewPage,
-    sauceLoginPage,
+    page,
   }) => {
     await sauceCheckoutOverviewPage.open();
-    expect(await sauceLoginPage.isLoaded()).toBe(true);
+    await accessError(page);
   });
 });
