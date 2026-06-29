@@ -1,0 +1,4 @@
+2026-06-29 04:23:21.424 [info] ▶ START: e2e/booking-lifecycle.e2e.spec.ts › E2E · Booking lifecycle @e2e @api › 4 · full update (PUT) & verify {"scope":"4 · full update (PUT) & verify","correlationId":"82fd2fae","testName":"4 · full update (PUT) & verify"}
+2026-06-29 04:23:21.426 [info] → PUT https://restful-booker.herokuapp.com/booking/1489 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json","Cookie":"to*****************dc"},"correlationId":"82fd2fae","testName":"4 · full update (PUT) & verify"}
+2026-06-29 04:23:21.488 [info] ← 200 PUT https://restful-booker.herokuapp.com/booking/1489 (60ms) {"scope":"ApiClient","correlationId":"82fd2fae","testName":"4 · full update (PUT) & verify"}
+2026-06-29 04:23:21.500 [info] ✔ PASS (76ms) [82fd2fae]: 4 · full update (PUT) & verify {"scope":"4 · full update (PUT) & verify"}

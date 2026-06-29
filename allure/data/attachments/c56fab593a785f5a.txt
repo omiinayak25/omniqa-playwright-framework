@@ -1,2 +1,0 @@
-2026-06-29 04:17:26.535 [info] ▶ START: api/config.spec.ts › Configuration facade @smoke › resolves a valid environment {"scope":"resolves a valid environment","correlationId":"9600f701","testName":"resolves a valid environment"}
-2026-06-29 04:17:26.536 [info] ✔ PASS (2ms) [9600f701]: resolves a valid environment {"scope":"resolves a valid environment"}

@@ -1,5 +1,0 @@
-2026-06-29 04:17:49.342 [info] ▶ START: ui/saucedemo/cart.data.spec.ts › SauceDemo · Cart add/remove per product @ui @regression @cart › "Sauce Labs Bolt T-Shirt" can be added and removed {"scope":"\"Sauce Labs Bolt T-Shirt\" can be added and removed","correlationId":"5a7ff704","testName":"\"Sauce Labs Bolt T-Shirt\" can be added and removed"}
-2026-06-29 04:17:50.317 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"5a7ff704","testName":"\"Sauce Labs Bolt T-Shirt\" can be added and removed"}
-2026-06-29 04:17:50.819 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"5a7ff704","testName":"\"Sauce Labs Bolt T-Shirt\" can be added and removed"}
-2026-06-29 04:17:51.847 [info] Removing "Sauce Labs Bolt T-Shirt" from cart {"scope":"SauceCartPage","correlationId":"5a7ff704","testName":"\"Sauce Labs Bolt T-Shirt\" can be added and removed"}
-2026-06-29 04:17:52.439 [info] ✔ PASS (3.10s) [5a7ff704]: "Sauce Labs Bolt T-Shirt" can be added and removed {"scope":"\"Sauce Labs Bolt T-Shirt\" can be added and removed"}

@@ -1,6 +1,0 @@
-2026-06-29 04:17:45.010 [info] ▶ START: ui/saucedemo/cart.contents.spec.ts › SauceDemo · Cart contents integrity @ui @regression @cart › cart lists items in the order they were added {"scope":"cart lists items in the order they were added","correlationId":"666e3068","testName":"cart lists items in the order they were added"}
-2026-06-29 04:17:45.879 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"666e3068","testName":"cart lists items in the order they were added"}
-2026-06-29 04:17:46.486 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"666e3068","testName":"cart lists items in the order they were added"}
-2026-06-29 04:17:47.035 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"666e3068","testName":"cart lists items in the order they were added"}
-2026-06-29 04:17:47.453 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"666e3068","testName":"cart lists items in the order they were added"}
-2026-06-29 04:17:48.687 [info] ✔ PASS (3.68s) [666e3068]: cart lists items in the order they were added {"scope":"cart lists items in the order they were added"}

@@ -1,0 +1,4 @@
+2026-06-29 04:24:30.838 [info] ▶ START: ui/saucedemo/login.keyboard.spec.ts › SauceDemo · Login keyboard accessibility @ui @regression @a11y › a keyboard-only user can sign in {"scope":"a keyboard-only user can sign in","correlationId":"c6ab0829","testName":"a keyboard-only user can sign in"}
+2026-06-29 04:24:31.231 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"c6ab0829","testName":"a keyboard-only user can sign in"}
+2026-06-29 04:24:31.824 [info] Keyboard login as "standard_user" {"scope":"SauceLoginPage","correlationId":"c6ab0829","testName":"a keyboard-only user can sign in"}
+2026-06-29 04:24:33.376 [info] ✔ PASS (2.54s) [c6ab0829]: a keyboard-only user can sign in {"scope":"a keyboard-only user can sign in"}

@@ -1,0 +1,4 @@
+2026-06-29 04:23:40.972 [info] ▶ START: visual/saucedemo/login.visual.spec.ts › SauceDemo · Login · Visual @visual @regression › full login page matches the baseline {"scope":"full login page matches the baseline","correlationId":"327509b4","testName":"full login page matches the baseline"}
+2026-06-29 04:23:41.069 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"327509b4","testName":"full login page matches the baseline"}
+2026-06-29 04:23:41.535 [info] Visual compare (page, fullPage=true): saucedemo-login-full {"scope":"Visual","correlationId":"327509b4","testName":"full login page matches the baseline"}
+2026-06-29 04:23:42.153 [info] ✔ PASS (1.18s) [327509b4]: full login page matches the baseline {"scope":"full login page matches the baseline"}

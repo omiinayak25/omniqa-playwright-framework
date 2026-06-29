@@ -1,0 +1,2 @@
+2026-06-29 04:23:26.779 [info] ▶ START: e2e/employee-lifecycle.e2e.spec.ts › E2E · Employee lifecycle @e2e @db › 2 · give a 10% raise (stored function) & verify {"scope":"2 · give a 10% raise (stored function) & verify","correlationId":"e2048dd4","testName":"2 · give a 10% raise (stored function) & verify"}
+2026-06-29 04:23:26.799 [info] ✔ PASS (20ms) [e2048dd4]: 2 · give a 10% raise (stored function) & verify {"scope":"2 · give a 10% raise (stored function) & verify"}

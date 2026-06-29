@@ -1,5 +1,0 @@
-2026-06-29 04:17:20.726 [info] ▶ START: performance/saucedemo/inventory.perf.spec.ts › SauceDemo · Inventory · Performance @perf › resource timing breaks payload down by type {"scope":"resource timing breaks payload down by type","correlationId":"d7d58e7a","testName":"resource timing breaks payload down by type"}
-2026-06-29 04:17:20.800 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"d7d58e7a","testName":"resource timing breaks payload down by type"}
-2026-06-29 04:17:21.173 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"d7d58e7a","testName":"resource timing breaks payload down by type"}
-2026-06-29 04:17:22.047 [info] Perf "SauceDemo · Inventory · resources": ttfb=29ms dcl=349ms load=410ms fcp=424ms lcp=520ms res=16 transfer=376KB {"scope":"Perf","correlationId":"d7d58e7a","testName":"resource timing breaks payload down by type"}
-2026-06-29 04:17:22.388 [info] ✔ PASS (1.66s) [d7d58e7a]: resource timing breaks payload down by type {"scope":"resource timing breaks payload down by type"}

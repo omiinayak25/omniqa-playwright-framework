@@ -1,0 +1,2 @@
+2026-06-29 04:23:16.877 [info] ▶ START: api/config.spec.ts › Configuration facade @smoke › database config has a sane port {"scope":"database config has a sane port","correlationId":"8cf484ff","testName":"database config has a sane port"}
+2026-06-29 04:23:16.879 [info] ✔ PASS (3ms) [8cf484ff]: database config has a sane port {"scope":"database config has a sane port"}

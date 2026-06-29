@@ -1,2 +1,0 @@
-2026-06-29 04:17:29.260 [info] ▶ START: api/utils.spec.ts › File utils (JSON/CSV/Excel) @smoke › Excel write/read round-trips {"scope":"Excel write/read round-trips","correlationId":"65fb2d80","testName":"Excel write/read round-trips"}
-2026-06-29 04:17:29.340 [info] ✔ PASS (80ms) [65fb2d80]: Excel write/read round-trips {"scope":"Excel write/read round-trips"}

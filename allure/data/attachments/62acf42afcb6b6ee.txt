@@ -1,2 +1,0 @@
-2026-06-29 04:17:36.632 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Employee repository @db › insert then findByEmail returns the persisted row {"scope":"insert then findByEmail returns the persisted row","correlationId":"e1c80c75","testName":"insert then findByEmail returns the persisted row"}
-2026-06-29 04:17:36.646 [info] ✔ PASS (14ms) [e1c80c75]: insert then findByEmail returns the persisted row {"scope":"insert then findByEmail returns the persisted row"}

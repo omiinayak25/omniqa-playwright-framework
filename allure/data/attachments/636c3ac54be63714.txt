@@ -1,0 +1,4 @@
+2026-06-29 04:24:53.100 [info] ▶ START: ui/saucedemo/product-details.data.spec.ts › SauceDemo · PDP per product @ui @regression @inventory › PDP for "Sauce Labs Onesie" shows correct details {"scope":"PDP for \"Sauce Labs Onesie\" shows correct details","correlationId":"fec26193","testName":"PDP for \"Sauce Labs Onesie\" shows correct details"}
+2026-06-29 04:24:54.370 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"fec26193","testName":"PDP for \"Sauce Labs Onesie\" shows correct details"}
+2026-06-29 04:24:55.132 [info] Opening PDP for "Sauce Labs Onesie" {"scope":"SauceInventoryPage","correlationId":"fec26193","testName":"PDP for \"Sauce Labs Onesie\" shows correct details"}
+2026-06-29 04:24:56.257 [info] ✔ PASS (3.16s) [fec26193]: PDP for "Sauce Labs Onesie" shows correct details {"scope":"PDP for \"Sauce Labs Onesie\" shows correct details"}

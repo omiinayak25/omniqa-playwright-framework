@@ -1,3 +1,0 @@
-2026-06-29 04:17:36.184 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › transaction ROLLBACK leaves no trace {"scope":"transaction ROLLBACK leaves no trace","correlationId":"232f1be8","testName":"transaction ROLLBACK leaves no trace"}
-2026-06-29 04:17:36.201 [warn] Transaction rolled back {"scope":"QueryRunner","correlationId":"232f1be8","testName":"transaction ROLLBACK leaves no trace"}
-2026-06-29 04:17:36.212 [info] ✔ PASS (28ms) [232f1be8]: transaction ROLLBACK leaves no trace {"scope":"transaction ROLLBACK leaves no trace"}

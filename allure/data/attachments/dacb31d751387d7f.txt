@@ -1,4 +1,0 @@
-2026-06-29 04:17:30.197 [info] ▶ START: accessibility/saucedemo/inventory.a11y.spec.ts › SauceDemo · Inventory · Accessibility @a11y @accessibility @regression › an add-to-cart button is reachable using only the Tab key {"scope":"an add-to-cart button is reachable using only the Tab key","correlationId":"d0767b1a","testName":"an add-to-cart button is reachable using only the Tab key"}
-2026-06-29 04:17:30.272 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"d0767b1a","testName":"an add-to-cart button is reachable using only the Tab key"}
-2026-06-29 04:17:30.718 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"d0767b1a","testName":"an add-to-cart button is reachable using only the Tab key"}
-2026-06-29 04:17:31.592 [info] ✔ PASS (1.39s) [d0767b1a]: an add-to-cart button is reachable using only the Tab key {"scope":"an add-to-cart button is reachable using only the Tab key"}

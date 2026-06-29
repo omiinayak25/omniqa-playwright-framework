@@ -1,2 +1,0 @@
-2026-06-29 04:17:36.373 [info] ▶ START: db/repositories-extended.spec.ts › PostgreSQL · Repository edge cases @db › upsert twice keeps a single row for one external id {"scope":"upsert twice keeps a single row for one external id","correlationId":"f1acf01c","testName":"upsert twice keeps a single row for one external id"}
-2026-06-29 04:17:36.410 [info] ✔ PASS (37ms) [f1acf01c]: upsert twice keeps a single row for one external id {"scope":"upsert twice keeps a single row for one external id"}

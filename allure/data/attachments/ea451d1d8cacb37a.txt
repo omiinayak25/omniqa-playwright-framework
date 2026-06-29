@@ -1,0 +1,3 @@
+2026-06-29 04:23:23.670 [info] (@smoke cart screen loads within budget) ▶ START: performance/saucedemo/cart.perf.spec.ts › SauceDemo · Cart · Performance @perf › @smoke cart screen loads within budget
+2026-06-29 04:23:25.379 [info] (SauceCartPage) Navigating to https://www.saucedemo.com/cart.html
+2026-06-29 04:23:46.073 [info] (Perf) Perf "SauceDemo · Cart": ttfb=6ms dcl=20176ms load=20223ms fcp=20224ms lcp=20248ms res=5 transfer=228KB

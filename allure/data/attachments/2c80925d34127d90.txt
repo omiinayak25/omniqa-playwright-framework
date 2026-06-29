@@ -1,3 +1,0 @@
-2026-06-29 04:18:36.121 [info] ▶ START: ui/saucedemo/inventory.catalog.spec.ts › SauceDemo · Catalog integrity @ui @regression @inventory › every product image has alt text {"scope":"every product image has alt text","correlationId":"ba80c5cd","testName":"every product image has alt text"}
-2026-06-29 04:18:37.041 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"ba80c5cd","testName":"every product image has alt text"}
-2026-06-29 04:18:39.093 [info] ✔ PASS (2.97s) [ba80c5cd]: every product image has alt text {"scope":"every product image has alt text"}

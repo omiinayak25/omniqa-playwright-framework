@@ -1,2 +1,0 @@
-2026-06-29 04:17:36.437 [info] ▶ START: db/repositories-extended.spec.ts › PostgreSQL · Repository edge cases @db › findByDepartment returns empty for a non-existent department {"scope":"findByDepartment returns empty for a non-existent department","correlationId":"b6717d4c","testName":"findByDepartment returns empty for a non-existent department"}
-2026-06-29 04:17:36.445 [info] ✔ PASS (8ms) [b6717d4c]: findByDepartment returns empty for a non-existent department {"scope":"findByDepartment returns empty for a non-existent department"}

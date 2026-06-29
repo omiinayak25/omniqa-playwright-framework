@@ -1,5 +1,0 @@
-2026-06-29 04:18:22.721 [info] ▶ START: ui/saucedemo/checkout.data.spec.ts › SauceDemo · Purchase each product @ui @regression @checkout › "Sauce Labs Bike Light" can be purchased end-to-end {"scope":"\"Sauce Labs Bike Light\" can be purchased end-to-end","correlationId":"e31d1292","testName":"\"Sauce Labs Bike Light\" can be purchased end-to-end"}
-2026-06-29 04:18:22.898 [info] Purchasing 1 product(s) {"scope":"CheckoutFlow","correlationId":"e31d1292","testName":"\"Sauce Labs Bike Light\" can be purchased end-to-end"}
-2026-06-29 04:18:22.904 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"e31d1292","testName":"\"Sauce Labs Bike Light\" can be purchased end-to-end"}
-2026-06-29 04:18:23.404 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"e31d1292","testName":"\"Sauce Labs Bike Light\" can be purchased end-to-end"}
-2026-06-29 04:18:24.492 [info] ✔ PASS (1.77s) [e31d1292]: "Sauce Labs Bike Light" can be purchased end-to-end {"scope":"\"Sauce Labs Bike Light\" can be purchased end-to-end"}

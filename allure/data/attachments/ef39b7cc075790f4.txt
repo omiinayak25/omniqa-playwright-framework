@@ -1,0 +1,4 @@
+2026-06-29 04:23:18.606 [info] ▶ START: api/jsonplaceholder-posts.spec.ts › JSONPlaceholder · Posts extended @api @regression › getPost(1) returns the matching post {"scope":"getPost(1) returns the matching post","correlationId":"9b6c0a5a","testName":"getPost(1) returns the matching post"}
+2026-06-29 04:23:18.606 [info] → GET https://jsonplaceholder.typicode.com/posts/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"9b6c0a5a","testName":"getPost(1) returns the matching post"}
+2026-06-29 04:23:18.635 [info] ← 200 GET https://jsonplaceholder.typicode.com/posts/1 (28ms) {"scope":"ApiClient","correlationId":"9b6c0a5a","testName":"getPost(1) returns the matching post"}
+2026-06-29 04:23:18.637 [info] ✔ PASS (31ms) [9b6c0a5a]: getPost(1) returns the matching post {"scope":"getPost(1) returns the matching post"}

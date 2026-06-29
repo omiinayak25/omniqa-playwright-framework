@@ -1,3 +1,0 @@
-2026-06-29 04:17:38.283 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › mismatched login passwords are rejected {"scope":"mismatched login passwords are rejected","correlationId":"5b09d948","testName":"mismatched login passwords are rejected"}
-2026-06-29 04:17:38.412 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"5b09d948","testName":"mismatched login passwords are rejected"}
-2026-06-29 04:17:41.258 [info] ✔ PASS (2.98s) [5b09d948]: mismatched login passwords are rejected {"scope":"mismatched login passwords are rejected"}
