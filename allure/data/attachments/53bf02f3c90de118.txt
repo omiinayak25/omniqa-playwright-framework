@@ -1,2 +1,0 @@
-2026-06-29 04:54:03.599 [info] ▶ START: performance/lighthouse.perf.spec.ts › Lighthouse · Performance Audit @perf @lighthouse › SauceDemo meets the minimum Lighthouse performance score {"scope":"SauceDemo meets the minimum Lighthouse performance score","correlationId":"397450a0","testName":"SauceDemo meets the minimum Lighthouse performance score"}
-2026-06-29 04:54:03.608 [info] ✔ PASS (11ms) [397450a0]: SauceDemo meets the minimum Lighthouse performance score {"scope":"SauceDemo meets the minimum Lighthouse performance score"}

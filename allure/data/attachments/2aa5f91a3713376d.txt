@@ -1,2 +1,0 @@
-2026-06-29 04:54:06.487 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Constraints @db › UNIQUE: duplicate email is rejected {"scope":"UNIQUE: duplicate email is rejected","correlationId":"656e6522","testName":"UNIQUE: duplicate email is rejected"}
-2026-06-29 04:54:06.497 [info] ✔ PASS (10ms) [656e6522]: UNIQUE: duplicate email is rejected {"scope":"UNIQUE: duplicate email is rejected"}

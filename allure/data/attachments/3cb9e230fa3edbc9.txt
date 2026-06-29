@@ -1,0 +1,4 @@
+2026-06-29 05:05:22.894 [info] ▶ START: ui/orangehrm/file-upload.spec.ts › OrangeHRM · Employee photo upload @ui @regression @upload › @smoke a valid PNG replaces the default employee photo {"scope":"@smoke a valid PNG replaces the default employee photo","correlationId":"881487c3","testName":"@smoke a valid PNG replaces the default employee photo"}
+2026-06-29 05:05:22.988 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"881487c3","testName":"@smoke a valid PNG replaces the default employee photo"}
+2026-06-29 05:05:35.418 [info] Uploading photo "avatar.png" (image/png) {"scope":"OrangeAddEmployeePage","correlationId":"881487c3","testName":"@smoke a valid PNG replaces the default employee photo"}
+2026-06-29 05:05:36.379 [info] ✔ PASS (13.48s) [881487c3]: @smoke a valid PNG replaces the default employee photo {"scope":"@smoke a valid PNG replaces the default employee photo"}

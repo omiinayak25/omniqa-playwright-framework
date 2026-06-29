@@ -1,0 +1,4 @@
+2026-06-29 05:03:44.463 [info] ▶ START: api/dummyjson-extended.spec.ts › DummyJSON · Products extended @api @regression › skipping beyond the dataset returns no products {"scope":"skipping beyond the dataset returns no products","correlationId":"2761891b","testName":"skipping beyond the dataset returns no products"}
+2026-06-29 05:03:44.464 [info] → GET https://dummyjson.com/products?limit=10&skip=100000 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"2761891b","testName":"skipping beyond the dataset returns no products"}
+2026-06-29 05:03:44.917 [info] ← 200 GET https://dummyjson.com/products?limit=10&skip=100000 (452ms) {"scope":"ApiClient","correlationId":"2761891b","testName":"skipping beyond the dataset returns no products"}
+2026-06-29 05:03:44.919 [info] ✔ PASS (456ms) [2761891b]: skipping beyond the dataset returns no products {"scope":"skipping beyond the dataset returns no products"}

@@ -1,0 +1,4 @@
+2026-06-29 05:03:45.972 [info] ▶ START: api/products.search.spec.ts › DummyJSON · Product search @api @regression @search › a partial term returns results {"scope":"a partial term returns results","correlationId":"17df3f0d","testName":"a partial term returns results"}
+2026-06-29 05:03:45.973 [info] → GET https://dummyjson.com/products/search?q=lap {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"17df3f0d","testName":"a partial term returns results"}
+2026-06-29 05:03:46.096 [info] ← 200 GET https://dummyjson.com/products/search?q=lap (122ms) {"scope":"ApiClient","correlationId":"17df3f0d","testName":"a partial term returns results"}
+2026-06-29 05:03:46.099 [info] ✔ PASS (127ms) [17df3f0d]: a partial term returns results {"scope":"a partial term returns results"}

@@ -1,0 +1,2 @@
+2026-06-29 05:04:00.591 [info] ▶ START: db/repositories-extended.spec.ts › PostgreSQL · Repository edge cases @db › findById returns null for an unknown id {"scope":"findById returns null for an unknown id","correlationId":"4a9f496c","testName":"findById returns null for an unknown id"}
+2026-06-29 05:04:00.598 [info] ✔ PASS (8ms) [4a9f496c]: findById returns null for an unknown id {"scope":"findById returns null for an unknown id"}

@@ -1,4 +1,0 @@
-2026-06-29 04:54:08.430 [info] ▶ START: api/auth.spec.ts › Restful-Booker · Auth API @api @regression @authentication › token endpoint responds within SLA (warm) {"scope":"token endpoint responds within SLA (warm)","correlationId":"bab5886a","testName":"token endpoint responds within SLA (warm)"}
-2026-06-29 04:54:08.447 [info] → POST https://restful-booker.herokuapp.com/auth {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"bab5886a","testName":"token endpoint responds within SLA (warm)"}
-2026-06-29 04:54:08.477 [info] ← 200 POST https://restful-booker.herokuapp.com/auth (26ms) {"scope":"ApiClient","correlationId":"bab5886a","testName":"token endpoint responds within SLA (warm)"}
-2026-06-29 04:54:08.479 [info] ✔ PASS (50ms) [bab5886a]: token endpoint responds within SLA (warm) {"scope":"token endpoint responds within SLA (warm)"}

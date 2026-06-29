@@ -1,3 +1,0 @@
-2026-06-29 04:55:03.543 [info] ▶ START: ui/saucedemo/inventory.sorting.spec.ts › SauceDemo · Inventory sorting @ui @regression @inventory › default sort is name A→Z {"scope":"default sort is name A→Z","correlationId":"9fa68ba4","testName":"default sort is name A→Z"}
-2026-06-29 04:55:05.114 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"9fa68ba4","testName":"default sort is name A→Z"}
-2026-06-29 04:55:06.452 [info] ✔ PASS (2.91s) [9fa68ba4]: default sort is name A→Z {"scope":"default sort is name A→Z"}

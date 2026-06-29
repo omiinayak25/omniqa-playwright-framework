@@ -1,4 +1,0 @@
-2026-06-29 04:55:27.686 [info] ▶ START: ui/saucedemo/login.negative.spec.ts › SauceDemo · Login negative & boundary inputs @ui @regression @negative › empty (empty password) → "Password is required" {"scope":"empty (empty password) → \"Password is required\"","correlationId":"e41785ae","testName":"empty (empty password) → \"Password is required\""}
-2026-06-29 04:55:28.269 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"e41785ae","testName":"empty (empty password) → \"Password is required\""}
-2026-06-29 04:55:28.705 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"e41785ae","testName":"empty (empty password) → \"Password is required\""}
-2026-06-29 04:55:29.713 [info] ✔ PASS (2.03s) [e41785ae]: empty (empty password) → "Password is required" {"scope":"empty (empty password) → \"Password is required\""}

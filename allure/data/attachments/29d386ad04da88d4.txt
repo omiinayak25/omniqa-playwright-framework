@@ -1,0 +1,8 @@
+2026-06-29 05:03:51.740 [info] ▶ START: accessibility/saucedemo/cart.a11y.spec.ts › SauceDemo · Cart & Checkout · Accessibility @a11y @accessibility @regression › checkout form controls are programmatically labelled {"scope":"checkout form controls are programmatically labelled","correlationId":"592a2b0b","testName":"checkout form controls are programmatically labelled"}
+2026-06-29 05:03:51.811 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"592a2b0b","testName":"checkout form controls are programmatically labelled"}
+2026-06-29 05:03:52.074 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"592a2b0b","testName":"checkout form controls are programmatically labelled"}
+2026-06-29 05:03:52.338 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"592a2b0b","testName":"checkout form controls are programmatically labelled"}
+2026-06-29 05:03:52.511 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"592a2b0b","testName":"checkout form controls are programmatically labelled"}
+2026-06-29 05:03:52.956 [info] Running axe scan: "SauceDemo · Checkout info · labels" {"scope":"A11yScanner","correlationId":"592a2b0b","testName":"checkout form controls are programmatically labelled"}
+2026-06-29 05:03:53.967 [info] axe scan "SauceDemo · Checkout info · labels" — 0 violations (3 passes) {"scope":"A11yScanner","correlationId":"592a2b0b","testName":"checkout form controls are programmatically labelled"}
+2026-06-29 05:03:54.333 [info] ✔ PASS (2.59s) [592a2b0b]: checkout form controls are programmatically labelled {"scope":"checkout form controls are programmatically labelled"}

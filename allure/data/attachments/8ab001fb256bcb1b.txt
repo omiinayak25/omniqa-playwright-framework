@@ -1,0 +1,4 @@
+2026-06-29 05:05:43.131 [info] ▶ START: ui/saucedemo/responsive.spec.ts › SauceDemo · Responsive login @ui @regression @responsive › login renders and works at tablet (768px) {"scope":"login renders and works at tablet (768px)","correlationId":"011c7838","testName":"login renders and works at tablet (768px)"}
+2026-06-29 05:05:43.901 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"011c7838","testName":"login renders and works at tablet (768px)"}
+2026-06-29 05:05:45.028 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"011c7838","testName":"login renders and works at tablet (768px)"}
+2026-06-29 05:05:47.070 [info] ✔ PASS (3.94s) [011c7838]: login renders and works at tablet (768px) {"scope":"login renders and works at tablet (768px)"}

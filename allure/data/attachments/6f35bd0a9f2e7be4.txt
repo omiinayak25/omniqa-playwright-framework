@@ -1,0 +1,2 @@
+2026-06-29 05:04:30.407 [info] (a saved employee is searchable in the PIM list) ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › a saved employee is searchable in the PIM list
+2026-06-29 05:04:30.520 [info] (OrangeAddEmployeePage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee

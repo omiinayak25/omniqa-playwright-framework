@@ -1,0 +1,6 @@
+2026-06-29 05:03:54.196 [info] ▶ START: accessibility/saucedemo/inventory.a11y.spec.ts › SauceDemo · Inventory · Accessibility @a11y @accessibility @regression › product images all expose alternative text {"scope":"product images all expose alternative text","correlationId":"fe8009f4","testName":"product images all expose alternative text"}
+2026-06-29 05:03:54.268 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"fe8009f4","testName":"product images all expose alternative text"}
+2026-06-29 05:03:54.634 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"fe8009f4","testName":"product images all expose alternative text"}
+2026-06-29 05:03:55.127 [info] Running axe scan: "SauceDemo · Inventory · alt-text" {"scope":"A11yScanner","correlationId":"fe8009f4","testName":"product images all expose alternative text"}
+2026-06-29 05:03:56.198 [info] axe scan "SauceDemo · Inventory · alt-text" — 0 violations (1 passes) {"scope":"A11yScanner","correlationId":"fe8009f4","testName":"product images all expose alternative text"}
+2026-06-29 05:03:56.673 [info] ✔ PASS (2.48s) [fe8009f4]: product images all expose alternative text {"scope":"product images all expose alternative text"}

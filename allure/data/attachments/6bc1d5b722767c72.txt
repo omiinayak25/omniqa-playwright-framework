@@ -1,0 +1,5 @@
+2026-06-29 05:06:51.248 [info] ▶ START: ui/saucedemo/checkout.totals.spec.ts › SauceDemo · Checkout totals @ui @regression @checkout › tax is 8% of the subtotal {"scope":"tax is 8% of the subtotal","correlationId":"490d0fac","testName":"tax is 8% of the subtotal"}
+2026-06-29 05:06:51.427 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"490d0fac","testName":"tax is 8% of the subtotal"}
+2026-06-29 05:06:51.989 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"490d0fac","testName":"tax is 8% of the subtotal"}
+2026-06-29 05:06:52.088 [info] Adding "Sauce Labs Fleece Jacket" to cart {"scope":"SauceInventoryPage","correlationId":"490d0fac","testName":"tax is 8% of the subtotal"}
+2026-06-29 05:06:53.189 [info] ✔ PASS (1.94s) [490d0fac]: tax is 8% of the subtotal {"scope":"tax is 8% of the subtotal"}

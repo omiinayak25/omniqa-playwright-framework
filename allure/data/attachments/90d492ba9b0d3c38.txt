@@ -1,0 +1,2 @@
+2026-06-29 05:04:00.906 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Employee repository @db › deactivating a non-existent employee affects zero rows {"scope":"deactivating a non-existent employee affects zero rows","correlationId":"41ef194a","testName":"deactivating a non-existent employee affects zero rows"}
+2026-06-29 05:04:00.911 [info] ✔ PASS (5ms) [41ef194a]: deactivating a non-existent employee affects zero rows {"scope":"deactivating a non-existent employee affects zero rows"}

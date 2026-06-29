@@ -1,0 +1,6 @@
+2026-06-29 05:03:55.265 [info] ▶ START: ui/saucedemo/cart.contents.spec.ts › SauceDemo · Cart contents integrity @ui @regression @cart › cart prices match the inventory listing {"scope":"cart prices match the inventory listing","correlationId":"98020d6d","testName":"cart prices match the inventory listing"}
+2026-06-29 05:04:02.003 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"98020d6d","testName":"cart prices match the inventory listing"}
+2026-06-29 05:04:03.323 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"98020d6d","testName":"cart prices match the inventory listing"}
+2026-06-29 05:04:03.572 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"98020d6d","testName":"cart prices match the inventory listing"}
+2026-06-29 05:04:03.769 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"98020d6d","testName":"cart prices match the inventory listing"}
+2026-06-29 05:04:04.632 [info] ✔ PASS (9.37s) [98020d6d]: cart prices match the inventory listing {"scope":"cart prices match the inventory listing"}

@@ -1,0 +1,3 @@
+2026-06-29 05:05:46.392 [info] ▶ START: ui/orangehrm/pim-search.spec.ts › OrangeHRM · PIM search @ui @regression @search › a non-matching name returns no records {"scope":"a non-matching name returns no records","correlationId":"f01f194c","testName":"a non-matching name returns no records"}
+2026-06-29 05:05:46.487 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"f01f194c","testName":"a non-matching name returns no records"}
+2026-06-29 05:06:29.836 [info] ✔ PASS (43.44s) [f01f194c]: a non-matching name returns no records {"scope":"a non-matching name returns no records"}

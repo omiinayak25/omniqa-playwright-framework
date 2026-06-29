@@ -1,3 +1,0 @@
-2026-06-29 04:54:37.581 [info] ▶ START: ui/orangehrm/dashboard.spec.ts › OrangeHRM · Dashboard @ui @regression @dashboard › the side-menu search filters the navigation {"scope":"the side-menu search filters the navigation","correlationId":"5cd49903","testName":"the side-menu search filters the navigation"}
-2026-06-29 04:54:37.691 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"5cd49903","testName":"the side-menu search filters the navigation"}
-2026-06-29 04:54:42.056 [info] ✔ PASS (4.47s) [5cd49903]: the side-menu search filters the navigation {"scope":"the side-menu search filters the navigation"}

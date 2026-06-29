@@ -1,0 +1,4 @@
+2026-06-29 05:04:22.454 [info] ▶ START: ui/saucedemo/checkout.security.spec.ts › SauceDemo · Checkout input security @ui @regression @security @checkout › very long names are accepted without breaking the form {"scope":"very long names are accepted without breaking the form","correlationId":"17597c75","testName":"very long names are accepted without breaking the form"}
+2026-06-29 05:04:23.544 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"17597c75","testName":"very long names are accepted without breaking the form"}
+2026-06-29 05:04:24.162 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"17597c75","testName":"very long names are accepted without breaking the form"}
+2026-06-29 05:04:26.091 [info] ✔ PASS (3.64s) [17597c75]: very long names are accepted without breaking the form {"scope":"very long names are accepted without breaking the form"}

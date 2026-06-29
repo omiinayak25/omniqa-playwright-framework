@@ -1,4 +1,0 @@
-2026-06-29 04:55:43.391 [info] ▶ START: ui/saucedemo/product-details.spec.ts › SauceDemo · Product Detail Page @ui @regression @inventory › add to cart from the PDP updates the badge {"scope":"add to cart from the PDP updates the badge","correlationId":"e78947a6","testName":"add to cart from the PDP updates the badge"}
-2026-06-29 04:55:43.592 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"e78947a6","testName":"add to cart from the PDP updates the badge"}
-2026-06-29 04:55:44.189 [info] Opening PDP for "Sauce Labs Backpack" {"scope":"SauceInventoryPage","correlationId":"e78947a6","testName":"add to cart from the PDP updates the badge"}
-2026-06-29 04:55:44.792 [info] ✔ PASS (1.40s) [e78947a6]: add to cart from the PDP updates the badge {"scope":"add to cart from the PDP updates the badge"}

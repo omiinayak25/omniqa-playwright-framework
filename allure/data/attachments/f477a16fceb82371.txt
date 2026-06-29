@@ -1,0 +1,5 @@
+2026-06-29 05:04:26.143 [info] ▶ START: ui/saucedemo/checkout.totals.spec.ts › SauceDemo · Checkout totals @ui @regression @checkout › subtotal equals the sum of item prices {"scope":"subtotal equals the sum of item prices","correlationId":"cbc21d3e","testName":"subtotal equals the sum of item prices"}
+2026-06-29 05:04:27.385 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"cbc21d3e","testName":"subtotal equals the sum of item prices"}
+2026-06-29 05:04:28.202 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"cbc21d3e","testName":"subtotal equals the sum of item prices"}
+2026-06-29 05:04:28.869 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"cbc21d3e","testName":"subtotal equals the sum of item prices"}
+2026-06-29 05:04:30.346 [info] ✔ PASS (4.20s) [cbc21d3e]: subtotal equals the sum of item prices {"scope":"subtotal equals the sum of item prices"}

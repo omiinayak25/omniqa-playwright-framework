@@ -1,0 +1,4 @@
+2026-06-29 05:03:46.392 [info] ▶ START: api/products.spec.ts › DummyJSON · Product API @api › gets a single product by id {"scope":"gets a single product by id","correlationId":"6545acdc","testName":"gets a single product by id"}
+2026-06-29 05:03:46.394 [info] → GET https://dummyjson.com/products/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"6545acdc","testName":"gets a single product by id"}
+2026-06-29 05:03:46.410 [info] ← 200 GET https://dummyjson.com/products/1 (16ms) {"scope":"ApiClient","correlationId":"6545acdc","testName":"gets a single product by id"}
+2026-06-29 05:03:46.412 [info] ✔ PASS (20ms) [6545acdc]: gets a single product by id {"scope":"gets a single product by id"}

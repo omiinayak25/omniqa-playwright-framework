@@ -1,0 +1,15 @@
+{
+  "label": "SauceDemo · Login · labels",
+  "url": "https://www.saucedemo.com/",
+  "timestamp": "2026-06-29T05:04:00.781Z",
+  "violations": [],
+  "passCount": 3,
+  "incompleteCount": 0,
+  "inapplicableCount": 2,
+  "counts": {
+    "minor": 0,
+    "moderate": 0,
+    "serious": 0,
+    "critical": 0
+  }
+}

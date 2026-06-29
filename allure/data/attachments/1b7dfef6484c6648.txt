@@ -1,0 +1,2 @@
+2026-06-29 05:04:00.836 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Product-record repository @db › upsert updates in place without creating a duplicate {"scope":"upsert updates in place without creating a duplicate","correlationId":"d016d19f","testName":"upsert updates in place without creating a duplicate"}
+2026-06-29 05:04:00.848 [info] ✔ PASS (12ms) [d016d19f]: upsert updates in place without creating a duplicate {"scope":"upsert updates in place without creating a duplicate"}

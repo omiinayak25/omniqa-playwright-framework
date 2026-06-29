@@ -1,4 +1,0 @@
-2026-06-29 04:55:40.621 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › SQLi username payload (union select) does not bypass auth {"scope":"SQLi username payload (union select) does not bypass auth","correlationId":"72e5a942","testName":"SQLi username payload (union select) does not bypass auth"}
-2026-06-29 04:55:41.402 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"72e5a942","testName":"SQLi username payload (union select) does not bypass auth"}
-2026-06-29 04:55:41.964 [info] Logging in as "' UNION SELECT NULL--" {"scope":"SauceLoginPage","correlationId":"72e5a942","testName":"SQLi username payload (union select) does not bypass auth"}
-2026-06-29 04:55:42.878 [info] ✔ PASS (2.26s) [72e5a942]: SQLi username payload (union select) does not bypass auth {"scope":"SQLi username payload (union select) does not bypass auth"}

@@ -1,4 +1,0 @@
-2026-06-29 04:55:36.755 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › XSS username payload (javascript: uri) is neutralised {"scope":"XSS username payload (javascript: uri) is neutralised","correlationId":"43e366e5","testName":"XSS username payload (javascript: uri) is neutralised"}
-2026-06-29 04:55:36.831 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"43e366e5","testName":"XSS username payload (javascript: uri) is neutralised"}
-2026-06-29 04:55:37.414 [info] Logging in as "javascript:alert(1)" {"scope":"SauceLoginPage","correlationId":"43e366e5","testName":"XSS username payload (javascript: uri) is neutralised"}
-2026-06-29 04:55:38.061 [info] ✔ PASS (1.31s) [43e366e5]: XSS username payload (javascript: uri) is neutralised {"scope":"XSS username payload (javascript: uri) is neutralised"}

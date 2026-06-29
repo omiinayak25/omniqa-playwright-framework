@@ -1,3 +1,0 @@
-2026-06-29 04:55:08.574 [info] ▶ START: ui/saucedemo/inventory.spec.ts › SauceDemo · Inventory (authenticated) @ui @smoke › shows the full product catalog {"scope":"shows the full product catalog","correlationId":"c59e4045","testName":"shows the full product catalog"}
-2026-06-29 04:55:09.726 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"c59e4045","testName":"shows the full product catalog"}
-2026-06-29 04:55:10.967 [info] ✔ PASS (2.39s) [c59e4045]: shows the full product catalog {"scope":"shows the full product catalog"}

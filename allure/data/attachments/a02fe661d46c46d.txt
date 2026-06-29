@@ -1,0 +1,4 @@
+2026-06-29 05:05:05.226 [info] ▶ START: ui/saucedemo/login.data-driven.spec.ts › SauceDemo · Data-driven login @ui @regression › performance_glitch_user → success {"scope":"performance_glitch_user → success","correlationId":"652a1fa0","testName":"performance_glitch_user → success"}
+2026-06-29 05:05:06.166 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"652a1fa0","testName":"performance_glitch_user → success"}
+2026-06-29 05:05:06.610 [info] Logging in as "performance_glitch_user" {"scope":"SauceLoginPage","correlationId":"652a1fa0","testName":"performance_glitch_user → success"}
+2026-06-29 05:05:12.577 [info] ✔ PASS (7.35s) [652a1fa0]: performance_glitch_user → success {"scope":"performance_glitch_user → success"}

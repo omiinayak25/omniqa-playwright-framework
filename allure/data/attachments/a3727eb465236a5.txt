@@ -1,0 +1,4 @@
+2026-06-29 05:05:36.133 [info] ▶ START: ui/orangehrm/login.negative.spec.ts › OrangeHRM · Login negative @ui @regression @negative › unknown user is rejected with an error {"scope":"unknown user is rejected with an error","correlationId":"7bdceebb","testName":"unknown user is rejected with an error"}
+2026-06-29 05:05:36.232 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"7bdceebb","testName":"unknown user is rejected with an error"}
+2026-06-29 05:05:41.408 [info] Logging in as "no_such_user" {"scope":"OrangeLoginPage","correlationId":"7bdceebb","testName":"unknown user is rejected with an error"}
+2026-06-29 05:05:45.555 [info] ✔ PASS (9.42s) [7bdceebb]: unknown user is rejected with an error {"scope":"unknown user is rejected with an error"}

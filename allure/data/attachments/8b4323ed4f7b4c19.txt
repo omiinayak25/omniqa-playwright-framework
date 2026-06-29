@@ -1,0 +1,4 @@
+2026-06-29 05:03:45.812 [info] ▶ START: api/products.extended.spec.ts › DummyJSON · Product catalog integrity @api @regression @inventory › all listed products have a positive price {"scope":"all listed products have a positive price","correlationId":"5af645f1","testName":"all listed products have a positive price"}
+2026-06-29 05:03:45.813 [info] → GET https://dummyjson.com/products?limit=30&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"5af645f1","testName":"all listed products have a positive price"}
+2026-06-29 05:03:45.948 [info] ← 200 GET https://dummyjson.com/products?limit=30&skip=0 (132ms) {"scope":"ApiClient","correlationId":"5af645f1","testName":"all listed products have a positive price"}
+2026-06-29 05:03:45.950 [info] ✔ PASS (138ms) [5af645f1]: all listed products have a positive price {"scope":"all listed products have a positive price"}

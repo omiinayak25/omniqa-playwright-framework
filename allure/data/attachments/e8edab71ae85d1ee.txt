@@ -1,2 +1,0 @@
-2026-06-29 04:54:06.349 [info] ▶ START: db/repositories-extended.spec.ts › PostgreSQL · Repository edge cases @db › deactivate flips is_active to false {"scope":"deactivate flips is_active to false","correlationId":"21005463","testName":"deactivate flips is_active to false"}
-2026-06-29 04:54:06.362 [info] ✔ PASS (14ms) [21005463]: deactivate flips is_active to false {"scope":"deactivate flips is_active to false"}

@@ -1,0 +1,2 @@
+2026-06-29 05:03:45.061 [info] ▶ START: api/fixtures.spec.ts › Custom fixtures (DI) @smoke › data fixture generates isolated test data {"scope":"data fixture generates isolated test data","correlationId":"b85eac6e","testName":"data fixture generates isolated test data"}
+2026-06-29 05:03:45.068 [info] ✔ PASS (7ms) [b85eac6e]: data fixture generates isolated test data {"scope":"data fixture generates isolated test data"}

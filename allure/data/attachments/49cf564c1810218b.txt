@@ -1,4 +1,0 @@
-2026-06-29 04:54:03.589 [info] ▶ START: performance/saucedemo/cart.perf.spec.ts › SauceDemo · Cart · Performance @perf › cart navigation timing is captured {"scope":"cart navigation timing is captured","correlationId":"a6fc8463","testName":"cart navigation timing is captured"}
-2026-06-29 04:54:04.123 [info] Navigating to https://www.saucedemo.com/cart.html {"scope":"SauceCartPage","correlationId":"a6fc8463","testName":"cart navigation timing is captured"}
-2026-06-29 04:54:05.033 [info] Perf "SauceDemo · Cart · timing": ttfb=14ms dcl=219ms load=362ms fcp=272ms lcp=408ms res=5 transfer=228KB {"scope":"Perf","correlationId":"a6fc8463","testName":"cart navigation timing is captured"}
-2026-06-29 04:54:05.388 [info] ✔ PASS (1.79s) [a6fc8463]: cart navigation timing is captured {"scope":"cart navigation timing is captured"}

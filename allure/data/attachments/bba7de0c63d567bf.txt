@@ -1,3 +1,0 @@
-2026-06-29 04:55:12.923 [info] ▶ START: ui/saucedemo/inventory.catalog.spec.ts › SauceDemo · Catalog integrity @ui @regression @inventory › every product image has a resolvable src {"scope":"every product image has a resolvable src","correlationId":"364eb324","testName":"every product image has a resolvable src"}
-2026-06-29 04:55:13.849 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"364eb324","testName":"every product image has a resolvable src"}
-2026-06-29 04:55:16.126 [info] ✔ PASS (3.20s) [364eb324]: every product image has a resolvable src {"scope":"every product image has a resolvable src"}

@@ -1,0 +1,4 @@
+2026-06-29 05:03:44.734 [info] ▶ START: api/dummyjson-extended.spec.ts › DummyJSON · Products extended @api @regression › getById(5) returns the matching product {"scope":"getById(5) returns the matching product","correlationId":"30eaa345","testName":"getById(5) returns the matching product"}
+2026-06-29 05:03:44.735 [info] → GET https://dummyjson.com/products/5 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"30eaa345","testName":"getById(5) returns the matching product"}
+2026-06-29 05:03:44.855 [info] ← 200 GET https://dummyjson.com/products/5 (120ms) {"scope":"ApiClient","correlationId":"30eaa345","testName":"getById(5) returns the matching product"}
+2026-06-29 05:03:44.857 [info] ✔ PASS (123ms) [30eaa345]: getById(5) returns the matching product {"scope":"getById(5) returns the matching product"}

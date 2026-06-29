@@ -1,0 +1,5 @@
+2026-06-29 05:03:50.333 [info] ▶ START: performance/saucedemo/inventory.perf.spec.ts › SauceDemo · Inventory · Performance @perf › @smoke inventory loads within budget {"scope":"@smoke inventory loads within budget","correlationId":"e4ad7d13","testName":"@smoke inventory loads within budget"}
+2026-06-29 05:03:50.403 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"e4ad7d13","testName":"@smoke inventory loads within budget"}
+2026-06-29 05:03:50.690 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"e4ad7d13","testName":"@smoke inventory loads within budget"}
+2026-06-29 05:03:51.690 [info] Perf "SauceDemo · Inventory": ttfb=13ms dcl=282ms load=372ms fcp=316ms lcp=456ms res=16 transfer=376KB {"scope":"Perf","correlationId":"e4ad7d13","testName":"@smoke inventory loads within budget"}
+2026-06-29 05:03:52.051 [info] ✔ PASS (1.72s) [e4ad7d13]: @smoke inventory loads within budget {"scope":"@smoke inventory loads within budget"}

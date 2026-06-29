@@ -1,4 +1,0 @@
-2026-06-29 04:55:46.523 [info] ▶ START: ui/saucedemo/product-details.data.spec.ts › SauceDemo · PDP per product @ui @regression @inventory › PDP for "Sauce Labs Fleece Jacket" shows correct details {"scope":"PDP for \"Sauce Labs Fleece Jacket\" shows correct details","correlationId":"c23903d7","testName":"PDP for \"Sauce Labs Fleece Jacket\" shows correct details"}
-2026-06-29 04:55:47.638 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"c23903d7","testName":"PDP for \"Sauce Labs Fleece Jacket\" shows correct details"}
-2026-06-29 04:55:48.400 [info] Opening PDP for "Sauce Labs Fleece Jacket" {"scope":"SauceInventoryPage","correlationId":"c23903d7","testName":"PDP for \"Sauce Labs Fleece Jacket\" shows correct details"}
-2026-06-29 04:55:49.960 [info] ✔ PASS (3.44s) [c23903d7]: PDP for "Sauce Labs Fleece Jacket" shows correct details {"scope":"PDP for \"Sauce Labs Fleece Jacket\" shows correct details"}

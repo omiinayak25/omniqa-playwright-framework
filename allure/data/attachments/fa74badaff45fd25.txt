@@ -1,0 +1,2 @@
+2026-06-29 05:03:47.094 [info] ▶ START: api/utils.spec.ts › File utils (JSON/CSV/Excel) @smoke › JSON write/read round-trips {"scope":"JSON write/read round-trips","correlationId":"66f8f59e","testName":"JSON write/read round-trips"}
+2026-06-29 05:03:47.104 [info] ✔ PASS (10ms) [66f8f59e]: JSON write/read round-trips {"scope":"JSON write/read round-trips"}
