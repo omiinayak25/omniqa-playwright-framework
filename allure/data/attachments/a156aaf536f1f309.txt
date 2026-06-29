@@ -1,0 +1,4 @@
+2026-06-29 04:42:09.708 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › XSS username payload (attribute breakout) is neutralised {"scope":"XSS username payload (attribute breakout) is neutralised","correlationId":"cbd63250","testName":"XSS username payload (attribute breakout) is neutralised"}
+2026-06-29 04:42:10.103 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"cbd63250","testName":"XSS username payload (attribute breakout) is neutralised"}
+2026-06-29 04:42:10.885 [info] Logging in as "" onmouseover="alert(1)" {"scope":"SauceLoginPage","correlationId":"cbd63250","testName":"XSS username payload (attribute breakout) is neutralised"}
+2026-06-29 04:42:12.391 [info] ✔ PASS (2.68s) [cbd63250]: XSS username payload (attribute breakout) is neutralised {"scope":"XSS username payload (attribute breakout) is neutralised"}

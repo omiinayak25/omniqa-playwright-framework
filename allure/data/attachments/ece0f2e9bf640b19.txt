@@ -1,0 +1,6 @@
+2026-06-29 04:40:36.501 [info] PGlite pool created (embedded PostgreSQL — no server required) {"scope":"DbPool"}
+2026-06-29 04:40:42.920 [info] PGlite embedded database ready (schema + seed applied) {"scope":"DbPool"}
+2026-06-29 04:40:42.959 [info] ▶ START: e2e/api-to-db-sync.e2e.spec.ts › E2E · API → DB product sync @e2e › reads product from API, syncs to DB, verifies consistency {"scope":"reads product from API, syncs to DB, verifies consistency","correlationId":"cb8580e2","testName":"reads product from API, syncs to DB, verifies consistency"}
+2026-06-29 04:40:42.976 [info] → GET https://dummyjson.com/products/5 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"cb8580e2","testName":"reads product from API, syncs to DB, verifies consistency"}
+2026-06-29 04:40:43.652 [info] ← 200 GET https://dummyjson.com/products/5 (673ms) {"scope":"ApiClient","correlationId":"cb8580e2","testName":"reads product from API, syncs to DB, verifies consistency"}
+2026-06-29 04:40:43.677 [info] ✔ PASS (719ms) [cb8580e2]: reads product from API, syncs to DB, verifies consistency {"scope":"reads product from API, syncs to DB, verifies consistency"}

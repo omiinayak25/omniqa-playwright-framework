@@ -1,1 +1,1 @@
-[]
+[{"values":["QA"],"name":"Environment"},{"values":["https://www.saucedemo.com"],"name":"SauceDemo.URL"},{"values":["https://opensource-demo.orangehrmlive.com"],"name":"OrangeHRM.URL"},{"values":["https://restful-booker.herokuapp.com"],"name":"RestfulBooker.URL"},{"values":["localhost:5432/automation_db"],"name":"Database"},{"values":["v20.20.2"],"name":"Node"},{"values":["Linux 6.17.0-1018-azure"],"name":"OS"},{"values":["true"],"name":"Headless"}]

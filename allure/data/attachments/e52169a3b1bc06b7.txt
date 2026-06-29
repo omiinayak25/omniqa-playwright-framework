@@ -1,0 +1,4 @@
+2026-06-29 04:40:28.756 [info] ▶ START: api/jsonplaceholder-posts.spec.ts › JSONPlaceholder · Posts extended @api @regression › a post has the expected schema {"scope":"a post has the expected schema","correlationId":"f14de7d9","testName":"a post has the expected schema"}
+2026-06-29 04:40:28.757 [info] → GET https://jsonplaceholder.typicode.com/posts/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"f14de7d9","testName":"a post has the expected schema"}
+2026-06-29 04:40:28.770 [info] ← 200 GET https://jsonplaceholder.typicode.com/posts/1 (12ms) {"scope":"ApiClient","correlationId":"f14de7d9","testName":"a post has the expected schema"}
+2026-06-29 04:40:28.772 [info] ✔ PASS (16ms) [f14de7d9]: a post has the expected schema {"scope":"a post has the expected schema"}

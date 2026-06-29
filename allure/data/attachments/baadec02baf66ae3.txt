@@ -1,0 +1,4 @@
+2026-06-29 04:40:29.574 [info] ▶ START: api/products.search.spec.ts › DummyJSON · Product search @api @regression @search › a unicode term is handled gracefully {"scope":"a unicode term is handled gracefully","correlationId":"5fba8275","testName":"a unicode term is handled gracefully"}
+2026-06-29 04:40:29.574 [info] → GET https://dummyjson.com/products/search?q=%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"5fba8275","testName":"a unicode term is handled gracefully"}
+2026-06-29 04:40:29.688 [info] ← 200 GET https://dummyjson.com/products/search?q=%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88 (113ms) {"scope":"ApiClient","correlationId":"5fba8275","testName":"a unicode term is handled gracefully"}
+2026-06-29 04:40:29.690 [info] ✔ PASS (117ms) [5fba8275]: a unicode term is handled gracefully {"scope":"a unicode term is handled gracefully"}

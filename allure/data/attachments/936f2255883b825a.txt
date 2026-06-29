@@ -1,0 +1,4 @@
+2026-06-29 04:42:39.763 [info] ▶ START: ui/saucedemo/session.spec.ts › SauceDemo · Authenticated session @ui @regression › after logout, the catalog is no longer served {"scope":"after logout, the catalog is no longer served","correlationId":"0b2a1320","testName":"after logout, the catalog is no longer served"}
+2026-06-29 04:42:40.558 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"0b2a1320","testName":"after logout, the catalog is no longer served"}
+2026-06-29 04:42:42.268 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"0b2a1320","testName":"after logout, the catalog is no longer served"}
+2026-06-29 04:42:57.528 [info] ✔ PASS (17.77s) [0b2a1320]: after logout, the catalog is no longer served {"scope":"after logout, the catalog is no longer served"}

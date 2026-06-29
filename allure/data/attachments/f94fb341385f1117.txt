@@ -1,0 +1,2 @@
+2026-06-29 04:40:30.922 [info] ▶ START: db/repositories-extended.spec.ts › PostgreSQL · Repository edge cases @db › department insert + delete round-trips the row count {"scope":"department insert + delete round-trips the row count","correlationId":"f6fcf1cb","testName":"department insert + delete round-trips the row count"}
+2026-06-29 04:40:30.941 [info] ✔ PASS (19ms) [f6fcf1cb]: department insert + delete round-trips the row count {"scope":"department insert + delete round-trips the row count"}
