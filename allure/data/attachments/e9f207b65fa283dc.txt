@@ -1,0 +1,6 @@
+2026-06-29 04:17:27.298 [info] ▶ START: accessibility/saucedemo/inventory.a11y.spec.ts › SauceDemo · Inventory · Accessibility @a11y @accessibility @regression › the scanner detects the known unlabeled sort control {"scope":"the scanner detects the known unlabeled sort control","correlationId":"d1d13e94","testName":"the scanner detects the known unlabeled sort control"}
+2026-06-29 04:17:27.354 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"d1d13e94","testName":"the scanner detects the known unlabeled sort control"}
+2026-06-29 04:17:27.617 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"d1d13e94","testName":"the scanner detects the known unlabeled sort control"}
+2026-06-29 04:17:28.135 [info] Running axe scan: "SauceDemo · Inventory · detection" {"scope":"A11yScanner","correlationId":"d1d13e94","testName":"the scanner detects the known unlabeled sort control"}
+2026-06-29 04:17:29.659 [warn] axe scan "SauceDemo · Inventory · detection" — 1 violation(s): critical=1 serious=0 moderate=0 minor=0 {"scope":"A11yScanner","correlationId":"d1d13e94","testName":"the scanner detects the known unlabeled sort control"}
+2026-06-29 04:17:30.164 [info] ✔ PASS (2.87s) [d1d13e94]: the scanner detects the known unlabeled sort control {"scope":"the scanner detects the known unlabeled sort control"}

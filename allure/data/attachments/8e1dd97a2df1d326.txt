@@ -1,2 +1,0 @@
-2026-06-29 03:46:08.259 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Department repository @db › findByName returns null for an unknown department {"scope":"findByName returns null for an unknown department","correlationId":"985f7fca","testName":"findByName returns null for an unknown department"}
-2026-06-29 03:46:08.271 [info] ✔ PASS (12ms) [985f7fca]: findByName returns null for an unknown department {"scope":"findByName returns null for an unknown department"}

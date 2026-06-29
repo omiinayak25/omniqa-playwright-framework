@@ -1,3 +1,0 @@
-2026-06-29 03:47:12.755 [info] ▶ START: ui/orangehrm/dashboard.spec.ts › OrangeHRM · Dashboard @ui @regression @dashboard › @smoke the dashboard header reads "Dashboard" {"scope":"@smoke the dashboard header reads \"Dashboard\"","correlationId":"0fcd8b43","testName":"@smoke the dashboard header reads \"Dashboard\""}
-2026-06-29 03:47:13.018 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"0fcd8b43","testName":"@smoke the dashboard header reads \"Dashboard\""}
-2026-06-29 03:47:17.417 [error] ✘ FAILED (4.66s) [0fcd8b43]: @smoke the dashboard header reads "Dashboard" {"scope":"@smoke the dashboard header reads \"Dashboard\""}

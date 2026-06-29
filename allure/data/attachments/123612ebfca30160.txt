@@ -1,2 +1,0 @@
-2026-06-29 03:46:55.805 [info] (Admin side menu exposes the core module set) ▶ START: ui/orangehrm/authorization.spec.ts › OrangeHRM · Authorization — Admin privileges @ui @regression @authorization › Admin side menu exposes the core module set
-2026-06-29 03:46:56.186 [info] (OrangeDashboardPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index

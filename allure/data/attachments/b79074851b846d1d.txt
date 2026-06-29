@@ -1,3 +1,0 @@
-2026-06-29 03:46:02.604 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › the employee id is auto-populated {"scope":"the employee id is auto-populated","correlationId":"2b78b889","testName":"the employee id is auto-populated"}
-2026-06-29 03:46:03.022 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"2b78b889","testName":"the employee id is auto-populated"}
-2026-06-29 03:46:22.940 [error] ✘ FAILED (20.34s) [2b78b889]: the employee id is auto-populated {"scope":"the employee id is auto-populated"}

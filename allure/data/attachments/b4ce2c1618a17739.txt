@@ -1,4 +1,0 @@
-Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
-
-Expected value: [32m"Admin"[39m
-Received array: [31m["管理员", "个人信息管理系统", "休假", "时间", "招聘", "我的信息", "绩效", "仪表盘", "Directory", "Maintenance", …][39m

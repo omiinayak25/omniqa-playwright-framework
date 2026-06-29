@@ -1,6 +1,0 @@
-2026-06-29 03:45:53.107 [info] ▶ START: ui/saucedemo/cart.contents.spec.ts › SauceDemo · Cart contents integrity @ui @regression @cart › each cart line has a quantity of 1 {"scope":"each cart line has a quantity of 1","correlationId":"14050fc3","testName":"each cart line has a quantity of 1"}
-2026-06-29 03:45:54.895 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"14050fc3","testName":"each cart line has a quantity of 1"}
-2026-06-29 03:45:55.606 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"14050fc3","testName":"each cart line has a quantity of 1"}
-2026-06-29 03:45:55.871 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"14050fc3","testName":"each cart line has a quantity of 1"}
-2026-06-29 03:45:56.053 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"14050fc3","testName":"each cart line has a quantity of 1"}
-2026-06-29 03:45:56.924 [info] ✔ PASS (3.82s) [14050fc3]: each cart line has a quantity of 1 {"scope":"each cart line has a quantity of 1"}

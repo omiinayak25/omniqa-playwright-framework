@@ -1,0 +1,4 @@
+2026-06-29 04:18:55.347 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › SQLi username payload (admin comment) does not bypass auth {"scope":"SQLi username payload (admin comment) does not bypass auth","correlationId":"30985076","testName":"SQLi username payload (admin comment) does not bypass auth"}
+2026-06-29 04:18:55.444 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"30985076","testName":"SQLi username payload (admin comment) does not bypass auth"}
+2026-06-29 04:18:56.063 [info] Logging in as "admin'--" {"scope":"SauceLoginPage","correlationId":"30985076","testName":"SQLi username payload (admin comment) does not bypass auth"}
+2026-06-29 04:18:56.938 [info] ✔ PASS (1.60s) [30985076]: SQLi username payload (admin comment) does not bypass auth {"scope":"SQLi username payload (admin comment) does not bypass auth"}

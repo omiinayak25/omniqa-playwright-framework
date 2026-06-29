@@ -1,0 +1,6 @@
+2026-06-29 04:17:33.620 [info] ▶ START: e2e/saucedemo-purchase.e2e.spec.ts › E2E · SauceDemo purchase journey @e2e @ui › browse → cart → checkout → complete → logout {"scope":"browse → cart → checkout → complete → logout","correlationId":"393aedf1","testName":"browse → cart → checkout → complete → logout"}
+2026-06-29 04:17:33.855 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"393aedf1","testName":"browse → cart → checkout → complete → logout"}
+2026-06-29 04:17:34.163 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"393aedf1","testName":"browse → cart → checkout → complete → logout"}
+2026-06-29 04:17:34.194 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"393aedf1","testName":"browse → cart → checkout → complete → logout"}
+2026-06-29 04:17:34.532 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"393aedf1","testName":"browse → cart → checkout → complete → logout"}
+2026-06-29 04:17:34.828 [info] ✔ PASS (1.21s) [393aedf1]: browse → cart → checkout → complete → logout {"scope":"browse → cart → checkout → complete → logout"}

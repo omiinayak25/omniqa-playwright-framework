@@ -1,0 +1,48 @@
+<style>
+  body{font-family:system-ui,Arial,sans-serif;margin:1.5rem;color:#1a1a1a}
+  h1,h2{font-weight:600}
+  table{border-collapse:collapse;width:100%;margin-top:.5rem}
+  th,td{border:1px solid #ddd;padding:.4rem .6rem;text-align:left;font-size:.86rem;vertical-align:top}
+  th{background:#f4f4f5}
+  code{white-space:pre-wrap;font-size:.78rem}
+  .meta{color:#666;font-size:.82rem;margin:.2rem 0}
+  .pass{color:#15803d;font-weight:600}
+  tr.ok td:nth-child(2){color:#15803d;font-weight:600}
+  tr.bad td:nth-child(2){color:#b91c1c;font-weight:700}
+  .impact{padding:.05rem .4rem;border-radius:.3rem;font-size:.72rem;text-transform:uppercase;color:#fff}
+  .impact.critical{background:#b91c1c}.impact.serious{background:#c2410c}
+  .impact.moderate{background:#a16207}.impact.minor{background:#4b5563}.impact.unknown{background:#9ca3af}
+</style>
+      <h2>OrangeHRM · Login · critical-gate</h2>
+      <p class="meta">https://opensource-demo.orangehrmlive.com/web/index.php/auth/login — 2026-06-29T04:17:24.019Z</p>
+      <p class="meta">critical=0 · serious=3 · moderate=0 · minor=0 · incomplete=1</p>
+      <table>
+            <thead><tr><th>Impact</th><th>Rule</th><th>Help</th><th>Nodes</th><th>Targets</th></tr></thead>
+            <tbody>
+        <tr>
+          <td><span class="impact serious">serious</span></td>
+          <td><a href="https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright" target="_blank" rel="noopener">color-contrast</a></td>
+          <td>Elements must meet minimum color contrast ratio thresholds</td>
+          <td>3</td>
+          <td><code>.oxd-sheet &gt; p:nth-child(1)
+.oxd-sheet &gt; p:nth-child(2)
+button</code></td>
+        </tr>
+        <tr>
+          <td><span class="impact serious">serious</span></td>
+          <td><a href="https://dequeuniversity.com/rules/axe/4.12/html-has-lang?application=playwright" target="_blank" rel="noopener">html-has-lang</a></td>
+          <td>&lt;html&gt; element must have a lang attribute</td>
+          <td>1</td>
+          <td><code>html</code></td>
+        </tr>
+        <tr>
+          <td><span class="impact serious">serious</span></td>
+          <td><a href="https://dequeuniversity.com/rules/axe/4.12/link-name?application=playwright" target="_blank" rel="noopener">link-name</a></td>
+          <td>Links must have discernible text</td>
+          <td>4</td>
+          <td><code>.orangehrm-login-footer-sm &gt; a:nth-child(1)
+a:nth-child(2)
+a:nth-child(3)
+a:nth-child(4)</code></td>
+        </tr></tbody>
+          </table>

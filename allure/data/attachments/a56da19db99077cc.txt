@@ -1,4 +1,0 @@
-2026-06-29 03:47:06.437 [info] ▶ START: ui/saucedemo/login.negative.spec.ts › SauceDemo · Login negative & boundary inputs @ui @regression @negative › login error banner can be dismissed {"scope":"login error banner can be dismissed","correlationId":"eb89f195","testName":"login error banner can be dismissed"}
-2026-06-29 03:47:07.321 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"eb89f195","testName":"login error banner can be dismissed"}
-2026-06-29 03:47:07.900 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"eb89f195","testName":"login error banner can be dismissed"}
-2026-06-29 03:47:09.134 [info] ✔ PASS (2.70s) [eb89f195]: login error banner can be dismissed {"scope":"login error banner can be dismissed"}

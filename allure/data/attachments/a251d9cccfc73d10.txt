@@ -1,0 +1,7 @@
+2026-06-29 04:17:18.406 [info] ▶ START: visual/saucedemo/cart.visual.spec.ts › SauceDemo · Cart & Checkout · Visual @visual @regression › the cart page matches the baseline {"scope":"the cart page matches the baseline","correlationId":"79701deb","testName":"the cart page matches the baseline"}
+2026-06-29 04:17:20.011 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"79701deb","testName":"the cart page matches the baseline"}
+2026-06-29 04:17:20.267 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"79701deb","testName":"the cart page matches the baseline"}
+2026-06-29 04:17:20.604 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"79701deb","testName":"the cart page matches the baseline"}
+2026-06-29 04:17:20.812 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"79701deb","testName":"the cart page matches the baseline"}
+2026-06-29 04:17:20.910 [info] Visual compare (page, fullPage=true): saucedemo-cart {"scope":"Visual","correlationId":"79701deb","testName":"the cart page matches the baseline"}
+2026-06-29 04:17:21.421 [info] ✔ PASS (3.02s) [79701deb]: the cart page matches the baseline {"scope":"the cart page matches the baseline"}

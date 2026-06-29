@@ -1,5 +1,0 @@
-2026-06-29 03:46:06.967 [info] ▶ START: ui/saucedemo/checkout.data.spec.ts › SauceDemo · Purchase each product @ui @regression @checkout › "Sauce Labs Bolt T-Shirt" can be purchased end-to-end {"scope":"\"Sauce Labs Bolt T-Shirt\" can be purchased end-to-end","correlationId":"fc628b90","testName":"\"Sauce Labs Bolt T-Shirt\" can be purchased end-to-end"}
-2026-06-29 03:46:08.016 [info] Purchasing 1 product(s) {"scope":"CheckoutFlow","correlationId":"fc628b90","testName":"\"Sauce Labs Bolt T-Shirt\" can be purchased end-to-end"}
-2026-06-29 03:46:08.016 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"fc628b90","testName":"\"Sauce Labs Bolt T-Shirt\" can be purchased end-to-end"}
-2026-06-29 03:46:08.084 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"fc628b90","testName":"\"Sauce Labs Bolt T-Shirt\" can be purchased end-to-end"}
-2026-06-29 03:46:11.306 [info] ✔ PASS (4.34s) [fc628b90]: "Sauce Labs Bolt T-Shirt" can be purchased end-to-end {"scope":"\"Sauce Labs Bolt T-Shirt\" can be purchased end-to-end"}

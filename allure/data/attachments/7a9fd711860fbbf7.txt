@@ -1,3 +1,0 @@
-2026-06-29 03:46:44.184 [info] ▶ START: ui/saucedemo/inventory.catalog.spec.ts › SauceDemo · Catalog integrity @ui @regression @inventory › every product price is $0.00 formatted {"scope":"every product price is $0.00 formatted","correlationId":"79f42953","testName":"every product price is $0.00 formatted"}
-2026-06-29 03:46:45.390 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"79f42953","testName":"every product price is $0.00 formatted"}
-2026-06-29 03:46:46.800 [info] ✔ PASS (2.62s) [79f42953]: every product price is $0.00 formatted {"scope":"every product price is $0.00 formatted"}

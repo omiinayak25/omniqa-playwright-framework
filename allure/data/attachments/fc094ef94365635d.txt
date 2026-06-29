@@ -1,4 +1,0 @@
-2026-06-29 03:47:22.346 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › SQLi username payload (drop table) does not bypass auth {"scope":"SQLi username payload (drop table) does not bypass auth","correlationId":"12692094","testName":"SQLi username payload (drop table) does not bypass auth"}
-2026-06-29 03:47:22.761 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"12692094","testName":"SQLi username payload (drop table) does not bypass auth"}
-2026-06-29 03:47:23.601 [info] Logging in as "'; DROP TABLE users; --" {"scope":"SauceLoginPage","correlationId":"12692094","testName":"SQLi username payload (drop table) does not bypass auth"}
-2026-06-29 03:47:24.411 [info] ✔ PASS (2.06s) [12692094]: SQLi username payload (drop table) does not bypass auth {"scope":"SQLi username payload (drop table) does not bypass auth"}

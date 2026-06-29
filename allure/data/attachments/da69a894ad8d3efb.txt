@@ -1,4 +1,0 @@
-2026-06-29 03:46:12.197 [info] ▶ START: api/sla-and-sorting.spec.ts › Server-side sorting @api › products sorted by title descending {"scope":"products sorted by title descending","correlationId":"357f5945","testName":"products sorted by title descending"}
-2026-06-29 03:46:12.197 [info] → GET https://dummyjson.com/products?sortBy=title&order=desc&limit=10 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"357f5945","testName":"products sorted by title descending"}
-2026-06-29 03:46:12.376 [info] ← 200 GET https://dummyjson.com/products?sortBy=title&order=desc&limit=10 (178ms) {"scope":"ApiClient","correlationId":"357f5945","testName":"products sorted by title descending"}
-2026-06-29 03:46:12.379 [info] ✔ PASS (182ms) [357f5945]: products sorted by title descending {"scope":"products sorted by title descending"}

@@ -1,0 +1,69 @@
+{
+  "metrics": {
+    "label": "SauceDemo · Checkout info",
+    "url": "https://www.saucedemo.com/",
+    "timestamp": "2026-06-29T04:17:20.270Z",
+    "ttfbMs": 6,
+    "domContentLoadedMs": 252,
+    "loadMs": 336,
+    "domInteractiveMs": 42,
+    "fcpMs": 356,
+    "lcpMs": 432,
+    "network": {
+      "dnsMs": 0,
+      "tcpMs": 0,
+      "tlsMs": 0,
+      "requestMs": 5,
+      "responseMs": 1
+    },
+    "resources": {
+      "count": 5,
+      "transferBytes": 233910,
+      "byType": [
+        {
+          "type": "script",
+          "count": 1,
+          "transferBytes": 221912
+        },
+        {
+          "type": "link",
+          "count": 2,
+          "transferBytes": 11998
+        },
+        {
+          "type": "fetch",
+          "count": 2,
+          "transferBytes": 0
+        }
+      ],
+      "slowest": [
+        {
+          "url": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN",
+          "durationMs": 177,
+          "transferBytes": 0
+        },
+        {
+          "url": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN",
+          "durationMs": 174,
+          "transferBytes": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500",
+          "durationMs": 48,
+          "transferBytes": 794
+        },
+        {
+          "url": "https://www.saucedemo.com/static/js/main.bcf4bc5f.js",
+          "durationMs": 33,
+          "transferBytes": 221912
+        },
+        {
+          "url": "https://www.saucedemo.com/static/css/main.8a7d64a1.css",
+          "durationMs": 12,
+          "transferBytes": 11204
+        }
+      ]
+    }
+  },
+  "violations": []
+}

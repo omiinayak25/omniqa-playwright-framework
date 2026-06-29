@@ -1,0 +1,7 @@
+2026-06-29 04:17:27.772 [info] ▶ START: ui/saucedemo/cart.contents.spec.ts › SauceDemo · Cart contents integrity @ui @regression @cart › removing one of three items leaves the other two {"scope":"removing one of three items leaves the other two","correlationId":"198bd22e","testName":"removing one of three items leaves the other two"}
+2026-06-29 04:17:29.610 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"198bd22e","testName":"removing one of three items leaves the other two"}
+2026-06-29 04:17:30.601 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"198bd22e","testName":"removing one of three items leaves the other two"}
+2026-06-29 04:17:30.868 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"198bd22e","testName":"removing one of three items leaves the other two"}
+2026-06-29 04:17:31.044 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"198bd22e","testName":"removing one of three items leaves the other two"}
+2026-06-29 04:17:31.254 [info] Removing "Sauce Labs Bike Light" from cart {"scope":"SauceCartPage","correlationId":"198bd22e","testName":"removing one of three items leaves the other two"}
+2026-06-29 04:17:31.840 [info] ✔ PASS (4.07s) [198bd22e]: removing one of three items leaves the other two {"scope":"removing one of three items leaves the other two"}

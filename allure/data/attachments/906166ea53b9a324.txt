@@ -1,3 +1,0 @@
-2026-06-29 03:47:16.168 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › password field masks its value (type=password) {"scope":"password field masks its value (type=password)","correlationId":"9d6b6e16","testName":"password field masks its value (type=password)"}
-2026-06-29 03:47:16.862 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"9d6b6e16","testName":"password field masks its value (type=password)"}
-2026-06-29 03:47:18.189 [info] ✔ PASS (2.02s) [9d6b6e16]: password field masks its value (type=password) {"scope":"password field masks its value (type=password)"}

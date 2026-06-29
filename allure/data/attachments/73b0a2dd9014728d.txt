@@ -1,0 +1,6 @@
+2026-06-29 04:17:25.887 [info] PGlite pool created (embedded PostgreSQL — no server required) {"scope":"DbPool"}
+2026-06-29 04:17:32.348 [info] PGlite embedded database ready (schema + seed applied) {"scope":"DbPool"}
+2026-06-29 04:17:32.435 [info] ▶ START: e2e/api-to-db-sync.e2e.spec.ts › E2E · API → DB product sync @e2e › re-syncing the same product is idempotent (no duplicate row) {"scope":"re-syncing the same product is idempotent (no duplicate row)","correlationId":"9c873e2d","testName":"re-syncing the same product is idempotent (no duplicate row)"}
+2026-06-29 04:17:32.477 [info] → GET https://dummyjson.com/products/5 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"9c873e2d","testName":"re-syncing the same product is idempotent (no duplicate row)"}
+2026-06-29 04:17:33.527 [info] ← 200 GET https://dummyjson.com/products/5 (1036ms) {"scope":"ApiClient","correlationId":"9c873e2d","testName":"re-syncing the same product is idempotent (no duplicate row)"}
+2026-06-29 04:17:33.540 [info] ✔ PASS (1.11s) [9c873e2d]: re-syncing the same product is idempotent (no duplicate row) {"scope":"re-syncing the same product is idempotent (no duplicate row)"}

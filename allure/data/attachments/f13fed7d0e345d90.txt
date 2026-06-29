@@ -1,0 +1,2 @@
+2026-06-29 04:17:28.698 [info] ▶ START: api/sanity.spec.ts › Framework sanity @smoke › toolchain is wired correctly {"scope":"toolchain is wired correctly","correlationId":"9e914c78","testName":"toolchain is wired correctly"}
+2026-06-29 04:17:28.700 [info] ✔ PASS (2ms) [9e914c78]: toolchain is wired correctly {"scope":"toolchain is wired correctly"}

@@ -1,4 +1,0 @@
-2026-06-29 03:48:53.924 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › password is not persisted to client storage after login {"scope":"password is not persisted to client storage after login","correlationId":"3db3fa41","testName":"password is not persisted to client storage after login"}
-2026-06-29 03:48:54.055 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"3db3fa41","testName":"password is not persisted to client storage after login"}
-2026-06-29 03:48:54.698 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"3db3fa41","testName":"password is not persisted to client storage after login"}
-2026-06-29 03:48:55.456 [info] ✔ PASS (1.53s) [3db3fa41]: password is not persisted to client storage after login {"scope":"password is not persisted to client storage after login"}

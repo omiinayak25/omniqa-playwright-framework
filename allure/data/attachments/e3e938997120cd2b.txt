@@ -1,0 +1,4 @@
+2026-06-29 04:18:49.391 [info] ▶ START: ui/saucedemo/login.negative.spec.ts › SauceDemo · Login negative & boundary inputs @ui @regression @negative › unicode username (accented latin) is rejected gracefully {"scope":"unicode username (accented latin) is rejected gracefully","correlationId":"87556f63","testName":"unicode username (accented latin) is rejected gracefully"}
+2026-06-29 04:18:49.455 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"87556f63","testName":"unicode username (accented latin) is rejected gracefully"}
+2026-06-29 04:18:49.918 [info] Logging in as "üsér_ñame" {"scope":"SauceLoginPage","correlationId":"87556f63","testName":"unicode username (accented latin) is rejected gracefully"}
+2026-06-29 04:18:50.673 [info] ✔ PASS (1.28s) [87556f63]: unicode username (accented latin) is rejected gracefully {"scope":"unicode username (accented latin) is rejected gracefully"}

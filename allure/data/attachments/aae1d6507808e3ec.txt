@@ -1,0 +1,2 @@
+2026-06-29 04:18:09.571 [info] (select-all checks every row on the page) ▶ START: ui/orangehrm/pim-table.spec.ts › OrangeHRM · PIM data grid @ui @regression @tables › select-all checks every row on the page
+2026-06-29 04:18:09.722 [info] (OrangePimPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList

@@ -1,3 +1,0 @@
-2026-06-29 03:46:58.954 [info] ▶ START: ui/orangehrm/authorization.spec.ts › OrangeHRM · Authorization — Admin privileges @ui @regression @authorization › Admin can open the PIM module {"scope":"Admin can open the PIM module","correlationId":"cf848bde","testName":"Admin can open the PIM module"}
-2026-06-29 03:46:59.190 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"cf848bde","testName":"Admin can open the PIM module"}
-2026-06-29 03:47:18.581 [error] ✘ FAILED (19.63s) [cf848bde]: Admin can open the PIM module {"scope":"Admin can open the PIM module"}

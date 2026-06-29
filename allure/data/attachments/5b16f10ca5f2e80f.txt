@@ -1,0 +1,4 @@
+2026-06-29 04:18:57.412 [info] ▶ START: ui/saucedemo/login.spec.ts › SauceDemo · Login @ui @regression › locked_out_user is rejected with an error {"scope":"locked_out_user is rejected with an error","correlationId":"8abff99d","testName":"locked_out_user is rejected with an error"}
+2026-06-29 04:18:57.547 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"8abff99d","testName":"locked_out_user is rejected with an error"}
+2026-06-29 04:18:58.308 [info] Logging in as "locked_out_user" {"scope":"SauceLoginPage","correlationId":"8abff99d","testName":"locked_out_user is rejected with an error"}
+2026-06-29 04:18:59.034 [info] ✔ PASS (1.62s) [8abff99d]: locked_out_user is rejected with an error {"scope":"locked_out_user is rejected with an error"}

@@ -1,5 +1,0 @@
-2026-06-29 03:46:32.782 [info] ▶ START: ui/saucedemo/checkout.totals.spec.ts › SauceDemo · Checkout totals @ui @regression @checkout › overview line items and quantities match the order {"scope":"overview line items and quantities match the order","correlationId":"9509fff8","testName":"overview line items and quantities match the order"}
-2026-06-29 03:46:34.834 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"9509fff8","testName":"overview line items and quantities match the order"}
-2026-06-29 03:46:35.422 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"9509fff8","testName":"overview line items and quantities match the order"}
-2026-06-29 03:46:35.632 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"9509fff8","testName":"overview line items and quantities match the order"}
-2026-06-29 03:46:37.438 [info] ✔ PASS (4.66s) [9509fff8]: overview line items and quantities match the order {"scope":"overview line items and quantities match the order"}

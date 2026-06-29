@@ -1,2 +1,0 @@
-2026-06-29 03:47:26.208 [info] (the side-menu search filters the navigation) ▶ START: ui/orangehrm/dashboard.spec.ts › OrangeHRM · Dashboard @ui @regression @dashboard › the side-menu search filters the navigation
-2026-06-29 03:47:26.323 [info] (OrangeDashboardPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index

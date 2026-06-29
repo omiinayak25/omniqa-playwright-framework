@@ -1,0 +1,4 @@
+2026-06-29 04:18:12.106 [info] ▶ START: ui/saucedemo/checkout.security.spec.ts › SauceDemo · Checkout input security @ui @regression @security @checkout › XSS name payload (svg onload) is treated as inert text {"scope":"XSS name payload (svg onload) is treated as inert text","correlationId":"a4de3ffd","testName":"XSS name payload (svg onload) is treated as inert text"}
+2026-06-29 04:18:13.150 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"a4de3ffd","testName":"XSS name payload (svg onload) is treated as inert text"}
+2026-06-29 04:18:13.709 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"a4de3ffd","testName":"XSS name payload (svg onload) is treated as inert text"}
+2026-06-29 04:18:16.123 [info] ✔ PASS (4.02s) [a4de3ffd]: XSS name payload (svg onload) is treated as inert text {"scope":"XSS name payload (svg onload) is treated as inert text"}

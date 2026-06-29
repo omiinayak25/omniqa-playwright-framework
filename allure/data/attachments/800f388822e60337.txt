@@ -1,2 +1,0 @@
-2026-06-29 03:46:08.306 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Department repository @db › count increases by one after an insert {"scope":"count increases by one after an insert","correlationId":"1fb03b69","testName":"count increases by one after an insert"}
-2026-06-29 03:46:08.323 [info] ✔ PASS (17ms) [1fb03b69]: count increases by one after an insert {"scope":"count increases by one after an insert"}

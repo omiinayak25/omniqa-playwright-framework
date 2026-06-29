@@ -1,2 +1,0 @@
-2026-06-29 03:46:44.996 [info] (mismatched login passwords are rejected) ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › mismatched login passwords are rejected
-2026-06-29 03:46:45.229 [info] (OrangeAddEmployeePage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee

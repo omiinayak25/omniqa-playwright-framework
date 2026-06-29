@@ -1,4 +1,0 @@
-2026-06-29 03:46:04.143 [info] ▶ START: ui/saucedemo/cart.persistence.spec.ts › SauceDemo · Cart persistence & navigation @ui @regression @cart › continue shopping preserves the cart contents {"scope":"continue shopping preserves the cart contents","correlationId":"dc1c5fa2","testName":"continue shopping preserves the cart contents"}
-2026-06-29 03:46:05.562 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"dc1c5fa2","testName":"continue shopping preserves the cart contents"}
-2026-06-29 03:46:06.384 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"dc1c5fa2","testName":"continue shopping preserves the cart contents"}
-2026-06-29 03:46:07.454 [info] ✔ PASS (3.31s) [dc1c5fa2]: continue shopping preserves the cart contents {"scope":"continue shopping preserves the cart contents"}

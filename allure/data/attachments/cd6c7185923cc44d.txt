@@ -1,4 +1,0 @@
-2026-06-29 03:46:12.110 [info] ▶ START: api/sla-and-sorting.spec.ts › Response-time SLA @api @perf › product list responds within SLA {"scope":"product list responds within SLA","correlationId":"ca6c132f","testName":"product list responds within SLA"}
-2026-06-29 03:46:12.111 [info] → GET https://dummyjson.com/products?limit=10&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"ca6c132f","testName":"product list responds within SLA"}
-2026-06-29 03:46:12.290 [info] ← 200 GET https://dummyjson.com/products?limit=10&skip=0 (178ms) {"scope":"ApiClient","correlationId":"ca6c132f","testName":"product list responds within SLA"}
-2026-06-29 03:46:12.291 [info] ✔ PASS (181ms) [ca6c132f]: product list responds within SLA {"scope":"product list responds within SLA"}

@@ -1,4 +1,0 @@
-2026-06-29 03:48:29.690 [info] ▶ START: ui/saucedemo/checkout.security.spec.ts › SauceDemo · Checkout input security @ui @regression @security @checkout › unicode names are accepted {"scope":"unicode names are accepted","correlationId":"f712beb9","testName":"unicode names are accepted"}
-2026-06-29 03:48:29.903 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"f712beb9","testName":"unicode names are accepted"}
-2026-06-29 03:48:30.555 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"f712beb9","testName":"unicode names are accepted"}
-2026-06-29 03:48:31.622 [info] ✔ PASS (1.93s) [f712beb9]: unicode names are accepted {"scope":"unicode names are accepted"}

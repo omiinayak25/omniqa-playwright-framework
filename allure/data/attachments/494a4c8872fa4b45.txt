@@ -1,4 +1,0 @@
-2026-06-29 03:46:11.352 [info] ▶ START: api/products.search.spec.ts › DummyJSON · Product search @api @regression @search › a no-match term returns an empty result set {"scope":"a no-match term returns an empty result set","correlationId":"28a25a58","testName":"a no-match term returns an empty result set"}
-2026-06-29 03:46:11.353 [info] → GET https://dummyjson.com/products/search?q=zzzznomatchxyz {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"28a25a58","testName":"a no-match term returns an empty result set"}
-2026-06-29 03:46:11.525 [info] ← 200 GET https://dummyjson.com/products/search?q=zzzznomatchxyz (171ms) {"scope":"ApiClient","correlationId":"28a25a58","testName":"a no-match term returns an empty result set"}
-2026-06-29 03:46:11.527 [info] ✔ PASS (176ms) [28a25a58]: a no-match term returns an empty result set {"scope":"a no-match term returns an empty result set"}

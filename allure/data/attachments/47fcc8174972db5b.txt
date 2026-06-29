@@ -1,4 +1,0 @@
-Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
-
-Expected substring: [32m"Dashboard"[39m
-Received string:    [31m"仪表盘"[39m

@@ -1,3 +1,0 @@
-2026-06-29 03:47:57.323 [info] ▶ START: ui/orangehrm/pim-table.spec.ts › OrangeHRM · PIM data grid @ui @regression @tables › the grid shows the expected column headers {"scope":"the grid shows the expected column headers","correlationId":"903f0912","testName":"the grid shows the expected column headers"}
-2026-06-29 03:47:57.526 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"903f0912","testName":"the grid shows the expected column headers"}
-2026-06-29 03:48:01.662 [error] ✘ FAILED (4.34s) [903f0912]: the grid shows the expected column headers {"scope":"the grid shows the expected column headers"}

@@ -1,0 +1,4 @@
+2026-06-29 04:17:28.300 [info] ▶ START: api/products.extended.spec.ts › DummyJSON · Product catalog integrity @api @regression @inventory › an unknown product id returns 404 {"scope":"an unknown product id returns 404","correlationId":"aec251b7","testName":"an unknown product id returns 404"}
+2026-06-29 04:17:28.301 [info] → GET https://dummyjson.com/products/999999 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"aec251b7","testName":"an unknown product id returns 404"}
+2026-06-29 04:17:28.357 [info] ← 404 GET https://dummyjson.com/products/999999 (55ms) {"scope":"ApiClient","correlationId":"aec251b7","testName":"an unknown product id returns 404"}
+2026-06-29 04:17:28.358 [info] ✔ PASS (58ms) [aec251b7]: an unknown product id returns 404 {"scope":"an unknown product id returns 404"}

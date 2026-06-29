@@ -1,3 +1,0 @@
-2026-06-29 03:48:38.601 [info] ▶ START: ui/saucedemo/inventory.catalog.spec.ts › SauceDemo · Catalog integrity @ui @regression @inventory › every product has a non-empty name {"scope":"every product has a non-empty name","correlationId":"3e796572","testName":"every product has a non-empty name"}
-2026-06-29 03:48:38.780 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"3e796572","testName":"every product has a non-empty name"}
-2026-06-29 03:48:40.426 [info] ✔ PASS (1.83s) [3e796572]: every product has a non-empty name {"scope":"every product has a non-empty name"}

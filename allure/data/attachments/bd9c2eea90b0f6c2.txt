@@ -1,4 +1,0 @@
-2026-06-29 03:47:24.472 [info] ▶ START: ui/saucedemo/login.spec.ts › SauceDemo · Login @ui @regression › @smoke standard_user logs in and reaches the inventory {"scope":"@smoke standard_user logs in and reaches the inventory","correlationId":"82c8de96","testName":"@smoke standard_user logs in and reaches the inventory"}
-2026-06-29 03:47:25.008 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"82c8de96","testName":"@smoke standard_user logs in and reaches the inventory"}
-2026-06-29 03:47:25.606 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"82c8de96","testName":"@smoke standard_user logs in and reaches the inventory"}
-2026-06-29 03:47:26.460 [info] ✔ PASS (1.99s) [82c8de96]: @smoke standard_user logs in and reaches the inventory {"scope":"@smoke standard_user logs in and reaches the inventory"}

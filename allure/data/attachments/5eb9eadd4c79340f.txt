@@ -1,2 +1,0 @@
-2026-06-29 03:47:52.038 [info] (the grid shows the expected column headers) ▶ START: ui/orangehrm/pim-table.spec.ts › OrangeHRM · PIM data grid @ui @regression @tables › the grid shows the expected column headers
-2026-06-29 03:47:52.182 [info] (OrangePimPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
