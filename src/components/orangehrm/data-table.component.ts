@@ -24,7 +24,9 @@
  * also waits for the first row so callers never read an empty shell.
  * --------------------------------------------------------
  */
+// Import Playwright's page and element-handle types (type-only).
 import type { Page, Locator } from '@playwright/test';
+// Import the abstract component base (scoped root + logger).
 import { BaseComponent } from '@components/base.component';
 
 /**
@@ -32,14 +34,22 @@ import { BaseComponent } from '@components/base.component';
  * grid data without re-declaring `.oxd-table` selectors, keeping table logic in
  * one reusable place.
  */
+// Declare the data-table component, extending BaseComponent.
 export class DataTableComponent extends BaseComponent {
+  // Locator for the data rows (relative to the root).
   private readonly rows: Locator;
+  // Locator for the header cells (column labels).
   private readonly headerCells: Locator;
+  // Locator for the header "select all" checkbox wrapper.
   private readonly headerCheckbox: Locator;
 
+  // Build the component, scoping its root to the grid table.
   constructor(page: Page) {
+    // Initialise BaseComponent with the table as the root.
     super(page, page.locator('.oxd-table'));
+    // Resolve the data rows relative to the table root.
     this.rows = this.root.locator('.oxd-table-card');
+    // Resolve the header cells relative to the table root.
     this.headerCells = this.root.locator('.oxd-table-header-cell');
     // Click the wrapper label (not the raw input) so OrangeHRM's React onChange fires.
     this.headerCheckbox = this.root.locator('.oxd-table-header .oxd-checkbox-wrapper');
@@ -51,7 +61,9 @@ export class DataTableComponent extends BaseComponent {
    * @param timeoutMs - Max wait per element in milliseconds (default 30000).
    * @returns Promise that resolves once loaded (or quietly after timeout).
    */
+  // Wait for the grid (and its first row) to actually render.
   public async waitForLoaded(timeoutMs = 30_000): Promise<void> {
+    // Wait for the table container; swallow timeouts.
     await this.root.waitFor({ state: 'visible', timeout: timeoutMs }).catch(() => undefined);
     // The grid container appears before the async data fetch resolves — wait
     // for the first row so callers see populated data, not an empty shell.
@@ -65,7 +77,9 @@ export class DataTableComponent extends BaseComponent {
    * Purpose: Count the currently rendered data rows.
    * @returns Promise resolving to the number of visible `.oxd-table-card` rows.
    */
+  // Count the rendered data rows.
   public async rowCount(): Promise<number> {
+    // Delegate to the rows locator's count().
     return this.rows.count();
   }
 
@@ -76,8 +90,11 @@ export class DataTableComponent extends BaseComponent {
    * @returns Promise resolving to the cell's trimmed text ('' if empty).
    * @example const name = await table.cellText(0, 1);
    */
+  // Read the trimmed text of a single cell (by row + column index).
   public async cellText(row: number, column: number): Promise<string> {
+    // Narrow to the target cell within the target row.
     const cell = this.rows.nth(row).locator('.oxd-table-cell').nth(column);
+    // Return its trimmed text (default '' when null).
     return (await cell.textContent())?.trim() ?? '';
   }
 
@@ -86,12 +103,18 @@ export class DataTableComponent extends BaseComponent {
    * @param column - Zero-based column index to extract.
    * @returns Promise resolving to an array of trimmed cell texts, top to bottom.
    */
+  // Collect every cell value in a given column, top to bottom.
   public async columnValues(column: number): Promise<string[]> {
+    // Count the rows to iterate over.
     const count = await this.rowCount();
+    // Accumulate the column values here.
     const values: string[] = [];
+    // Walk each row by index.
     for (let i = 0; i < count; i++) {
+      // Push that row's cell text for the target column.
       values.push(await this.cellText(i, column));
     }
+    // Return the collected column values.
     return values;
   }
 
@@ -100,7 +123,9 @@ export class DataTableComponent extends BaseComponent {
    * the leading checkbox column).
    * @returns Promise resolving to the non-empty header texts, left to right.
    */
+  // List the non-empty column header labels.
   public async columnHeaders(): Promise<string[]> {
+    // Read header texts, trim each, and drop empties (e.g. checkbox column).
     return (await this.headerCells.allInnerTexts()).map((t) => t.trim()).filter(Boolean);
   }
 
@@ -109,7 +134,9 @@ export class DataTableComponent extends BaseComponent {
    * @param row - Zero-based row index to select.
    * @returns Promise that resolves once the row checkbox is clicked.
    */
+  // Toggle a single row's selection checkbox.
   public async selectRow(row: number): Promise<void> {
+    // Click that row's checkbox wrapper (triggers React onChange).
     await this.rows.nth(row).locator('.oxd-checkbox-wrapper').click();
   }
 
@@ -117,7 +144,9 @@ export class DataTableComponent extends BaseComponent {
    * Purpose: Toggle the header "select all" checkbox.
    * @returns Promise that resolves once the header checkbox is clicked.
    */
+  // Toggle the header "select all" checkbox.
   public async selectAll(): Promise<void> {
+    // Click the header checkbox wrapper.
     await this.headerCheckbox.click();
   }
 
@@ -125,6 +154,7 @@ export class DataTableComponent extends BaseComponent {
    * Purpose: Count the currently selected (checked) row checkboxes.
    * @returns Promise resolving to the number of checked row checkboxes.
    */
+  // Count the currently checked row checkboxes.
   public async selectedRowCount(): Promise<number> {
     // The row <input type="checkbox"> carries no class (the styling sits on a
     // sibling <span>), so match by element + native checked state.

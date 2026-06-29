@@ -25,8 +25,11 @@
  * Last Updated: 2026-06-27
  * --------------------------------------------------------
  */
+// Import Playwright's page and element-handle types (type-only).
 import type { Page, Locator } from '@playwright/test';
+// Import the winston Logger type for the scoped logger field.
 import type { Logger } from 'winston';
+// Import the factory that builds a name-scoped logger.
 import { scopedLogger } from '@utils/logger';
 
 /**
@@ -34,14 +37,22 @@ import { scopedLogger } from '@utils/logger';
  * every reusable widget shares a common shape — a scoped `root` Locator plus a
  * named logger — enabling pages to compose widgets rather than inherit them.
  */
+// Declare the abstract base class every reusable component extends.
 export abstract class BaseComponent {
+  // Hold the Playwright page the component lives on.
   protected readonly page: Page;
+  // Hold the root locator that scopes this component's internals.
   protected readonly root: Locator;
+  // Hold the scoped logger for this component.
   protected readonly log: Logger;
 
+  // Construct from a page and a root locator (protected → subclasses only).
   protected constructor(page: Page, root: Locator) {
+    // Store the page handle.
     this.page = page;
+    // Store the root locator (all internal locators stay relative to it).
     this.root = root;
+    // Build a logger tagged with the concrete subclass's name.
     this.log = scopedLogger(this.constructor.name);
   }
 
@@ -50,7 +61,9 @@ export abstract class BaseComponent {
    * @returns Promise resolving to true when the root Locator is visible.
    * @example if (await header.isVisible()) { ... }
    */
+  // Report whether this component's root element is visible.
   public async isVisible(): Promise<boolean> {
+    // Delegate to the root locator's visibility.
     return this.root.isVisible();
   }
 }
