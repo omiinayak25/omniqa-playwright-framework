@@ -1,5 +1,0 @@
-2026-06-29 04:32:39.266 [info] ▶ START: ui/saucedemo/checkout.data.spec.ts › SauceDemo · Purchase each product @ui @regression @checkout › "Sauce Labs Backpack" can be purchased end-to-end {"scope":"\"Sauce Labs Backpack\" can be purchased end-to-end","correlationId":"d71204a7","testName":"\"Sauce Labs Backpack\" can be purchased end-to-end"}
-2026-06-29 04:32:40.193 [info] Purchasing 1 product(s) {"scope":"CheckoutFlow","correlationId":"d71204a7","testName":"\"Sauce Labs Backpack\" can be purchased end-to-end"}
-2026-06-29 04:32:40.194 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"d71204a7","testName":"\"Sauce Labs Backpack\" can be purchased end-to-end"}
-2026-06-29 04:32:40.249 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"d71204a7","testName":"\"Sauce Labs Backpack\" can be purchased end-to-end"}
-2026-06-29 04:32:43.148 [info] ✔ PASS (3.88s) [d71204a7]: "Sauce Labs Backpack" can be purchased end-to-end {"scope":"\"Sauce Labs Backpack\" can be purchased end-to-end"}

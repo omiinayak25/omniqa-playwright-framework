@@ -1,2 +1,0 @@
-2026-06-29 04:32:40.971 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · DB assertions helper @db › assertExists/assertNotExists track an insert and delete {"scope":"assertExists/assertNotExists track an insert and delete","correlationId":"b27b4ca8","testName":"assertExists/assertNotExists track an insert and delete"}
-2026-06-29 04:32:40.997 [info] ✔ PASS (26ms) [b27b4ca8]: assertExists/assertNotExists track an insert and delete {"scope":"assertExists/assertNotExists track an insert and delete"}

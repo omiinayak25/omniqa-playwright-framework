@@ -1,4 +1,0 @@
-2026-06-29 04:32:10.046 [info] ▶ START: api/negative-boundary.spec.ts › Boundary · DummyJSON products @api @negative › limit=100 (large limit) returns at most 100 {"scope":"limit=100 (large limit) returns at most 100","correlationId":"edf2bb6b","testName":"limit=100 (large limit) returns at most 100"}
-2026-06-29 04:32:10.047 [info] → GET https://dummyjson.com/products?limit=100&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"edf2bb6b","testName":"limit=100 (large limit) returns at most 100"}
-2026-06-29 04:32:10.349 [info] ← 200 GET https://dummyjson.com/products?limit=100&skip=0 (301ms) {"scope":"ApiClient","correlationId":"edf2bb6b","testName":"limit=100 (large limit) returns at most 100"}
-2026-06-29 04:32:10.352 [info] ✔ PASS (306ms) [edf2bb6b]: limit=100 (large limit) returns at most 100 {"scope":"limit=100 (large limit) returns at most 100"}

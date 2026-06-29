@@ -1,8 +1,0 @@
-2026-06-29 04:32:57.099 [info] ▶ START: accessibility/saucedemo/cart.a11y.spec.ts › SauceDemo · Cart & Checkout · Accessibility @a11y @accessibility @regression › the cart page has no WCAG 2.1 A/AA violations {"scope":"the cart page has no WCAG 2.1 A/AA violations","correlationId":"e3978506","testName":"the cart page has no WCAG 2.1 A/AA violations"}
-2026-06-29 04:32:57.163 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"e3978506","testName":"the cart page has no WCAG 2.1 A/AA violations"}
-2026-06-29 04:32:57.372 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"e3978506","testName":"the cart page has no WCAG 2.1 A/AA violations"}
-2026-06-29 04:32:57.628 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"e3978506","testName":"the cart page has no WCAG 2.1 A/AA violations"}
-2026-06-29 04:32:57.724 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"e3978506","testName":"the cart page has no WCAG 2.1 A/AA violations"}
-2026-06-29 04:32:57.905 [info] Running axe scan: "SauceDemo · Cart" {"scope":"A11yScanner","correlationId":"e3978506","testName":"the cart page has no WCAG 2.1 A/AA violations"}
-2026-06-29 04:32:58.744 [info] axe scan "SauceDemo · Cart" — 0 violations (14 passes) {"scope":"A11yScanner","correlationId":"e3978506","testName":"the cart page has no WCAG 2.1 A/AA violations"}
-2026-06-29 04:32:58.912 [info] ✔ PASS (1.81s) [e3978506]: the cart page has no WCAG 2.1 A/AA violations {"scope":"the cart page has no WCAG 2.1 A/AA violations"}

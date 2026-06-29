@@ -1,2 +1,0 @@
-2026-06-29 04:33:31.676 [info] (creates an employee with a middle name) ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › creates an employee with a middle name
-2026-06-29 04:33:32.094 [info] (OrangeAddEmployeePage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee

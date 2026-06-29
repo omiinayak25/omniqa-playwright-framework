@@ -1,2 +1,0 @@
-2026-06-29 04:32:11.857 [info] ▶ START: api/utils.spec.ts › Crypto utils @smoke › encrypt → decrypt round-trips {"scope":"encrypt → decrypt round-trips","correlationId":"fd223aa5","testName":"encrypt → decrypt round-trips"}
-2026-06-29 04:32:12.017 [info] ✔ PASS (160ms) [fd223aa5]: encrypt → decrypt round-trips {"scope":"encrypt → decrypt round-trips"}

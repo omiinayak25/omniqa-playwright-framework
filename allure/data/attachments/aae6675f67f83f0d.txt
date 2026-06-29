@@ -1,3 +1,0 @@
-2026-06-29 04:34:58.597 [info] ▶ START: ui/orangehrm/pim-table.spec.ts › OrangeHRM · PIM data grid @ui @regression @tables › the first row has populated id and name cells {"scope":"the first row has populated id and name cells","correlationId":"bc0cf431","testName":"the first row has populated id and name cells"}
-2026-06-29 04:34:58.682 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"bc0cf431","testName":"the first row has populated id and name cells"}
-2026-06-29 04:35:03.958 [info] ✔ PASS (5.36s) [bc0cf431]: the first row has populated id and name cells {"scope":"the first row has populated id and name cells"}

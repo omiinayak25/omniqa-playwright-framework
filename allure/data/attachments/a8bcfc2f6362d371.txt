@@ -1,3 +1,0 @@
-2026-06-29 04:33:12.524 [info] ▶ START: ui/saucedemo/inventory.sorting.spec.ts › SauceDemo · Inventory sorting @ui @regression @inventory › sort price high→low orders prices descending {"scope":"sort price high→low orders prices descending","correlationId":"0f9d75c6","testName":"sort price high→low orders prices descending"}
-2026-06-29 04:33:13.825 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"0f9d75c6","testName":"sort price high→low orders prices descending"}
-2026-06-29 04:33:15.833 [info] ✔ PASS (3.31s) [0f9d75c6]: sort price high→low orders prices descending {"scope":"sort price high→low orders prices descending"}

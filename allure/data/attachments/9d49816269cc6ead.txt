@@ -1,4 +1,0 @@
-2026-06-29 04:32:09.145 [info] ▶ START: e2e/product-crud.e2e.spec.ts › E2E · Product full CRUD across API and DB @e2e › multiple API products sync into the DB (parity) {"scope":"multiple API products sync into the DB (parity)","correlationId":"399ee7e6","testName":"multiple API products sync into the DB (parity)"}
-2026-06-29 04:32:09.155 [info] → GET https://dummyjson.com/products?limit=3&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"399ee7e6","testName":"multiple API products sync into the DB (parity)"}
-2026-06-29 04:32:09.662 [info] ← 200 GET https://dummyjson.com/products?limit=3&skip=0 (505ms) {"scope":"ApiClient","correlationId":"399ee7e6","testName":"multiple API products sync into the DB (parity)"}
-2026-06-29 04:32:09.679 [info] ✔ PASS (534ms) [399ee7e6]: multiple API products sync into the DB (parity) {"scope":"multiple API products sync into the DB (parity)"}

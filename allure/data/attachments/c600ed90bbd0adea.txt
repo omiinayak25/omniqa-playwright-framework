@@ -1,4 +1,0 @@
-2026-06-29 04:32:57.162 [info] ▶ START: ui/saucedemo/checkout.spec.ts › SauceDemo · Checkout flow @ui @e2e › missing postal code is rejected {"scope":"missing postal code is rejected","correlationId":"a44cffc4","testName":"missing postal code is rejected"}
-2026-06-29 04:32:57.985 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"a44cffc4","testName":"missing postal code is rejected"}
-2026-06-29 04:32:58.055 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"a44cffc4","testName":"missing postal code is rejected"}
-2026-06-29 04:33:01.340 [info] ✔ PASS (4.18s) [a44cffc4]: missing postal code is rejected {"scope":"missing postal code is rejected"}

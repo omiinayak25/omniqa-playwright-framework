@@ -1,3 +1,0 @@
-2026-06-29 04:34:33.434 [info] ▶ START: ui/orangehrm/pim-search.spec.ts › OrangeHRM · PIM search @ui @regression @search › the unfiltered list shows employee records {"scope":"the unfiltered list shows employee records","correlationId":"47b4266d","testName":"the unfiltered list shows employee records"}
-2026-06-29 04:34:33.517 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"47b4266d","testName":"the unfiltered list shows employee records"}
-2026-06-29 04:34:55.341 [info] ✔ PASS (21.91s) [47b4266d]: the unfiltered list shows employee records {"scope":"the unfiltered list shows employee records"}

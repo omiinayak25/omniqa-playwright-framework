@@ -1,8 +1,0 @@
-2026-06-29 04:32:05.442 [info] ▶ START: visual/saucedemo/journey.visual.spec.ts › SauceDemo · Journey screens · Visual (authenticated) @visual @regression › the order confirmation page matches the baseline {"scope":"the order confirmation page matches the baseline","correlationId":"f858927c","testName":"the order confirmation page matches the baseline"}
-2026-06-29 04:32:05.482 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"f858927c","testName":"the order confirmation page matches the baseline"}
-2026-06-29 04:32:05.700 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"f858927c","testName":"the order confirmation page matches the baseline"}
-2026-06-29 04:32:06.020 [info] Purchasing 1 product(s) {"scope":"CheckoutFlow","correlationId":"f858927c","testName":"the order confirmation page matches the baseline"}
-2026-06-29 04:32:06.021 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"f858927c","testName":"the order confirmation page matches the baseline"}
-2026-06-29 04:32:06.154 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"f858927c","testName":"the order confirmation page matches the baseline"}
-2026-06-29 04:32:06.483 [info] Visual compare (page, fullPage=true): saucedemo-order-confirmation {"scope":"Visual","correlationId":"f858927c","testName":"the order confirmation page matches the baseline"}
-2026-06-29 04:32:06.777 [info] ✔ PASS (1.33s) [f858927c]: the order confirmation page matches the baseline {"scope":"the order confirmation page matches the baseline"}

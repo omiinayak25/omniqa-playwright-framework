@@ -1,5 +1,0 @@
-2026-06-29 04:32:28.792 [info] ▶ START: ui/saucedemo/cart.persistence.spec.ts › SauceDemo · Cart persistence & navigation @ui @regression @cart › removing the last item empties the cart {"scope":"removing the last item empties the cart","correlationId":"8413a477","testName":"removing the last item empties the cart"}
-2026-06-29 04:32:30.031 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"8413a477","testName":"removing the last item empties the cart"}
-2026-06-29 04:32:30.782 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"8413a477","testName":"removing the last item empties the cart"}
-2026-06-29 04:32:31.137 [info] Removing "Sauce Labs Backpack" from cart {"scope":"SauceCartPage","correlationId":"8413a477","testName":"removing the last item empties the cart"}
-2026-06-29 04:32:31.734 [info] ✔ PASS (2.94s) [8413a477]: removing the last item empties the cart {"scope":"removing the last item empties the cart"}

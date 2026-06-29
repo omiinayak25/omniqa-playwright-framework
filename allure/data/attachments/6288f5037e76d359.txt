@@ -1,4 +1,0 @@
-2026-06-29 04:33:27.496 [info] ▶ START: ui/saucedemo/login.data-driven.spec.ts › SauceDemo · Data-driven login @ui @regression › locked_out_user → error {"scope":"locked_out_user → error","correlationId":"31a166cb","testName":"locked_out_user → error"}
-2026-06-29 04:33:27.946 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"31a166cb","testName":"locked_out_user → error"}
-2026-06-29 04:33:28.217 [info] Logging in as "locked_out_user" {"scope":"SauceLoginPage","correlationId":"31a166cb","testName":"locked_out_user → error"}
-2026-06-29 04:33:29.576 [info] ✔ PASS (2.08s) [31a166cb]: locked_out_user → error {"scope":"locked_out_user → error"}
