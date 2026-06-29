@@ -1,0 +1,4 @@
+2026-06-29 04:48:04.835 [info] ▶ START: performance/saucedemo/cart.perf.spec.ts › SauceDemo · Cart · Performance @perf › @smoke cart screen loads within budget {"scope":"@smoke cart screen loads within budget","correlationId":"c144246e","testName":"@smoke cart screen loads within budget"}
+2026-06-29 04:48:06.312 [info] Navigating to https://www.saucedemo.com/cart.html {"scope":"SauceCartPage","correlationId":"c144246e","testName":"@smoke cart screen loads within budget"}
+2026-06-29 04:48:07.161 [info] Perf "SauceDemo · Cart": ttfb=5ms dcl=228ms load=305ms fcp=312ms lcp=400ms res=5 transfer=228KB {"scope":"Perf","correlationId":"c144246e","testName":"@smoke cart screen loads within budget"}
+2026-06-29 04:48:07.432 [info] ✔ PASS (2.60s) [c144246e]: @smoke cart screen loads within budget {"scope":"@smoke cart screen loads within budget"}

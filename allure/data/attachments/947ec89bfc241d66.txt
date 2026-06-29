@@ -1,4 +1,0 @@
-2026-06-29 04:40:30.120 [info] ▶ START: api/sla-and-sorting.spec.ts › Response-time SLA @api @perf › post list responds within SLA {"scope":"post list responds within SLA","correlationId":"f31530ec","testName":"post list responds within SLA"}
-2026-06-29 04:40:30.121 [info] → GET https://jsonplaceholder.typicode.com/posts {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"f31530ec","testName":"post list responds within SLA"}
-2026-06-29 04:40:30.149 [info] ← 200 GET https://jsonplaceholder.typicode.com/posts (27ms) {"scope":"ApiClient","correlationId":"f31530ec","testName":"post list responds within SLA"}
-2026-06-29 04:40:30.150 [info] ✔ PASS (30ms) [f31530ec]: post list responds within SLA {"scope":"post list responds within SLA"}

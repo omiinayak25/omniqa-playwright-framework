@@ -1,5 +1,0 @@
-2026-06-29 04:40:42.025 [info] ▶ START: ui/saucedemo/cart.data.spec.ts › SauceDemo · Cart add/remove per product @ui @regression @cart › "Sauce Labs Onesie" can be added and removed {"scope":"\"Sauce Labs Onesie\" can be added and removed","correlationId":"342ed86a","testName":"\"Sauce Labs Onesie\" can be added and removed"}
-2026-06-29 04:40:42.821 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"342ed86a","testName":"\"Sauce Labs Onesie\" can be added and removed"}
-2026-06-29 04:40:43.410 [info] Adding "Sauce Labs Onesie" to cart {"scope":"SauceInventoryPage","correlationId":"342ed86a","testName":"\"Sauce Labs Onesie\" can be added and removed"}
-2026-06-29 04:40:44.187 [info] Removing "Sauce Labs Onesie" from cart {"scope":"SauceCartPage","correlationId":"342ed86a","testName":"\"Sauce Labs Onesie\" can be added and removed"}
-2026-06-29 04:40:45.283 [info] ✔ PASS (3.26s) [342ed86a]: "Sauce Labs Onesie" can be added and removed {"scope":"\"Sauce Labs Onesie\" can be added and removed"}

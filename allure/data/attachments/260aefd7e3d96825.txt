@@ -1,3 +1,0 @@
-2026-06-29 04:40:31.209 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Transactions @db › partial failure inside a transaction rolls back ALL inserts {"scope":"partial failure inside a transaction rolls back ALL inserts","correlationId":"bbacd193","testName":"partial failure inside a transaction rolls back ALL inserts"}
-2026-06-29 04:40:31.225 [warn] Transaction rolled back {"scope":"QueryRunner","correlationId":"bbacd193","testName":"partial failure inside a transaction rolls back ALL inserts"}
-2026-06-29 04:40:31.404 [info] ✔ PASS (198ms) [bbacd193]: partial failure inside a transaction rolls back ALL inserts {"scope":"partial failure inside a transaction rolls back ALL inserts"}

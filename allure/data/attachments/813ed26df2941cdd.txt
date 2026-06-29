@@ -1,4 +1,0 @@
-2026-06-29 04:40:29.283 [info] ▶ START: api/products.extended.spec.ts › DummyJSON · Product catalog integrity @api @regression @inventory › all listed products have non-negative stock {"scope":"all listed products have non-negative stock","correlationId":"14daabce","testName":"all listed products have non-negative stock"}
-2026-06-29 04:40:29.285 [info] → GET https://dummyjson.com/products?limit=30&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"14daabce","testName":"all listed products have non-negative stock"}
-2026-06-29 04:40:29.497 [info] ← 200 GET https://dummyjson.com/products?limit=30&skip=0 (211ms) {"scope":"ApiClient","correlationId":"14daabce","testName":"all listed products have non-negative stock"}
-2026-06-29 04:40:29.498 [info] ✔ PASS (215ms) [14daabce]: all listed products have non-negative stock {"scope":"all listed products have non-negative stock"}

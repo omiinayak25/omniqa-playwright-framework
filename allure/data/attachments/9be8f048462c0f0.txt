@@ -1,4 +1,0 @@
-2026-06-29 04:40:27.142 [info] ▶ START: api/auth.spec.ts › Restful-Booker · Auth API @api @regression @authentication › @smoke valid credentials issue a token {"scope":"@smoke valid credentials issue a token","correlationId":"ae593c19","testName":"@smoke valid credentials issue a token"}
-2026-06-29 04:40:27.170 [info] → POST https://restful-booker.herokuapp.com/auth {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"ae593c19","testName":"@smoke valid credentials issue a token"}
-2026-06-29 04:40:27.189 [info] ← 200 POST https://restful-booker.herokuapp.com/auth (16ms) {"scope":"ApiClient","correlationId":"ae593c19","testName":"@smoke valid credentials issue a token"}
-2026-06-29 04:40:27.197 [info] ✔ PASS (62ms) [ae593c19]: @smoke valid credentials issue a token {"scope":"@smoke valid credentials issue a token"}

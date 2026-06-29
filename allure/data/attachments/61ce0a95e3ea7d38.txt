@@ -1,4 +1,0 @@
-2026-06-29 04:40:27.970 [info] ▶ START: api/dummyjson-extended.spec.ts › DummyJSON · Products extended @api @regression › limit=1 returns exactly one product {"scope":"limit=1 returns exactly one product","correlationId":"6ef718e7","testName":"limit=1 returns exactly one product"}
-2026-06-29 04:40:27.972 [info] → GET https://dummyjson.com/products?limit=1&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"6ef718e7","testName":"limit=1 returns exactly one product"}
-2026-06-29 04:40:28.406 [info] ← 200 GET https://dummyjson.com/products?limit=1&skip=0 (433ms) {"scope":"ApiClient","correlationId":"6ef718e7","testName":"limit=1 returns exactly one product"}
-2026-06-29 04:40:28.409 [info] ✔ PASS (438ms) [6ef718e7]: limit=1 returns exactly one product {"scope":"limit=1 returns exactly one product"}

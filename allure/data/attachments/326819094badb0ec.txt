@@ -1,5 +1,0 @@
-2026-06-29 04:40:52.945 [info] ▶ START: ui/saucedemo/checkout.data.spec.ts › SauceDemo · Purchase each product @ui @regression @checkout › "Sauce Labs Fleece Jacket" can be purchased end-to-end {"scope":"\"Sauce Labs Fleece Jacket\" can be purchased end-to-end","correlationId":"92ef2e8c","testName":"\"Sauce Labs Fleece Jacket\" can be purchased end-to-end"}
-2026-06-29 04:40:54.078 [info] Purchasing 1 product(s) {"scope":"CheckoutFlow","correlationId":"92ef2e8c","testName":"\"Sauce Labs Fleece Jacket\" can be purchased end-to-end"}
-2026-06-29 04:40:54.079 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"92ef2e8c","testName":"\"Sauce Labs Fleece Jacket\" can be purchased end-to-end"}
-2026-06-29 04:40:54.142 [info] Adding "Sauce Labs Fleece Jacket" to cart {"scope":"SauceInventoryPage","correlationId":"92ef2e8c","testName":"\"Sauce Labs Fleece Jacket\" can be purchased end-to-end"}
-2026-06-29 04:40:57.419 [info] ✔ PASS (4.47s) [92ef2e8c]: "Sauce Labs Fleece Jacket" can be purchased end-to-end {"scope":"\"Sauce Labs Fleece Jacket\" can be purchased end-to-end"}

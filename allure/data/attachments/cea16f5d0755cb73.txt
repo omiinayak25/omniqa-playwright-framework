@@ -1,3 +1,0 @@
-2026-06-29 04:41:20.230 [info] ▶ START: ui/orangehrm/authorization.spec.ts › OrangeHRM · Authorization — Admin privileges @ui @regression @authorization › Admin side menu exposes the core module set {"scope":"Admin side menu exposes the core module set","correlationId":"a7ed0c00","testName":"Admin side menu exposes the core module set"}
-2026-06-29 04:41:20.326 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"a7ed0c00","testName":"Admin side menu exposes the core module set"}
-2026-06-29 04:41:24.633 [info] ✔ PASS (4.40s) [a7ed0c00]: Admin side menu exposes the core module set {"scope":"Admin side menu exposes the core module set"}

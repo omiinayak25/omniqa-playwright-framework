@@ -1,3 +1,0 @@
-2026-06-29 04:41:57.021 [info] ▶ START: ui/orangehrm/pim-table.spec.ts › OrangeHRM · PIM data grid @ui @regression @tables › selecting a row checks exactly one checkbox {"scope":"selecting a row checks exactly one checkbox","correlationId":"39fb7ab6","testName":"selecting a row checks exactly one checkbox"}
-2026-06-29 04:41:57.125 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"39fb7ab6","testName":"selecting a row checks exactly one checkbox"}
-2026-06-29 04:42:01.396 [info] ✔ PASS (4.38s) [39fb7ab6]: selecting a row checks exactly one checkbox {"scope":"selecting a row checks exactly one checkbox"}

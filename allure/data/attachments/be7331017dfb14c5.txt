@@ -1,0 +1,4 @@
+2026-06-29 04:49:09.438 [info] ▶ START: ui/saucedemo/cart.persistence.spec.ts › SauceDemo · Cart persistence & navigation @ui @regression @cart › a cart line item links to its product detail page {"scope":"a cart line item links to its product detail page","correlationId":"62fd9abc","testName":"a cart line item links to its product detail page"}
+2026-06-29 04:49:10.513 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"62fd9abc","testName":"a cart line item links to its product detail page"}
+2026-06-29 04:49:10.864 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"62fd9abc","testName":"a cart line item links to its product detail page"}
+2026-06-29 04:49:12.397 [info] ✔ PASS (2.96s) [62fd9abc]: a cart line item links to its product detail page {"scope":"a cart line item links to its product detail page"}

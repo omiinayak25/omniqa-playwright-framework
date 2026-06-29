@@ -1,0 +1,4 @@
+2026-06-29 04:48:30.252 [info] ▶ START: api/dummyjson-extended.spec.ts › DummyJSON · Products extended @api @regression › adding a product returns a generated id {"scope":"adding a product returns a generated id","correlationId":"94916b71","testName":"adding a product returns a generated id"}
+2026-06-29 04:48:30.254 [info] → POST https://dummyjson.com/products/add {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"94916b71","testName":"adding a product returns a generated id"}
+2026-06-29 04:48:30.318 [info] ← 201 POST https://dummyjson.com/products/add (63ms) {"scope":"ApiClient","correlationId":"94916b71","testName":"adding a product returns a generated id"}
+2026-06-29 04:48:30.321 [info] ✔ PASS (69ms) [94916b71]: adding a product returns a generated id {"scope":"adding a product returns a generated id"}

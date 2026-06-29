@@ -1,4 +1,0 @@
-2026-06-29 04:42:52.622 [info] ▶ START: ui/saucedemo/product-details.data.spec.ts › SauceDemo · PDP per product @ui @regression @inventory › PDP for "Sauce Labs Bolt T-Shirt" shows correct details {"scope":"PDP for \"Sauce Labs Bolt T-Shirt\" shows correct details","correlationId":"16d47cc1","testName":"PDP for \"Sauce Labs Bolt T-Shirt\" shows correct details"}
-2026-06-29 04:42:52.850 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"16d47cc1","testName":"PDP for \"Sauce Labs Bolt T-Shirt\" shows correct details"}
-2026-06-29 04:42:53.726 [info] Opening PDP for "Sauce Labs Bolt T-Shirt" {"scope":"SauceInventoryPage","correlationId":"16d47cc1","testName":"PDP for \"Sauce Labs Bolt T-Shirt\" shows correct details"}
-2026-06-29 04:42:54.271 [info] ✔ PASS (1.65s) [16d47cc1]: PDP for "Sauce Labs Bolt T-Shirt" shows correct details {"scope":"PDP for \"Sauce Labs Bolt T-Shirt\" shows correct details"}

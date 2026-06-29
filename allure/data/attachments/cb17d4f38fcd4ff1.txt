@@ -1,5 +1,0 @@
-2026-06-29 04:42:12.670 [info] ▶ START: ui/saucedemo/cart.persistence.spec.ts › SauceDemo · Cart persistence & navigation @ui @regression @cart › cart survives visiting a product page and returning {"scope":"cart survives visiting a product page and returning","correlationId":"21311f0c","testName":"cart survives visiting a product page and returning"}
-2026-06-29 04:42:12.921 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"21311f0c","testName":"cart survives visiting a product page and returning"}
-2026-06-29 04:42:13.308 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"21311f0c","testName":"cart survives visiting a product page and returning"}
-2026-06-29 04:42:13.402 [info] Opening PDP for "Sauce Labs Bike Light" {"scope":"SauceInventoryPage","correlationId":"21311f0c","testName":"cart survives visiting a product page and returning"}
-2026-06-29 04:42:14.097 [info] ✔ PASS (1.43s) [21311f0c]: cart survives visiting a product page and returning {"scope":"cart survives visiting a product page and returning"}

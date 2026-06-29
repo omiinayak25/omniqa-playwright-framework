@@ -1,5 +1,0 @@
-2026-06-29 04:42:10.079 [info] ▶ START: ui/saucedemo/cart.data.spec.ts › SauceDemo · Cart add/remove per product @ui @regression @cart › "Sauce Labs Fleece Jacket" can be added and removed {"scope":"\"Sauce Labs Fleece Jacket\" can be added and removed","correlationId":"017ef4a7","testName":"\"Sauce Labs Fleece Jacket\" can be added and removed"}
-2026-06-29 04:42:10.215 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"017ef4a7","testName":"\"Sauce Labs Fleece Jacket\" can be added and removed"}
-2026-06-29 04:42:10.555 [info] Adding "Sauce Labs Fleece Jacket" to cart {"scope":"SauceInventoryPage","correlationId":"017ef4a7","testName":"\"Sauce Labs Fleece Jacket\" can be added and removed"}
-2026-06-29 04:42:10.696 [info] Removing "Sauce Labs Fleece Jacket" from cart {"scope":"SauceCartPage","correlationId":"017ef4a7","testName":"\"Sauce Labs Fleece Jacket\" can be added and removed"}
-2026-06-29 04:42:11.169 [info] ✔ PASS (1.09s) [017ef4a7]: "Sauce Labs Fleece Jacket" can be added and removed {"scope":"\"Sauce Labs Fleece Jacket\" can be added and removed"}

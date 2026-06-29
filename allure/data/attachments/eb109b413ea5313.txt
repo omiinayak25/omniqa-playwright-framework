@@ -1,0 +1,4 @@
+2026-06-29 04:48:30.791 [info] ▶ START: api/jsonplaceholder-posts.spec.ts › JSONPlaceholder · Posts extended @api @regression › deleting a post returns 200 {"scope":"deleting a post returns 200","correlationId":"c942249d","testName":"deleting a post returns 200"}
+2026-06-29 04:48:30.792 [info] → DELETE https://jsonplaceholder.typicode.com/posts/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"c942249d","testName":"deleting a post returns 200"}
+2026-06-29 04:48:30.858 [info] ← 200 DELETE https://jsonplaceholder.typicode.com/posts/1 (65ms) {"scope":"ApiClient","correlationId":"c942249d","testName":"deleting a post returns 200"}
+2026-06-29 04:48:30.860 [info] ✔ PASS (69ms) [c942249d]: deleting a post returns 200 {"scope":"deleting a post returns 200"}

@@ -1,0 +1,5 @@
+2026-06-29 04:49:53.674 [info] ▶ START: ui/saucedemo/cart.data.spec.ts › SauceDemo · Cart add/remove per product @ui @regression @cart › "Sauce Labs Backpack" can be added and removed {"scope":"\"Sauce Labs Backpack\" can be added and removed","correlationId":"0bde0fc3","testName":"\"Sauce Labs Backpack\" can be added and removed"}
+2026-06-29 04:49:53.800 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"0bde0fc3","testName":"\"Sauce Labs Backpack\" can be added and removed"}
+2026-06-29 04:49:54.276 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"0bde0fc3","testName":"\"Sauce Labs Backpack\" can be added and removed"}
+2026-06-29 04:49:54.497 [info] Removing "Sauce Labs Backpack" from cart {"scope":"SauceCartPage","correlationId":"0bde0fc3","testName":"\"Sauce Labs Backpack\" can be added and removed"}
+2026-06-29 04:49:54.924 [info] ✔ PASS (1.25s) [0bde0fc3]: "Sauce Labs Backpack" can be added and removed {"scope":"\"Sauce Labs Backpack\" can be added and removed"}

@@ -1,0 +1,2 @@
+2026-06-29 04:48:15.357 [info] ▶ START: db/repositories-extended.spec.ts › PostgreSQL · Repository edge cases @db › updateSalary returns the persisted new salary {"scope":"updateSalary returns the persisted new salary","correlationId":"949e6b56","testName":"updateSalary returns the persisted new salary"}
+2026-06-29 04:48:15.374 [info] ✔ PASS (17ms) [949e6b56]: updateSalary returns the persisted new salary {"scope":"updateSalary returns the persisted new salary"}
