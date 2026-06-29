@@ -23,9 +23,13 @@
  * Last Updated: 2026-06-27
  * --------------------------------------------------------
  */
+// Import Playwright's page and element-handle types (type-only).
 import type { Page, Locator } from '@playwright/test';
+// Import the shared BasePage (navigation + logged helpers).
 import { BasePage } from '@pages/base.page';
+// Import the config singleton for the SauceDemo base URL.
 import { config } from '@config/config';
+// Import the SauceDemo route paths.
 import { SAUCEDEMO_ROUTES } from '@constants/ui-routes.constants';
 
 /**
@@ -33,16 +37,25 @@ import { SAUCEDEMO_ROUTES } from '@constants/ui-routes.constants';
  * journey; it exposes the confirmation message so tests/flows can verify a
  * successful purchase.
  */
+// Declare the order-confirmation page object, extending BasePage.
 export class CheckoutCompletePage extends BasePage {
+  // Supply the SauceDemo base URL required by BasePage.
   protected readonly baseUrl = config.ui.sauceDemo.baseUrl;
+  // Supply the checkout-complete route path required by BasePage.
   protected readonly path = SAUCEDEMO_ROUTES.CHECKOUT_COMPLETE;
 
+  // Locator for the confirmation header ("Thank you for your order!").
   private readonly header: Locator;
+  // Locator for the "Back Home" button.
   private readonly backHomeButton: Locator;
 
+  // Build the page object and resolve its locators.
   constructor(page: Page) {
+    // Initialise BasePage (stores page + logger).
     super(page);
+    // Resolve the confirmation header element.
     this.header = page.locator('.complete-header');
+    // Resolve the back-to-products button by id.
     this.backHomeButton = page.locator('#back-to-products');
   }
 
@@ -52,8 +65,11 @@ export class CheckoutCompletePage extends BasePage {
    * @returns Promise resolving to the trimmed confirmation text.
    * @example expect(await complete.confirmationText()).toContain('Thank you');
    */
+  // Read the confirmation header text (after the post-order navigation).
   public async confirmationText(): Promise<string> {
+    // Wait briefly for the header to appear; swallow timeouts so the read still runs.
     await this.header.waitFor({ state: 'visible', timeout: 10_000 }).catch(() => undefined);
+    // Return the trimmed header text.
     return this.readText(this.header, 'confirmation header');
   }
 
@@ -61,7 +77,9 @@ export class CheckoutCompletePage extends BasePage {
    * Purpose: Return to the products/inventory page after an order.
    * @returns Promise that resolves once the back-home button is clicked.
    */
+  // Navigate back to the products list via the "Back Home" button.
   public async backToProducts(): Promise<void> {
+    // Click the back-home button.
     await this.click(this.backHomeButton, 'back to products');
   }
 }
