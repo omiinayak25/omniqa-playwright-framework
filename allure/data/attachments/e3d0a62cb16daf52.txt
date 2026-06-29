@@ -1,0 +1,5 @@
+2026-06-29 03:45:45.599 [info] ▶ START: visual/saucedemo/journey.visual.spec.ts › SauceDemo · Login error · Visual (logged-out) @visual @regression › the login error state matches the baseline {"scope":"the login error state matches the baseline","correlationId":"26341de0","testName":"the login error state matches the baseline"}
+2026-06-29 03:45:45.727 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"26341de0","testName":"the login error state matches the baseline"}
+2026-06-29 03:45:46.101 [info] Logging in as "locked_out_user" {"scope":"SauceLoginPage","correlationId":"26341de0","testName":"the login error state matches the baseline"}
+2026-06-29 03:45:46.586 [info] Visual compare (page, fullPage=true): saucedemo-login-error {"scope":"Visual","correlationId":"26341de0","testName":"the login error state matches the baseline"}
+2026-06-29 03:45:47.680 [info] ✔ PASS (2.08s) [26341de0]: the login error state matches the baseline {"scope":"the login error state matches the baseline"}

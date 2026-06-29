@@ -1,0 +1,7 @@
+2026-06-29 03:45:45.491 [info] ▶ START: visual/saucedemo/journey.visual.spec.ts › SauceDemo · Journey screens · Visual (authenticated) @visual @regression › the product detail page matches the baseline {"scope":"the product detail page matches the baseline","correlationId":"668b33e9","testName":"the product detail page matches the baseline"}
+2026-06-29 03:45:45.609 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"668b33e9","testName":"the product detail page matches the baseline"}
+2026-06-29 03:45:45.898 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"668b33e9","testName":"the product detail page matches the baseline"}
+2026-06-29 03:45:46.391 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"668b33e9","testName":"the product detail page matches the baseline"}
+2026-06-29 03:45:46.625 [info] Opening PDP for "Sauce Labs Backpack" {"scope":"SauceInventoryPage","correlationId":"668b33e9","testName":"the product detail page matches the baseline"}
+2026-06-29 03:45:46.969 [info] Visual compare (page, fullPage=true): saucedemo-pdp-backpack {"scope":"Visual","correlationId":"668b33e9","testName":"the product detail page matches the baseline"}
+2026-06-29 03:45:47.879 [info] ✔ PASS (2.39s) [668b33e9]: the product detail page matches the baseline {"scope":"the product detail page matches the baseline"}

@@ -1,4 +1,0 @@
-2026-06-28 16:18:46.214 [info] ▶ START: ui/orangehrm/login.spec.ts › OrangeHRM · Login @ui @regression › invalid credentials are rejected {"scope":"invalid credentials are rejected","correlationId":"fbb2bc1a","testName":"invalid credentials are rejected"}
-2026-06-28 16:18:46.508 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"fbb2bc1a","testName":"invalid credentials are rejected"}
-2026-06-28 16:18:49.383 [info] Logging in as "Admin" {"scope":"OrangeLoginPage","correlationId":"fbb2bc1a","testName":"invalid credentials are rejected"}
-2026-06-28 16:18:55.091 [info] ✔ PASS (8.88s) [fbb2bc1a]: invalid credentials are rejected {"scope":"invalid credentials are rejected"}

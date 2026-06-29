@@ -1,6 +1,0 @@
-2026-06-28 16:17:03.964 [info] ▶ START: accessibility/saucedemo/inventory.a11y.spec.ts › SauceDemo · Inventory · Accessibility @a11y @accessibility @regression › @smoke inventory is compliant apart from triaged waivers {"scope":"@smoke inventory is compliant apart from triaged waivers","correlationId":"6cd60b1e","testName":"@smoke inventory is compliant apart from triaged waivers"}
-2026-06-28 16:17:03.993 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"6cd60b1e","testName":"@smoke inventory is compliant apart from triaged waivers"}
-2026-06-28 16:17:04.146 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"6cd60b1e","testName":"@smoke inventory is compliant apart from triaged waivers"}
-2026-06-28 16:17:04.298 [info] Running axe scan: "SauceDemo · Inventory · baseline" {"scope":"A11yScanner","correlationId":"6cd60b1e","testName":"@smoke inventory is compliant apart from triaged waivers"}
-2026-06-28 16:17:04.979 [info] axe scan "SauceDemo · Inventory · baseline" — 0 violations (15 passes) {"scope":"A11yScanner","correlationId":"6cd60b1e","testName":"@smoke inventory is compliant apart from triaged waivers"}
-2026-06-28 16:17:05.182 [info] ✔ PASS (1.22s) [6cd60b1e]: @smoke inventory is compliant apart from triaged waivers {"scope":"@smoke inventory is compliant apart from triaged waivers"}

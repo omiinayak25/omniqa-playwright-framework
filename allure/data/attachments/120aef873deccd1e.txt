@@ -1,0 +1,2 @@
+2026-06-29 03:46:11.063 [info] (cancel returns to the employee list) ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › cancel returns to the employee list
+2026-06-29 03:46:11.280 [info] (OrangeAddEmployeePage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee

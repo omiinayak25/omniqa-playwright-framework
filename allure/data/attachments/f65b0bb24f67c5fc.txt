@@ -1,4 +1,0 @@
-2026-06-28 16:19:40.724 [info] ▶ START: ui/saucedemo/cart.persistence.spec.ts › SauceDemo · Cart persistence & navigation @ui @regression @cart › cart contents persist across a page refresh {"scope":"cart contents persist across a page refresh","correlationId":"e3c067c7","testName":"cart contents persist across a page refresh"}
-2026-06-28 16:19:41.608 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"e3c067c7","testName":"cart contents persist across a page refresh"}
-2026-06-28 16:19:43.571 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"e3c067c7","testName":"cart contents persist across a page refresh"}
-2026-06-28 16:19:45.117 [info] ✔ PASS (4.39s) [e3c067c7]: cart contents persist across a page refresh {"scope":"cart contents persist across a page refresh"}

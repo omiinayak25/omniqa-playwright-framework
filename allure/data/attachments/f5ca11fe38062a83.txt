@@ -1,3 +1,0 @@
-2026-06-28 16:16:57.444 [info] ▶ START: visual/saucedemo/cart.visual.spec.ts › SauceDemo · Cart & Checkout · Visual @visual @regression › the cart page matches the baseline {"scope":"the cart page matches the baseline","correlationId":"6228abe2","testName":"the cart page matches the baseline"}
-2026-06-28 16:16:57.715 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"6228abe2","testName":"the cart page matches the baseline"}
-2026-06-28 16:17:14.472 [error] ✘ FAILED (17.03s) [6228abe2]: the cart page matches the baseline {"scope":"the cart page matches the baseline"}

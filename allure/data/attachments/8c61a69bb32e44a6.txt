@@ -1,0 +1,4 @@
+2026-06-29 03:48:52.102 [info] ▶ START: ui/saucedemo/login.negative.spec.ts › SauceDemo · Login negative & boundary inputs @ui @regression @negative › unicode username (emoji) is rejected gracefully {"scope":"unicode username (emoji) is rejected gracefully","correlationId":"8716a8b2","testName":"unicode username (emoji) is rejected gracefully"}
+2026-06-29 03:48:52.194 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"8716a8b2","testName":"unicode username (emoji) is rejected gracefully"}
+2026-06-29 03:48:52.606 [info] Logging in as "user😀name" {"scope":"SauceLoginPage","correlationId":"8716a8b2","testName":"unicode username (emoji) is rejected gracefully"}
+2026-06-29 03:48:53.316 [info] ✔ PASS (1.21s) [8716a8b2]: unicode username (emoji) is rejected gracefully {"scope":"unicode username (emoji) is rejected gracefully"}

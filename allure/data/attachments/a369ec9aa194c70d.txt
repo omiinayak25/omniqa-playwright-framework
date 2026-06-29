@@ -1,3 +1,0 @@
-2026-06-28 16:21:48.281 [info] ▶ START: ui/saucedemo/session.spec.ts › SauceDemo · Unauthenticated protection @ui @regression @negative › protected catalog is blocked without a session {"scope":"protected catalog is blocked without a session","correlationId":"23abb71a","testName":"protected catalog is blocked without a session"}
-2026-06-28 16:21:49.014 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"23abb71a","testName":"protected catalog is blocked without a session"}
-2026-06-28 16:22:05.300 [info] ✔ PASS (17.02s) [23abb71a]: protected catalog is blocked without a session {"scope":"protected catalog is blocked without a session"}

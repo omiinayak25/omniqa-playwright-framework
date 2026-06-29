@@ -1,4 +1,0 @@
-2026-06-28 16:17:36.554 [info] ▶ START: api/booking-extended.spec.ts › Restful-Booker · Booking extended @api @regression @booking › listing booking ids returns a non-empty array {"scope":"listing booking ids returns a non-empty array","correlationId":"1c9fec17","testName":"listing booking ids returns a non-empty array"}
-2026-06-28 16:17:36.555 [info] → GET https://restful-booker.herokuapp.com/booking {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"1c9fec17","testName":"listing booking ids returns a non-empty array"}
-2026-06-28 16:17:36.759 [info] ← 200 GET https://restful-booker.herokuapp.com/booking (202ms) {"scope":"ApiClient","correlationId":"1c9fec17","testName":"listing booking ids returns a non-empty array"}
-2026-06-28 16:17:36.762 [info] ✔ PASS (208ms) [1c9fec17]: listing booking ids returns a non-empty array {"scope":"listing booking ids returns a non-empty array"}

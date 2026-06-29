@@ -1,4 +1,0 @@
-2026-06-28 16:17:38.243 [info] ▶ START: api/dummyjson-extended.spec.ts › DummyJSON · Products extended @api @regression › the list response time is within SLA {"scope":"the list response time is within SLA","correlationId":"26d934df","testName":"the list response time is within SLA"}
-2026-06-28 16:17:38.244 [info] → GET https://dummyjson.com/products?limit=10&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"26d934df","testName":"the list response time is within SLA"}
-2026-06-28 16:17:38.334 [info] ← 200 GET https://dummyjson.com/products?limit=10&skip=0 (89ms) {"scope":"ApiClient","correlationId":"26d934df","testName":"the list response time is within SLA"}
-2026-06-28 16:17:38.335 [info] ✔ PASS (92ms) [26d934df]: the list response time is within SLA {"scope":"the list response time is within SLA"}

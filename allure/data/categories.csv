@@ -1,4 +1,4 @@
 "BROKEN","CATEGORY","FAILED","PASSED","SKIPPED","UNKNOWN"
-"0","Test infrastructure / timeouts","17","0","0","0"
-"0","Product defects","3","0","0","0"
-"0","Ignored / skipped (gated)","0","0","170","0"
+"0","Product defects","9","0","0","0"
+"0","Test infrastructure / timeouts","5","0","0","0"
+"0","Ignored / skipped (gated)","0","0","6","0"

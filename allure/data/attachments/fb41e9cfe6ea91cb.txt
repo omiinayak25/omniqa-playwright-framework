@@ -1,4 +1,0 @@
-2026-06-28 16:17:38.475 [info] ▶ START: api/jsonplaceholder-posts.spec.ts › JSONPlaceholder · Posts extended @api @regression › an unknown post id returns 404 {"scope":"an unknown post id returns 404","correlationId":"691f20e8","testName":"an unknown post id returns 404"}
-2026-06-28 16:17:38.476 [info] → GET https://jsonplaceholder.typicode.com/posts/99999 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"691f20e8","testName":"an unknown post id returns 404"}
-2026-06-28 16:17:38.490 [info] ← 404 GET https://jsonplaceholder.typicode.com/posts/99999 (14ms) {"scope":"ApiClient","correlationId":"691f20e8","testName":"an unknown post id returns 404"}
-2026-06-28 16:17:38.491 [info] ✔ PASS (16ms) [691f20e8]: an unknown post id returns 404 {"scope":"an unknown post id returns 404"}

@@ -1,2 +1,0 @@
-2026-06-28 16:16:39.470 [info] (the cart page matches the baseline) ▶ START: visual/saucedemo/cart.visual.spec.ts › SauceDemo · Cart & Checkout · Visual @visual @regression › the cart page matches the baseline
-2026-06-28 16:16:39.893 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html

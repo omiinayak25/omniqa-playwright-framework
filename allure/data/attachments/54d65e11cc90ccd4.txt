@@ -1,3 +1,0 @@
-2026-06-28 16:17:09.236 [info] ▶ START: ui/orangehrm/dashboard.spec.ts › OrangeHRM · Dashboard @ui @regression @dashboard › dashboard widgets render {"scope":"dashboard widgets render","correlationId":"19d858dc","testName":"dashboard widgets render"}
-2026-06-28 16:17:09.386 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"19d858dc","testName":"dashboard widgets render"}
-2026-06-28 16:17:12.018 [info] ✔ PASS (2.78s) [19d858dc]: dashboard widgets render {"scope":"dashboard widgets render"}

@@ -1,4 +1,0 @@
-2026-06-28 16:18:28.199 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › SQLi username payload (boolean tautology) does not bypass auth {"scope":"SQLi username payload (boolean tautology) does not bypass auth","correlationId":"7522ad80","testName":"SQLi username payload (boolean tautology) does not bypass auth"}
-2026-06-28 16:18:28.282 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"7522ad80","testName":"SQLi username payload (boolean tautology) does not bypass auth"}
-2026-06-28 16:18:28.739 [info] Logging in as "" OR 1=1 #" {"scope":"SauceLoginPage","correlationId":"7522ad80","testName":"SQLi username payload (boolean tautology) does not bypass auth"}
-2026-06-28 16:18:29.667 [info] ✔ PASS (1.47s) [7522ad80]: SQLi username payload (boolean tautology) does not bypass auth {"scope":"SQLi username payload (boolean tautology) does not bypass auth"}

@@ -1,5 +1,0 @@
-2026-06-28 16:20:38.783 [info] ▶ START: ui/saucedemo/inventory.cart.spec.ts › SauceDemo · Inventory cart interactions @ui @regression @inventory › Reset App State clears the cart badge {"scope":"Reset App State clears the cart badge","correlationId":"4b91a37c","testName":"Reset App State clears the cart badge"}
-2026-06-28 16:20:40.023 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"4b91a37c","testName":"Reset App State clears the cart badge"}
-2026-06-28 16:20:42.919 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"4b91a37c","testName":"Reset App State clears the cart badge"}
-2026-06-28 16:20:43.189 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"4b91a37c","testName":"Reset App State clears the cart badge"}
-2026-06-28 16:20:45.958 [info] ✔ PASS (7.17s) [4b91a37c]: Reset App State clears the cart badge {"scope":"Reset App State clears the cart badge"}

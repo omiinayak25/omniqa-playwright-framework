@@ -1,0 +1,2 @@
+2026-06-29 03:46:58.954 [info] (Admin can open the PIM module) ▶ START: ui/orangehrm/authorization.spec.ts › OrangeHRM · Authorization — Admin privileges @ui @regression @authorization › Admin can open the PIM module
+2026-06-29 03:46:59.190 [info] (OrangeDashboardPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index

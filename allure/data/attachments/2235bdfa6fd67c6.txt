@@ -1,4 +1,0 @@
-2026-06-28 16:18:25.133 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › XSS username payload (script tag) is neutralised {"scope":"XSS username payload (script tag) is neutralised","correlationId":"1b13928f","testName":"XSS username payload (script tag) is neutralised"}
-2026-06-28 16:18:25.277 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"1b13928f","testName":"XSS username payload (script tag) is neutralised"}
-2026-06-28 16:18:25.823 [info] Logging in as "<script>alert(1)</script>" {"scope":"SauceLoginPage","correlationId":"1b13928f","testName":"XSS username payload (script tag) is neutralised"}
-2026-06-28 16:18:26.694 [info] ✔ PASS (1.56s) [1b13928f]: XSS username payload (script tag) is neutralised {"scope":"XSS username payload (script tag) is neutralised"}

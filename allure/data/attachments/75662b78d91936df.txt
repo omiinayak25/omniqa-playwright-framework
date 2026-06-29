@@ -1,2 +1,0 @@
-2026-06-28 16:19:17.758 [info] (cart deep-link without a session is not served) ▶ START: ui/saucedemo/authorization.spec.ts › SauceDemo · Authorization — protected routes @ui @regression @authorization @negative › cart deep-link without a session is not served
-2026-06-28 16:19:18.098 [info] (SauceCartPage) Navigating to https://www.saucedemo.com/cart.html

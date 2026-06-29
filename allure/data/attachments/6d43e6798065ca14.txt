@@ -1,3 +1,0 @@
-2026-06-28 16:17:04.256 [info] ▶ START: ui/orangehrm/authorization.spec.ts › OrangeHRM · Authorization — Admin privileges @ui @regression @authorization › Admin can open User Management (Admin module) {"scope":"Admin can open User Management (Admin module)","correlationId":"ca424579","testName":"Admin can open User Management (Admin module)"}
-2026-06-28 16:17:04.424 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"ca424579","testName":"Admin can open User Management (Admin module)"}
-2026-06-28 16:17:09.067 [info] ✔ PASS (4.81s) [ca424579]: Admin can open User Management (Admin module) {"scope":"Admin can open User Management (Admin module)"}

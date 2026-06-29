@@ -1,4 +1,0 @@
-2026-06-28 16:17:39.244 [info] ▶ START: api/posts.spec.ts › JSONPlaceholder · Post API @api › @smoke create → returns 201 with id (CRUD) {"scope":"@smoke create → returns 201 with id (CRUD)","correlationId":"dd5baa6d","testName":"@smoke create → returns 201 with id (CRUD)"}
-2026-06-28 16:17:39.245 [info] → POST https://jsonplaceholder.typicode.com/posts {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"dd5baa6d","testName":"@smoke create → returns 201 with id (CRUD)"}
-2026-06-28 16:17:39.319 [info] ← 201 POST https://jsonplaceholder.typicode.com/posts (73ms) {"scope":"ApiClient","correlationId":"dd5baa6d","testName":"@smoke create → returns 201 with id (CRUD)"}
-2026-06-28 16:17:39.321 [info] ✔ PASS (77ms) [dd5baa6d]: @smoke create → returns 201 with id (CRUD) {"scope":"@smoke create → returns 201 with id (CRUD)"}

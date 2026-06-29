@@ -1,0 +1,4 @@
+2026-06-29 03:49:06.143 [info] ▶ START: ui/saucedemo/session.spec.ts › SauceDemo · Authenticated session @ui @regression › session is shared across a second tab in the same context {"scope":"session is shared across a second tab in the same context","correlationId":"db9bee12","testName":"session is shared across a second tab in the same context"}
+2026-06-29 03:49:06.341 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"db9bee12","testName":"session is shared across a second tab in the same context"}
+2026-06-29 03:49:07.311 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"db9bee12","testName":"session is shared across a second tab in the same context"}
+2026-06-29 03:49:08.217 [info] ✔ PASS (2.08s) [db9bee12]: session is shared across a second tab in the same context {"scope":"session is shared across a second tab in the same context"}

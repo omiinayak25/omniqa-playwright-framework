@@ -1,4 +1,0 @@
-2026-06-28 16:16:59.862 [info] ▶ START: accessibility/saucedemo/cart.a11y.spec.ts › SauceDemo · Cart & Checkout · Accessibility @a11y @accessibility @regression › the checkout information form has no violations {"scope":"the checkout information form has no violations","correlationId":"d74bc5be","testName":"the checkout information form has no violations"}
-2026-06-28 16:16:59.969 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"d74bc5be","testName":"the checkout information form has no violations"}
-2026-06-28 16:17:00.171 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"d74bc5be","testName":"the checkout information form has no violations"}
-2026-06-28 16:17:16.433 [error] ✘ FAILED (16.57s) [d74bc5be]: the checkout information form has no violations {"scope":"the checkout information form has no violations"}

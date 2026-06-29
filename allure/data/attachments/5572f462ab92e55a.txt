@@ -1,0 +1,3 @@
+2026-06-29 03:47:40.444 [info] (@smoke Admin logs in and reaches the dashboard) ▶ START: ui/orangehrm/login.spec.ts › OrangeHRM · Login @ui @regression › @smoke Admin logs in and reaches the dashboard
+2026-06-29 03:47:40.695 [info] (OrangeLoginPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-29 03:47:43.561 [info] (OrangeLoginPage) Logging in as "Admin"

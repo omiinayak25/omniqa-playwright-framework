@@ -1,3 +1,0 @@
-2026-06-28 16:17:54.937 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › cancel returns to the employee list {"scope":"cancel returns to the employee list","correlationId":"322df241","testName":"cancel returns to the employee list"}
-2026-06-28 16:17:56.185 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"322df241","testName":"cancel returns to the employee list"}
-2026-06-28 16:18:01.645 [info] ✔ PASS (6.71s) [322df241]: cancel returns to the employee list {"scope":"cancel returns to the employee list"}

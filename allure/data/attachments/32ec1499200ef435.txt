@@ -1,4 +1,0 @@
-2026-06-28 16:17:25.148 [info] ▶ START: accessibility/saucedemo/journey.a11y.spec.ts › SauceDemo · Journey · Accessibility @a11y @accessibility @regression › the product detail page has no violations {"scope":"the product detail page has no violations","correlationId":"a41e8874","testName":"the product detail page has no violations"}
-2026-06-28 16:17:25.340 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"a41e8874","testName":"the product detail page has no violations"}
-2026-06-28 16:17:25.542 [info] Opening PDP for "Sauce Labs Backpack" {"scope":"SauceInventoryPage","correlationId":"a41e8874","testName":"the product detail page has no violations"}
-2026-06-28 16:17:42.048 [error] ✘ FAILED (16.90s) [a41e8874]: the product detail page has no violations {"scope":"the product detail page has no violations"}

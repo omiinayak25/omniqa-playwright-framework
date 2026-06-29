@@ -1,2 +1,0 @@
-2026-06-28 16:16:40.260 [info] [orange-auth.setup] Authenticating OrangeHRM admin
-2026-06-28 16:16:40.265 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage"}

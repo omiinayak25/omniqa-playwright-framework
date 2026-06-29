@@ -1,0 +1,4 @@
+2026-06-29 03:48:55.131 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › XSS username payload (svg onload) is neutralised {"scope":"XSS username payload (svg onload) is neutralised","correlationId":"5d1c2f93","testName":"XSS username payload (svg onload) is neutralised"}
+2026-06-29 03:48:55.200 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"5d1c2f93","testName":"XSS username payload (svg onload) is neutralised"}
+2026-06-29 03:48:55.709 [info] Logging in as "<svg/onload=alert(1)>" {"scope":"SauceLoginPage","correlationId":"5d1c2f93","testName":"XSS username payload (svg onload) is neutralised"}
+2026-06-29 03:48:56.360 [info] ✔ PASS (1.22s) [5d1c2f93]: XSS username payload (svg onload) is neutralised {"scope":"XSS username payload (svg onload) is neutralised"}

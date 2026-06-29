@@ -1,3 +1,0 @@
-2026-06-28 16:19:17.758 [info] ▶ START: ui/saucedemo/authorization.spec.ts › SauceDemo · Authorization — protected routes @ui @regression @authorization @negative › cart deep-link without a session is not served {"scope":"cart deep-link without a session is not served","correlationId":"4ec69a30","testName":"cart deep-link without a session is not served"}
-2026-06-28 16:19:18.098 [info] Navigating to https://www.saucedemo.com/cart.html {"scope":"SauceCartPage","correlationId":"4ec69a30","testName":"cart deep-link without a session is not served"}
-2026-06-28 16:19:19.100 [error] ✘ FAILED (1.34s) [4ec69a30]: cart deep-link without a session is not served {"scope":"cart deep-link without a session is not served"}

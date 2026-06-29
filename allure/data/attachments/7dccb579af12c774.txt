@@ -1,0 +1,3 @@
+TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for locator('button').filter({ hasText: 'Cancel' })[22m

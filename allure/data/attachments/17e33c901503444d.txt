@@ -1,2 +1,0 @@
-2026-06-28 16:21:24.228 [info] (PDP for "Sauce Labs Backpack" shows correct details) ▶ START: ui/saucedemo/product-details.data.spec.ts › SauceDemo · PDP per product @ui @regression @inventory › PDP for "Sauce Labs Backpack" shows correct details
-2026-06-28 16:21:25.470 [info] (SauceInventoryPage) Navigating to https://www.saucedemo.com/inventory.html

@@ -1,3 +1,0 @@
-2026-06-28 16:21:45.610 [info] ▶ START: ui/saucedemo/session.spec.ts › SauceDemo · Authenticated session @ui @regression › session persists across a page refresh {"scope":"session persists across a page refresh","correlationId":"8bdbc938","testName":"session persists across a page refresh"}
-2026-06-28 16:21:46.631 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"8bdbc938","testName":"session persists across a page refresh"}
-2026-06-28 16:21:49.225 [info] ✔ PASS (3.62s) [8bdbc938]: session persists across a page refresh {"scope":"session persists across a page refresh"}

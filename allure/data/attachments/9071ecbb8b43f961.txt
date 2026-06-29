@@ -1,0 +1,4 @@
+2026-06-29 03:46:10.359 [info] ▶ START: api/logging.spec.ts › Logging · correlation & capture @smoke › capture buffer collects logs tagged with the active correlation id {"scope":"capture buffer collects logs tagged with the active correlation id","correlationId":"411e9b98","testName":"capture buffer collects logs tagged with the active correlation id"}
+2026-06-29 03:46:10.360 [info] captured line one {"correlationId":"unit-capture-001"}
+2026-06-29 03:46:10.360 [warn] captured line two {"correlationId":"unit-capture-001"}
+2026-06-29 03:46:10.363 [info] ✔ PASS (4ms) [411e9b98]: capture buffer collects logs tagged with the active correlation id {"scope":"capture buffer collects logs tagged with the active correlation id"}
