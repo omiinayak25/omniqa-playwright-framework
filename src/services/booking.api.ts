@@ -28,10 +28,15 @@
  * token as a `Cookie: token=<token>` header, supplied per-request here.
  * --------------------------------------------------------
  */
+// Import the HTTP client type that performs the transport (type-only).
 import type { ApiClient } from '@api/clients/api-client';
+// Import the Restful-Booker endpoint path builders.
 import { RESTFUL_BOOKER_ENDPOINTS } from '@api/endpoints';
+// Import the HTTP header-name constants (for the auth cookie).
 import { HEADERS } from '@constants/http.constants';
+// Import the generic API response envelope (type-only).
 import type { ApiResponse } from '@models/api.model';
+// Import the booking domain models (type-only).
 import type { Booking, BookingId, CreatedBooking } from '@models/booking.model';
 
 /**
@@ -42,15 +47,19 @@ import type { Booking, BookingId, CreatedBooking } from '@models/booking.model';
  * auth-cookie detail for writes. SRP: domain semantics live here; transport,
  * retry, and logging stay in ApiClient.
  */
+// Declare the Restful-Booker booking service.
 export class BookingAPI {
   /** @param client ApiClient bound to the Restful-Booker base URL. */
+  // Inject the ApiClient (bound to the Restful-Booker base URL).
   constructor(private readonly client: ApiClient) {}
 
   /**
    * Health check.
    * @returns GET /ping response (204 when the service is up).
    */
+  // Health check (GET /ping).
   public async health(): Promise<ApiResponse<string>> {
+    // GET the ping endpoint.
     return this.client.get<string>(RESTFUL_BOOKER_ENDPOINTS.PING);
   }
 
@@ -59,9 +68,11 @@ export class BookingAPI {
    * @param filter Optional query params (e.g. firstname, checkin) sent verbatim.
    * @returns GET /booking response with the array of booking ids.
    */
+  // List booking ids, optionally filtered (GET /booking?...).
   public async getAllIds(
     filter?: Record<string, string | number>,
   ): Promise<ApiResponse<BookingId[]>> {
+    // GET the booking collection, forwarding any filter as query params.
     return this.client.get<BookingId[]>(RESTFUL_BOOKER_ENDPOINTS.BOOKING, { params: filter });
   }
 
@@ -70,7 +81,9 @@ export class BookingAPI {
    * @param id Booking id.
    * @returns GET /booking/:id response with the full booking.
    */
+  // Fetch a single booking (GET /booking/:id).
   public async getById(id: number): Promise<ApiResponse<Booking>> {
+    // GET the id-scoped booking endpoint.
     return this.client.get<Booking>(RESTFUL_BOOKER_ENDPOINTS.BOOKING_BY_ID(id));
   }
 
@@ -79,7 +92,9 @@ export class BookingAPI {
    * @param booking Booking payload.
    * @returns POST /booking response with the new id wrapped in CreatedBooking.
    */
+  // Create a booking (POST /booking).
   public async create(booking: Booking): Promise<ApiResponse<CreatedBooking>> {
+    // POST the booking payload; response wraps the new id.
     return this.client.post<CreatedBooking>(RESTFUL_BOOKER_ENDPOINTS.BOOKING, { data: booking });
   }
 
@@ -90,8 +105,11 @@ export class BookingAPI {
    * @param token Restful-Booker auth token, sent as a `Cookie: token=<token>`.
    * @returns PUT /booking/:id response with the updated booking.
    */
+  // Fully replace a booking (PUT /booking/:id; auth required).
   public async update(id: number, booking: Booking, token: string): Promise<ApiResponse<Booking>> {
+    // PUT the full payload, carrying the auth cookie.
     return this.client.put<Booking>(RESTFUL_BOOKER_ENDPOINTS.BOOKING_BY_ID(id), {
+      // Complete booking body.
       data: booking,
       // Restful-Booker authenticates writes via a token cookie, not Bearer.
       headers: { [HEADERS.COOKIE]: `token=${token}` },
@@ -105,12 +123,15 @@ export class BookingAPI {
    * @param token Restful-Booker auth token, sent as a `Cookie: token=<token>`.
    * @returns PATCH /booking/:id response with the updated booking.
    */
+  // Partially update a booking (PATCH /booking/:id; auth required).
   public async patch(
     id: number,
     partial: Partial<Booking>,
     token: string,
   ): Promise<ApiResponse<Booking>> {
+    // PATCH the subset of fields, carrying the auth cookie.
     return this.client.patch<Booking>(RESTFUL_BOOKER_ENDPOINTS.BOOKING_BY_ID(id), {
+      // Partial booking body.
       data: partial,
       // Cookie-based auth, as above.
       headers: { [HEADERS.COOKIE]: `token=${token}` },
@@ -123,7 +144,9 @@ export class BookingAPI {
    * @param token Restful-Booker auth token, sent as a `Cookie: token=<token>`.
    * @returns DELETE /booking/:id response.
    */
+  // Delete a booking (DELETE /booking/:id; auth required).
   public async remove(id: number, token: string): Promise<ApiResponse<string>> {
+    // DELETE the id-scoped endpoint, carrying the auth cookie.
     return this.client.delete<string>(RESTFUL_BOOKER_ENDPOINTS.BOOKING_BY_ID(id), {
       // Cookie-based auth, as above.
       headers: { [HEADERS.COOKIE]: `token=${token}` },
