@@ -1,4 +1,0 @@
-2026-06-29 04:24:57.472 [info] ▶ START: ui/saucedemo/product-details.spec.ts › SauceDemo · Product Detail Page @ui @regression @inventory › back to products returns to the inventory {"scope":"back to products returns to the inventory","correlationId":"49c9fe9c","testName":"back to products returns to the inventory"}
-2026-06-29 04:24:58.603 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"49c9fe9c","testName":"back to products returns to the inventory"}
-2026-06-29 04:24:59.239 [info] Opening PDP for "Sauce Labs Backpack" {"scope":"SauceInventoryPage","correlationId":"49c9fe9c","testName":"back to products returns to the inventory"}
-2026-06-29 04:25:01.094 [info] ✔ PASS (3.62s) [49c9fe9c]: back to products returns to the inventory {"scope":"back to products returns to the inventory"}

@@ -1,0 +1,3 @@
+2026-06-29 04:28:26.035 [info] ▶ START: accessibility/orangehrm/login.a11y.spec.ts › OrangeHRM · Login · Accessibility @a11y @accessibility @regression › the scanner detects the known serious violations {"scope":"the scanner detects the known serious violations","correlationId":"bb093a2f","testName":"the scanner detects the known serious violations"}
+2026-06-29 04:28:27.934 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"bb093a2f","testName":"the scanner detects the known serious violations"}
+2026-06-29 04:29:13.295 [error] ✘ TIMEDOUT (47.26s) [bb093a2f]: the scanner detects the known serious violations {"scope":"the scanner detects the known serious violations"}

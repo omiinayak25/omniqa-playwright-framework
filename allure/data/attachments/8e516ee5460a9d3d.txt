@@ -1,4 +1,0 @@
-2026-06-29 04:23:16.043 [info] ▶ START: api/auth.spec.ts › Restful-Booker · Auth API @api @regression @authentication › invalid credentials are not granted a token {"scope":"invalid credentials are not granted a token","correlationId":"9811c055","testName":"invalid credentials are not granted a token"}
-2026-06-29 04:23:16.074 [info] → POST https://restful-booker.herokuapp.com/auth {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"9811c055","testName":"invalid credentials are not granted a token"}
-2026-06-29 04:23:16.138 [info] ← 200 POST https://restful-booker.herokuapp.com/auth (63ms) {"scope":"ApiClient","correlationId":"9811c055","testName":"invalid credentials are not granted a token"}
-2026-06-29 04:23:16.144 [info] ✔ PASS (109ms) [9811c055]: invalid credentials are not granted a token {"scope":"invalid credentials are not granted a token"}

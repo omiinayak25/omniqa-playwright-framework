@@ -1,8 +1,0 @@
-2026-06-29 04:23:26.169 [info] ▶ START: accessibility/saucedemo/journey.a11y.spec.ts › SauceDemo · Journey · Accessibility @a11y @accessibility @regression › the checkout overview has no violations {"scope":"the checkout overview has no violations","correlationId":"143e6b4c","testName":"the checkout overview has no violations"}
-2026-06-29 04:23:26.230 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"143e6b4c","testName":"the checkout overview has no violations"}
-2026-06-29 04:23:26.534 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"143e6b4c","testName":"the checkout overview has no violations"}
-2026-06-29 04:23:27.100 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"143e6b4c","testName":"the checkout overview has no violations"}
-2026-06-29 04:23:27.530 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"143e6b4c","testName":"the checkout overview has no violations"}
-2026-06-29 04:23:27.886 [info] Running axe scan: "SauceDemo · Checkout overview" {"scope":"A11yScanner","correlationId":"143e6b4c","testName":"the checkout overview has no violations"}
-2026-06-29 04:23:29.166 [info] axe scan "SauceDemo · Checkout overview" — 0 violations (14 passes) {"scope":"A11yScanner","correlationId":"143e6b4c","testName":"the checkout overview has no violations"}
-2026-06-29 04:23:29.521 [info] ✔ PASS (3.35s) [143e6b4c]: the checkout overview has no violations {"scope":"the checkout overview has no violations"}

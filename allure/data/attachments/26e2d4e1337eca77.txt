@@ -1,2 +1,0 @@
-2026-06-29 04:23:18.533 [info] ▶ START: api/fixtures.spec.ts › Custom fixtures (DI) @smoke › appConfig (worker fixture) is injected {"scope":"appConfig (worker fixture) is injected","correlationId":"7bc24e34","testName":"appConfig (worker fixture) is injected"}
-2026-06-29 04:23:18.536 [info] ✔ PASS (3ms) [7bc24e34]: appConfig (worker fixture) is injected {"scope":"appConfig (worker fixture) is injected"}

@@ -1,3 +1,0 @@
-2026-06-29 04:24:18.281 [info] ▶ START: ui/saucedemo/inventory.catalog.spec.ts › SauceDemo · Catalog integrity @ui @regression @inventory › every product price is positive {"scope":"every product price is positive","correlationId":"76eb002b","testName":"every product price is positive"}
-2026-06-29 04:24:19.268 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"76eb002b","testName":"every product price is positive"}
-2026-06-29 04:24:21.236 [info] ✔ PASS (2.96s) [76eb002b]: every product price is positive {"scope":"every product price is positive"}

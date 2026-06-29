@@ -1,2 +1,0 @@
-2026-06-29 04:23:25.311 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Product-record repository @db › delete removes the product (findByExternalId → null) {"scope":"delete removes the product (findByExternalId → null)","correlationId":"2959e00e","testName":"delete removes the product (findByExternalId → null)"}
-2026-06-29 04:23:25.321 [info] ✔ PASS (11ms) [2959e00e]: delete removes the product (findByExternalId → null) {"scope":"delete removes the product (findByExternalId → null)"}

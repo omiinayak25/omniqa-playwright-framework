@@ -1,9 +1,0 @@
-2026-06-29 04:24:14.897 [info] ▶ START: ui/saucedemo/inventory.cart.spec.ts › SauceDemo · Inventory cart interactions @ui @regression @inventory › adding all six products sets the badge to 6 {"scope":"adding all six products sets the badge to 6","correlationId":"3f44d2e3","testName":"adding all six products sets the badge to 6"}
-2026-06-29 04:24:15.793 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"3f44d2e3","testName":"adding all six products sets the badge to 6"}
-2026-06-29 04:24:16.641 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"3f44d2e3","testName":"adding all six products sets the badge to 6"}
-2026-06-29 04:24:17.110 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"3f44d2e3","testName":"adding all six products sets the badge to 6"}
-2026-06-29 04:24:17.319 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"3f44d2e3","testName":"adding all six products sets the badge to 6"}
-2026-06-29 04:24:17.505 [info] Adding "Sauce Labs Fleece Jacket" to cart {"scope":"SauceInventoryPage","correlationId":"3f44d2e3","testName":"adding all six products sets the badge to 6"}
-2026-06-29 04:24:17.620 [info] Adding "Sauce Labs Onesie" to cart {"scope":"SauceInventoryPage","correlationId":"3f44d2e3","testName":"adding all six products sets the badge to 6"}
-2026-06-29 04:24:17.746 [info] Adding "Test.allTheThings() T-Shirt (Red)" to cart {"scope":"SauceInventoryPage","correlationId":"3f44d2e3","testName":"adding all six products sets the badge to 6"}
-2026-06-29 04:24:18.883 [info] ✔ PASS (3.99s) [3f44d2e3]: adding all six products sets the badge to 6 {"scope":"adding all six products sets the badge to 6"}

@@ -1,0 +1,4 @@
+2026-06-29 04:28:24.306 [info] ▶ START: api/jsonplaceholder-posts.spec.ts › JSONPlaceholder · Posts extended @api @regression › the users collection has 10 items {"scope":"the users collection has 10 items","correlationId":"5aa83fe5","testName":"the users collection has 10 items"}
+2026-06-29 04:28:24.307 [info] → GET https://jsonplaceholder.typicode.com/users {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"5aa83fe5","testName":"the users collection has 10 items"}
+2026-06-29 04:28:24.636 [info] ← 200 GET https://jsonplaceholder.typicode.com/users (328ms) {"scope":"ApiClient","correlationId":"5aa83fe5","testName":"the users collection has 10 items"}
+2026-06-29 04:28:24.639 [info] ✔ PASS (332ms) [5aa83fe5]: the users collection has 10 items {"scope":"the users collection has 10 items"}

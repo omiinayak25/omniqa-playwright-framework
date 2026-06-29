@@ -1,0 +1,4 @@
+2026-06-29 04:28:24.719 [info] ▶ START: api/negative-boundary.spec.ts › Negative · Restful-Booker @api @negative › GET /booking/far-out-of-range → not found {"scope":"GET /booking/far-out-of-range → not found","correlationId":"080d25a9","testName":"GET /booking/far-out-of-range → not found"}
+2026-06-29 04:28:24.723 [info] → GET https://restful-booker.herokuapp.com/booking/99999999 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"080d25a9","testName":"GET /booking/far-out-of-range → not found"}
+2026-06-29 04:28:24.731 [info] ← 404 GET https://restful-booker.herokuapp.com/booking/99999999 (8ms) {"scope":"ApiClient","correlationId":"080d25a9","testName":"GET /booking/far-out-of-range → not found"}
+2026-06-29 04:28:24.733 [info] ✔ PASS (14ms) [080d25a9]: GET /booking/far-out-of-range → not found {"scope":"GET /booking/far-out-of-range → not found"}

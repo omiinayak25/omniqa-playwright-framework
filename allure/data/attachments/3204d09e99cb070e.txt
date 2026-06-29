@@ -1,0 +1,4 @@
+2026-06-29 04:28:53.227 [info] ▶ START: ui/saucedemo/checkout.security.spec.ts › SauceDemo · Checkout input security @ui @regression @security @checkout › XSS name payload (img onerror) is treated as inert text {"scope":"XSS name payload (img onerror) is treated as inert text","correlationId":"a465a16d","testName":"XSS name payload (img onerror) is treated as inert text"}
+2026-06-29 04:28:54.285 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"a465a16d","testName":"XSS name payload (img onerror) is treated as inert text"}
+2026-06-29 04:28:55.083 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"a465a16d","testName":"XSS name payload (img onerror) is treated as inert text"}
+2026-06-29 04:28:56.367 [info] ✔ PASS (3.14s) [a465a16d]: XSS name payload (img onerror) is treated as inert text {"scope":"XSS name payload (img onerror) is treated as inert text"}

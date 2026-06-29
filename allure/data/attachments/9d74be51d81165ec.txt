@@ -1,0 +1,5 @@
+[31mTest timeout of 30000ms exceeded while running "beforeEach" hook.[39m
+
+TimeoutError: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login", waiting until "domcontentloaded"[22m

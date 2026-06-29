@@ -1,4 +1,0 @@
-2026-06-29 04:23:28.482 [info] ▶ START: performance/saucedemo/login.perf.spec.ts › SauceDemo · Login · Performance @perf › network and resource timing are captured {"scope":"network and resource timing are captured","correlationId":"17f1ce15","testName":"network and resource timing are captured"}
-2026-06-29 04:23:28.539 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"17f1ce15","testName":"network and resource timing are captured"}
-2026-06-29 04:23:29.230 [info] Perf "SauceDemo · Login · timing": ttfb=12ms dcl=234ms load=268ms fcp=256ms lcp=300ms res=3 transfer=228KB {"scope":"Perf","correlationId":"17f1ce15","testName":"network and resource timing are captured"}
-2026-06-29 04:23:29.367 [info] ✔ PASS (885ms) [17f1ce15]: network and resource timing are captured {"scope":"network and resource timing are captured"}

@@ -1,0 +1,3 @@
+2026-06-29 04:28:26.009 [info] ▶ START: accessibility/orangehrm/login.a11y.spec.ts › OrangeHRM · Login · Accessibility @a11y @accessibility @regression › login screen is compliant apart from triaged waivers {"scope":"login screen is compliant apart from triaged waivers","correlationId":"79bdf734","testName":"login screen is compliant apart from triaged waivers"}
+2026-06-29 04:28:27.915 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"79bdf734","testName":"login screen is compliant apart from triaged waivers"}
+2026-06-29 04:29:13.378 [error] ✘ TIMEDOUT (47.37s) [79bdf734]: login screen is compliant apart from triaged waivers {"scope":"login screen is compliant apart from triaged waivers"}

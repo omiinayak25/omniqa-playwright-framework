@@ -1,0 +1,4 @@
+2026-06-29 04:28:37.648 [info] PGlite pool created (embedded PostgreSQL — no server required) {"scope":"DbPool"}
+2026-06-29 04:28:44.930 [info] PGlite embedded database ready (schema + seed applied) {"scope":"DbPool"}
+2026-06-29 04:28:44.971 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Constraints @db › NOT NULL: missing email is rejected {"scope":"NOT NULL: missing email is rejected","correlationId":"e4860c52","testName":"NOT NULL: missing email is rejected"}
+2026-06-29 04:28:45.227 [info] ✔ PASS (257ms) [e4860c52]: NOT NULL: missing email is rejected {"scope":"NOT NULL: missing email is rejected"}

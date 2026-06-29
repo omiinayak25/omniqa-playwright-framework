@@ -1,4 +1,0 @@
-2026-06-29 04:23:23.689 [info] ▶ START: performance/orangehrm/login.perf.spec.ts › OrangeHRM · Login · Performance @perf › @smoke login screen loads within the SPA budget {"scope":"@smoke login screen loads within the SPA budget","correlationId":"2a469b42","testName":"@smoke login screen loads within the SPA budget"}
-2026-06-29 04:23:25.249 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"2a469b42","testName":"@smoke login screen loads within the SPA budget"}
-2026-06-29 04:23:28.903 [info] Perf "OrangeHRM · Login": ttfb=641ms dcl=2757ms load=2757ms fcp=3168ms lcp=3372ms res=12 transfer=4198KB {"scope":"Perf","correlationId":"2a469b42","testName":"@smoke login screen loads within the SPA budget"}
-2026-06-29 04:23:29.091 [info] ✔ PASS (5.40s) [2a469b42]: @smoke login screen loads within the SPA budget {"scope":"@smoke login screen loads within the SPA budget"}

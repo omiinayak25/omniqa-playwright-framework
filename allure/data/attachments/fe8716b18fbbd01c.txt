@@ -1,0 +1,3 @@
+2026-06-29 04:28:37.473 [info] (@smoke login screen loads within the SPA budget) ▶ START: performance/orangehrm/login.perf.spec.ts › OrangeHRM · Login · Performance @perf › @smoke login screen loads within the SPA budget
+2026-06-29 04:28:39.482 [info] (OrangeLoginPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-29 04:28:48.989 [info] (Perf) Perf "OrangeHRM · Login": ttfb=5058ms dcl=6743ms load=6743ms fcp=8848ms lcp=9080ms res=12 transfer=4198KB

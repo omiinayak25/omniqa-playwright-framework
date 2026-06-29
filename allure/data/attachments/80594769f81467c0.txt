@@ -1,2 +1,0 @@
-2026-06-29 04:23:25.194 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Department repository @db › insert then findByName returns the row (read-after-write) {"scope":"insert then findByName returns the row (read-after-write)","correlationId":"6c41d2b6","testName":"insert then findByName returns the row (read-after-write)"}
-2026-06-29 04:23:25.226 [info] ✔ PASS (32ms) [6c41d2b6]: insert then findByName returns the row (read-after-write) {"scope":"insert then findByName returns the row (read-after-write)"}

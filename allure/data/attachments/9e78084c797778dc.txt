@@ -1,0 +1,2 @@
+2026-06-29 04:28:25.955 [info] (@smoke login screen has no CRITICAL accessibility violations) ▶ START: accessibility/orangehrm/login.a11y.spec.ts › OrangeHRM · Login · Accessibility @a11y @accessibility @regression › @smoke login screen has no CRITICAL accessibility violations
+2026-06-29 04:28:27.959 [info] (OrangeLoginPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login

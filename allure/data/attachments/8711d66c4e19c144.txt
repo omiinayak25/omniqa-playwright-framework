@@ -1,3 +1,0 @@
-2026-06-29 04:25:01.750 [info] ▶ START: ui/saucedemo/responsive.spec.ts › SauceDemo · Responsive inventory @ui @regression @responsive › inventory grid renders at desktop (1440px) {"scope":"inventory grid renders at desktop (1440px)","correlationId":"8fde00b3","testName":"inventory grid renders at desktop (1440px)"}
-2026-06-29 04:25:02.702 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"8fde00b3","testName":"inventory grid renders at desktop (1440px)"}
-2026-06-29 04:25:04.673 [info] ✔ PASS (2.92s) [8fde00b3]: inventory grid renders at desktop (1440px) {"scope":"inventory grid renders at desktop (1440px)"}

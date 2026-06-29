@@ -1,0 +1,4 @@
+2026-06-29 04:28:24.861 [info] ▶ START: api/posts.spec.ts › JSONPlaceholder · Post API @api › delete a post (200) {"scope":"delete a post (200)","correlationId":"1010c858","testName":"delete a post (200)"}
+2026-06-29 04:28:24.863 [info] → DELETE https://jsonplaceholder.typicode.com/posts/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"1010c858","testName":"delete a post (200)"}
+2026-06-29 04:28:24.881 [info] ← 200 DELETE https://jsonplaceholder.typicode.com/posts/1 (17ms) {"scope":"ApiClient","correlationId":"1010c858","testName":"delete a post (200)"}
+2026-06-29 04:28:24.885 [info] ✔ PASS (24ms) [1010c858]: delete a post (200) {"scope":"delete a post (200)"}

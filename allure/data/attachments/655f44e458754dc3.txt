@@ -1,3 +1,0 @@
-2026-06-29 04:24:51.269 [info] ▶ START: ui/saucedemo/cart.contents.spec.ts › SauceDemo · Cart contents integrity @ui @regression @cart › the empty cart shows no items and no badge {"scope":"the empty cart shows no items and no badge","correlationId":"f9306e97","testName":"the empty cart shows no items and no badge"}
-2026-06-29 04:24:51.417 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"f9306e97","testName":"the empty cart shows no items and no badge"}
-2026-06-29 04:24:52.155 [info] ✔ PASS (886ms) [f9306e97]: the empty cart shows no items and no badge {"scope":"the empty cart shows no items and no badge"}

@@ -1,5 +1,0 @@
-2026-06-29 04:23:42.895 [info] ▶ START: ui/saucedemo/checkout.data.spec.ts › SauceDemo · Purchase each product @ui @regression @checkout › "Sauce Labs Onesie" can be purchased end-to-end {"scope":"\"Sauce Labs Onesie\" can be purchased end-to-end","correlationId":"85ed5e00","testName":"\"Sauce Labs Onesie\" can be purchased end-to-end"}
-2026-06-29 04:23:44.335 [info] Purchasing 1 product(s) {"scope":"CheckoutFlow","correlationId":"85ed5e00","testName":"\"Sauce Labs Onesie\" can be purchased end-to-end"}
-2026-06-29 04:23:44.338 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"85ed5e00","testName":"\"Sauce Labs Onesie\" can be purchased end-to-end"}
-2026-06-29 04:23:44.467 [info] Adding "Sauce Labs Onesie" to cart {"scope":"SauceInventoryPage","correlationId":"85ed5e00","testName":"\"Sauce Labs Onesie\" can be purchased end-to-end"}
-2026-06-29 04:23:46.658 [info] ✔ PASS (3.76s) [85ed5e00]: "Sauce Labs Onesie" can be purchased end-to-end {"scope":"\"Sauce Labs Onesie\" can be purchased end-to-end"}

@@ -1,0 +1,8 @@
+Error: OrangeHRM · Login: 1 budget breach(es):
+  • ttfbMs: 5058ms exceeds budget 5000ms
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+Expected length: [32m0[39m
+Received length: [31m1[39m
+Received array:  [31m[{"actual": 5058, "budget": 5000, "metric": "ttfbMs", "unit": "ms"}][39m

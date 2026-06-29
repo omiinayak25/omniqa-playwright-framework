@@ -1,2 +1,0 @@
-2026-06-29 04:24:26.253 [info] (a non-matching name returns no records) ▶ START: ui/orangehrm/pim-search.spec.ts › OrangeHRM · PIM search @ui @regression @search › a non-matching name returns no records
-2026-06-29 04:24:26.357 [info] (OrangePimPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList

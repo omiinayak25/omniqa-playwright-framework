@@ -1,3 +1,0 @@
-2026-06-29 04:24:18.626 [info] ▶ START: ui/saucedemo/inventory.catalog.spec.ts › SauceDemo · Catalog integrity @ui @regression @inventory › every product has a non-empty description {"scope":"every product has a non-empty description","correlationId":"57e8daeb","testName":"every product has a non-empty description"}
-2026-06-29 04:24:19.405 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"57e8daeb","testName":"every product has a non-empty description"}
-2026-06-29 04:24:21.390 [info] ✔ PASS (2.76s) [57e8daeb]: every product has a non-empty description {"scope":"every product has a non-empty description"}

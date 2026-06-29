@@ -1,3 +1,0 @@
-2026-06-29 04:24:09.518 [info] ▶ START: ui/orangehrm/dashboard.spec.ts › OrangeHRM · Dashboard @ui @regression @dashboard › the Quick Launch widget is present {"scope":"the Quick Launch widget is present","correlationId":"593f2050","testName":"the Quick Launch widget is present"}
-2026-06-29 04:24:09.714 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index {"scope":"OrangeDashboardPage","correlationId":"593f2050","testName":"the Quick Launch widget is present"}
-2026-06-29 04:24:15.254 [info] ✔ PASS (5.74s) [593f2050]: the Quick Launch widget is present {"scope":"the Quick Launch widget is present"}

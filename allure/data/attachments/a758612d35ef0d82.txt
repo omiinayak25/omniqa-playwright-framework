@@ -1,0 +1,2 @@
+2026-06-29 04:28:25.912 [info] (every login form control is programmatically labeled) ▶ START: accessibility/orangehrm/login.a11y.spec.ts › OrangeHRM · Login · Accessibility @a11y @accessibility @regression › every login form control is programmatically labeled
+2026-06-29 04:28:27.978 [info] (OrangeLoginPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login

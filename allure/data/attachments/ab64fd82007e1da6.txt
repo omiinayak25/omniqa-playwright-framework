@@ -1,3 +1,0 @@
-2026-06-29 04:25:39.856 [info] ▶ START: ui/saucedemo/responsive.spec.ts › SauceDemo · Responsive inventory @ui @regression @responsive › inventory grid renders at mobile portrait (375px) {"scope":"inventory grid renders at mobile portrait (375px)","correlationId":"b8332e16","testName":"inventory grid renders at mobile portrait (375px)"}
-2026-06-29 04:25:40.142 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"b8332e16","testName":"inventory grid renders at mobile portrait (375px)"}
-2026-06-29 04:25:41.021 [info] ✔ PASS (1.17s) [b8332e16]: inventory grid renders at mobile portrait (375px) {"scope":"inventory grid renders at mobile portrait (375px)"}

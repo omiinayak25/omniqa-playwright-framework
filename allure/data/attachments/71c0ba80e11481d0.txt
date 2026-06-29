@@ -1,5 +1,0 @@
-2026-06-29 04:24:52.201 [info] ▶ START: ui/saucedemo/cart.data.spec.ts › SauceDemo · Cart add/remove per product @ui @regression @cart › "Sauce Labs Bike Light" can be added and removed {"scope":"\"Sauce Labs Bike Light\" can be added and removed","correlationId":"c2212e8d","testName":"\"Sauce Labs Bike Light\" can be added and removed"}
-2026-06-29 04:24:52.345 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"c2212e8d","testName":"\"Sauce Labs Bike Light\" can be added and removed"}
-2026-06-29 04:24:52.738 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"c2212e8d","testName":"\"Sauce Labs Bike Light\" can be added and removed"}
-2026-06-29 04:24:52.946 [info] Removing "Sauce Labs Bike Light" from cart {"scope":"SauceCartPage","correlationId":"c2212e8d","testName":"\"Sauce Labs Bike Light\" can be added and removed"}
-2026-06-29 04:24:53.200 [info] ✔ PASS (999ms) [c2212e8d]: "Sauce Labs Bike Light" can be added and removed {"scope":"\"Sauce Labs Bike Light\" can be added and removed"}

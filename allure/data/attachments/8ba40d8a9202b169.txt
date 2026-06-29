@@ -1,4 +1,0 @@
-2026-06-29 04:25:08.547 [info] ▶ START: ui/saucedemo/checkout.totals.spec.ts › SauceDemo · Checkout totals @ui @regression @checkout › total equals subtotal plus tax for a single item {"scope":"total equals subtotal plus tax for a single item","correlationId":"d9e262cf","testName":"total equals subtotal plus tax for a single item"}
-2026-06-29 04:25:08.713 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"d9e262cf","testName":"total equals subtotal plus tax for a single item"}
-2026-06-29 04:25:09.087 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"d9e262cf","testName":"total equals subtotal plus tax for a single item"}
-2026-06-29 04:25:09.812 [info] ✔ PASS (1.26s) [d9e262cf]: total equals subtotal plus tax for a single item {"scope":"total equals subtotal plus tax for a single item"}

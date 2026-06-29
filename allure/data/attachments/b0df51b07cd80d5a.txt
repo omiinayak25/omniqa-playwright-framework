@@ -1,0 +1,6 @@
+2026-06-29 04:29:03.161 [info] ▶ START: e2e/booking-lifecycle.e2e.spec.ts › E2E · Booking lifecycle @e2e @api › 6 · delete & verify gone (404) {"scope":"6 · delete & verify gone (404)","correlationId":"92928aa6","testName":"6 · delete & verify gone (404)"}
+2026-06-29 04:29:03.170 [info] → DELETE https://restful-booker.herokuapp.com/booking/4407 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json","Cookie":"to*****************8a"},"correlationId":"92928aa6","testName":"6 · delete & verify gone (404)"}
+2026-06-29 04:29:03.248 [info] ← 201 DELETE https://restful-booker.herokuapp.com/booking/4407 (77ms) {"scope":"ApiClient","correlationId":"92928aa6","testName":"6 · delete & verify gone (404)"}
+2026-06-29 04:29:03.250 [info] → GET https://restful-booker.herokuapp.com/booking/4407 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"92928aa6","testName":"6 · delete & verify gone (404)"}
+2026-06-29 04:29:03.342 [info] ← 404 GET https://restful-booker.herokuapp.com/booking/4407 (84ms) {"scope":"ApiClient","correlationId":"92928aa6","testName":"6 · delete & verify gone (404)"}
+2026-06-29 04:29:03.347 [info] ✔ PASS (186ms) [92928aa6]: 6 · delete & verify gone (404) {"scope":"6 · delete & verify gone (404)"}

@@ -1,4 +1,0 @@
-2026-06-29 04:24:28.783 [info] ▶ START: ui/saucedemo/login.data-driven.spec.ts › SauceDemo · Data-driven login @ui @regression › problem_user → success {"scope":"problem_user → success","correlationId":"7b814b3d","testName":"problem_user → success"}
-2026-06-29 04:24:29.497 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"7b814b3d","testName":"problem_user → success"}
-2026-06-29 04:24:30.345 [info] Logging in as "problem_user" {"scope":"SauceLoginPage","correlationId":"7b814b3d","testName":"problem_user → success"}
-2026-06-29 04:24:31.784 [info] ✔ PASS (3.00s) [7b814b3d]: problem_user → success {"scope":"problem_user → success"}
