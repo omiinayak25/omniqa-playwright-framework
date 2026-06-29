@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: base.component.ts
  * Module: UI Components
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Abstract base class for all reusable UI component objects. Models a REUSABLE

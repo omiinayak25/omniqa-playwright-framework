@@ -1,6 +1,6 @@
 # Framework Optimization & Architecture Review (Phase 24)
 
-> Senior QA-Automation-Architect review of the OMNIQA Playwright framework.
+> Senior QA-Automation-Architect review of the OMINQA Playwright framework.
 > Adversarial by design: this lists what is _missing or weak_, not just what works.
 > Severity: **Critical** (must fix) · **High** (should fix) · **Medium** (recommended) · **Low** (nice to have).
 

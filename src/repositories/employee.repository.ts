@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: employee.repository.ts
  * Module: Repositories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Data-access layer for the `employees` table — lookups, inserts, salary

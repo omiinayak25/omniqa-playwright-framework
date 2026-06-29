@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: employee-lifecycle.e2e.spec.ts
  * Module: E2E Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Employee HR lifecycle (hire → raise → deactivate → terminate).
  * Business Scenario: An employee record flows through its full HR lifecycle in the DB.

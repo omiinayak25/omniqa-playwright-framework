@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: network.types.ts
  * Module: Network
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Type contracts for the network layer — route-mock specs and the captured

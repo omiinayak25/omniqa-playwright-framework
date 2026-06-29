@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: contract.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Cross-provider response contracts (DummyJSON, JSONPlaceholder, Petstore).
  * Business Scenario: Provider response shapes must stay stable for downstream consumers.

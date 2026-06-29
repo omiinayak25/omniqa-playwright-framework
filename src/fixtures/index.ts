@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: index.ts
  * Module: Fixtures (DI)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Single, stable import surface for specs — re-exports the fully composed

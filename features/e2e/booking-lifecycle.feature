@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: Booking Lifecycle (multi-step API E2E)
 #  Module: End-to-End
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify a booking's full lifecycle through the API:
 #                       create → verify → update → delete → confirm deletion.

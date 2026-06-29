@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: index.ts
  * Module: Helpers
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Barrel export for the Helper layer (`@helpers`) — reusable orchestration that

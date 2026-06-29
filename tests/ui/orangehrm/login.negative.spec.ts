@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.negative.spec.ts
  * Module: UI Tests · Authentication
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM login — required-field & invalid-input handling.
  * Business Scenario: Empty submits surface required-field validation; bad

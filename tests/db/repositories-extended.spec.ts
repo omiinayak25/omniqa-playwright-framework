@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: repositories-extended.spec.ts
  * Module: DB Tests · Repositories (edge cases)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Repository edge-case behaviour (null lookups, soft delete,
  *                     upsert idempotency, round-trip counts).

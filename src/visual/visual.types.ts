@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: visual.types.ts
  * Module: Visual Regression
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Type contract for the visual-regression layer — the per-comparison options

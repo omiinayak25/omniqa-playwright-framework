@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: accessibility-scanner.ts
  * Module: Accessibility
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Reusable wrapper around `@axe-core/playwright`'s AxeBuilder. Owns the

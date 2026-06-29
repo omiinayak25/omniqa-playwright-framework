@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: booking-extended.spec.ts
  * Module: API Tests · Booking (extended)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Restful-Booker — health, listing, lookup, filter, patch.
  * Business Scenario: The booking API must report health, list/filter ids, and

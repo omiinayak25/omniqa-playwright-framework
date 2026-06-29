@@ -1,4 +1,4 @@
-# OmniQA — Test Coverage Report & Expansion Plan
+# OminQA — Test Coverage Report & Expansion Plan
 
 > Step 1 deliverable — repository audit, current coverage, gap analysis, and a module-by-module
 > expansion roadmap to reach **500+ meaningful test cases**. No tests are generated in this step.

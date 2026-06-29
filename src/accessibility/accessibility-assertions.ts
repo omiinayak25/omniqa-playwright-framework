@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: accessibility-assertions.ts
  * Module: Accessibility
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Intention-revealing accessibility assertions. Composes the scanner,

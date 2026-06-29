@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.security.spec.ts
  * Module: UI Tests · Checkout (security & boundary inputs)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo checkout form handling of adversarial/boundary input.
  * Business Scenario: Injection payloads must be treated as inert text (no script

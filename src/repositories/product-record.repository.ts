@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product-record.repository.ts
  * Module: Repositories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Data-access layer for the `products` table — the DB sink that persists

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: error-handling.spec.ts
  * Module: Network Tests · Error Handling
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Client behaviour against error/edge backend responses.
  * Business Scenario: The app must survive 404/500, empty/malformed bodies,

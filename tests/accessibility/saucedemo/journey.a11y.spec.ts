@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: journey.a11y.spec.ts
  * Module: Accessibility Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: PDP, checkout-overview, and inventory keyboard operability.
  * Business Scenario: Every purchase-path screen must be accessible.

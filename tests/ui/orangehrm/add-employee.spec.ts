@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: add-employee.spec.ts
  * Module: UI Tests · Forms
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM PIM "Add Employee" form.
  * Business Scenario: HR creates employees; required fields are enforced, optional

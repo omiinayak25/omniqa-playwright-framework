@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: employee.spec.ts
  * Module: DB Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: PostgreSQL Employee repository + raw SQL features.
  * Business Scenario: Employee data must persist correctly with integrity guarantees.

@@ -1,4 +1,4 @@
-# Lifecycle Hooks — OMNIQA Playwright Framework
+# Lifecycle Hooks — OMINQA Playwright Framework
 
 - **Purpose** — Global Playwright run hooks wired into `playwright.config.ts` that bracket the entire test run (run once before all tests, once after).
 

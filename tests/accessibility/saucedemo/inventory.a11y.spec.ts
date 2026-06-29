@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: inventory.a11y.spec.ts
  * Module: Accessibility Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo inventory (products) screen accessibility.
  * Business Scenario: The authenticated product catalogue must be perceivable

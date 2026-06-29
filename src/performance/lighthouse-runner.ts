@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: lighthouse-runner.ts
  * Module: Performance
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Optional Lighthouse integration. Runs the Lighthouse CLI against a URL,

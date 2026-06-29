@@ -1,6 +1,6 @@
 /**
  * --------------------------------------------------------
- * Commitlint configuration — OMNIQA Playwright Framework
+ * Commitlint configuration — OMINQA Playwright Framework
  *
  * Enforces Conventional Commits (feat:, fix:, docs:, test:, ci:, chore:, …)
  * via the commit-msg Git hook (.husky/commit-msg). Conventional Commits give

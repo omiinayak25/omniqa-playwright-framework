@@ -1,5 +1,5 @@
 // =====================================================================
-//  OMNIQA Playwright Framework — Jenkins Pipeline (Phase 21)
+//  OMINQA Playwright Framework — Jenkins Pipeline (Phase 21)
 //  Declarative pipeline that runs the suite INSIDE the official Playwright
 //  Docker image, with a disposable PostgreSQL sidecar for the db/e2e tests.
 //  Every stage is commented.
@@ -80,7 +80,7 @@ pipeline {
     DB_PASSWORD = 'automation_pass'
     DB_SSL = 'false'
     // Demo default; in production bind a secret:
-    //   ENCRYPTION_SECRET = credentials('omniqa-encryption-secret')
+    //   ENCRYPTION_SECRET = credentials('ominqa-encryption-secret')
     ENCRYPTION_SECRET = 'ci-test-secret'
   }
 
@@ -191,7 +191,7 @@ pipeline {
       emailext(
         to: "${params.EMAIL_RECIPIENTS}",
         subject: "❌ FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER} (${params.TEST_ENV})",
-        body: """The OMNIQA pipeline FAILED.
+        body: """The OMINQA pipeline FAILED.
 
 Job:     ${env.JOB_NAME} #${env.BUILD_NUMBER}
 Suite:   ${params.SUITE}   Env: ${params.TEST_ENV}

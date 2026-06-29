@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: world.ts
  * Module: BDD Runtime
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Defines CustomWorld — the per-scenario context object for Cucumber-JS that

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: flaky-reporter.ts
  * Module: Custom Reporters
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * A custom Playwright reporter that detects FLAKY tests — those that failed at

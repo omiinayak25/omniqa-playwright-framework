@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: keyboard-navigator.ts
  * Module: Accessibility
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Keyboard-operability helper. axe-core can flag focus-management RULE

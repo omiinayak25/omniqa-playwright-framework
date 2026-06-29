@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: products.constants.ts
  * Module: Constants
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Canonical SauceDemo catalog product names — the single source of truth for

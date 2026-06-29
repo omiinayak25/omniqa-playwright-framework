@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: wait.util.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Waiting / polling helpers for NON-UI conditions — hard sleep and an

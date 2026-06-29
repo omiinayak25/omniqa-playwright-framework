@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: retry.util.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Generic async retry with exponential backoff for transient failures.

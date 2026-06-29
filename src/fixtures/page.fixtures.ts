@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: page.fixtures.ts
  * Module: Fixtures (DI)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Second link in the fixture chain — injects ready-to-use Page Objects and

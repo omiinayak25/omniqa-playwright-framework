@@ -1,4 +1,4 @@
-# API Services — OMNIQA Playwright Framework
+# API Services — OMINQA Playwright Framework
 
 - **Purpose** — Business-layer service classes, one per REST resource. Each maps domain operations to HTTP calls on an injected `ApiClient`, owning resource-specific details (auth schemes, endpoints) so tests never deal with header plumbing.
 

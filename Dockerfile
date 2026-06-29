@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 # =====================================================================
-#  OMNIQA Playwright Framework — test-runner image
+#  OMINQA Playwright Framework — test-runner image
 #  Explained line-by-line (Phase 19). Built FROM the official Playwright
 #  image so browsers + all OS libraries are already present and version-
 #  matched to @playwright/test (^1.49.1).
@@ -14,7 +14,7 @@
 FROM mcr.microsoft.com/playwright:v1.49.1-jammy
 
 # ---- Metadata (OCI labels) -----------------------------------------
-LABEL org.opencontainers.image.title="omniqa-playwright-framework" \
+LABEL org.opencontainers.image.title="ominqa-playwright-framework" \
       org.opencontainers.image.description="Enterprise Playwright + TypeScript test runner" \
       org.opencontainers.image.licenses="MIT"
 

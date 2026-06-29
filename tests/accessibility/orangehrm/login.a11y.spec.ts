@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.a11y.spec.ts
  * Module: Accessibility Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM login screen accessibility (Angular SPA).
  * Business Scenario: The HR portal's entry screen must meet a defined a11y

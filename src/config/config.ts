@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: config.ts
  * Module: Configuration
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Single entry point for all framework configuration. Resolves raw

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: db-pool.ts
  * Module: Database Access
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Owns the single, process-wide database connection used by every DB test,

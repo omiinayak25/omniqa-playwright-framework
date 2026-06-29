@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: random.util.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Thin, intention-revealing wrapper over Faker for generating random test

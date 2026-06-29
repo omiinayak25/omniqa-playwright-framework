@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: generate-catalog.cjs
  * Module: Test Catalog Generator
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  *   Single source of truth → renders TEST_CATALOG.md and
@@ -120,7 +120,7 @@ function moduleTable(mod) {
 
 // ---- Render TEST_CATALOG.md ----
 let md = '';
-md += `# OmniQA — TEST_CATALOG (Master Test Inventory)\n\n`;
+md += `# OminQA — TEST_CATALOG (Master Test Inventory)\n\n`;
 md += `> Auto-generated from \`scripts/catalog/catalog.data.cjs\`. Do not hand-edit this file —\n`;
 md += `> edit the data source and run \`npm run catalog:gen\`. Generated: ${META.generated}.\n\n`;
 md += `## Totals\n\n`;
@@ -168,7 +168,7 @@ fs.writeFileSync(path.join(ROOT, 'TEST_CATALOG.md'), md);
 
 // ---- Render TEST_TRACEABILITY_MATRIX.md (requirement → tests) ----
 let tm = '';
-tm += `# OmniQA — TEST_TRACEABILITY_MATRIX\n\n`;
+tm += `# OminQA — TEST_TRACEABILITY_MATRIX\n\n`;
 tm += `> Auto-generated from \`scripts/catalog/catalog.data.cjs\` (\`npm run catalog:gen\`). `;
 tm += `Maps each module/requirement area to its catalogued tests, status, and risk coverage. `;
 tm += `Generated: ${META.generated}.\n\n`;

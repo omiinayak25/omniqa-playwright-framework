@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: advanced.spec.ts
  * Module: DB Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: PostgreSQL advanced integrity (tx atomicity, constraints, injection safety).
  * Business Scenario: The database must enforce atomicity and integrity, and resist injection.

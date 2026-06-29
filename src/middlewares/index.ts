@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: index.ts
  * Module: Middlewares
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Barrel export for the Middleware layer (`@middlewares`) — the pipeline core
@@ -20,4 +20,7 @@ export {
 } from '@middlewares/middleware';
 export { CorrelationIdMiddleware } from '@middlewares/correlation-id.middleware';
 export { TimingMiddleware } from '@middlewares/timing.middleware';
-export { NetworkCaptureMiddleware, type ApiExchangeRecord } from '@middlewares/network-capture.middleware';
+export {
+  NetworkCaptureMiddleware,
+  type ApiExchangeRecord,
+} from '@middlewares/network-capture.middleware';

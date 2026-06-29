@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: fixture.types.ts
  * Module: Fixtures (DI)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Type contracts for the custom Playwright fixtures, split by SCOPE so the

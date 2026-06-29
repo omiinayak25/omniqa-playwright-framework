@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.a11y.spec.ts
  * Module: Accessibility Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo login screen — WCAG 2.1 A/AA compliance.
  * Business Scenario: The first screen every user sees must be operable by

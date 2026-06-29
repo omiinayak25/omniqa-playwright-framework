@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: log-capture.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Per-test log capture buffers, keyed by correlation id, holding the

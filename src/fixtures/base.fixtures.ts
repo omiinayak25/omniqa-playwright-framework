@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: base.fixtures.ts
  * Module: Fixtures (DI)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Root of the fixture composition chain — the custom `test` that every spec

@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Catalog Sorting
 #  Module: Inventory
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify shoppers can reorder the catalog by name and by
 #                       price, in both ascending and descending directions.

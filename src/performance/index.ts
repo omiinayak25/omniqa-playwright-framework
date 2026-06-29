@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: index.ts
  * Module: Performance
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Barrel (re-export) module for the performance package so callers use a

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: apply-schema.ts
  * Module: Scripts / Database
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Apply scripts/db/schema.sql to a running PostgreSQL instance using the

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: a11y.fixtures.ts
  * Module: Fixtures (DI)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Accessibility link in the fixture chain — injects a ready-to-use axe-core

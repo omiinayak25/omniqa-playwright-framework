@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: repositories.spec.ts
  * Module: DB Tests · Repositories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Repository-layer CRUD (Employee / Department / Product).
  * Business Scenario: The repositories must read-after-write consistently, honour

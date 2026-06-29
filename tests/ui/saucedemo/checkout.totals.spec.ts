@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.totals.spec.ts
  * Module: UI Tests · Checkout (money math)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo order-overview monetary arithmetic.
  * Business Scenario: Subtotal must equal the sum of item prices, tax must be 8%

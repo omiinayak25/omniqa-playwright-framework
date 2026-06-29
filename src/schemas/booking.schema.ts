@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: booking.schema.ts
  * Module: JSON Schemas
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * JSON Schema definitions for the Restful-Booker booking resource, used for

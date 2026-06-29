@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: allure.util.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Thin, typed wrapper over allure-js-commons exposing labels, steps, and

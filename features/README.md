@@ -1,4 +1,4 @@
-# Features (BDD) — OMNIQA Playwright Framework
+# Features (BDD) — OMINQA Playwright Framework
 
 - **Purpose** — Gherkin `.feature` files describing behaviour in business language, executed by Cucumber-JS against the `step-definitions/`.
 

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: dashboard.spec.ts
  * Module: UI Tests · Dashboard
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM Dashboard landing screen.
  * Business Scenario: After login the dashboard must render its widgets, quick

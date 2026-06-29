@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: secret-provider.ts
  * Module: Secrets
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Pluggable secret-resolution abstraction so secrets come from a single typed

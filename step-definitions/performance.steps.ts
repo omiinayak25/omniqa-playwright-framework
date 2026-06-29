@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: performance.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo performance BDD steps (load/TTFB/resources/budget).
  * Business Scenario: Gherkin perf scenarios collect timings and gate them on a budget.
@@ -44,9 +44,12 @@ Then('the time to first byte should be under {int} ms', function (this: CustomWo
   expect(metrics(this).ttfbMs).toBeLessThanOrEqual(ms);
 });
 
-Then('the page should request at least {int} resource', function (this: CustomWorld, count: number) {
-  expect(metrics(this).resources.count).toBeGreaterThanOrEqual(count);
-});
+Then(
+  'the page should request at least {int} resource',
+  function (this: CustomWorld, count: number) {
+    expect(metrics(this).resources.count).toBeGreaterThanOrEqual(count);
+  },
+);
 
 Then(
   'the total transferred size should be under {int} kilobytes',

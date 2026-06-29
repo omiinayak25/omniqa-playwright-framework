@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Checkout
 #  Module: Checkout
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the end-to-end checkout: customer details,
 #                       validation, order overview totals, completion, and cancel.

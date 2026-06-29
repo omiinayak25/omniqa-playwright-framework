@@ -1,6 +1,6 @@
 {
-  "project_name": "omniqa-playwright-framework",
-  "display_name": "OmniQA",
+  "project_name": "ominqa-playwright-framework",
+  "display_name": "OminQA",
   "subtitle": "Enterprise Playwright Automation Framework",
   "version": "1.0.0",
   "license": "MIT",

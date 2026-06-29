@@ -1,5 +1,5 @@
 # =====================================================================
-#  OMNIQA Playwright Framework — Continuous Integration (Phase 20)
+#  OMINQA Playwright Framework — Continuous Integration (Phase 20)
 #  Lint + type-check → cross-project Playwright matrix (with a Postgres
 #  service) → aggregated Allure report → failure notification.
 #  Every step is commented.
@@ -261,5 +261,5 @@ jobs:
         if: ${{ env.SLACK_WEBHOOK_URL != '' }}
         run: |
           curl -sf -X POST -H 'Content-type: application/json' \
-            --data "{\"text\":\"❌ OMNIQA CI failed on ${{ github.ref_name }} — ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            --data "{\"text\":\"❌ OMINQA CI failed on ${{ github.ref_name }} — ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
             "$SLACK_WEBHOOK_URL"

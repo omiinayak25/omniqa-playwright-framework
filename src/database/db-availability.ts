@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: db-availability.ts
  * Module: Database Access
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Probe whether a PostgreSQL instance is reachable so DB-dependent specs can

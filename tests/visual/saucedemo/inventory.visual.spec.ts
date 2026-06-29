@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: inventory.visual.spec.ts
  * Module: Visual Regression Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo inventory (products) screen visual stability.
  * Business Scenario: The product catalogue layout/branding must not regress.

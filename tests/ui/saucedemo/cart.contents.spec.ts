@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: cart.contents.spec.ts
  * Module: UI Tests · Shopping Cart
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo cart line-item integrity (prices, quantity, order).
  * Business Scenario: The cart must show the exact products, prices, and

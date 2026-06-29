@@ -1,4 +1,4 @@
-# Builders — OMNIQA Playwright Framework
+# Builders — OMINQA Playwright Framework
 
 - **Purpose** — Fluent **Builder pattern** for test data. Each builder seeds a valid, randomized domain object and exposes chainable `withX()` mutators plus intention-revealing valid/invalid/boundary variants, so tests declare the data they need instead of hand-assembling literals.
 
@@ -14,14 +14,14 @@ Hand-written object literals scattered across specs/steps cause drift, duplicati
 
 ## Files
 
-| File                  | Responsibility                                                                       |
-| --------------------- | ------------------------------------------------------------------------------------ |
-| `builder.ts`          | `AbstractBuilder<T>` — generic base: `with()` overrides + immutable `build()`.        |
-| `booking.builder.ts`  | `BookingBuilder` — Restful-Booker `Booking` (dates, price, deposit, needs; negatives).|
-| `employee.builder.ts` | `EmployeeBuilder` — `NewEmployee` (unique email, salary CHECK + FK invalid variants). |
-| `checkout.builder.ts` | `CheckoutBuilder` — `CheckoutInfo` (valid + missing-field variants).                  |
-| `product.builder.ts`  | `ProductBuilder` — `NewProduct` (valid + zero/negative price, title-only).            |
-| `index.ts`            | Barrel export (`@builders`).                                                          |
+| File                  | Responsibility                                                                         |
+| --------------------- | -------------------------------------------------------------------------------------- |
+| `builder.ts`          | `AbstractBuilder<T>` — generic base: `with()` overrides + immutable `build()`.         |
+| `booking.builder.ts`  | `BookingBuilder` — Restful-Booker `Booking` (dates, price, deposit, needs; negatives). |
+| `employee.builder.ts` | `EmployeeBuilder` — `NewEmployee` (unique email, salary CHECK + FK invalid variants).  |
+| `checkout.builder.ts` | `CheckoutBuilder` — `CheckoutInfo` (valid + missing-field variants).                   |
+| `product.builder.ts`  | `ProductBuilder` — `NewProduct` (valid + zero/negative price, title-only).             |
+| `index.ts`            | Barrel export (`@builders`).                                                           |
 
 ## How it integrates
 

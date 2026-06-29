@@ -1,4 +1,4 @@
-# Step Definitions (BDD) — OMNIQA Playwright Framework
+# Step Definitions (BDD) — OMINQA Playwright Framework
 
 - **Purpose** — Cucumber-JS step implementations that bind the Gherkin steps in `features/` to executable code, running `this`-bound to the `CustomWorld`.
 

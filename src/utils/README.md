@@ -1,4 +1,4 @@
-# Utilities — OMNIQA Playwright Framework
+# Utilities — OMINQA Playwright Framework
 
 - **Purpose** — Cross-cutting helper modules: logging, correlation/capture, fake data, dates, files, crypto, retry/wait, and Allure metadata.
 

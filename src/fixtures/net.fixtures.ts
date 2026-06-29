@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: net.fixtures.ts
  * Module: Fixtures (DI)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Network link in the fixture chain — injects a NetworkManager bound to the

@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Login Security
 #  Module: Authentication
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the sign-in form protects credentials and treats
 #                       injection payloads as inert data (no auth bypass).

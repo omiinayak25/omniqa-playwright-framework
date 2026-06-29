@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: user.factory.ts
  * Module: Factories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Produces ReqRes {@link CreateUserRequest} datasets. The model is trivial

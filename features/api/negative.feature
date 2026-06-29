@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: Negative & Boundary API Behaviour
 #  Module: API
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the APIs fail gracefully: not-found returns 404,
 #                       empty searches return an empty set (not an error), and

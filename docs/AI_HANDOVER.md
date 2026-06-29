@@ -1,6 +1,6 @@
-# OmniQA — AI Handover (Continue From Zero Context)
+# OminQA — AI Handover (Continue From Zero Context)
 
-> **OmniQA · Enterprise Playwright Automation Framework**
+> **OminQA · Enterprise Playwright Automation Framework**
 > Read this first if you are an AI/engineer continuing the project. Last synchronized: 2026-06-28.
 
 ---

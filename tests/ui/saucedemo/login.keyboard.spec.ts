@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.keyboard.spec.ts
  * Module: UI Tests · Authentication (Accessibility)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo login — keyboard operability.
  * Business Scenario: A keyboard-only user must be able to sign in; tab order

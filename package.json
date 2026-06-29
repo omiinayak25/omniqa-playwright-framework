@@ -1,9 +1,9 @@
 {
-  "name": "omniqa-playwright-framework",
+  "name": "ominqa-playwright-framework",
   "version": "1.0.0",
-  "description": "OmniQA — Enterprise Playwright Automation Framework (UI · API · DB · E2E · BDD · Accessibility · Visual · Performance · Network · CI/CD).",
+  "description": "OminQA — Enterprise Playwright Automation Framework (UI · API · DB · E2E · BDD · Accessibility · Visual · Performance · Network · CI/CD).",
   "keywords": [
-    "omniqa",
+    "ominqa",
     "playwright",
     "typescript",
     "test-automation",

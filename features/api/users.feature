@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: ReqRes Users API
 #  Module: API
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify Users API pagination, retrieval, CRUD and the
 #                       required API-key header handling.
@@ -35,7 +35,7 @@ Feature: ReqRes Users API
 
   @regression @positive
   Scenario: Create a new user
-    When I create a user named "OmniQA" with job "QA Architect"
+    When I create a user named "OminQA" with job "QA Architect"
     Then the response status should be 201
     And the created user should have an id
 

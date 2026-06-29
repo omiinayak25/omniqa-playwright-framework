@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: jsonplaceholder.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * JSONPlaceholder domain models (post, new-post payload, and user).

@@ -1,4 +1,4 @@
-# API Endpoints — OMNIQA Playwright Framework
+# API Endpoints — OMINQA Playwright Framework
 
 - **Purpose** — Domain-specific **endpoint path** modules (one per API), each the single source of truth for that API's routes, exposed through a barrel (`@api/endpoints`). Paths are relative to each service's base URL; functions are used where a segment is dynamic (e.g. `/booking/:id`).
 
@@ -14,14 +14,14 @@ A vendor route change should be a **one-line edit** in one obvious place — not
 
 ## Files
 
-| File                    | Responsibility                                                          |
-| ----------------------- | ---------------------------------------------------------------------- |
-| `booking.endpoints.ts`  | `RESTFUL_BOOKER_ENDPOINTS` — auth, ping, booking CRUD.                  |
-| `user.endpoints.ts`     | `REQRES_ENDPOINTS` — users, register, login.                           |
-| `product.endpoints.ts`  | `DUMMYJSON_ENDPOINTS` — auth login, products, search, carts.           |
-| `post.endpoints.ts`     | `JSONPLACEHOLDER_ENDPOINTS` — posts, comments, users.                  |
-| `pet.endpoints.ts`      | `PETSTORE_ENDPOINTS` — pet CRUD, find-by-status, store orders.         |
-| `index.ts`              | Barrel export (`@api/endpoints`).                                      |
+| File                   | Responsibility                                                 |
+| ---------------------- | -------------------------------------------------------------- |
+| `booking.endpoints.ts` | `RESTFUL_BOOKER_ENDPOINTS` — auth, ping, booking CRUD.         |
+| `user.endpoints.ts`    | `REQRES_ENDPOINTS` — users, register, login.                   |
+| `product.endpoints.ts` | `DUMMYJSON_ENDPOINTS` — auth login, products, search, carts.   |
+| `post.endpoints.ts`    | `JSONPLACEHOLDER_ENDPOINTS` — posts, comments, users.          |
+| `pet.endpoints.ts`     | `PETSTORE_ENDPOINTS` — pet CRUD, find-by-status, store orders. |
+| `index.ts`             | Barrel export (`@api/endpoints`).                              |
 
 ## How it integrates
 
@@ -36,5 +36,5 @@ A vendor route change should be a **one-line edit** in one obvious place — not
 
 ## Deliberately not added
 
-- `employee.endpoints.ts` — employees have **no HTTP API** in OmniQA (they are accessed via the DB Repository layer / SQL), so an endpoint module would be dead code.
+- `employee.endpoints.ts` — employees have **no HTTP API** in OminQA (they are accessed via the DB Repository layer / SQL), so an endpoint module would be dead code.
 - `auth.endpoints.ts` — auth has no routes of its own; it reuses Booker `/auth` and DummyJSON `/auth/login` from the booking/product modules.

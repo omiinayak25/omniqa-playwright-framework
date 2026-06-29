@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.visual.spec.ts
  * Module: Visual Regression Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo login screen — pixel-level visual stability.
  * Business Scenario: Unintended CSS/markup changes to the first screen users

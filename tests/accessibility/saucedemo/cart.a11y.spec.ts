@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: cart.a11y.spec.ts
  * Module: Accessibility Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo cart & checkout-information — WCAG 2.1 A/AA.
  * Business Scenario: The purchase path must be operable by assistive tech.

@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: API → Database Product Sync (cross-layer E2E)
 #  Module: End-to-End
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify a product read from the API (source of truth) is
 #                       synced into the database and reconciled, idempotently.

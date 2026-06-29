@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: timing.middleware.ts
  * Module: Middlewares
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Pipeline-level SLA guard: measures wall time around the wrapped dispatch and
@@ -17,7 +17,12 @@
  * --------------------------------------------------------
  */
 import { scopedLogger } from '@utils/logger';
-import type { ApiMiddleware, DispatchFn, HttpRequestContext, HttpResponseContext } from '@middlewares/middleware';
+import type {
+  ApiMiddleware,
+  DispatchFn,
+  HttpRequestContext,
+  HttpResponseContext,
+} from '@middlewares/middleware';
 
 /** Warns when a request exceeds `slowThresholdMs`. */
 export class TimingMiddleware implements ApiMiddleware {
@@ -31,7 +36,9 @@ export class TimingMiddleware implements ApiMiddleware {
     const response = await next(request);
     const elapsed = Date.now() - started;
     if (elapsed > this.slowThresholdMs) {
-      this.log.warn(`SLOW ${request.method} ${request.url} took ${elapsed}ms (> ${this.slowThresholdMs}ms)`);
+      this.log.warn(
+        `SLOW ${request.method} ${request.url} took ${elapsed}ms (> ${this.slowThresholdMs}ms)`,
+      );
     }
     return response;
   }

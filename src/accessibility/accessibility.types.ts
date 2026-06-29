@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: accessibility.types.ts
  * Module: Accessibility
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Type contracts and rule/tag catalogues for the accessibility (axe-core)

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api-to-db-sync.e2e.spec.ts
  * Module: E2E Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Cross-layer API → DB product sync + reconciliation.
  * Business Scenario: A product read from the API must sync into the DB consistently.

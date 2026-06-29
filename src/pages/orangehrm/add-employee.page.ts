@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: add-employee.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Page object for the OrangeHRM PIM "Add Employee" form. Fills the name fields,

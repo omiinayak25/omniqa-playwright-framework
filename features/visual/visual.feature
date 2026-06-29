@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Login Visual Regression
 #  Module: Visual
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the login screen is captured deterministically
 #                       against a baseline, with dynamic regions masked.

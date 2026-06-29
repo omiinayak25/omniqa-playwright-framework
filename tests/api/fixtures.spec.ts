@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: fixtures.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Custom Playwright fixtures / dependency injection.
  * Business Scenario: Framework fixtures (config, data, log) must inject reliably.

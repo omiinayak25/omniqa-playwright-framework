@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: data-table.component.ts
  * Module: UI Components
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Reusable wrapper over OrangeHRM's `oxd` data grid. Works on ANY OrangeHRM

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product-details.data.spec.ts
  * Module: UI Tests · Inventory (PDP, data-driven)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: PDP field parity for EVERY catalog product.
  * Business Scenario: Each product's detail page must show its own correct

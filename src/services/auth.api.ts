@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: auth.api.ts
  * Module: API Services
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Business service for authentication flows. Issues Restful-Booker tokens

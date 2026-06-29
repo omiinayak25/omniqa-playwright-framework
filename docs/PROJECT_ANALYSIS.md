@@ -1,6 +1,6 @@
-# OmniQA — Complete Architectural Analysis
+# OminQA — Complete Architectural Analysis
 
-> **OmniQA · Enterprise Playwright Automation Framework** — architecture, quality, risk, and recommendations.
+> **OminQA · Enterprise Playwright Automation Framework** — architecture, quality, risk, and recommendations.
 > Derived from a full repository audit. Last synchronized: 2026-06-28.
 
 ---
@@ -71,20 +71,20 @@ No circular dependencies were observed; `tsc --noEmit` validates all path-alias 
 
 ## 5. Pattern Usage
 
-| Pattern              | Where                                             |
-| -------------------- | ------------------------------------------------- |
-| Page Object Model    | `src/pages`                                       |
-| Component Object     | `src/components`                                  |
-| Repository           | `src/repositories`                                |
-| Singleton            | `src/config/config.ts`, `src/database/db-pool.ts` |
-| Facade               | `src/config` (hides env parsing/validation)       |
-| Dependency Injection | `src/fixtures` (8-layer chain)                    |
-| Strategy             | `src/secrets` (`SecretProvider` implementations)  |
-| Builder              | `src/builders` (fluent valid/invalid/boundary data) |
-| Factory              | `src/factories` (bulk/datasets, compose builders) |
-| Chain of Responsibility | `src/middlewares` (composable API pipeline)    |
-| Orchestration Helper | `src/helpers` (coordinate config/utils)           |
-| Custom Reporter      | `src/custom-reporters`                            |
+| Pattern                 | Where                                               |
+| ----------------------- | --------------------------------------------------- |
+| Page Object Model       | `src/pages`                                         |
+| Component Object        | `src/components`                                    |
+| Repository              | `src/repositories`                                  |
+| Singleton               | `src/config/config.ts`, `src/database/db-pool.ts`   |
+| Facade                  | `src/config` (hides env parsing/validation)         |
+| Dependency Injection    | `src/fixtures` (8-layer chain)                      |
+| Strategy                | `src/secrets` (`SecretProvider` implementations)    |
+| Builder                 | `src/builders` (fluent valid/invalid/boundary data) |
+| Factory                 | `src/factories` (bulk/datasets, compose builders)   |
+| Chain of Responsibility | `src/middlewares` (composable API pipeline)         |
+| Orchestration Helper    | `src/helpers` (coordinate config/utils)             |
+| Custom Reporter         | `src/custom-reporters`                              |
 
 ## 6. Strengths
 

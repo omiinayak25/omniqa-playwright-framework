@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Session Persistence & Protection
 #  Module: Authentication
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify an authenticated session is remembered when a
 #                       shopper navigates directly to a protected page, and that

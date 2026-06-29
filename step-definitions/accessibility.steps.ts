@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: accessibility.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo accessibility BDD steps (scan + keyboard).
  * Business Scenario: Gherkin a11y scenarios drive the axe-core scanner and the

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.perf.spec.ts
  * Module: Performance Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo login screen — load-performance smoke.
  * Business Scenario: The entry screen must load within an agreed budget; a

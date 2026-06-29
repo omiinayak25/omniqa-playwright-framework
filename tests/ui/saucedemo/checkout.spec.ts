@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.spec.ts
  * Module: UI Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo checkout flow (CheckoutFlow business layer + totals).
  * Business Scenario: A shopper completes checkout; totals add up; validation blocks gaps.

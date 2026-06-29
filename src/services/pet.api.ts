@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: pet.api.ts
  * Module: API Services
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Business service for the Swagger Petstore /pet resource, covering CRUD and

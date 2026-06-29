@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: db.fixtures.ts
  * Module: Fixtures (DI)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Final link in the fixture chain — injects a QueryRunner, DbAssertions, and

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: products.search.spec.ts
  * Module: API Tests · Search
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: DummyJSON product search (q parameter).
  * Business Scenario: Shoppers search the catalog; matches must be relevant,

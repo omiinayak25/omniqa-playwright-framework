@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: user.endpoints.ts
  * Module: API Endpoints
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * ReqRes endpoint paths (user listing/lookup, register, login).

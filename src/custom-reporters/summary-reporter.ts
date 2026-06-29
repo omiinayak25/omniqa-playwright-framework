@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: summary-reporter.ts
  * Module: Custom Reporters
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * A custom Playwright reporter that emits a concise end-of-run summary to the

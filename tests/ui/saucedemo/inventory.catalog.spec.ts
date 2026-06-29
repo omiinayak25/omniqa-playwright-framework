@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: inventory.catalog.spec.ts
  * Module: UI Tests · Inventory
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo product-catalog data integrity.
  * Business Scenario: Every product must show a name, a well-formed price, a

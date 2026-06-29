@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product.factory.ts
  * Module: Factories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Produces DummyJSON {@link NewProduct} datasets — valid, bulk, edge and an

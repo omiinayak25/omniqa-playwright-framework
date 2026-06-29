@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: file.util.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Filesystem & data-file utilities — JSON / CSV / Excel read+write,

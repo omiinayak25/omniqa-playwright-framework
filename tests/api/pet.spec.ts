@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: pet.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Swagger Petstore Pet API (CRUD + status filtering).
  * Business Scenario: A pet can be created, fetched, updated, and removed reliably.

@@ -1,5 +1,5 @@
 # =====================================================================
-#  OMNIQA Playwright Framework — Docker Compose (Phase 19)
+#  OMINQA Playwright Framework — Docker Compose (Phase 19)
 #  Brings up an isolated PostgreSQL database + the Playwright test runner,
 #  on a private network, with results written back to the host.
 #  Explained line-by-line. (No top-level `version:` key — obsolete in the
@@ -12,7 +12,7 @@ services:
   # -------------------------------------------------------------------
   postgres:
     image: postgres:16-alpine # small, official Postgres 16 image
-    container_name: omniqa-postgres
+    container_name: ominqa-postgres
     environment:
       # The official image creates this superuser + database on first init.
       # POSTGRES_USER == DB_USER so schema.sql's `SET ROLE automation_user` works.
@@ -31,7 +31,7 @@ services:
       # this seeds our tables/view/function/data. `:ro` = read-only mount.
       - ./scripts/db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
     networks:
-      - omniqa-net # join the private bridge network (see bottom)
+      - ominqa-net # join the private bridge network (see bottom)
     healthcheck:
       # Tests must wait until Postgres actually accepts connections, not just
       # until the container starts. `pg_isready` returns 0 when ready.
@@ -48,8 +48,8 @@ services:
     build:
       context: . # build using this directory as context
       dockerfile: Dockerfile # the image defined above
-    image: omniqa-playwright:latest
-    container_name: omniqa-tests
+    image: ominqa-playwright:latest
+    container_name: ominqa-tests
     depends_on:
       postgres:
         condition: service_healthy # start ONLY after the DB healthcheck passes
@@ -76,7 +76,7 @@ services:
       - ./test-results:/app/test-results
       - ./logs:/app/logs
     networks:
-      - omniqa-net
+      - ominqa-net
     # Default run = the DB-dependent projects (proves the DB container + wiring).
     # Override on the CLI for other suites, e.g.:
     #   docker compose run --rm tests npx playwright test --project=ui-chromium
@@ -93,5 +93,5 @@ volumes:
 #  and stay isolated from other Compose projects on the host.
 # ---------------------------------------------------------------------
 networks:
-  omniqa-net:
+  ominqa-net:
     driver: bridge

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: cart.data.spec.ts
  * Module: UI Tests · Shopping Cart (data-driven)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Add/remove round-trip for EVERY catalog product.
  * Business Scenario: Each product must be individually addable to and removable

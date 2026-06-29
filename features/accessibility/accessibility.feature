@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Login Accessibility
 #  Module: Accessibility
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the login screen is operable by assistive tech
 #                       and keyboard users (WCAG 2.1 A/AA): scan, ARIA, contrast,

@@ -1,4 +1,4 @@
-# Business Flows — OMNIQA Playwright Framework
+# Business Flows — OMINQA Playwright Framework
 
 - **Purpose** — Facade layer over the POM: orchestrates multi-screen user journeys behind one intention-revealing method, so journeys repeated across many tests are written once. Flows contain no assertions.
 

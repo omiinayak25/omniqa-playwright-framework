@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: global-setup.ts
  * Module: Lifecycle Hooks
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Runs ONCE before the entire test run (the default export is wired into

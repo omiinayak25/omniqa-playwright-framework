@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: orange-auth.setup.ts
  * Module: Auth Setup
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM authentication bootstrap (storage-state capture).
  * Business Scenario: Log in once and persist the admin session for reuse by UI specs.

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: date.util.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Date & time helper functions for timestamps, filesystem-safe names,

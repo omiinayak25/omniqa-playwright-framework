@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: query-runner.ts
  * Module: Database Access
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Thin typed wrapper over the pg Pool that executes parameterized queries and

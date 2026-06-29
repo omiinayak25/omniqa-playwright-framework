@@ -40,7 +40,7 @@ jobs:
       - name: OWASP Dependency-Check
         uses: dependency-check/Dependency-Check_Action@main
         with:
-          project: omniqa-playwright-framework
+          project: ominqa-playwright-framework
           path: '.'
           format: 'HTML'
           # Fail the job on CVSS >= 8 (high/critical). Tune to your risk policy.

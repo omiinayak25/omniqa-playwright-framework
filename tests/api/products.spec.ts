@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: products.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: DummyJSON Product API (list, get, search, create)
  * Business Scenario: Catalog consumers can page, look up, search, and add products.

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: auth.spec.ts
  * Module: API Tests · Authentication
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Restful-Booker authentication (token issuance).
  * Business Scenario: Valid credentials yield a usable token; invalid credentials

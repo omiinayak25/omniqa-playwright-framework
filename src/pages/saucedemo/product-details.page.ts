@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product-details.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Page object for the SauceDemo Product Detail Page (PDP) — the single-product

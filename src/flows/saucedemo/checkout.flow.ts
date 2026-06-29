@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.flow.ts
  * Module: Business Flows
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Orchestrates the full SauceDemo purchase journey across five page objects

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: journey.visual.spec.ts
  * Module: Visual Regression Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: PDP, order-confirmation, and login-error visual stability.
  * Business Scenario: Key journey screens must not regress visually.

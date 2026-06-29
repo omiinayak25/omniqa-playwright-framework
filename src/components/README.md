@@ -1,4 +1,4 @@
-# UI Components — OMNIQA Playwright Framework
+# UI Components — OMINQA Playwright Framework
 
 - **Purpose** — Reusable UI component objects: widgets (header, table, pagination) that appear across many pages and are _composed_ into page objects (composition over inheritance — a page HAS-A header).
 

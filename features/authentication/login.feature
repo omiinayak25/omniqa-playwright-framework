@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Login
 #  Module: Authentication
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify shoppers can sign in, and that invalid or
 #                       restricted attempts are correctly rejected.

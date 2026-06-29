@@ -4,4 +4,4 @@
 >
 > 👉 **[CHANGELOG.md](../CHANGELOG.md)**
 >
-> It documents all 24 build phases for OmniQA v1.0.0. Please update that file instead.
+> It documents all 24 build phases for OminQA v1.0.0. Please update that file instead.

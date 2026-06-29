@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: response-validator.ts
  * Module: API Validation
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Fluent, composable assertion helper for an ApiResponse. Provides chainable

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: route-mocking.spec.ts
  * Module: Network Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: NetworkManager — route mocking, abortion, custom
  *   responses, traffic capture, and HAR replay.

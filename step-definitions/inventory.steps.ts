@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: inventory.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo inventory BDD steps (catalog details + sorting).
  * Business Scenario: Gherkin catalog scenarios drive the SauceInventoryPage POM.

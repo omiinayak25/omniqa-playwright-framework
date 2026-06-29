@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.visual.spec.ts
  * Module: Visual Regression Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM login screen visual stability (Angular SPA).
  * Business Scenario: The HR portal's branded entry screen must not regress;

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: user.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * User / authentication domain models shared across UI, API, and DB layers

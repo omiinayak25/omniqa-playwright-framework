@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Page object for the OrangeHRM login screen. Provides credential entry,

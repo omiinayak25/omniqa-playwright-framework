@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: timeouts.constants.ts
  * Module: Constants
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Named timeout constants (milliseconds) for waits, polls, API calls, and

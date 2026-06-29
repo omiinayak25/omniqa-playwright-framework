@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: performance-reporter.ts
  * Module: Performance
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Persistence + presentation for performance captures. Writes a JSON artifact

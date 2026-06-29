@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: authorization.spec.ts
  * Module: UI Tests · Authorization
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo protected-route access control.
  * Business Scenario: Cart and checkout pages must never be served to an

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.spec.ts
  * Module: UI Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM login (page-object model on a heavy SPA).
  * Business Scenario: Admin can authenticate; invalid credentials are rejected.

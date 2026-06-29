@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: pim.spec.ts
  * Module: UI Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM PIM employee grid (DataTable + Pagination components).
  * Business Scenario: The employee grid renders records and supports pagination.

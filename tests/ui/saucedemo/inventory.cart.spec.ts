@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: inventory.cart.spec.ts
  * Module: UI Tests · Inventory
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo inventory → cart interactions & badge math.
  * Business Scenario: Adding/removing on the inventory must keep the cart badge

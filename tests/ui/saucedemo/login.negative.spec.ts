@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.negative.spec.ts
  * Module: UI Tests · Authentication
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo login — negative & boundary input handling.
  * Business Scenario: Malformed, empty, whitespace, unicode and over-long inputs

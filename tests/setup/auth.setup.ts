@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: auth.setup.ts
  * Module: Auth Setup
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo authentication bootstrap (storage-state capture).
  * Business Scenario: Log in once and persist the session for reuse by UI specs.

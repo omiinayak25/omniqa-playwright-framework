@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: config.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Singleton configuration facade (env, URLs, DB, constants).
  * Business Scenario: Config must resolve a valid environment and typed values.

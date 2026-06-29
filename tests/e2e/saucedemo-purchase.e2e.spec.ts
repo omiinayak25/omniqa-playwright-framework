@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: saucedemo-purchase.e2e.spec.ts
  * Module: E2E Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo end-to-end purchase journey.
  * Business Scenario: A shopper browses, carts, checks out, completes, and logs out.

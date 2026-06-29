@@ -1,4 +1,4 @@
-# OmniQA — TEST_TRACEABILITY_MATRIX
+# OminQA — TEST_TRACEABILITY_MATRIX
 
 > Auto-generated from `scripts/catalog/catalog.data.cjs` (`npm run catalog:gen`). Maps each module/requirement area to its catalogued tests, status, and risk coverage. Generated: 2026-06-28.
 

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: booking.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Restful-Booker API BDD steps (Cucumber → ApiClient + services).
  * Business Scenario: Gherkin booking scenarios drive the same API client/services as specs.

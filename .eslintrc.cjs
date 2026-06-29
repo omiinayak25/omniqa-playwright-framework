@@ -1,6 +1,6 @@
 /**
  * --------------------------------------------------------
- * ESLint configuration — OMNIQA Playwright Framework
+ * ESLint configuration — OMINQA Playwright Framework
  *
  * Legacy (.eslintrc) config so `eslint . --ext .ts` keeps working on
  * ESLint 8. TypeScript-aware (non-type-checked ruleset — fast, no project

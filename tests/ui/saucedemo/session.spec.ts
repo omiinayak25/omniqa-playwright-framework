@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: session.spec.ts
  * Module: UI Tests · Authentication (Session)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo session lifecycle — persistence & protection.
  * Business Scenario: An authenticated session survives refresh and is shared

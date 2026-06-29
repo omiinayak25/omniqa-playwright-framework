@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: http.constants.ts
  * Module: Constants
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * HTTP status codes, methods, common header names, and content types used

@@ -1,6 +1,6 @@
-# OmniQA — Project Metadata (Single Source of Truth)
+# OminQA — Project Metadata (Single Source of Truth)
 
-> **OmniQA · Enterprise Playwright Automation Framework**
+> **OminQA · Enterprise Playwright Automation Framework**
 > Generated from a full repository audit; authoritative. Every figure was measured from the codebase.
 > Last synchronized: 2026-06-28.
 
@@ -10,9 +10,9 @@
 
 | Field         | Value                                                          |
 | ------------- | -------------------------------------------------------------- |
-| Product name  | **OmniQA**                                                     |
+| Product name  | **OminQA**                                                     |
 | Subtitle      | Enterprise Playwright Automation Framework                     |
-| Package name  | `omniqa-playwright-framework`                                  |
+| Package name  | `ominqa-playwright-framework`                                  |
 | Version       | `1.0.0`                                                        |
 | License       | MIT                                                            |
 | Author        | QA Automation Architecture Team (maintainer: `shubhangi-ttpl`) |
@@ -35,34 +35,34 @@
 
 ## 3. Folder Structure (`src/`)
 
-| Module              | Files | Responsibility                                                 |
-| ------------------- | ----- | -------------------------------------------------------------- |
-| `accessibility/`    | 6     | axe scanner, keyboard navigator, assertions, reporter, types   |
-| `api/`              | 3     | ApiClient, response-validator, schema-validator                |
-| `api/endpoints/`    | 6     | domain endpoint modules (booking/user/product/post/pet) + barrel |
+| Module              | Files | Responsibility                                                           |
+| ------------------- | ----- | ------------------------------------------------------------------------ |
+| `accessibility/`    | 6     | axe scanner, keyboard navigator, assertions, reporter, types             |
+| `api/`              | 3     | ApiClient, response-validator, schema-validator                          |
+| `api/endpoints/`    | 6     | domain endpoint modules (booking/user/product/post/pet) + barrel         |
 | `builders/`         | 6     | fluent Builder pattern: base + booking/employee/checkout/product + index |
 | `factories/`        | 7     | Factory pattern: bulk/positive/negative/edge datasets composing builders |
-| `components/`       | 4     | base + saucedemo/orangehrm UI components                       |
-| `config/`           | 2     | env accessor + validated config facade                         |
-| `constants/`        | 5     | http, ui-routes, timeouts, paths, index (endpoints → api/endpoints) |
-| `cucumber/`         | 2     | World + hooks                                                  |
-| `custom-reporters/` | 2     | summary-reporter, flaky-reporter                               |
-| `database/`         | 4     | pool, query-runner, db-assertions, availability                |
-| `fixtures/`         | 8     | DI chain layers + types + index                                |
-| `helpers/`          | 4     | orchestration: environment, browser launch, storage-state reuse |
-| `flows/`            | 1     | checkout business flow                                         |
-| `hooks/`            | 2     | global-setup, global-teardown                                  |
-| `middlewares/`      | 5     | composable API pipeline: correlation-id, timing, network-capture + core |
-| `models/`           | 12    | domain + config models                                         |
-| `network/`          | 3     | NetworkManager, types, index                                   |
-| `pages/`            | 10    | base + saucedemo (6) + orangehrm (3)                           |
-| `performance/`      | 5     | collector, assertions, reporter, lighthouse-runner, types      |
-| `repositories/`     | 4     | base + employee/department/product-record                      |
-| `schemas/`          | 2     | AJV booking schema + index                                     |
-| `secrets/`          | 2     | secret-provider, index                                         |
-| `services/`         | 6     | auth, booking, pet, post, product, user                        |
-| `types/`            | 3     | shared types: Maybe/DeepReadonly/Result, ExecutionContext + re-exports |
-| `utils/`            | 12    | logger, crypto, retry, wait, date, random, file, allure, log-* |
+| `components/`       | 4     | base + saucedemo/orangehrm UI components                                 |
+| `config/`           | 2     | env accessor + validated config facade                                   |
+| `constants/`        | 5     | http, ui-routes, timeouts, paths, index (endpoints → api/endpoints)      |
+| `cucumber/`         | 2     | World + hooks                                                            |
+| `custom-reporters/` | 2     | summary-reporter, flaky-reporter                                         |
+| `database/`         | 4     | pool, query-runner, db-assertions, availability                          |
+| `fixtures/`         | 8     | DI chain layers + types + index                                          |
+| `helpers/`          | 4     | orchestration: environment, browser launch, storage-state reuse          |
+| `flows/`            | 1     | checkout business flow                                                   |
+| `hooks/`            | 2     | global-setup, global-teardown                                            |
+| `middlewares/`      | 5     | composable API pipeline: correlation-id, timing, network-capture + core  |
+| `models/`           | 12    | domain + config models                                                   |
+| `network/`          | 3     | NetworkManager, types, index                                             |
+| `pages/`            | 10    | base + saucedemo (6) + orangehrm (3)                                     |
+| `performance/`      | 5     | collector, assertions, reporter, lighthouse-runner, types                |
+| `repositories/`     | 4     | base + employee/department/product-record                                |
+| `schemas/`          | 2     | AJV booking schema + index                                               |
+| `secrets/`          | 2     | secret-provider, index                                                   |
+| `services/`         | 6     | auth, booking, pet, post, product, user                                  |
+| `types/`            | 3     | shared types: Maybe/DeepReadonly/Result, ExecutionContext + re-exports   |
+| `utils/`            | 12    | logger, crypto, retry, wait, date, random, file, allure, log-*           |
 
 ---
 

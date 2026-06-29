@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout-info.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Page object for SauceDemo checkout step one (customer information). Fills the

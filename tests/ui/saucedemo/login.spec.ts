@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.spec.ts
  * Module: UI Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo login (positive, locked-out, invalid password).
  * Business Scenario: Valid users reach inventory; locked/invalid users are rejected.

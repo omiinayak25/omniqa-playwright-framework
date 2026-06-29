@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: header.component.ts
  * Module: UI Components
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Models the persistent SauceDemo top bar (burger menu + shopping-cart link

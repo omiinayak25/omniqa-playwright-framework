@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Checkout Overview
 #  Module: Checkout
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the order overview (step two): tax arithmetic,
 #                       payment/shipping information, and cancelling the order.

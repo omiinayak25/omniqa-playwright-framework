@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: sla-and-sorting.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Response-time SLA + server-side sorting (DummyJSON/JSONPlaceholder).
  * Business Scenario: APIs must respond within SLA and sort results correctly.

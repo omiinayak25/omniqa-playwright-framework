@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.flow-extended.spec.ts
  * Module: UI Tests · Checkout (flow)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo checkout navigation & completion side-effects.
  * Business Scenario: Cancelling from the overview returns to shopping; completing

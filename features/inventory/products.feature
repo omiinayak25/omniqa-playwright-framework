@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Product Catalog
 #  Module: Inventory
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the product catalog presents every product with
 #                       complete, valid details (name, description, price, image).

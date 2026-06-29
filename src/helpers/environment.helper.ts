@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: environment.helper.ts
  * Module: Helpers
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Cross-cutting execution-environment queries that ORCHESTRATE existing config

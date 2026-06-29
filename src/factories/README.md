@@ -1,6 +1,6 @@
-# Factories — OMNIQA Playwright Framework
+# Factories — OMINQA Playwright Framework
 
-- **Purpose** — **Factory pattern** for test data: produce **datasets, bulk, and positive/negative/edge** collections, composing the `@builders` layer (and faker directly for trivial models). Builders make *one* configurable object; factories make *many* / curated sets.
+- **Purpose** — **Factory pattern** for test data: produce **datasets, bulk, and positive/negative/edge** collections, composing the `@builders` layer (and faker directly for trivial models). Builders make _one_ configurable object; factories make _many_ / curated sets.
 
 ## Why this folder exists
 
@@ -14,15 +14,15 @@ Tests often need more than one object (bulk inserts, dataset-driven cases) or cu
 
 ## Files
 
-| File                    | Responsibility                                                              |
-| ----------------------- | -------------------------------------------------------------------------- |
-| `factory.ts`            | `generate<T>(count, make)` — shared bulk primitive.                         |
-| `booking.factory.ts`    | `BookingFactory` — valid/many/edge/`invalidCases` (composes BookingBuilder).|
-| `employee.factory.ts`   | `EmployeeFactory` — valid/inactive/many/forDepartment/edge/`invalidCases`.  |
-| `product.factory.ts`    | `ProductFactory` — valid/many/edge/invalid (composes ProductBuilder).       |
-| `user.factory.ts`       | `UserFactory` — valid/withJob/many/edge (faker; no builder for `{name,job}`).|
-| `test-data.factory.ts`  | `TestDataFactory` — facade over all factories + generic `dataset()`.        |
-| `index.ts`              | Barrel export (`@factories`).                                               |
+| File                   | Responsibility                                                                |
+| ---------------------- | ----------------------------------------------------------------------------- |
+| `factory.ts`           | `generate<T>(count, make)` — shared bulk primitive.                           |
+| `booking.factory.ts`   | `BookingFactory` — valid/many/edge/`invalidCases` (composes BookingBuilder).  |
+| `employee.factory.ts`  | `EmployeeFactory` — valid/inactive/many/forDepartment/edge/`invalidCases`.    |
+| `product.factory.ts`   | `ProductFactory` — valid/many/edge/invalid (composes ProductBuilder).         |
+| `user.factory.ts`      | `UserFactory` — valid/withJob/many/edge (faker; no builder for `{name,job}`). |
+| `test-data.factory.ts` | `TestDataFactory` — facade over all factories + generic `dataset()`.          |
+| `index.ts`             | Barrel export (`@factories`).                                                 |
 
 ## How it integrates
 
@@ -40,7 +40,9 @@ Tests often need more than one object (bulk inserts, dataset-driven cases) or cu
 ```ts
 import { TestDataFactory, EmployeeFactory } from '@factories';
 
-const team = EmployeeFactory.forDepartment(2, 5);          // 5 QA employees
-const bookings = TestDataFactory.booking.many(10);         // 10 random bookings
-for (const { label, employee } of EmployeeFactory.invalidCases()) { /* negative test */ }
+const team = EmployeeFactory.forDepartment(2, 5); // 5 QA employees
+const bookings = TestDataFactory.booking.many(10); // 10 random bookings
+for (const { label, employee } of EmployeeFactory.invalidCases()) {
+  /* negative test */
+}
 ```

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: inventory.sorting.spec.ts
  * Module: UI Tests · Inventory
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo inventory sort order (all four options).
  * Business Scenario: A shopper sorts the catalog by name or price; the order

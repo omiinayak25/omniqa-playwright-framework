@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api-products.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: DummyJSON Products API BDD steps.
  * Business Scenario: Gherkin product scenarios drive the ProductAPI service.
@@ -45,10 +45,7 @@ When(
   async function (this: CustomWorld, field: string, direction: string) {
     this.set(
       'response',
-      await productApi(this).listSorted(
-        field as never,
-        direction === 'desc' ? 'desc' : 'asc',
-      ),
+      await productApi(this).listSorted(field as never, direction === 'desc' ? 'desc' : 'asc'),
     );
   },
 );

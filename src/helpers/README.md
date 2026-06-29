@@ -1,6 +1,6 @@
-# Helpers — OMNIQA Playwright Framework
+# Helpers — OMINQA Playwright Framework
 
-- **Purpose** — Reusable **orchestration** that *coordinates* existing utilities, config, and constants. Helpers contain no new low-level logic and no assertions — they compose what already exists so callers (hooks, setup) stay thin.
+- **Purpose** — Reusable **orchestration** that _coordinates_ existing utilities, config, and constants. Helpers contain no new low-level logic and no assertions — they compose what already exists so callers (hooks, setup) stay thin.
 
 ## Why this folder exists
 
@@ -13,12 +13,12 @@ Some logic spans multiple primitives (read config + env + a file → produce an 
 
 ## Files
 
-| File                       | Responsibility                                                                 |
-| -------------------------- | ------------------------------------------------------------------------------ |
-| `environment.helper.ts`    | `EnvironmentHelper` — env / CI / slow-mo queries + one-line run `describe()`.   |
-| `browser.helper.ts`        | `BrowserHelper` — Chromium launch options (headless + slowMo) for the BDD runner.|
-| `storage-state.helper.ts`  | `StorageStateHelper` — reuse saved auth sessions → BrowserContext options.       |
-| `index.ts`                 | Barrel export (`@helpers`).                                                     |
+| File                      | Responsibility                                                                    |
+| ------------------------- | --------------------------------------------------------------------------------- |
+| `environment.helper.ts`   | `EnvironmentHelper` — env / CI / slow-mo queries + one-line run `describe()`.     |
+| `browser.helper.ts`       | `BrowserHelper` — Chromium launch options (headless + slowMo) for the BDD runner. |
+| `storage-state.helper.ts` | `StorageStateHelper` — reuse saved auth sessions → BrowserContext options.        |
+| `index.ts`                | Barrel export (`@helpers`).                                                       |
 
 ## How it integrates (real callers)
 

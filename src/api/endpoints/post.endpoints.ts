@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: post.endpoints.ts
  * Module: API Endpoints
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * JSONPlaceholder endpoint paths (posts, comments, users).

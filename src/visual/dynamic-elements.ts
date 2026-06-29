@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: dynamic-elements.ts
  * Module: Visual Regression
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Central registry of selectors for non-deterministic UI (clocks, copyright

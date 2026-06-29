@@ -1,4 +1,4 @@
-# Configuration — OMNIQA Playwright Framework
+# Configuration — OMINQA Playwright Framework
 
 - **Purpose** — Single source of typed, validated, immutable framework configuration resolved from environment variables (UI/API URLs, credentials, DB settings, execution options).
 

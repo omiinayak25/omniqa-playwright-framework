@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: inventory.spec.ts
  * Module: UI Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo inventory (catalog, sorting, cart, header component).
  * Business Scenario: An authenticated shopper browses, sorts, and adds items to cart.

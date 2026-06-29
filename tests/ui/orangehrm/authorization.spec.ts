@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: authorization.spec.ts
  * Module: UI Tests · Authorization
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM role-based access & route protection.
  * Business Scenario: An authenticated Admin sees and can open privileged

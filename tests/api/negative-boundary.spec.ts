@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: negative-boundary.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Error/boundary handling across Booker, DummyJSON, Petstore.
  * Business Scenario: APIs must reject invalid input and handle edge limits safely.

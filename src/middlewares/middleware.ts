@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: middleware.ts
  * Module: Middlewares
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Composable, chainable middleware pipeline for the API transport layer (the

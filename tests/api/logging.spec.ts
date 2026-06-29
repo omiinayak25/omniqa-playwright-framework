@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: logging.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Logging infrastructure (correlation id + log capture).
  * Business Scenario: Logs must carry a stable correlation id and be capturable per test.

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product-details.spec.ts
  * Module: UI Tests · Inventory (PDP)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo Product Detail Page (PDP).
  * Business Scenario: Opening a product shows its correct details, the shopper

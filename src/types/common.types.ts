@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: common.types.ts
  * Module: Types
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Small, cross-cutting TypeScript primitives reused across layers — a generic
@@ -37,5 +37,4 @@ export type DeepReadonly<T> = {
  * @typeParam E - Failure value type (defaults to string).
  */
 export type Result<T, E = string> =
-  | { readonly ok: true; readonly value: T }
-  | { readonly ok: false; readonly error: E };
+  { readonly ok: true; readonly value: T } | { readonly ok: false; readonly error: E };

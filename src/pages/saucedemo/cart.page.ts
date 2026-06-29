@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: cart.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Page object for the SauceDemo shopping-cart screen. Reads cart contents and

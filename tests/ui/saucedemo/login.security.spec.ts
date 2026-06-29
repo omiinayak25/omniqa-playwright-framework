@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.security.spec.ts
  * Module: UI Tests · Authentication (Security)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo login — security properties of the sign-in form.
  * Business Scenario: Credentials must be masked and never leaked; injection

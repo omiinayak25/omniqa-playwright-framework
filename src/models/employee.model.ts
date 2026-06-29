@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: employee.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Employee domain models for the DB layer and E2E flows (persisted record

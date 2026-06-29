@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api-common.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Generic API response assertions shared by every domain.
  * Business Scenario: Status, success, response-time SLA, headers and schema are
@@ -47,9 +47,12 @@ Then('the response should include a {string} header', function (this: CustomWorl
   expect(headerNames).toContain(name.toLowerCase());
 });
 
-Then('the response body should match the {string} schema', function (this: CustomWorld, name: string) {
-  const schema = SCHEMAS[name];
-  if (schema === undefined) throw new Error(`Unknown schema "${name}"`);
-  const { valid, errors } = validateSchema(schema, lastResponse(this).body);
-  expect(valid, errors.join('; ')).toBe(true);
-});
+Then(
+  'the response body should match the {string} schema',
+  function (this: CustomWorld, name: string) {
+    const schema = SCHEMAS[name];
+    if (schema === undefined) throw new Error(`Unknown schema "${name}"`);
+    const { valid, errors } = validateSchema(schema, lastResponse(this).body);
+    expect(valid, errors.join('; ')).toBe(true);
+  },
+);

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: department.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Department domain model (organizational unit referenced by employees).

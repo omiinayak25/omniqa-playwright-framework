@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: lighthouse.perf.spec.ts
  * Module: Performance Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Lighthouse performance audit (optional, heavy).
  * Business Scenario: A periodic, holistic performance score (beyond raw

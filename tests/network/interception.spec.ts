@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: interception.spec.ts
  * Module: Network Tests · Interception & Timing
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: NetworkManager request interception, latency injection,
  *                     selective mocking, and large-payload handling.

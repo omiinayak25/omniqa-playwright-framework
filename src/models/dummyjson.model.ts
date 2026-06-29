@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: dummyjson.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * DummyJSON domain models (product, paginated product list, new-product

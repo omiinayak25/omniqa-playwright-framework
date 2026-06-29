@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: paths.constants.ts
  * Module: Constants
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Filesystem path constants (storage-state auth files, etc.) used to persist

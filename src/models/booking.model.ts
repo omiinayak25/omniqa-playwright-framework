@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: booking.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Restful-Booker domain models (booking payload, created-booking response,

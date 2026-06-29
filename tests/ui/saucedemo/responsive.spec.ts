@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: responsive.spec.ts
  * Module: UI Tests · Browser Compatibility
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo responsive rendering across viewports.
  * Business Scenario: The store must remain usable on mobile, tablet, and desktop

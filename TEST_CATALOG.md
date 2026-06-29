@@ -1,4 +1,4 @@
-# OmniQA — TEST_CATALOG (Master Test Inventory)
+# OminQA — TEST_CATALOG (Master Test Inventory)
 
 > Auto-generated from `scripts/catalog/catalog.data.cjs`. Do not hand-edit this file —
 > edit the data source and run `npm run catalog:gen`. Generated: 2026-06-28.

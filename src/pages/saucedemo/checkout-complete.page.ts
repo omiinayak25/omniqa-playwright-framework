@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout-complete.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Page object for the SauceDemo checkout completion (order confirmation)

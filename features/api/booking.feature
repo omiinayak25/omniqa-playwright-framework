@@ -1,6 +1,6 @@
 # --------------------------------------------------------
 # Feature File: booking-api.feature
-# Project: OMNIQA Playwright Framework
+# Project: OMINQA Playwright Framework
 # Purpose: BDD coverage of Restful-Booker booking create/retrieve/delete flows.
 # Strategy: Scenario + Data Table + Doc String
 # Tags: @api @booking @smoke @regression

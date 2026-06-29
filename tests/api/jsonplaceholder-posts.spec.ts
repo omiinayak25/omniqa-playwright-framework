@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: jsonplaceholder-posts.spec.ts
  * Module: API Tests · Posts (extended)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: JSONPlaceholder posts/users — list, lookup, CRUD, schema.
  * Business Scenario: A content API must list, fetch, create, update and delete.

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: env.ts
  * Module: Configuration
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Minimal, type-safe environment accessor. Loads `.env` once and exposes

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: visual-comparator.ts
  * Module: Visual Regression
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Reusable wrapper around Playwright's `toHaveScreenshot` snapshot assertion.

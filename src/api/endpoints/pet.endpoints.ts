@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: pet.endpoints.ts
  * Module: API Endpoints
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Swagger Petstore endpoint paths (pet CRUD/find-by-status, store orders).

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: authorization.spec.ts
  * Module: API Tests · Authorization
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Restful-Booker write-operation authorization.
  * Business Scenario: Mutating a booking requires a valid token; missing or

@@ -1,4 +1,4 @@
-# Network — OMNIQA Playwright Framework
+# Network — OMINQA Playwright Framework
 
 - **Purpose** — Reusable, DI-friendly control over the page's network: route mocking, request abortion/throttling, response interception/rewriting, traffic capture, and HAR record/replay. Lets specs shape backend behaviour deterministically without a live backend.
 

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: booking.factory.ts
  * Module: Factories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Produces Restful-Booker {@link Booking} datasets — single valid, bulk,

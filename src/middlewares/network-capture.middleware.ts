@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: network-capture.middleware.ts
  * Module: Middlewares
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Record a lightweight summary of every request/response that flows through the
@@ -15,7 +15,12 @@
  * Last Updated: 2026-06-28
  * --------------------------------------------------------
  */
-import type { ApiMiddleware, DispatchFn, HttpRequestContext, HttpResponseContext } from '@middlewares/middleware';
+import type {
+  ApiMiddleware,
+  DispatchFn,
+  HttpRequestContext,
+  HttpResponseContext,
+} from '@middlewares/middleware';
 
 /** One captured request/response summary. */
 export interface ApiExchangeRecord {

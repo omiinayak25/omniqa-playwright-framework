@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.builder.ts
  * Module: Builders
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Fluent builder for SauceDemo {@link CheckoutInfo} — valid randomized customer

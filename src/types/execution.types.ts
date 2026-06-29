@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: execution.types.ts
  * Module: Types
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Shared execution-environment types: a friendly alias for the active

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: ui-routes.constants.ts
  * Module: Constants
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * UI route paths (relative to each app's base URL) for the apps under test.

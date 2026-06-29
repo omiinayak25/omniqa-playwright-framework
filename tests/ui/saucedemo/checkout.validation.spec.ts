@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.validation.spec.ts
  * Module: UI Tests · Checkout (validation)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo checkout step-one required-field validation.
  * Business Scenario: Each missing customer-detail must block continuation with

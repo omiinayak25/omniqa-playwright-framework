@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: config.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Configuration domain interfaces describing the SHAPE of the framework's

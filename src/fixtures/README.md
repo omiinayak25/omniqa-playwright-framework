@@ -1,4 +1,4 @@
-# Fixtures (Dependency Injection) — OMNIQA Playwright Framework
+# Fixtures (Dependency Injection) — OMINQA Playwright Framework
 
 - **Purpose** — Custom Playwright `test`/`expect` built by a composition chain that injects config, data, logging, page objects, API services, and DB helpers. Every spec imports from `@fixtures/index`.
 

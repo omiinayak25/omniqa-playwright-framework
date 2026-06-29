@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: Employee Database
 #  Module: Database
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify core database behaviour: CRUD, transactions and
 #                       rollback, a view, an index, a stored function, and

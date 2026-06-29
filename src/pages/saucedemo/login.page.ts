@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Page object for the SauceDemo login screen. Actions only — tests assert on

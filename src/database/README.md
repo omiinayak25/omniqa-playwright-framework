@@ -1,4 +1,4 @@
-# Database Access — OMNIQA Playwright Framework
+# Database Access — OMINQA Playwright Framework
 
 - **Purpose** — Low-level PostgreSQL access layer: a shared connection pool, a typed parameterized query runner, reusable DB assertions, and an availability probe.
 

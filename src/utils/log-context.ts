@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: log-context.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Per-test log context — carries a correlation id (and test name) so the

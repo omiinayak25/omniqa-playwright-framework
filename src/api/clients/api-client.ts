@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api-client.ts
  * Module: API Client
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Thin, reusable transport wrapper over Playwright's APIRequestContext.
@@ -36,7 +36,11 @@ import { sleep } from '@utils/wait.util';
 import { maskSecret } from '@utils/crypto.util';
 import { HttpMethod, HEADERS, CONTENT_TYPES } from '@constants/http.constants';
 import type { ApiResponse, RequestOptions } from '@models/api.model';
-import { MiddlewarePipeline, type ApiMiddleware, type HttpRequestContext } from '@middlewares/index';
+import {
+  MiddlewarePipeline,
+  type ApiMiddleware,
+  type HttpRequestContext,
+} from '@middlewares/index';
 
 /**
  * ApiClient

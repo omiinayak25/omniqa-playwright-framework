@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: users.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: ReqRes User API (list/pagination + CRUD).
  * Business Scenario: Users can be listed, created, updated, and deleted.

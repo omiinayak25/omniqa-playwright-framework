@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: global-teardown.ts
  * Module: Lifecycle Hooks
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Runs ONCE after the entire test run (wired into playwright.config.ts as

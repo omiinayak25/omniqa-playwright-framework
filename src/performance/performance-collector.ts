@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: performance-collector.ts
  * Module: Performance
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Captures browser performance metrics for an already-loaded page from the

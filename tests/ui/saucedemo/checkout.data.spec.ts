@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.data.spec.ts
  * Module: UI Tests · Checkout (data-driven)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: End-to-end purchase of EVERY catalog product.
  * Business Scenario: Each product must be individually purchasable through the

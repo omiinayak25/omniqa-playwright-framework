@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Logout
 #  Module: Authentication
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify a signed-in shopper can end their session and
 #                       that the catalog is no longer reachable afterwards.

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: index.ts
  * Module: API Endpoints
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Barrel export for domain-specific API endpoint modules (`@api/endpoints`).

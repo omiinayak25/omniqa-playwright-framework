@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: pim-search.spec.ts
  * Module: UI Tests · Search
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM PIM employee name search.
  * Business Scenario: Searching narrows the employee list; a non-matching term

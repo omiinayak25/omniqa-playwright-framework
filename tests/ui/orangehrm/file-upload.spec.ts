@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: file-upload.spec.ts
  * Module: UI Tests · File Upload
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM employee photo upload.
  * Business Scenario: HR can attach a profile photo; a valid image replaces the

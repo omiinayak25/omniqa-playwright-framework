@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: base.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Abstract root of the Page Object Model. Provides navigation and shared,

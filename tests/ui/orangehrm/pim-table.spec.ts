@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: pim-table.spec.ts
  * Module: UI Tests · Tables
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: OrangeHRM PIM data grid (DataTable component).
  * Business Scenario: The employee grid must show headers, populated cells, an

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: dummyjson-extended.spec.ts
  * Module: API Tests · Product validation (extended)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: DummyJSON products — sorting, pagination boundaries, CRUD.
  * Business Scenario: The catalog API must page, sort, and create correctly.

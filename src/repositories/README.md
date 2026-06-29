@@ -1,4 +1,4 @@
-# Repositories — OMNIQA Playwright Framework
+# Repositories — OMINQA Playwright Framework
 
 - **Purpose** — Repository pattern over the database tables: each repo exposes intention-revealing domain methods (findByEmail, insert, deactivate …) and keeps raw SQL out of tests and services.
 

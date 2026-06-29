@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Core, service-agnostic API types (normalized response + request options)

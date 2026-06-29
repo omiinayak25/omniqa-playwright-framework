@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product.endpoints.ts
  * Module: API Endpoints
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * DummyJSON endpoint paths (auth login, product CRUD/search, carts).

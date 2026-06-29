@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product-record.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Persisted product record and sync-input models for the API->DB sync flow.

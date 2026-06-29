@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: petstore.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Swagger Petstore domain models (pet status enum, category, pet, new-pet

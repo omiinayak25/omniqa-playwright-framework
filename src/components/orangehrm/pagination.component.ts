@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: pagination.component.ts
  * Module: UI Components
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Reusable wrapper over OrangeHRM's pagination control. Composed into list

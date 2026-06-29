@@ -1,4 +1,4 @@
-# Accessibility (axe-core) — OMNIQA Playwright Framework
+# Accessibility (axe-core) — OMINQA Playwright Framework
 
 - **Purpose** — Reusable, DI-friendly accessibility (a11y) layer built on `@axe-core/playwright`. Provides scanning, keyboard-operability checks, intention-revealing assertions, and report generation so any spec can audit WCAG 2.0/2.1 A/AA in one line.
 

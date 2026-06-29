@@ -1,4 +1,4 @@
-# Performance Smoke — OMNIQA Playwright Framework
+# Performance Smoke — OMINQA Playwright Framework
 
 - **Purpose** — Reusable, DI-friendly performance smoke layer. Captures W3C Navigation / Paint / LCP / Resource timing from a loaded page, gates it against an env-driven **performance budget**, reports artifacts, and offers an optional **Lighthouse** audit.
 

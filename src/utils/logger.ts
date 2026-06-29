@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: logger.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Centralized Winston logger — the single logging entry point for the

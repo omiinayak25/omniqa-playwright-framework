@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: checkout.perf.spec.ts
  * Module: Performance Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo checkout-information screen — load budget.
  * Business Scenario: The checkout entry screen must render within budget.

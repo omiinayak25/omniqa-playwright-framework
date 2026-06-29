@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: Swagger Petstore Pet API
 #  Module: API
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify Pet API full lifecycle (request chaining) and
 #                       status filtering with contract validation.
@@ -26,9 +26,9 @@ Feature: Swagger Petstore Pet API
 
   @regression @positive @critical
   Scenario: A pet can be created, read, updated and deleted (request chaining)
-    When I create a pet named "OmniQA Rex"
+    When I create a pet named "OminQA Rex"
     Then the response status should be 200
-    And the pet should be named "OmniQA Rex"
+    And the pet should be named "OminQA Rex"
     When I request that pet
     Then the response status should be 200
     And the response body should match the "pet" schema

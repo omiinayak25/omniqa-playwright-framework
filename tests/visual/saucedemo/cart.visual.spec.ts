@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: cart.visual.spec.ts
  * Module: Visual Regression Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo cart & checkout screens — visual stability.
  * Business Scenario: Layout regressions on the purchase path must be caught.

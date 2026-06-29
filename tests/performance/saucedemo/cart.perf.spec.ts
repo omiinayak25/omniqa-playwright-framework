@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: cart.perf.spec.ts
  * Module: Performance Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo cart screen — load-performance smoke.
  * Business Scenario: The cart must render within an agreed budget.

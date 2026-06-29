@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: utils.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Shared utility layer (crypto, random, async, file I/O).
  * Business Scenario: Helper utilities must behave correctly across the framework.

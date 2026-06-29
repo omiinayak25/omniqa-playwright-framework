@@ -1,4 +1,4 @@
-# Middlewares — OMNIQA Playwright Framework
+# Middlewares — OMINQA Playwright Framework
 
 - **Purpose** — A composable, chainable **middleware pipeline** (the "onion" model) for the API transport layer. Each middleware wraps the next, so cross-cutting concerns compose around a single HTTP dispatch — **without duplicating** what `ApiClient` already owns (retry, masked logging, `responseTimeMs`).
 
@@ -13,13 +13,13 @@ Cross-cutting API concerns (trace propagation, SLA timing, call capture) shouldn
 
 ## Files
 
-| File                              | Responsibility                                                              |
-| --------------------------------- | -------------------------------------------------------------------------- |
-| `middleware.ts`                   | Pipeline core: `ApiMiddleware`, contexts, `MiddlewarePipeline` (onion).      |
-| `correlation-id.middleware.ts`    | `CorrelationIdMiddleware` — emit `x-correlation-id` (reuses log context).    |
-| `timing.middleware.ts`            | `TimingMiddleware` — warn when a call exceeds an SLA threshold.              |
-| `network-capture.middleware.ts`   | `NetworkCaptureMiddleware` — record an inspectable list of exchanges.        |
-| `index.ts`                        | Barrel export (`@middlewares`).                                             |
+| File                            | Responsibility                                                            |
+| ------------------------------- | ------------------------------------------------------------------------- |
+| `middleware.ts`                 | Pipeline core: `ApiMiddleware`, contexts, `MiddlewarePipeline` (onion).   |
+| `correlation-id.middleware.ts`  | `CorrelationIdMiddleware` — emit `x-correlation-id` (reuses log context). |
+| `timing.middleware.ts`          | `TimingMiddleware` — warn when a call exceeds an SLA threshold.           |
+| `network-capture.middleware.ts` | `NetworkCaptureMiddleware` — record an inspectable list of exchanges.     |
+| `index.ts`                      | Barrel export (`@middlewares`).                                           |
 
 ## How it integrates
 

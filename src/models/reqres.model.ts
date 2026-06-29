@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: reqres.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * ReqRes domain models (user, paginated user list, create-user request/response).

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: test-data.factory.ts
  * Module: Factories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Facade over every domain factory — one entry point (`TestDataFactory`) for all

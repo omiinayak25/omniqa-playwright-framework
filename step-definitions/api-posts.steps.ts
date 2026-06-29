@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api-posts.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: JSONPlaceholder Posts API BDD steps.
  * Business Scenario: Gherkin post scenarios drive the PostAPI service.
@@ -41,7 +41,7 @@ When('I request post {int}', async function (this: CustomWorld, id: number) {
 When('I create a post titled {string}', async function (this: CustomWorld, title: string) {
   this.set(
     'response',
-    await postApi(this).createPost({ title, body: 'Created by OmniQA BDD', userId: 1 }),
+    await postApi(this).createPost({ title, body: 'Created by OminQA BDD', userId: 1 }),
   );
 });
 
@@ -50,7 +50,7 @@ When(
   async function (this: CustomWorld, id: number, title: string) {
     this.set(
       'response',
-      await postApi(this).updatePost(id, { title, body: 'Updated by OmniQA BDD', userId: 1 }),
+      await postApi(this).updatePost(id, { title, body: 'Updated by OminQA BDD', userId: 1 }),
     );
   },
 );

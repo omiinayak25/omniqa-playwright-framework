@@ -1,4 +1,4 @@
-# Domain Models — OMNIQA Playwright Framework
+# Domain Models — OMINQA Playwright Framework
 
 - **Purpose** — TypeScript interfaces/types describing the shape of API payloads, DB records, config, and shared domain entities used across UI, API, and DB layers.
 

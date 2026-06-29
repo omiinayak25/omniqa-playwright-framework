@@ -1,6 +1,6 @@
-# Contributing to OmniQA
+# Contributing to OminQA
 
-> **OmniQA · Enterprise Playwright Automation Framework**
+> **OminQA · Enterprise Playwright Automation Framework**
 > Thank you for contributing. This guide keeps the codebase consistent, typed, and reviewable.
 
 ---

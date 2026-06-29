@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: employee.builder.ts
  * Module: Builders
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Fluent builder for {@link NewEmployee} rows — valid randomized defaults plus

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: database.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Employee database BDD steps (CRUD, tx, view, index, fn).
  * Business Scenario: Gherkin DB scenarios drive the Repository + QueryRunner.
@@ -59,9 +59,12 @@ When(
   },
 );
 
-When("I change that employee's salary to {int}", async function (this: CustomWorld, salary: number) {
-  await new EmployeeRepository().updateSalary(this.get<number>('empId'), salary);
-});
+When(
+  "I change that employee's salary to {int}",
+  async function (this: CustomWorld, salary: number) {
+    await new EmployeeRepository().updateSalary(this.get<number>('empId'), salary);
+  },
+);
 
 When('I terminate that employee', async function (this: CustomWorld) {
   await new EmployeeRepository().deleteByEmail(this.get<string>('empEmail'));
@@ -94,7 +97,10 @@ When('I insert an employee in a transaction that fails', async function (this: C
 When('I insert two employees in a successful transaction', async function (this: CustomWorld) {
   // Data sourced from the Factory layer (composes EmployeeBuilder).
   const employees = EmployeeFactory.many(2);
-  this.set('empEmails', employees.map((e) => e.email));
+  this.set(
+    'empEmails',
+    employees.map((e) => e.email),
+  );
   await new QueryRunner().transaction(async (client) => {
     for (const e of employees) {
       await client.query(INSERT_SQL, [e.firstName, e.lastName, e.email, e.departmentId, e.salary]);
@@ -103,13 +109,19 @@ When('I insert two employees in a successful transaction', async function (this:
 });
 
 // ------------------------------------------------------------------- constraints
-When('I try to insert an employee with salary {int}', async function (this: CustomWorld, salary: number) {
-  this.set('insertRejected', await attemptInsert(['Bad', 'Salary', uniqueEmail(), 1, salary]));
-});
+When(
+  'I try to insert an employee with salary {int}',
+  async function (this: CustomWorld, salary: number) {
+    this.set('insertRejected', await attemptInsert(['Bad', 'Salary', uniqueEmail(), 1, salary]));
+  },
+);
 
-When('I try to insert an employee in department {int}', async function (this: CustomWorld, dept: number) {
-  this.set('insertRejected', await attemptInsert(['No', 'Dept', uniqueEmail(), dept, 50_000]));
-});
+When(
+  'I try to insert an employee in department {int}',
+  async function (this: CustomWorld, dept: number) {
+    this.set('insertRejected', await attemptInsert(['No', 'Dept', uniqueEmail(), dept, 50_000]));
+  },
+);
 
 async function attemptInsert(params: ReadonlyArray<unknown>): Promise<boolean> {
   try {
@@ -130,7 +142,9 @@ Then('an employee with that email should exist', async function (this: CustomWor
 });
 
 Then('no employee with that email should exist', async function (this: CustomWorld) {
-  await new DbAssertions().assertNotExists('employees', 'email = $1', [this.get<string>('empEmail')]);
+  await new DbAssertions().assertNotExists('employees', 'email = $1', [
+    this.get<string>('empEmail'),
+  ]);
 });
 
 Then('both employees should exist', async function (this: CustomWorld) {

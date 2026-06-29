@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: schema-validator.ts
  * Module: API Validation
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * JSON Schema validation utility (contract testing) backed by AJV. Compiles

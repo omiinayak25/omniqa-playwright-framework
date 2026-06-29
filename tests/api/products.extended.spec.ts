@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: products.extended.spec.ts
  * Module: API Tests · Inventory (catalog data integrity)
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: DummyJSON Product API — schema & catalog-data integrity.
  * Business Scenario: The catalog API must return well-typed products with sane

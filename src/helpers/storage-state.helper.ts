@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: storage-state.helper.ts
  * Module: Helpers
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Orchestrates reuse of saved authentication sessions (Playwright storageState).

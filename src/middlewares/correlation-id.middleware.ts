@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: correlation-id.middleware.ts
  * Module: Middlewares
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Propagate a correlation id onto every outgoing request as an
@@ -20,7 +20,12 @@
 import { randomUUID } from 'node:crypto';
 import { HEADERS } from '@constants/http.constants';
 import { currentCorrelationId } from '@utils/log-context';
-import type { ApiMiddleware, DispatchFn, HttpRequestContext, HttpResponseContext } from '@middlewares/middleware';
+import type {
+  ApiMiddleware,
+  DispatchFn,
+  HttpRequestContext,
+  HttpResponseContext,
+} from '@middlewares/middleware';
 
 /** Adds an `x-correlation-id` header (active log context id, or a fresh UUID). */
 export class CorrelationIdMiddleware implements ApiMiddleware {

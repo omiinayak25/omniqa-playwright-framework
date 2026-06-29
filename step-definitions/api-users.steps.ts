@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api-users.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: ReqRes Users API BDD steps.
  * Business Scenario: Gherkin user scenarios drive the UserAPI service.
@@ -51,9 +51,12 @@ When(
   },
 );
 
-When('I update user {int} to job {string}', async function (this: CustomWorld, id: number, job: string) {
-  this.set('response', await userApi(this).update(id, { name: 'OmniQA', job }));
-});
+When(
+  'I update user {int} to job {string}',
+  async function (this: CustomWorld, id: number, job: string) {
+    this.set('response', await userApi(this).update(id, { name: 'OminQA', job }));
+  },
+);
 
 When('I delete user {int}', async function (this: CustomWorld, id: number) {
   this.set('response', await userApi(this).remove(id));

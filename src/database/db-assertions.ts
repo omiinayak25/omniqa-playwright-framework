@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: db-assertions.ts
  * Module: Database Access
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Reusable, intention-revealing database assertions that throw descriptive

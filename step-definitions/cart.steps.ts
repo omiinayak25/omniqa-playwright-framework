@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: cart.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo cart BDD steps (add, remove, badge, persistence).
  * Business Scenario: Gherkin cart scenarios drive the inventory/cart Page Objects.

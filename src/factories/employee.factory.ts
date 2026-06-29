@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: employee.factory.ts
  * Module: Factories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Produces {@link NewEmployee} datasets — valid, inactive, bulk, per-department,
@@ -54,7 +54,10 @@ export class EmployeeFactory {
   /** Labelled invalid cases for negative/constraint testing. */
   public static invalidCases(): readonly InvalidEmployee[] {
     return [
-      { label: 'non-positive salary', employee: EmployeeBuilder.invalidNonPositiveSalary().build() },
+      {
+        label: 'non-positive salary',
+        employee: EmployeeBuilder.invalidNonPositiveSalary().build(),
+      },
       { label: 'unknown department', employee: EmployeeBuilder.invalidUnknownDepartment().build() },
     ];
   }

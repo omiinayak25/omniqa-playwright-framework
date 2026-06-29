@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: performance.types.ts
  * Module: Performance
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Type contracts for the performance smoke layer — the metric shapes captured

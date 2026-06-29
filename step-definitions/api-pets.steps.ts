@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api-pets.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Swagger Petstore Pet API BDD steps (request chaining).
  * Business Scenario: Gherkin pet scenarios drive the PetAPI service; the pet id
@@ -26,8 +26,7 @@ interface PetBody {
   readonly status: string;
 }
 
-const petBody = (world: CustomWorld): PetBody =>
-  (world.get('response') as { body: PetBody }).body;
+const petBody = (world: CustomWorld): PetBody => (world.get('response') as { body: PetBody }).body;
 
 /** Map a Gherkin status string onto the PetStatus enum (fail-fast if unknown). */
 function toPetStatus(value: string): PetStatus {
@@ -81,8 +80,11 @@ Then('the pet status should be {string}', function (this: CustomWorld, status: s
   expect(petBody(this).status).toBe(status);
 });
 
-Then('every returned pet should have status {string}', function (this: CustomWorld, status: string) {
-  const pets = (this.get('response') as { body: ReadonlyArray<{ status: string }> }).body;
-  expect(Array.isArray(pets)).toBe(true);
-  expect(pets.every((p) => p.status === status)).toBe(true);
-});
+Then(
+  'every returned pet should have status {string}',
+  function (this: CustomWorld, status: string) {
+    const pets = (this.get('response') as { body: ReadonlyArray<{ status: string }> }).body;
+    expect(Array.isArray(pets)).toBe(true);
+    expect(pets.every((p) => p.status === status)).toBe(true);
+  },
+);

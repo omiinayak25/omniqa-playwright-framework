@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: login.data-driven.spec.ts
  * Module: UI Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo login across multiple user types (data-driven).
  * Business Scenario: Different user accounts must produce the expected login outcome.

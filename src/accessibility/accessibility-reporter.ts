@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: accessibility-reporter.ts
  * Module: Accessibility
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Persistence + presentation for accessibility scans. Turns a normalised

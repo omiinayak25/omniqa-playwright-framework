@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product.model.ts
  * Module: Domain Models
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Generic product domain model used by SauceDemo UI tests and product APIs.

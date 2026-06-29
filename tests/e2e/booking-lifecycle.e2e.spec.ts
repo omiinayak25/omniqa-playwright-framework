@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: booking-lifecycle.e2e.spec.ts
  * Module: E2E Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Booking API full lifecycle (auth → create → read → update → patch → delete).
  * Business Scenario: A booking flows through its complete lifecycle, validated each step.

@@ -1,4 +1,4 @@
-# JSON Schemas — OMNIQA Playwright Framework
+# JSON Schemas — OMINQA Playwright Framework
 
 - **Purpose** — JSON Schema definitions for API contract testing, validated via AJV. One source of truth shared by the contract suite and individual specs.
 

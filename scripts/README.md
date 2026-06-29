@@ -1,4 +1,4 @@
-# Scripts — OMNIQA Playwright Framework
+# Scripts — OMINQA Playwright Framework
 
 - **Purpose** — Operational scripts for provisioning the dedicated PostgreSQL test database used by the DB and E2E suites.
 

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: edge-input.factory.ts
  * Module: Factories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Centralized, reusable adversarial/edge-case input datasets — XSS, SQL

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: pim.page.ts
  * Module: Page Objects
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Page object for the OrangeHRM PIM (Employee List) screen. Composes the

@@ -1,5 +1,5 @@
 # =====================================================================
-#  OMNIQA Playwright Framework — Azure DevOps Pipeline (Phase 22)
+#  OMINQA Playwright Framework — Azure DevOps Pipeline (Phase 22)
 #  Stages: Quality → Test (templated, per-project, Postgres service) →
 #          Report (Allure) → DockerBuild. Every task is commented.
 # =====================================================================
@@ -37,7 +37,7 @@ parameters:
 # Public demo targets are plain vars; secrets should come from a linked
 # variable group (see the commented `group` line).
 variables:
-  # - group: omniqa-secrets        # provides a secret ENCRYPTION_SECRET
+  # - group: ominqa-secrets        # provides a secret ENCRYPTION_SECRET
   - name: npm_config_cache
     value: $(Pipeline.Workspace)/.npm
   - name: PLAYWRIGHT_BROWSERS_PATH
@@ -202,7 +202,7 @@ stages:
             inputs:
               command: build
               Dockerfile: '**/Dockerfile'
-              repository: 'omniqa-playwright'
+              repository: 'ominqa-playwright'
               tags: |
                 $(Build.BuildId)
                 latest
@@ -211,7 +211,7 @@ stages:
           #   inputs:
           #     command: push
           #     containerRegistry: 'my-registry-connection'
-          #     repository: 'omniqa-playwright'
+          #     repository: 'ominqa-playwright'
           #     tags: |
           #       $(Build.BuildId)
           #       latest

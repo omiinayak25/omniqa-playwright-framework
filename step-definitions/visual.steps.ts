@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: visual.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo visual BDD steps (baseline + stability + masks).
  * Business Scenario: Gherkin visual scenarios capture stabilised screenshots and
@@ -36,9 +36,11 @@ async function capture(
 ): Promise<Buffer> {
   const { page } = world;
   // Wait for fonts so glyphs render identically run-to-run.
-  await page.evaluate(async () => {
-    if (document.fonts !== undefined) await document.fonts.ready;
-  }).catch(() => undefined);
+  await page
+    .evaluate(async () => {
+      if (document.fonts !== undefined) await document.fonts.ready;
+    })
+    .catch(() => undefined);
   return page.screenshot({
     fullPage: options.fullPage ?? true,
     animations: 'disabled',
@@ -49,14 +51,17 @@ async function capture(
 }
 
 // ------------------------------------------------------------------- actions
-When('I capture the login page as the {string} baseline', async function (this: CustomWorld, name: string) {
-  const shot = await capture(this);
-  fs.mkdirSync(BASELINE_DIR, { recursive: true });
-  const file = path.join(BASELINE_DIR, `${name}.png`);
-  // First run establishes the baseline; later runs keep the committed one.
-  if (!fs.existsSync(file)) fs.writeFileSync(file, shot);
-  this.attach(shot, 'image/png');
-});
+When(
+  'I capture the login page as the {string} baseline',
+  async function (this: CustomWorld, name: string) {
+    const shot = await capture(this);
+    fs.mkdirSync(BASELINE_DIR, { recursive: true });
+    const file = path.join(BASELINE_DIR, `${name}.png`);
+    // First run establishes the baseline; later runs keep the committed one.
+    if (!fs.existsSync(file)) fs.writeFileSync(file, shot);
+    this.attach(shot, 'image/png');
+  },
+);
 
 When('I capture the login page twice', async function (this: CustomWorld) {
   this.set('shotA', await capture(this));

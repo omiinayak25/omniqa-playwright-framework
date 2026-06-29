@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: posts.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: JSONPlaceholder Post + User API (keyless CRUD).
  * Business Scenario: Consumers can list, fetch, create, update, and delete posts.

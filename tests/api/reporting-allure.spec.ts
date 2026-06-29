@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: reporting-allure.spec.ts
  * Module: API Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Allure reporting integration (labels, steps, attachments).
  * Business Scenario: Test runs must produce rich, BDD-labelled Allure reports.

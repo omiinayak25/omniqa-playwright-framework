@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: hooks.ts
  * Module: BDD Runtime
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Cucumber-JS lifecycle hooks that set up and tear down the browser and the

@@ -1,4 +1,4 @@
-# Tests — OMNIQA Playwright Framework
+# Tests — OMINQA Playwright Framework
 
 - **Purpose** — All Playwright Test specs, organized by layer (API, DB, E2E, UI) plus auth setup projects. Specs import the custom `test`/`expect` from `@fixtures/index`.
 

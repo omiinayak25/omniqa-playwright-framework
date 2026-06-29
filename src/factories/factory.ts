@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: factory.ts
  * Module: Factories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Shared bulk-generation primitive for the Factory layer. Factories own

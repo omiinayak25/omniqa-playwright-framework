@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: DummyJSON Products API
 #  Module: API
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the Products API for retrieval, pagination,
 #                       search/filter, sorting, contract (schema) and speed (SLA).

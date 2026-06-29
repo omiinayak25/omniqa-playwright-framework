@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: browser.helper.ts
  * Module: Helpers
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Centralises Chromium launch configuration for the BDD (Cucumber) runner so a

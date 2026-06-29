@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: network-manager.ts
  * Module: Network
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Reusable wrapper over Playwright's request routing — route mocking, request

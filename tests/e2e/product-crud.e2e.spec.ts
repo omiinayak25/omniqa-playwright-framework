@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: product-crud.e2e.spec.ts
  * Module: E2E Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Full cross-layer product lifecycle (API → DB → update → delete).
  * Business Scenario: A product flows from the catalog API into the DB, is updated,

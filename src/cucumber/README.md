@@ -1,4 +1,4 @@
-# BDD Runtime (Cucumber) — OMNIQA Playwright Framework
+# BDD Runtime (Cucumber) — OMINQA Playwright Framework
 
 - **Purpose** — Cucumber-JS runtime support: the per-scenario World and lifecycle hooks that drive Playwright for BDD scenarios. Aliased as `@bdd`.
 

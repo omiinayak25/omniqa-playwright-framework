@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: authentication.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo authentication BDD steps (login, logout, session).
  * Business Scenario: Gherkin authentication scenarios drive the SauceDemo POM.

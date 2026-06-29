@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: base.repository.ts
  * Module: Repositories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Abstract base for the Repository pattern — holds the shared QueryRunner and

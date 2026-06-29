@@ -1,4 +1,4 @@
-# Page Objects — OMNIQA Playwright Framework
+# Page Objects — OMINQA Playwright Framework
 
 - **Purpose** — Page Object Model (POM) layer: each class models a single application screen, exposing locators and intention-revealing actions. Pages hold actions only; business assertions live in tests.
 

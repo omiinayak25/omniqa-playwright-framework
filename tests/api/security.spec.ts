@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: security.spec.ts
  * Module: API Tests · Security
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: API security properties — headers, injection inertness,
  *                     and sanitised error bodies.

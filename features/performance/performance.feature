@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Login Performance
 #  Module: Performance
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify the login screen loads within budget and capture
 #                       page-load, response-time and resource-timing metrics.

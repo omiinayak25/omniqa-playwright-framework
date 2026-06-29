@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: builder.ts
  * Module: Builders
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Generic, fluent base for the Builder pattern. Concrete builders seed a valid

@@ -1,4 +1,4 @@
-# API Core (Client & Validation) — OMNIQA Playwright Framework
+# API Core (Client & Validation) — OMINQA Playwright Framework
 
 - **Purpose** — Transport and validation primitives for API testing: a reusable HTTP client over Playwright's `APIRequestContext`, plus response and JSON-schema validators. Service classes (`@services`) build on these.
 

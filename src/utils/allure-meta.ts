@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: allure-meta.ts
  * Module: Utilities
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Generate Allure report metadata files so every report is self-describing.

@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: catalog.data.cjs
  * Module: Test Catalog — Single Source of Truth
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Every test case (implemented + planned) is one record. Rendered into
  * TEST_CATALOG.md / TEST_TRACEABILITY_MATRIX.md by generate-catalog.cjs.

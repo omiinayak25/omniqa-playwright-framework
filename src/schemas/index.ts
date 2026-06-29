@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: index.ts
  * Module: JSON Schemas
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Central barrel of JSON Schemas for contract testing (AJV). Re-exports the

@@ -1,6 +1,6 @@
-# Security Policy — OmniQA
+# Security Policy — OminQA
 
-> **OmniQA · Enterprise Playwright Automation Framework**
+> **OminQA · Enterprise Playwright Automation Framework**
 > How secrets, dependencies, and data are handled, and how to report a vulnerability.
 
 ---

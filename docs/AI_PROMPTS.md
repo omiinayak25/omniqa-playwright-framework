@@ -1,6 +1,6 @@
-# OmniQA — AI Prompts (Ready-to-Use)
+# OminQA — AI Prompts (Ready-to-Use)
 
-> **OmniQA · Enterprise Playwright Automation Framework**
+> **OminQA · Enterprise Playwright Automation Framework**
 > Copy/paste prompts for continuing development. All 24 build phases are complete, so these target
 > **maintenance, enhancement, and the documented roadmap** rather than initial construction.
 > Last synchronized: 2026-06-28.

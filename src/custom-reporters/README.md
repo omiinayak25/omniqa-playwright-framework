@@ -1,4 +1,4 @@
-# Custom Reporters — OMNIQA Playwright Framework
+# Custom Reporters — OMINQA Playwright Framework
 
 - **Purpose** — Custom Playwright reporters that produce additional run output beyond the built-in reporters.
 

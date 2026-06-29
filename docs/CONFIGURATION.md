@@ -1,4 +1,4 @@
-# Configuration Reference — OmniQA (Enterprise Playwright Automation Framework)
+# Configuration Reference — OminQA (Enterprise Playwright Automation Framework)
 
 > Every configuration option explained: purpose, possible values, recommended value, when to modify,
 > and impact. Grounded in the actual config files.
@@ -67,7 +67,7 @@ for Cucumber via the already-wired `ts-node.require`).
 
 | Field             | Purpose                 | Notes                                                                                                                           |
 | ----------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `name`            | Package id              | `omniqa-playwright-framework`                                                                                                   |
+| `name`            | Package id              | `ominqa-playwright-framework`                                                                                                   |
 | `description`     | One-line description    | "Enterprise Test Automation Framework built with Playwright and TypeScript."                                                    |
 | `engines`         | Node/npm floors         | Node ≥20, npm ≥10                                                                                                               |
 | `scripts`         | 30+ grouped scripts     | test execution, env-targeted, BDD, reporting, quality, housekeeping                                                             |

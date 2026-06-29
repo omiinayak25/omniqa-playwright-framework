@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: booking.endpoints.ts
  * Module: API Endpoints
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Restful-Booker endpoint paths (auth token, health ping, booking CRUD),

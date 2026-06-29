@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: performance-assertions.ts
  * Module: Performance
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Intention-revealing performance-budget assertions. Composes the collector

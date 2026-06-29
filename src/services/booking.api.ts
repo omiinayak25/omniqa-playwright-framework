@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: booking.api.ts
  * Module: API Services
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Business service exposing full CRUD over the Restful-Booker /booking

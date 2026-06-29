@@ -1,13 +1,13 @@
 <!-- ====================================================================== -->
-<!--  OmniQA — Enterprise Playwright Automation Framework                    -->
+<!--  OminQA — Enterprise Playwright Automation Framework                    -->
 <!-- ====================================================================== -->
 
 <div align="center">
 
-<!-- LOGO PLACEHOLDER — drop assets/omniqa-logo.png here -->
-<img src="https://img.shields.io/badge/-OmniQA-6E40C9?style=for-the-badge&logo=playwright&logoColor=white" alt="OmniQA" height="60" />
+<!-- LOGO PLACEHOLDER — drop assets/ominqa-logo.png here -->
+<img src="https://img.shields.io/badge/-OminQA-6E40C9?style=for-the-badge&logo=playwright&logoColor=white" alt="OminQA" height="60" />
 
-# OmniQA
+# OminQA
 
 ### Enterprise Playwright Automation Framework
 
@@ -28,7 +28,7 @@ _UI · API · Database · End-to-End · BDD · Accessibility · Visual · Perfor
 
 ## Table of Contents
 
-- [Overview](#overview) · [Why OmniQA](#why-omniqa) · [Key Features](#key-features) · [Architecture Overview](#architecture-overview)
+- [Overview](#overview) · [Why OminQA](#why-ominqa) · [Key Features](#key-features) · [Architecture Overview](#architecture-overview)
 - [Folder Structure](#folder-structure) · [Technology Stack](#technology-stack) · [Installation](#installation) · [Configuration](#configuration) · [Environment Variables](#environment-variables)
 - [Execution Commands](#execution-commands) · [Playwright Projects](#playwright-projects) · [Framework Layers](#framework-layers) · [Data Management](#data-management)
 - [Supported Browsers](#supported-browsers) · [Supported Applications](#supported-applications) · [Reports & Screenshots](#reports--screenshots) · [CI/CD](#cicd)
@@ -39,7 +39,7 @@ _UI · API · Database · End-to-End · BDD · Accessibility · Visual · Perfor
 
 ## Overview
 
-**OmniQA** is a production-grade test-automation framework built on **Playwright + strict TypeScript**.
+**OminQA** is a production-grade test-automation framework built on **Playwright + strict TypeScript**.
 It exercises real public demo applications across **UI, API, Database, End-to-End, BDD, Accessibility,
 Visual-regression, Performance, and Network** layers — all wired together through a **dependency-injection
 fixture chain** so specs never touch Playwright primitives or raw SQL directly.
@@ -54,9 +54,9 @@ from `.env`** — there are no hardcoded environment values anywhere.
 
 ---
 
-## Why OmniQA
+## Why OminQA
 
-| Problem in typical frameworks                 | How OmniQA solves it                                                        |
+| Problem in typical frameworks                 | How OminQA solves it                                                        |
 | --------------------------------------------- | --------------------------------------------------------------------------- |
 | Tests call Playwright/SQL directly → brittle  | Page Objects, API services, repositories injected via **fixtures (DI)**     |
 | Hardcoded URLs/creds/timeouts                 | **Typed, validated, fail-fast config** from `.env` (Singleton + Facade)     |
@@ -110,7 +110,7 @@ and never change that line as the chain grows. See [docs/PROJECT_ANALYSIS.md](do
 ## Folder Structure
 
 ```text
-omniqa-playwright-framework/
+ominqa-playwright-framework/
 ├── src/                         # Framework engine (no assertions)
 │   ├── accessibility/           # axe scanner, keyboard navigator, a11y assertions + reporter
 │   ├── api/                     # ApiClient (opt-in middleware pipeline), response & schema validators

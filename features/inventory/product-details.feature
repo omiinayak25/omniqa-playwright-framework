@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Product Detail Page
 #  Module: Inventory
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify a shopper can open a product's detail page and
 #                       add it to the cart from there.

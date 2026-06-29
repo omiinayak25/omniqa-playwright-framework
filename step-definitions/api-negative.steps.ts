@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: api-negative.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Negative/boundary API BDD steps not covered by a domain.
  * Business Scenario: Drives a deliberately missing resource to assert 404 etc.

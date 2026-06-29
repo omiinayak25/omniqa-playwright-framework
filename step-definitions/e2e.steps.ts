@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: e2e.steps.ts
  * Module: Step Definitions
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: Cross-layer E2E BDD steps (API→DB sync; booking lifecycle).
  * Business Scenario: Scenarios span multiple layers in one flow, carrying state
@@ -125,7 +125,10 @@ When(
 );
 
 When('I delete the booking', async function (this: CustomWorld) {
-  const res = await bookingApi(this).remove(this.get<number>('bookingId'), this.get<string>('token'));
+  const res = await bookingApi(this).remove(
+    this.get<number>('bookingId'),
+    this.get<string>('token'),
+  );
   expect([200, 201]).toContain(res.status);
 });
 

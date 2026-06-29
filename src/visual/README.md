@@ -1,4 +1,4 @@
-# Visual Regression — OMNIQA Playwright Framework
+# Visual Regression — OMINQA Playwright Framework
 
 - **Purpose** — Reusable, DI-friendly visual-regression layer over Playwright's `toHaveScreenshot`. Provides one-line, deterministic full-page and per-element snapshot assertions with shared stabilisation, env-driven tolerance, and central dynamic-element masking.
 

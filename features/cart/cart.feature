@@ -1,7 +1,7 @@
 # =====================================================================
 #  Feature: SauceDemo Shopping Cart
 #  Module: Cart
-#  Project: OMNIQA Playwright Framework
+#  Project: OMINQA Playwright Framework
 #
 #  Purpose ............ Verify shoppers can add, review, remove and retain
 #                       products in the cart, with an accurate cart badge.

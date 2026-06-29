@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: inventory.perf.spec.ts
  * Module: Performance Tests
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo inventory screen — load-performance smoke.
  * Business Scenario: The authenticated product catalogue (image-heavy) must

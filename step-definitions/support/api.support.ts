@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: support/api.support.ts
  * Module: Step Definitions / Support
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Shared helpers for the API step definitions — one place that builds each
@@ -43,7 +43,11 @@ import type { CustomWorld } from '@bdd/world';
 
 // Every BDD API client runs the cross-cutting middleware chain: a propagated
 // correlation-id header + an SLA timing warning.
-const client = (world: CustomWorld, baseUrl: string, headers: Record<string, string> = {}): ApiClient =>
+const client = (
+  world: CustomWorld,
+  baseUrl: string,
+  headers: Record<string, string> = {},
+): ApiClient =>
   new ApiClient(world.apiContext, baseUrl, headers, [
     new CorrelationIdMiddleware(),
     new TimingMiddleware(),

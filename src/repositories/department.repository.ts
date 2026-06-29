@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: department.repository.ts
  * Module: Repositories
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Purpose:
  * Data-access layer for the `departments` table — the parent side of the

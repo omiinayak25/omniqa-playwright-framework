@@ -1,6 +1,6 @@
-# Roadmap — OmniQA
+# Roadmap — OminQA
 
-> **OmniQA · Enterprise Playwright Automation Framework**
+> **OminQA · Enterprise Playwright Automation Framework**
 > Last synchronized: 2026-06-28. Mirrors the actual repository state.
 
 ---

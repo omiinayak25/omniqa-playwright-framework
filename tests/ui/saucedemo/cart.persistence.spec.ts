@@ -2,7 +2,7 @@
  * --------------------------------------------------------
  * File: cart.persistence.spec.ts
  * Module: UI Tests · Shopping Cart
- * Project: OMNIQA Playwright Framework
+ * Project: OMINQA Playwright Framework
  *
  * Feature Under Test: SauceDemo cart persistence & navigation.
  * Business Scenario: The cart must survive a refresh and continued browsing, and
