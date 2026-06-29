@@ -1,0 +1,2 @@
+2026-06-29 04:32:09.509 [info] ▶ START: api/fixtures.spec.ts › Custom fixtures (DI) @smoke › workerLogger fixture is injected {"scope":"workerLogger fixture is injected","correlationId":"143cb73e","testName":"workerLogger fixture is injected"}
+2026-06-29 04:32:09.512 [info] ✔ PASS (3ms) [143cb73e]: workerLogger fixture is injected {"scope":"workerLogger fixture is injected"}

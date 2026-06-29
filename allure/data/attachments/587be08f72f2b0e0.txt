@@ -1,6 +1,0 @@
-2026-06-29 04:29:03.388 [info] PGlite pool created (embedded PostgreSQL — no server required) {"scope":"DbPool"}
-2026-06-29 04:29:07.963 [info] PGlite embedded database ready (schema + seed applied) {"scope":"DbPool"}
-2026-06-29 04:29:07.987 [info] ▶ START: e2e/product-crud.e2e.spec.ts › E2E · Product full CRUD across API and DB @e2e › @smoke API → DB → update → delete → verify gone {"scope":"@smoke API → DB → update → delete → verify gone","correlationId":"54c19a46","testName":"@smoke API → DB → update → delete → verify gone"}
-2026-06-29 04:29:07.989 [info] → GET https://dummyjson.com/products/7 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"54c19a46","testName":"@smoke API → DB → update → delete → verify gone"}
-2026-06-29 04:29:08.406 [info] ← 200 GET https://dummyjson.com/products/7 (415ms) {"scope":"ApiClient","correlationId":"54c19a46","testName":"@smoke API → DB → update → delete → verify gone"}
-2026-06-29 04:29:08.418 [info] ✔ PASS (431ms) [54c19a46]: @smoke API → DB → update → delete → verify gone {"scope":"@smoke API → DB → update → delete → verify gone"}

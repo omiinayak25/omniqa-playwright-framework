@@ -1,0 +1,4 @@
+2026-06-29 04:33:35.074 [info] ▶ START: ui/saucedemo/login.negative.spec.ts › SauceDemo · Login negative & boundary inputs @ui @regression @negative › unicode username (rtl arabic) is rejected gracefully {"scope":"unicode username (rtl arabic) is rejected gracefully","correlationId":"e9bdc749","testName":"unicode username (rtl arabic) is rejected gracefully"}
+2026-06-29 04:33:35.691 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"e9bdc749","testName":"unicode username (rtl arabic) is rejected gracefully"}
+2026-06-29 04:33:36.412 [info] Logging in as "مستخدم" {"scope":"SauceLoginPage","correlationId":"e9bdc749","testName":"unicode username (rtl arabic) is rejected gracefully"}
+2026-06-29 04:33:37.342 [info] ✔ PASS (2.27s) [e9bdc749]: unicode username (rtl arabic) is rejected gracefully {"scope":"unicode username (rtl arabic) is rejected gracefully"}

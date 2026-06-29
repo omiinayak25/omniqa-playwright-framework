@@ -1,0 +1,4 @@
+2026-06-29 04:32:29.854 [info] ▶ START: ui/saucedemo/cart.persistence.spec.ts › SauceDemo · Cart persistence & navigation @ui @regression @cart › checkout from the cart opens checkout step one {"scope":"checkout from the cart opens checkout step one","correlationId":"d2a50063","testName":"checkout from the cart opens checkout step one"}
+2026-06-29 04:32:30.949 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"d2a50063","testName":"checkout from the cart opens checkout step one"}
+2026-06-29 04:32:31.957 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"d2a50063","testName":"checkout from the cart opens checkout step one"}
+2026-06-29 04:32:32.999 [info] ✔ PASS (3.15s) [d2a50063]: checkout from the cart opens checkout step one {"scope":"checkout from the cart opens checkout step one"}

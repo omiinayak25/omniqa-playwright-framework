@@ -1,2 +1,0 @@
-2026-06-29 04:28:44.890 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › CHECK constraint rejects non-positive salary {"scope":"CHECK constraint rejects non-positive salary","correlationId":"f7266223","testName":"CHECK constraint rejects non-positive salary"}
-2026-06-29 04:28:45.154 [info] ✔ PASS (264ms) [f7266223]: CHECK constraint rejects non-positive salary {"scope":"CHECK constraint rejects non-positive salary"}

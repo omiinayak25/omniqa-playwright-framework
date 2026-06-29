@@ -1,4 +1,0 @@
-2026-06-29 04:29:02.705 [info] ▶ START: e2e/booking-lifecycle.e2e.spec.ts › E2E · Booking lifecycle @e2e @api › 3 · read back & verify {"scope":"3 · read back & verify","correlationId":"d72d9586","testName":"3 · read back & verify"}
-2026-06-29 04:29:02.706 [info] → GET https://restful-booker.herokuapp.com/booking/4407 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"d72d9586","testName":"3 · read back & verify"}
-2026-06-29 04:29:02.793 [info] ← 200 GET https://restful-booker.herokuapp.com/booking/4407 (82ms) {"scope":"ApiClient","correlationId":"d72d9586","testName":"3 · read back & verify"}
-2026-06-29 04:29:02.801 [info] ✔ PASS (96ms) [d72d9586]: 3 · read back & verify {"scope":"3 · read back & verify"}

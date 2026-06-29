@@ -1,0 +1,4 @@
+2026-06-29 04:32:08.245 [info] ▶ START: api/contract.spec.ts › Contract / schema validation @api @contract › Petstore pet conforms to schema {"scope":"Petstore pet conforms to schema","correlationId":"ec221ed5","testName":"Petstore pet conforms to schema"}
+2026-06-29 04:32:08.246 [info] → GET https://petstore.swagger.io/v2/pet/findByStatus?status=available {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"ec221ed5","testName":"Petstore pet conforms to schema"}
+2026-06-29 04:32:08.523 [info] ← 200 GET https://petstore.swagger.io/v2/pet/findByStatus?status=available (274ms) {"scope":"ApiClient","correlationId":"ec221ed5","testName":"Petstore pet conforms to schema"}
+2026-06-29 04:32:08.527 [info] ✔ PASS (282ms) [ec221ed5]: Petstore pet conforms to schema {"scope":"Petstore pet conforms to schema"}

@@ -1,4 +1,0 @@
-2026-06-29 04:28:25.055 [info] ▶ START: api/products.search.spec.ts › DummyJSON · Product search @api @regression @search › an empty query returns a valid product list {"scope":"an empty query returns a valid product list","correlationId":"47222732","testName":"an empty query returns a valid product list"}
-2026-06-29 04:28:25.056 [info] → GET https://dummyjson.com/products/search?q= {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"47222732","testName":"an empty query returns a valid product list"}
-2026-06-29 04:28:25.076 [info] ← 200 GET https://dummyjson.com/products/search?q= (19ms) {"scope":"ApiClient","correlationId":"47222732","testName":"an empty query returns a valid product list"}
-2026-06-29 04:28:25.081 [info] ✔ PASS (26ms) [47222732]: an empty query returns a valid product list {"scope":"an empty query returns a valid product list"}

@@ -1,0 +1,4 @@
+2026-06-29 04:32:11.455 [info] ▶ START: api/security.spec.ts › DummyJSON · API security @api @regression @security › an unknown-resource 404 body contains no stack trace {"scope":"an unknown-resource 404 body contains no stack trace","correlationId":"1b580a9e","testName":"an unknown-resource 404 body contains no stack trace"}
+2026-06-29 04:32:11.456 [info] → GET https://dummyjson.com/products/999999 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"1b580a9e","testName":"an unknown-resource 404 body contains no stack trace"}
+2026-06-29 04:32:11.597 [info] ← 404 GET https://dummyjson.com/products/999999 (140ms) {"scope":"ApiClient","correlationId":"1b580a9e","testName":"an unknown-resource 404 body contains no stack trace"}
+2026-06-29 04:32:11.599 [info] ✔ PASS (144ms) [1b580a9e]: an unknown-resource 404 body contains no stack trace {"scope":"an unknown-resource 404 body contains no stack trace"}

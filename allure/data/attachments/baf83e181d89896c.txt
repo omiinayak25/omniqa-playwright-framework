@@ -1,0 +1,4 @@
+2026-06-29 04:32:09.931 [info] ▶ START: api/jsonplaceholder-posts.spec.ts › JSONPlaceholder · Posts extended @api @regression › creating a post returns 201 with an id {"scope":"creating a post returns 201 with an id","correlationId":"49aaa959","testName":"creating a post returns 201 with an id"}
+2026-06-29 04:32:09.932 [info] → POST https://jsonplaceholder.typicode.com/posts {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"49aaa959","testName":"creating a post returns 201 with an id"}
+2026-06-29 04:32:10.019 [info] ← 201 POST https://jsonplaceholder.typicode.com/posts (85ms) {"scope":"ApiClient","correlationId":"49aaa959","testName":"creating a post returns 201 with an id"}
+2026-06-29 04:32:10.020 [info] ✔ PASS (89ms) [49aaa959]: creating a post returns 201 with an id {"scope":"creating a post returns 201 with an id"}

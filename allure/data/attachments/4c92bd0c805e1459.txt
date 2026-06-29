@@ -1,0 +1,2 @@
+2026-06-29 04:32:09.093 [info] ▶ START: e2e/employee-lifecycle.e2e.spec.ts › E2E · Employee lifecycle @e2e @db › 3 · deactivate & verify excluded from active_employees view {"scope":"3 · deactivate & verify excluded from active_employees view","correlationId":"2774699f","testName":"3 · deactivate & verify excluded from active_employees view"}
+2026-06-29 04:32:09.099 [info] ✔ PASS (6ms) [2774699f]: 3 · deactivate & verify excluded from active_employees view {"scope":"3 · deactivate & verify excluded from active_employees view"}

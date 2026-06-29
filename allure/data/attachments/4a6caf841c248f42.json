@@ -1,0 +1,15 @@
+{
+  "label": "SauceDemo · Checkout overview",
+  "url": "https://www.saucedemo.com/checkout-step-two.html",
+  "timestamp": "2026-06-29T04:33:05.380Z",
+  "violations": [],
+  "passCount": 14,
+  "incompleteCount": 1,
+  "inapplicableCount": 47,
+  "counts": {
+    "minor": 0,
+    "moderate": 0,
+    "serious": 0,
+    "critical": 0
+  }
+}

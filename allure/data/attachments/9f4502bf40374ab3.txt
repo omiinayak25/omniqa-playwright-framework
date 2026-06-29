@@ -1,0 +1,5 @@
+2026-06-29 04:33:06.037 [info] ▶ START: accessibility/saucedemo/login.a11y.spec.ts › SauceDemo · Login · Accessibility @a11y @accessibility @regression › @smoke login screen has no WCAG 2.1 A/AA violations {"scope":"@smoke login screen has no WCAG 2.1 A/AA violations","correlationId":"5fc40198","testName":"@smoke login screen has no WCAG 2.1 A/AA violations"}
+2026-06-29 04:33:06.070 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"5fc40198","testName":"@smoke login screen has no WCAG 2.1 A/AA violations"}
+2026-06-29 04:33:06.276 [info] Running axe scan: "SauceDemo · Login" {"scope":"A11yScanner","correlationId":"5fc40198","testName":"@smoke login screen has no WCAG 2.1 A/AA violations"}
+2026-06-29 04:33:07.113 [info] axe scan "SauceDemo · Login" — 0 violations (10 passes) {"scope":"A11yScanner","correlationId":"5fc40198","testName":"@smoke login screen has no WCAG 2.1 A/AA violations"}
+2026-06-29 04:33:07.390 [info] ✔ PASS (1.35s) [5fc40198]: @smoke login screen has no WCAG 2.1 A/AA violations {"scope":"@smoke login screen has no WCAG 2.1 A/AA violations"}

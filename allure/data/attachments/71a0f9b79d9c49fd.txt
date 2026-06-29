@@ -1,4 +1,0 @@
-2026-06-29 04:28:23.468 [info] ▶ START: api/booking-extended.spec.ts › Restful-Booker · Booking extended @api @regression @booking › a created booking echoes its payload and a new id {"scope":"a created booking echoes its payload and a new id","correlationId":"6eaecdfd","testName":"a created booking echoes its payload and a new id"}
-2026-06-29 04:28:23.469 [info] → POST https://restful-booker.herokuapp.com/booking {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"6eaecdfd","testName":"a created booking echoes its payload and a new id"}
-2026-06-29 04:28:23.482 [info] ← 200 POST https://restful-booker.herokuapp.com/booking (12ms) {"scope":"ApiClient","correlationId":"6eaecdfd","testName":"a created booking echoes its payload and a new id"}
-2026-06-29 04:28:23.487 [info] ✔ PASS (19ms) [6eaecdfd]: a created booking echoes its payload and a new id {"scope":"a created booking echoes its payload and a new id"}

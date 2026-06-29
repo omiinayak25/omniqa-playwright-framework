@@ -1,2 +1,0 @@
-2026-06-29 04:28:26.009 [info] (login screen is compliant apart from triaged waivers) ▶ START: accessibility/orangehrm/login.a11y.spec.ts › OrangeHRM · Login · Accessibility @a11y @accessibility @regression › login screen is compliant apart from triaged waivers
-2026-06-29 04:28:27.915 [info] (OrangeLoginPage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login

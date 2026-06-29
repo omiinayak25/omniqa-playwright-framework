@@ -1,0 +1,4 @@
+2026-06-29 04:35:59.975 [info] ▶ START: ui/saucedemo/product-details.spec.ts › SauceDemo · Product Detail Page @ui @regression @inventory › PDP for "Sauce Labs Backpack" matches its listing {"scope":"PDP for \"Sauce Labs Backpack\" matches its listing","correlationId":"646b35fe","testName":"PDP for \"Sauce Labs Backpack\" matches its listing"}
+2026-06-29 04:36:00.162 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"646b35fe","testName":"PDP for \"Sauce Labs Backpack\" matches its listing"}
+2026-06-29 04:36:00.941 [info] Opening PDP for "Sauce Labs Backpack" {"scope":"SauceInventoryPage","correlationId":"646b35fe","testName":"PDP for \"Sauce Labs Backpack\" matches its listing"}
+2026-06-29 04:36:01.533 [info] ✔ PASS (1.56s) [646b35fe]: PDP for "Sauce Labs Backpack" matches its listing {"scope":"PDP for \"Sauce Labs Backpack\" matches its listing"}

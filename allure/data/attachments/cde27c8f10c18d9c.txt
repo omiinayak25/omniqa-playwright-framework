@@ -1,4 +1,0 @@
-2026-06-29 04:29:07.443 [info] ▶ START: e2e/product-crud.e2e.spec.ts › E2E · Product full CRUD across API and DB @e2e › deleting an already-removed product is a safe no-op {"scope":"deleting an already-removed product is a safe no-op","correlationId":"1511792f","testName":"deleting an already-removed product is a safe no-op"}
-2026-06-29 04:29:07.457 [info] → GET https://dummyjson.com/products/9 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"1511792f","testName":"deleting an already-removed product is a safe no-op"}
-2026-06-29 04:29:07.923 [info] ← 200 GET https://dummyjson.com/products/9 (464ms) {"scope":"ApiClient","correlationId":"1511792f","testName":"deleting an already-removed product is a safe no-op"}
-2026-06-29 04:29:07.930 [info] ✔ PASS (487ms) [1511792f]: deleting an already-removed product is a safe no-op {"scope":"deleting an already-removed product is a safe no-op"}

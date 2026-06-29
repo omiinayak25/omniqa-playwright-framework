@@ -1,2 +1,0 @@
-2026-06-29 04:28:45.662 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Product-record repository @db › upsert inserts a new product then finds it {"scope":"upsert inserts a new product then finds it","correlationId":"543c1e7e","testName":"upsert inserts a new product then finds it"}
-2026-06-29 04:28:45.674 [info] ✔ PASS (12ms) [543c1e7e]: upsert inserts a new product then finds it {"scope":"upsert inserts a new product then finds it"}

@@ -1,0 +1,4 @@
+2026-06-29 04:33:41.682 [info] ▶ START: ui/saucedemo/login.security.spec.ts › SauceDemo · Login security @ui @regression @security › SQLi username payload (or-1=1 comment) does not bypass auth {"scope":"SQLi username payload (or-1=1 comment) does not bypass auth","correlationId":"ed4cd3b6","testName":"SQLi username payload (or-1=1 comment) does not bypass auth"}
+2026-06-29 04:33:42.141 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"ed4cd3b6","testName":"SQLi username payload (or-1=1 comment) does not bypass auth"}
+2026-06-29 04:33:42.630 [info] Logging in as "' OR '1'='1' --" {"scope":"SauceLoginPage","correlationId":"ed4cd3b6","testName":"SQLi username payload (or-1=1 comment) does not bypass auth"}
+2026-06-29 04:33:43.711 [info] ✔ PASS (2.03s) [ed4cd3b6]: SQLi username payload (or-1=1 comment) does not bypass auth {"scope":"SQLi username payload (or-1=1 comment) does not bypass auth"}

@@ -1,2 +1,0 @@
-2026-06-29 04:28:44.495 [info] ▶ START: db/advanced.spec.ts › PostgreSQL · Injection safety @db › parameterized query stores a malicious string literally (no execution) {"scope":"parameterized query stores a malicious string literally (no execution)","correlationId":"b23162be","testName":"parameterized query stores a malicious string literally (no execution)"}
-2026-06-29 04:28:44.514 [info] ✔ PASS (20ms) [b23162be]: parameterized query stores a malicious string literally (no execution) {"scope":"parameterized query stores a malicious string literally (no execution)"}

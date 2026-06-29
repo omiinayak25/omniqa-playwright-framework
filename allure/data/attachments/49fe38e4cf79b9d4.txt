@@ -1,0 +1,2 @@
+2026-06-29 04:32:40.838 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › FK constraint rejects unknown department {"scope":"FK constraint rejects unknown department","correlationId":"35da0cb4","testName":"FK constraint rejects unknown department"}
+2026-06-29 04:32:40.854 [info] ✔ PASS (16ms) [35da0cb4]: FK constraint rejects unknown department {"scope":"FK constraint rejects unknown department"}

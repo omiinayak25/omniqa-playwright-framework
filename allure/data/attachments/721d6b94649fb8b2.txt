@@ -1,0 +1,4 @@
+2026-06-29 04:32:44.408 [info] ▶ START: ui/saucedemo/checkout.flow-extended.spec.ts › SauceDemo · Checkout flow (extended) @ui @regression @checkout › cancel from the overview returns to the inventory {"scope":"cancel from the overview returns to the inventory","correlationId":"e5c44709","testName":"cancel from the overview returns to the inventory"}
+2026-06-29 04:32:45.481 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"e5c44709","testName":"cancel from the overview returns to the inventory"}
+2026-06-29 04:32:46.216 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"e5c44709","testName":"cancel from the overview returns to the inventory"}
+2026-06-29 04:32:48.856 [info] ✔ PASS (4.45s) [e5c44709]: cancel from the overview returns to the inventory {"scope":"cancel from the overview returns to the inventory"}
