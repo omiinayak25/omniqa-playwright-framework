@@ -1,0 +1,5 @@
+2026-06-29 04:54:26.237 [info] ▶ START: accessibility/orangehrm/login.a11y.spec.ts › OrangeHRM · Login · Accessibility @a11y @accessibility @regression › ARIA roles, states and properties are valid {"scope":"ARIA roles, states and properties are valid","correlationId":"66e048f7","testName":"ARIA roles, states and properties are valid"}
+2026-06-29 04:54:26.342 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login {"scope":"OrangeLoginPage","correlationId":"66e048f7","testName":"ARIA roles, states and properties are valid"}
+2026-06-29 04:54:30.105 [info] Running axe scan: "OrangeHRM · Login · aria" {"scope":"A11yScanner","correlationId":"66e048f7","testName":"ARIA roles, states and properties are valid"}
+2026-06-29 04:54:31.334 [info] axe scan "OrangeHRM · Login · aria" — 0 violations (4 passes) {"scope":"A11yScanner","correlationId":"66e048f7","testName":"ARIA roles, states and properties are valid"}
+2026-06-29 04:54:31.672 [info] ✔ PASS (5.43s) [66e048f7]: ARIA roles, states and properties are valid {"scope":"ARIA roles, states and properties are valid"}

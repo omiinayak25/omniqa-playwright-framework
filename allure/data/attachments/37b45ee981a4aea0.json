@@ -1,0 +1,15 @@
+{
+  "label": "SauceDemo · Cart",
+  "url": "https://www.saucedemo.com/cart.html",
+  "timestamp": "2026-06-29T04:54:27.903Z",
+  "violations": [],
+  "passCount": 14,
+  "incompleteCount": 1,
+  "inapplicableCount": 47,
+  "counts": {
+    "minor": 0,
+    "moderate": 0,
+    "serious": 0,
+    "critical": 0
+  }
+}

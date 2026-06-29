@@ -1,0 +1,3 @@
+2026-06-29 04:55:29.187 [info] ▶ START: ui/saucedemo/login.keyboard.spec.ts › SauceDemo · Login keyboard accessibility @ui @regression @a11y › tab order flows username → password {"scope":"tab order flows username → password","correlationId":"116bf4d4","testName":"tab order flows username → password"}
+2026-06-29 04:55:29.257 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"116bf4d4","testName":"tab order flows username → password"}
+2026-06-29 04:55:30.119 [info] ✔ PASS (932ms) [116bf4d4]: tab order flows username → password {"scope":"tab order flows username → password"}

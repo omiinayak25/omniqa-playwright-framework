@@ -1,0 +1,6 @@
+2026-06-29 04:54:08.781 [info] ▶ START: api/booking-extended.spec.ts › Restful-Booker · Booking extended @api @regression @booking › a created booking is retrievable by id {"scope":"a created booking is retrievable by id","correlationId":"8a71915f","testName":"a created booking is retrievable by id"}
+2026-06-29 04:54:08.782 [info] → POST https://restful-booker.herokuapp.com/booking {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"8a71915f","testName":"a created booking is retrievable by id"}
+2026-06-29 04:54:08.806 [info] ← 200 POST https://restful-booker.herokuapp.com/booking (23ms) {"scope":"ApiClient","correlationId":"8a71915f","testName":"a created booking is retrievable by id"}
+2026-06-29 04:54:08.806 [info] → GET https://restful-booker.herokuapp.com/booking/1728 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"8a71915f","testName":"a created booking is retrievable by id"}
+2026-06-29 04:54:08.832 [info] ← 200 GET https://restful-booker.herokuapp.com/booking/1728 (25ms) {"scope":"ApiClient","correlationId":"8a71915f","testName":"a created booking is retrievable by id"}
+2026-06-29 04:54:08.834 [info] ✔ PASS (53ms) [8a71915f]: a created booking is retrievable by id {"scope":"a created booking is retrievable by id"}

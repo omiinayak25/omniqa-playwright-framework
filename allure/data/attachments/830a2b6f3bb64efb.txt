@@ -1,8 +1,0 @@
-2026-06-29 04:48:27.512 [info] ▶ START: accessibility/saucedemo/journey.a11y.spec.ts › SauceDemo · Journey · Accessibility @a11y @accessibility @regression › the product detail page has no violations {"scope":"the product detail page has no violations","correlationId":"bdf8fb6e","testName":"the product detail page has no violations"}
-2026-06-29 04:48:27.581 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"bdf8fb6e","testName":"the product detail page has no violations"}
-2026-06-29 04:48:27.864 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"bdf8fb6e","testName":"the product detail page has no violations"}
-2026-06-29 04:48:28.218 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"bdf8fb6e","testName":"the product detail page has no violations"}
-2026-06-29 04:48:28.457 [info] Opening PDP for "Sauce Labs Backpack" {"scope":"SauceInventoryPage","correlationId":"bdf8fb6e","testName":"the product detail page has no violations"}
-2026-06-29 04:48:28.713 [info] Running axe scan: "SauceDemo · PDP" {"scope":"A11yScanner","correlationId":"bdf8fb6e","testName":"the product detail page has no violations"}
-2026-06-29 04:48:30.109 [info] axe scan "SauceDemo · PDP" — 0 violations (14 passes) {"scope":"A11yScanner","correlationId":"bdf8fb6e","testName":"the product detail page has no violations"}
-2026-06-29 04:48:30.539 [info] ✔ PASS (3.03s) [bdf8fb6e]: the product detail page has no violations {"scope":"the product detail page has no violations"}

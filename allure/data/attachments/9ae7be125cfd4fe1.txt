@@ -1,4 +1,0 @@
-2026-06-29 04:48:31.759 [info] ▶ START: api/security.spec.ts › DummyJSON · API security @api @regression @security › an XSS payload is stored and echoed as inert JSON data {"scope":"an XSS payload is stored and echoed as inert JSON data","correlationId":"8dae84eb","testName":"an XSS payload is stored and echoed as inert JSON data"}
-2026-06-29 04:48:31.760 [info] → POST https://dummyjson.com/products/add {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"8dae84eb","testName":"an XSS payload is stored and echoed as inert JSON data"}
-2026-06-29 04:48:31.823 [info] ← 201 POST https://dummyjson.com/products/add (62ms) {"scope":"ApiClient","correlationId":"8dae84eb","testName":"an XSS payload is stored and echoed as inert JSON data"}
-2026-06-29 04:48:31.825 [info] ✔ PASS (66ms) [8dae84eb]: an XSS payload is stored and echoed as inert JSON data {"scope":"an XSS payload is stored and echoed as inert JSON data"}

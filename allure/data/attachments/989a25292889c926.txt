@@ -1,0 +1,4 @@
+2026-06-29 04:54:11.180 [info] ▶ START: api/products.search.spec.ts › DummyJSON · Product search @api @regression @search › @smoke an exact term returns relevant products {"scope":"@smoke an exact term returns relevant products","correlationId":"c83c6df5","testName":"@smoke an exact term returns relevant products"}
+2026-06-29 04:54:11.181 [info] → GET https://dummyjson.com/products/search?q=laptop {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"c83c6df5","testName":"@smoke an exact term returns relevant products"}
+2026-06-29 04:54:11.328 [info] ← 200 GET https://dummyjson.com/products/search?q=laptop (147ms) {"scope":"ApiClient","correlationId":"c83c6df5","testName":"@smoke an exact term returns relevant products"}
+2026-06-29 04:54:11.331 [info] ✔ PASS (151ms) [c83c6df5]: @smoke an exact term returns relevant products {"scope":"@smoke an exact term returns relevant products"}

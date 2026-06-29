@@ -1,0 +1,4 @@
+2026-06-29 04:54:10.313 [info] ▶ START: api/jsonplaceholder-posts.spec.ts › JSONPlaceholder · Posts extended @api @regression › @smoke the posts collection has 100 items {"scope":"@smoke the posts collection has 100 items","correlationId":"c512e916","testName":"@smoke the posts collection has 100 items"}
+2026-06-29 04:54:10.314 [info] → GET https://jsonplaceholder.typicode.com/posts {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"c512e916","testName":"@smoke the posts collection has 100 items"}
+2026-06-29 04:54:10.639 [info] ← 200 GET https://jsonplaceholder.typicode.com/posts (324ms) {"scope":"ApiClient","correlationId":"c512e916","testName":"@smoke the posts collection has 100 items"}
+2026-06-29 04:54:10.641 [info] ✔ PASS (328ms) [c512e916]: @smoke the posts collection has 100 items {"scope":"@smoke the posts collection has 100 items"}

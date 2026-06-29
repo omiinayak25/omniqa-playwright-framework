@@ -1,4 +1,0 @@
-2026-06-29 04:50:24.687 [info] ▶ START: ui/saucedemo/login.negative.spec.ts › SauceDemo · Login negative & boundary inputs @ui @regression @negative › empty (both empty) → "Username is required" {"scope":"empty (both empty) → \"Username is required\"","correlationId":"e71c7294","testName":"empty (both empty) → \"Username is required\""}
-2026-06-29 04:50:24.787 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"e71c7294","testName":"empty (both empty) → \"Username is required\""}
-2026-06-29 04:50:25.260 [info] Logging in as "" {"scope":"SauceLoginPage","correlationId":"e71c7294","testName":"empty (both empty) → \"Username is required\""}
-2026-06-29 04:50:25.808 [info] ✔ PASS (1.13s) [e71c7294]: empty (both empty) → "Username is required" {"scope":"empty (both empty) → \"Username is required\""}

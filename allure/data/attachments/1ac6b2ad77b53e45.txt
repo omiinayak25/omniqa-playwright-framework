@@ -1,3 +1,0 @@
-2026-06-29 04:48:43.997 [info] (data-driven: multiple distinct employees can be created) ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › data-driven: multiple distinct employees can be created
-2026-06-29 04:48:44.399 [info] (OrangeAddEmployeePage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee
-2026-06-29 04:48:52.876 [info] (OrangeAddEmployeePage) Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee

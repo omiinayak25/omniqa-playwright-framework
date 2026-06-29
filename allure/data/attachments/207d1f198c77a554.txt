@@ -1,0 +1,4 @@
+2026-06-29 04:54:11.508 [info] ▶ START: api/products.search.spec.ts › DummyJSON · Product search @api @regression @search › search results carry a valid schema {"scope":"search results carry a valid schema","correlationId":"86097ed1","testName":"search results carry a valid schema"}
+2026-06-29 04:54:11.509 [info] → GET https://dummyjson.com/products/search?q=phone {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"86097ed1","testName":"search results carry a valid schema"}
+2026-06-29 04:54:11.639 [info] ← 200 GET https://dummyjson.com/products/search?q=phone (129ms) {"scope":"ApiClient","correlationId":"86097ed1","testName":"search results carry a valid schema"}
+2026-06-29 04:54:11.686 [info] ✔ PASS (178ms) [86097ed1]: search results carry a valid schema {"scope":"search results carry a valid schema"}

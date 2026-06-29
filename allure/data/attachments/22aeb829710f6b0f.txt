@@ -1,0 +1,2 @@
+2026-06-29 04:54:06.902 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Employee repository @db › findByDepartment returns rows ordered by last name {"scope":"findByDepartment returns rows ordered by last name","correlationId":"f5c7c543","testName":"findByDepartment returns rows ordered by last name"}
+2026-06-29 04:54:06.925 [info] ✔ PASS (23ms) [f5c7c543]: findByDepartment returns rows ordered by last name {"scope":"findByDepartment returns rows ordered by last name"}

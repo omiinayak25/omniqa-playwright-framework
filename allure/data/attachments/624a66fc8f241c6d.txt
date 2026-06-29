@@ -1,5 +1,0 @@
-2026-06-29 04:48:13.991 [info] ▶ START: visual/saucedemo/inventory.visual.spec.ts › SauceDemo · Inventory · Visual @visual @regression › the app header matches the baseline {"scope":"the app header matches the baseline","correlationId":"638c0805","testName":"the app header matches the baseline"}
-2026-06-29 04:48:14.037 [info] Navigating to https://www.saucedemo.com/ {"scope":"SauceLoginPage","correlationId":"638c0805","testName":"the app header matches the baseline"}
-2026-06-29 04:48:14.273 [info] Logging in as "standard_user" {"scope":"SauceLoginPage","correlationId":"638c0805","testName":"the app header matches the baseline"}
-2026-06-29 04:48:14.690 [info] Visual compare (element): saucedemo-header {"scope":"Visual","correlationId":"638c0805","testName":"the app header matches the baseline"}
-2026-06-29 04:48:15.144 [info] ✔ PASS (1.15s) [638c0805]: the app header matches the baseline {"scope":"the app header matches the baseline"}

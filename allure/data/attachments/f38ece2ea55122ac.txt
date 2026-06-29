@@ -1,0 +1,2 @@
+2026-06-29 04:54:06.129 [info] ▶ START: db/employee.spec.ts › PostgreSQL · Employee repository @db › index idx_employees_last_name exists {"scope":"index idx_employees_last_name exists","correlationId":"1da76448","testName":"index idx_employees_last_name exists"}
+2026-06-29 04:54:06.152 [info] ✔ PASS (23ms) [1da76448]: index idx_employees_last_name exists {"scope":"index idx_employees_last_name exists"}

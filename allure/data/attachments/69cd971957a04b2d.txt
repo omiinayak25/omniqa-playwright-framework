@@ -1,0 +1,4 @@
+2026-06-29 04:54:08.924 [info] ▶ START: api/contract.spec.ts › Contract / schema validation @api @contract › DummyJSON single product conforms to schema {"scope":"DummyJSON single product conforms to schema","correlationId":"ed628683","testName":"DummyJSON single product conforms to schema"}
+2026-06-29 04:54:08.925 [info] → GET https://dummyjson.com/products/1 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"ed628683","testName":"DummyJSON single product conforms to schema"}
+2026-06-29 04:54:09.368 [info] ← 200 GET https://dummyjson.com/products/1 (442ms) {"scope":"ApiClient","correlationId":"ed628683","testName":"DummyJSON single product conforms to schema"}
+2026-06-29 04:54:09.397 [info] ✔ PASS (473ms) [ed628683]: DummyJSON single product conforms to schema {"scope":"DummyJSON single product conforms to schema"}

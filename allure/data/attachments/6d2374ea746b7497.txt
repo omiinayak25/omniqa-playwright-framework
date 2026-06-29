@@ -1,4 +1,0 @@
-2026-06-29 04:48:53.873 [info] ▶ START: ui/saucedemo/checkout.security.spec.ts › SauceDemo · Checkout input security @ui @regression @security @checkout › SQLi payload in the postal code is handled safely {"scope":"SQLi payload in the postal code is handled safely","correlationId":"f126bc5d","testName":"SQLi payload in the postal code is handled safely"}
-2026-06-29 04:48:55.133 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"f126bc5d","testName":"SQLi payload in the postal code is handled safely"}
-2026-06-29 04:48:55.872 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"f126bc5d","testName":"SQLi payload in the postal code is handled safely"}
-2026-06-29 04:48:57.370 [info] ✔ PASS (3.50s) [f126bc5d]: SQLi payload in the postal code is handled safely {"scope":"SQLi payload in the postal code is handled safely"}

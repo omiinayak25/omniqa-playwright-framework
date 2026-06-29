@@ -1,0 +1,15 @@
+{
+  "label": "SauceDemo · Inventory · baseline",
+  "url": "https://www.saucedemo.com/inventory.html",
+  "timestamp": "2026-06-29T04:54:31.960Z",
+  "violations": [],
+  "passCount": 15,
+  "incompleteCount": 2,
+  "inapplicableCount": 45,
+  "counts": {
+    "minor": 0,
+    "moderate": 0,
+    "serious": 0,
+    "critical": 0
+  }
+}

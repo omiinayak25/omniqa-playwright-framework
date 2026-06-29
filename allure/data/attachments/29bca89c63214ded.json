@@ -1,0 +1,79 @@
+{
+  "metrics": {
+    "label": "SauceDemo · Inventory · resources",
+    "url": "https://www.saucedemo.com/inventory.html",
+    "timestamp": "2026-06-29T04:54:06.722Z",
+    "ttfbMs": 50,
+    "domContentLoadedMs": 299,
+    "loadMs": 414,
+    "domInteractiveMs": 66,
+    "fcpMs": 344,
+    "lcpMs": 468,
+    "network": {
+      "dnsMs": 1,
+      "tcpMs": 33,
+      "tlsMs": 19,
+      "requestMs": 15,
+      "responseMs": 1
+    },
+    "resources": {
+      "count": 16,
+      "transferBytes": 384654,
+      "byType": [
+        {
+          "type": "script",
+          "count": 1,
+          "transferBytes": 221912
+        },
+        {
+          "type": "img",
+          "count": 8,
+          "transferBytes": 148804
+        },
+        {
+          "type": "link",
+          "count": 2,
+          "transferBytes": 11998
+        },
+        {
+          "type": "css",
+          "count": 3,
+          "transferBytes": 1940
+        },
+        {
+          "type": "fetch",
+          "count": 2,
+          "transferBytes": 0
+        }
+      ],
+      "slowest": [
+        {
+          "url": "https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN",
+          "durationMs": 238,
+          "transferBytes": 0
+        },
+        {
+          "url": "https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN",
+          "durationMs": 221,
+          "transferBytes": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500",
+          "durationMs": 95,
+          "transferBytes": 794
+        },
+        {
+          "url": "https://www.saucedemo.com/static/js/main.bcf4bc5f.js",
+          "durationMs": 61,
+          "transferBytes": 221912
+        },
+        {
+          "url": "https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg",
+          "durationMs": 42,
+          "transferBytes": 50328
+        }
+      ]
+    }
+  },
+  "violations": []
+}

@@ -1,7 +1,0 @@
-2026-06-29 04:49:17.662 [info] ▶ START: ui/saucedemo/checkout.flow-extended.spec.ts › SauceDemo · Checkout flow (extended) @ui @regression @checkout › a multi-item order completes successfully {"scope":"a multi-item order completes successfully","correlationId":"42cd1445","testName":"a multi-item order completes successfully"}
-2026-06-29 04:49:18.577 [info] Purchasing 3 product(s) {"scope":"CheckoutFlow","correlationId":"42cd1445","testName":"a multi-item order completes successfully"}
-2026-06-29 04:49:18.578 [info] Navigating to https://www.saucedemo.com/inventory.html {"scope":"SauceInventoryPage","correlationId":"42cd1445","testName":"a multi-item order completes successfully"}
-2026-06-29 04:49:18.660 [info] Adding "Sauce Labs Backpack" to cart {"scope":"SauceInventoryPage","correlationId":"42cd1445","testName":"a multi-item order completes successfully"}
-2026-06-29 04:49:19.604 [info] Adding "Sauce Labs Bike Light" to cart {"scope":"SauceInventoryPage","correlationId":"42cd1445","testName":"a multi-item order completes successfully"}
-2026-06-29 04:49:19.890 [info] Adding "Sauce Labs Bolt T-Shirt" to cart {"scope":"SauceInventoryPage","correlationId":"42cd1445","testName":"a multi-item order completes successfully"}
-2026-06-29 04:49:21.580 [info] ✔ PASS (3.92s) [42cd1445]: a multi-item order completes successfully {"scope":"a multi-item order completes successfully"}

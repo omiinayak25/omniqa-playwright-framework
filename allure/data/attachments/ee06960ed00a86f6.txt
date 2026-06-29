@@ -1,4 +1,0 @@
-2026-06-29 04:48:30.915 [info] ▶ START: api/negative-boundary.spec.ts › Boundary · DummyJSON products @api @negative › limit=1 (minimum limit) returns at most 1 {"scope":"limit=1 (minimum limit) returns at most 1","correlationId":"35dbedc9","testName":"limit=1 (minimum limit) returns at most 1"}
-2026-06-29 04:48:30.916 [info] → GET https://dummyjson.com/products?limit=1&skip=0 {"scope":"ApiClient","headers":{"Accept":"application/json","Content-Type":"application/json"},"correlationId":"35dbedc9","testName":"limit=1 (minimum limit) returns at most 1"}
-2026-06-29 04:48:30.984 [info] ← 200 GET https://dummyjson.com/products?limit=1&skip=0 (68ms) {"scope":"ApiClient","correlationId":"35dbedc9","testName":"limit=1 (minimum limit) returns at most 1"}
-2026-06-29 04:48:30.987 [info] ✔ PASS (72ms) [35dbedc9]: limit=1 (minimum limit) returns at most 1 {"scope":"limit=1 (minimum limit) returns at most 1"}

@@ -1,3 +1,0 @@
-2026-06-29 04:48:30.833 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › login details require a username and password {"scope":"login details require a username and password","correlationId":"5407e385","testName":"login details require a username and password"}
-2026-06-29 04:48:31.080 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"5407e385","testName":"login details require a username and password"}
-2026-06-29 04:48:35.120 [info] ✔ PASS (4.29s) [5407e385]: login details require a username and password {"scope":"login details require a username and password"}

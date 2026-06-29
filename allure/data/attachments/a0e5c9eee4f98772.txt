@@ -1,3 +1,0 @@
-2026-06-29 04:49:41.171 [info] ▶ START: ui/orangehrm/pim-table.spec.ts › OrangeHRM · PIM data grid @ui @regression @tables › every first-name cell on the page is non-empty {"scope":"every first-name cell on the page is non-empty","correlationId":"e8162054","testName":"every first-name cell on the page is non-empty"}
-2026-06-29 04:49:41.301 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList {"scope":"OrangePimPage","correlationId":"e8162054","testName":"every first-name cell on the page is non-empty"}
-2026-06-29 04:49:48.446 [info] ✔ PASS (7.28s) [e8162054]: every first-name cell on the page is non-empty {"scope":"every first-name cell on the page is non-empty"}

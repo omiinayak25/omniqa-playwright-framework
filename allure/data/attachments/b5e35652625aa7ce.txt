@@ -1,2 +1,0 @@
-2026-06-29 04:48:15.528 [info] ▶ START: db/repositories.spec.ts › PostgreSQL · Product-record repository @db › findByExternalId returns null for an unsynced id {"scope":"findByExternalId returns null for an unsynced id","correlationId":"aed60c8f","testName":"findByExternalId returns null for an unsynced id"}
-2026-06-29 04:48:15.534 [info] ✔ PASS (6ms) [aed60c8f]: findByExternalId returns null for an unsynced id {"scope":"findByExternalId returns null for an unsynced id"}

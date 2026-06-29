@@ -1,3 +1,0 @@
-2026-06-29 04:48:19.214 [info] ▶ START: ui/orangehrm/add-employee.spec.ts › OrangeHRM · Add Employee form @ui @regression @forms › saving with an empty first name is blocked {"scope":"saving with an empty first name is blocked","correlationId":"c39dca4a","testName":"saving with an empty first name is blocked"}
-2026-06-29 04:48:19.721 [info] Navigating to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee {"scope":"OrangeAddEmployeePage","correlationId":"c39dca4a","testName":"saving with an empty first name is blocked"}
-2026-06-29 04:48:24.319 [info] ✔ PASS (5.11s) [c39dca4a]: saving with an empty first name is blocked {"scope":"saving with an empty first name is blocked"}
