@@ -16,11 +16,16 @@
  * --------------------------------------------------------
  */
 import { test } from '@fixtures/index';
-import { SAUCE_AUTH_FILE } from '@constants/paths.constants';
 import { CheckoutBuilder } from '@builders/index';
 
 test.describe('SauceDemo · Journey screens · Visual (authenticated) @visual @regression', () => {
-  test.use({ storageState: SAUCE_AUTH_FILE });
+  // The visual project does not run the auth `setup`, so authenticate inline.
+  test.use({ storageState: { cookies: [], origins: [] } });
+
+  test.beforeEach(async ({ sauceLoginPage }) => {
+    await sauceLoginPage.open();
+    await sauceLoginPage.loginAsStandardUser();
+  });
 
   test('the product detail page matches the baseline', async ({
     sauceInventoryPage,

@@ -28,7 +28,6 @@ test.describe('SauceDemo · Cart persistence & navigation @ui @regression @cart'
   test.beforeEach(async ({ sauceInventoryPage }) => {
     await sauceInventoryPage.open();
     expect(await sauceInventoryPage.isLoaded()).toBe(true);
-    await sauceInventoryPage.header.resetAppState();
   });
 
   test('cart contents persist across a page refresh', async ({

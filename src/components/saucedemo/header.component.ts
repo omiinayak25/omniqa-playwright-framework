@@ -43,7 +43,9 @@ export class SauceHeaderComponent extends BaseComponent {
     super(page, page.locator('.header_container'));
     this.cartLink = page.locator('.shopping_cart_link');
     this.cartBadge = page.locator('.shopping_cart_badge');
-    this.burgerButton = page.getByRole('button', { name: 'Open Menu' });
+    // Use the stable ids: the accessible-name match for the burger is finicky
+    // and slow on WebKit/Firefox, causing intermittent click timeouts.
+    this.burgerButton = page.locator('#react-burger-menu-btn');
     this.closeButton = page.locator('#react-burger-cross-btn');
     this.logoutLink = page.locator('#logout_sidebar_link');
     this.resetLink = page.locator('#reset_sidebar_link');
@@ -76,7 +78,10 @@ export class SauceHeaderComponent extends BaseComponent {
   public async logout(): Promise<void> {
     this.log.debug('Logging out via burger menu');
     await this.burgerButton.click();
-    await this.logoutLink.click();
+    // The menu items are always in the DOM with bound click handlers; the sliding
+    // panel's animation makes a normal click flaky on WebKit/Firefox (15s
+    // actionability timeouts), so dispatch the click directly to the link.
+    await this.logoutLink.dispatchEvent('click');
   }
 
   /**
@@ -87,9 +92,9 @@ export class SauceHeaderComponent extends BaseComponent {
   public async resetAppState(): Promise<void> {
     this.log.debug('Resetting app state via burger menu');
     await this.burgerButton.click();
-    await this.resetLink.click();
-    // SauceDemo leaves the side menu open after a reset; close it so the page
-    // is interactive again for any subsequent action.
-    await this.closeButton.click();
+    // Dispatch directly — the menu's slide animation makes a normal click flaky
+    // on WebKit/Firefox (see logout()).
+    await this.resetLink.dispatchEvent('click');
+    await this.closeButton.dispatchEvent('click');
   }
 }

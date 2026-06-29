@@ -25,7 +25,7 @@ test.use({ storageState: SAUCE_AUTH_FILE });
 test.describe('SauceDemo · Cart add/remove per product @ui @regression @cart', () => {
   test.beforeEach(async ({ sauceInventoryPage }) => {
     await sauceInventoryPage.open();
-    await sauceInventoryPage.header.resetAppState();
+    expect(await sauceInventoryPage.isLoaded()).toBe(true);
   });
 
   for (const product of SAUCE_PRODUCTS) {

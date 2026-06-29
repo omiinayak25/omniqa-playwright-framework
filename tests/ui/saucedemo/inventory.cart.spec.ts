@@ -27,8 +27,8 @@ test.describe('SauceDemo · Inventory cart interactions @ui @regression @invento
   test.beforeEach(async ({ sauceInventoryPage }) => {
     await sauceInventoryPage.open();
     expect(await sauceInventoryPage.isLoaded()).toBe(true);
-    // Start each test from a clean cart/button state.
-    await sauceInventoryPage.header.resetAppState();
+    // Each test starts from a fresh context (stored auth = empty cart), so no
+    // reset is needed here; the explicit reset test exercises resetAppState.
   });
 
   test('add toggles the card button to "Remove"', async ({ sauceInventoryPage }) => {

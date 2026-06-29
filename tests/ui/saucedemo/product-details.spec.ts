@@ -27,7 +27,6 @@ test.describe('SauceDemo · Product Detail Page @ui @regression @inventory', () 
   test.beforeEach(async ({ sauceInventoryPage }) => {
     await sauceInventoryPage.open();
     expect(await sauceInventoryPage.isLoaded()).toBe(true);
-    await sauceInventoryPage.header.resetAppState();
   });
 
   for (const product of PRODUCTS_UNDER_TEST) {

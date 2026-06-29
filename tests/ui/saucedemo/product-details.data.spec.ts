@@ -29,6 +29,9 @@ test.describe('SauceDemo · PDP per product @ui @regression @inventory', () => {
       sauceProductDetailsPage,
     }) => {
       await sauceInventoryPage.open();
+      // Wait for the catalog to fully render before reading (WebKit settles the
+      // client-side navigation later than Chromium, destroying a too-early read).
+      expect(await sauceInventoryPage.isLoaded()).toBe(true);
       const names = await sauceInventoryPage.productNames();
       const prices = await sauceInventoryPage.productPrices();
       const expectedPrice = prices[names.indexOf(product)];

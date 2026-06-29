@@ -28,6 +28,9 @@ import { logger } from '@utils/logger';
 
 setup('authenticate OrangeHRM admin', async ({ page }) => {
   setup.slow(); // heavy SPA
+  // The public OrangeHRM demo cold-starts slowly from CI runners; allow well
+  // beyond the default 30s navigation timeout so the bootstrap doesn't flake.
+  page.setDefaultNavigationTimeout(90_000);
   logger.info('[orange-auth.setup] Authenticating OrangeHRM admin');
   const loginPage = new OrangeLoginPage(page);
   const dashboard = new OrangeDashboardPage(page);

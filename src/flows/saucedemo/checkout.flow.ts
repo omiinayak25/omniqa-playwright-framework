@@ -91,7 +91,9 @@ export class CheckoutFlow {
    */
   public async goToInformation(products: readonly string[]): Promise<void> {
     await this.inventory.open();
-    await this.inventory.header.resetAppState();
+    // A fresh context (stored auth) starts with an empty cart, so no reset is
+    // needed — and it avoids the flaky burger-menu interaction on WebKit/Firefox.
+    await this.inventory.isLoaded();
     for (const product of products) {
       await this.inventory.addToCart(product);
     }
